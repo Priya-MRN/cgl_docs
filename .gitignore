@@ -1,0 +1,9 @@
+# Large / unrelated binaries dropped into the PYQ working folder
+SSC-CGL-AIR10-Master-Repository/PYQ-Collection/PYQ/React-Dashboard-AI-chatbot-main.zip
+SSC-CGL-AIR10-Master-Repository/PYQ-Collection/PYQ/previous papers.zip
+
+# OS / editor cruft
+Thumbs.db
+Desktop.ini
+*.log
+.DS_Store
