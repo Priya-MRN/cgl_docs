@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="440" height="330" fill="#ffffff"/>
+  <text x="220" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Right Triangle — basis of all six ratios</text>
+  <!-- triangle: A right angle (70,260), B top (70,80), C (380,260) -->
+  <polygon points="70,260 70,80 380,260" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2.5"/>
+  <!-- right angle square at A -->
+  <polygon points="70,260 95,260 95,235 70,235" fill="none" stroke="#1a73e8" stroke-width="2"/>
+  <!-- angle theta arc at C -->
+  <path d="M 335 260 A 45 45 0 0 0 340 236" fill="none" stroke="#d93025" stroke-width="2"/>
+  <text x="320" y="248" font-size="17" fill="#d93025" font-style="italic">&#952;</text>
+  <!-- vertex labels -->
+  <text x="55" y="270" font-size="15" font-weight="bold" fill="#333">A</text>
+  <text x="55" y="76" font-size="15" font-weight="bold" fill="#333">B</text>
+  <text x="388" y="272" font-size="15" font-weight="bold" fill="#333">C</text>
+  <!-- side labels -->
+  <text x="40" y="175" font-size="15" fill="#188038" transform="rotate(-90 40 175)" text-anchor="middle">Perpendicular (Opposite, O)</text>
+  <text x="225" y="288" font-size="15" fill="#188038" text-anchor="middle">Base (Adjacent, A)</text>
+  <text x="245" y="150" font-size="15" fill="#a142f4" text-anchor="middle" transform="rotate(-30 245 150)">Hypotenuse (H)</text>
+  <!-- ratio reminder -->
+  <text x="220" y="315" font-size="13" fill="#555" text-anchor="middle">sin&#952; = O/H &#160;&#160; cos&#952; = A/H &#160;&#160; tan&#952; = O/A</text>
+</svg>

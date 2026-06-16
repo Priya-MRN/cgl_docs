@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 -60 420 400" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="40" y="-60" width="420" height="400" fill="#ffffff"/>
+  <text x="250" y="-35" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Pythagoras Theorem &#160; c&#178; = a&#178; + b&#178;</text>
+  <!-- square on hypotenuse c: B(150,60) A(270,150) (390,60) (270,-30) -->
+  <polygon points="150,60 270,150 390,60 270,-30" fill="#fce8e6" stroke="#d93025" stroke-width="2"/>
+  <text x="270" y="55" text-anchor="middle" font-size="20" fill="#d93025" font-weight="bold">c&#178;</text>
+  <!-- square on vertical leg a: (150,60)(60,60)(60,150)(150,150) -->
+  <polygon points="150,60 60,60 60,150 150,150" fill="#e6f4ea" stroke="#188038" stroke-width="2"/>
+  <text x="105" y="112" text-anchor="middle" font-size="20" fill="#188038" font-weight="bold">a&#178;</text>
+  <!-- square on horizontal leg b: (150,150)(270,150)(270,270)(150,270) -->
+  <polygon points="150,150 270,150 270,270 150,270" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2"/>
+  <text x="210" y="217" text-anchor="middle" font-size="20" fill="#1a73e8" font-weight="bold">b&#178;</text>
+  <!-- the right triangle: C(150,150) B(150,60) A(270,150) -->
+  <polygon points="150,150 150,60 270,150" fill="#fff3cd" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- right angle square at C -->
+  <polygon points="150,150 168,150 168,132 150,132" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- side letters -->
+  <text x="138" y="108" font-size="15" font-weight="bold" fill="#188038">a</text>
+  <text x="208" y="143" font-size="15" font-weight="bold" fill="#1a73e8">b</text>
+  <text x="216" y="100" font-size="15" font-weight="bold" fill="#d93025">c</text>
+  <text x="250" y="310" text-anchor="middle" font-size="14" fill="#555">Area of big square (c&#178;) = sum of the two smaller squares (a&#178; + b&#178;)</text>
+</svg>
