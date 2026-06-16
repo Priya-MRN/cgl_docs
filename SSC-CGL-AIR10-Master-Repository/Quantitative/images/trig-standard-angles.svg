@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="480" height="280" fill="#ffffff"/>
+  <text x="240" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Standard-angle set-square triangles</text>
+  <!-- 45-45-90 : right angle (70,210), top (70,90), right (190,210) -->
+  <polygon points="70,210 70,90 190,210" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2.5"/>
+  <polygon points="70,210 92,210 92,188 70,188" fill="none" stroke="#1a73e8" stroke-width="1.5"/>
+  <text x="55" y="155" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">1</text>
+  <text x="130" y="228" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">1</text>
+  <text x="148" y="140" font-size="15" font-weight="bold" fill="#d93025" text-anchor="middle" transform="rotate(-45 148 140)">&#8730;2</text>
+  <path d="M 165 210 A 28 28 0 0 0 152 191" fill="none" stroke="#188038" stroke-width="1.5"/>
+  <text x="150" y="205" font-size="12" fill="#188038">45&#176;</text>
+  <text x="78" y="106" font-size="12" fill="#188038">45&#176;</text>
+  <text x="130" y="258" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a73e8">45&#176;-45&#176;-90&#176;</text>
+  <!-- 30-60-90 : right angle (300,210), top (300,80), right (410,210) -->
+  <polygon points="300,210 300,80 410,210" fill="#e6f4ea" stroke="#188038" stroke-width="2.5"/>
+  <polygon points="300,210 322,210 322,188 300,188" fill="none" stroke="#188038" stroke-width="1.5"/>
+  <text x="285" y="150" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">&#8730;3</text>
+  <text x="355" y="228" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">1</text>
+  <text x="368" y="135" font-size="15" font-weight="bold" fill="#d93025" text-anchor="middle" transform="rotate(-50 368 135)">2</text>
+  <text x="306" y="98" font-size="12" fill="#1a73e8">30&#176;</text>
+  <path d="M 385 210 A 28 28 0 0 0 378 188" fill="none" stroke="#1a73e8" stroke-width="1.5"/>
+  <text x="368" y="205" font-size="12" fill="#1a73e8">60&#176;</text>
+  <text x="355" y="258" text-anchor="middle" font-size="14" font-weight="bold" fill="#188038">30&#176;-60&#176;-90&#176;</text>
+</svg>
