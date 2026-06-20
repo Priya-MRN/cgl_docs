@@ -17,6 +17,11 @@ This master bank collects solved question banks for every English section tested
 | 7 | Sentence Improvement | [07_Sentence_Improvement.md](07_Sentence_Improvement.md) | Improve the underlined part |
 | 8 | Voice & Narration | [08_Voice_Narration.md](08_Voice_Narration.md) | Active/Passive & Direct/Indirect |
 | 9 | Reading Comprehension | [09_Reading_Comprehension.md](09_Reading_Comprehension.md) | Passages, MCQs & Para Jumbles |
+| 10 | Newspaper Vocabulary | [10_Newspaper_Vocabulary.md](10_Newspaper_Vocabulary.md) | Editorial "elite words" builder |
+| 11 | Newspaper Idioms | [11_Newspaper_Idioms.md](11_Newspaper_Idioms.md) | Trending (2023–2026) + rare idioms |
+| 12 | Newspaper Vocabulary — 1 Year | [12_Newspaper_Vocabulary_1_Year.md](12_Newspaper_Vocabulary_1_Year.md) | 367 editorial words, 12 monthly sets (Easy→Hardest) |
+| 13 | Newspaper Antonyms & Thesaurus | [13_Newspaper_Antonyms_Thesaurus.md](13_Newspaper_Antonyms_Thesaurus.md) | Opposite words for all 367 year-vocab words |
+| 14 | International / Journal Vocabulary | [14_International_Journal_Vocabulary.md](14_International_Journal_Vocabulary.md) | 298 higher-level words from world news, journals & reports (science / academic / news / Latin) |
 
 ---
 

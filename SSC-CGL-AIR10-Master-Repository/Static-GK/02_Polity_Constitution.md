@@ -32,6 +32,14 @@
 - Art. 324 — Election Commission; Art. 343 — Hindi (Devanagari) official language; Art. 352/356/360 — National/State/Financial Emergency.
 - Art. 368 — amendment procedure; Art. 370 — special status of J&K (abrogated 2019).
 
+**📝 Exam Trick — Right to Equality (Articles 14–18)**
+- **14 →** Equality before Law
+- **15 →** No Discrimination (on religion, race, caste, sex, place of birth)
+- **16 →** Equal Opportunity in Public Employment
+- **17 →** Abolition of Untouchability
+- **18 →** Abolition of Titles
+- 🔑 *One-liner:* **Art. 17 (Abolition of Untouchability)** is enforced through the **Protection of Civil Rights Act, 1955** (originally the Untouchability (Offences) Act, 1955; renamed in 1976).
+
 **Fundamental Rights (Part III) — 6 rights**
 1. Right to Equality (14–18); 2. Right to Freedom (19–22); 3. Right against Exploitation (23–24); 4. Right to Freedom of Religion (25–28); 5. Cultural & Educational Rights (29–30); 6. Right to Constitutional Remedies (32).
 - Right to Property was removed as an FR by the 44th Amendment (1978); now a legal right under Art. 300A.

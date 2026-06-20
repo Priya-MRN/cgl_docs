@@ -1,0 +1,51 @@
+# GK Now — Content Directory
+
+Study content compiled and improvised from the category structure of **[gknow.in](https://gknow.in)**, organised for SSC CGL / competitive-exam preparation. Each file contains **revision notes + sample MCQs** for its category.
+
+> ⚠️ Content is improvised/summarised for study use. Current-affairs items reflect the source as of mid-2026 — verify dates and figures against primary sources before relying on them in an exam.
+
+## Structure
+
+```
+GK-Now-Content/
+├── README.md                       ← this index
+├── Current-Affairs/                ← Daily/monthly CA, sub-category wise
+│   ├── 01_Appointments.md
+│   ├── 02_Awards_and_Honours.md
+│   ├── 03_Government_Schemes.md
+│   ├── 04_Science_and_Technology.md
+│   ├── 05_Economy.md
+│   ├── 06_Environment.md
+│   ├── 07_International.md
+│   ├── 08_National.md
+│   ├── 09_Polity.md
+│   ├── 10_Sports.md
+│   ├── 11_States.md
+│   ├── 12_Art_and_Culture.md
+│   └── 13_Books_and_Authors.md
+├── GK-Topics/                      ← Static GK MCQ topics
+│   ├── 01_History.md
+│   ├── 02_Geography.md
+│   ├── 03_Polity_Constitution.md
+│   ├── 04_Economy.md
+│   └── 05_General_Science.md
+└── State-GK/                       ← State-wise GK
+    ├── Uttarakhand.md
+    └── Bihar.md
+```
+
+## Category Map (from gknow.in)
+
+| Group | Categories Covered |
+|-------|-------------------|
+| **Current Affairs** | Appointments · Awards & Honours · Art & Culture · Books & Authors · Economy · Environment · Government Schemes · Important Days · International · National · Polity · Science & Technology · Sports · States |
+| **GK MCQ (Topic-wise)** | History (Ancient/Medieval/Modern/World) · Geography (Indian/World) · Polity & Constitution · Economy · Science (Bio/Chem/Physics) · Art & Culture · Sports · Environment · Awards · Books & Authors · Important Days |
+| **State-wise GK** | Uttarakhand · Bihar · Haryana · UP |
+
+## How to Use
+
+1. **Current Affairs** — skim daily; revise sub-category files weekly.
+2. **GK Topics** — attempt the MCQs first, then read the notes to fill gaps.
+3. **State GK** — relevant for state-level exams and a few SSC GA questions.
+
+_Important Days detailed table lives in the main repo at [Static-GK/06_Art_Culture_Days_Orgs.md](../Static-GK/06_Art_Culture_Days_Orgs.md)._

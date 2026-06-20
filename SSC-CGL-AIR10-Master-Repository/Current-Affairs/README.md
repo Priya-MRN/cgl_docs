@@ -22,6 +22,7 @@ This folder is the **framework + stable-facts** layer for SSC CGL Current Affair
 |---|------|------------|------------|
 | 1 | [SSC_CGL_Current_Affairs_MCQ_Master_Bank.md](SSC_CGL_Current_Affairs_MCQ_Master_Bank.md) | MCQs organised **by category** (Appointments, Awards, Sports, Schemes, Economy, Sci-Tech, Space, Defence, Environment, IR, Reports & Indices, Books, Summits) | Practise category-by-category; includes a **monthly template** to append Jan-2024 → present entries yourself |
 | 2 | [Current_Affairs_One_Liner_Revision.md](Current_Affairs_One_Liner_Revision.md) | Pure **Fact → Answer** one-liners for last-week / last-night revision | Cover the right column, recall the answer; includes a **High-Yield block** to memorise cold |
+| 3 | [GA_Sports_Important_Days_2025-2026.md](GA_Sports_Important_Days_2025-2026.md) | **89 MCQs** on Sports + Important Days (Jan 2025 → Jun 2026), with an explanation on **every** option (right and wrong) | Practise; read all 4 explanations per question. `*Verify latest*` items (sports results, yearly themes) need a live-source check |
 
 ## Why "by category" instead of "by month"
 

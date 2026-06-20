@@ -21,6 +21,7 @@
 | 12 | Trigonometry | [12_Trigonometry.md](12_Trigonometry.md) | Medium |
 | 13 | Data Interpretation | [13_Data_Interpretation.md](13_Data_Interpretation.md) | ⭐ Top |
 | 14 | Statistics | [14_Statistics.md](14_Statistics.md) | Medium |
+| 15 | Arithmetic Tricks & Shortcuts Handbook | [15_Arithmetic_Tricks_Handbook.md](15_Arithmetic_Tricks_Handbook.md) | ⭐ Top — 68 tricks grouped by topic, each with a hard worked example & trap |
 
 ## How each topic file is structured
 - **Key formulas** (recap)
