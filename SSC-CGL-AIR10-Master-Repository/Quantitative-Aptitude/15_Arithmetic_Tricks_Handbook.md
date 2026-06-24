@@ -24,8 +24,8 @@ Every important **shortcut/trick** in SSC-CGL arithmetic, **grouped by topic**. 
 5. [Averages](#averages) — 6 tricks
 6. [Simple & Compound Interest](#simple-compound-interest) — 7 tricks
 7. [Time & Work, Pipes & Cisterns](#time-work-pipes-cisterns) — 7 tricks
-8. [Time, Speed & Distance (Trains, Boats)](#time-speed-distance-trains-boats) — 7 tricks
-9. [Number System & Simplification](#number-system-simplification) — 7 tricks
+8. [Time, Speed & Distance (Trains, Boats)](#time-speed-distance-trains-boats) — 7 tricks (+ late/early arrival bonus)
+9. [Number System & Simplification](#number-system-simplification) — 8 tricks
 
 ---
 
@@ -1238,6 +1238,55 @@ Every important **shortcut/trick** in SSC-CGL arithmetic, **grouped by topic**. 
 > **✅ Answer: 07**
 
 **⚠️ Trap:** Writing just '7' instead of the two-digit form '07', or assuming cycle length 4 without confirming a^4 mod 100 ends in 01.
+
+### 9.8  Number of (X, Y) Pairs from Product & HCF
+
+**💡 Idea:** Given two numbers with **product N** and **HCF H**, write X = Ha, Y = Hb with gcd(a, b) = 1. Then XY = H²·ab = N, so **ab = M = N / H²**. The count of coprime pairs (a, b) with ab = M is 2^n where n = number of **distinct prime factors** of M. So the number of UNORDERED pairs (X > Y) is **2^(n−1)**.
+> **Quick recipe:** (1) Compute M = N / H². (2) Prime-factorise M = p₁^a₁ · p₂^a₂ ··· pₙ^aₙ. (3) Count n = number of *distinct* primes (the exponents don't matter). (4) Answer = 2^(n−1) pairs.
+
+**🔎 When to use:** Question gives the **product (or LCM) and HCF** of two numbers and asks 'how many such pairs of numbers are possible'. Note: LCM × HCF = product, so if LCM and HCF are given, use N = LCM × HCF.
+
+**🔥 Hard example:** The HCF of two numbers is 12 and their product is 31104. How many such pairs of numbers are possible?
+
+> **Solution:**
+> Step 1: M = N / H² = 31104 / 12² = 31104 / 144 = 216.
+> Step 2: Prime-factorise M: 216 = 2³ × 3³.
+> Step 3: Distinct primes n = 2 (namely 2 and 3); exponents are ignored.
+> Step 4: Number of unordered pairs = 2^(n−1) = 2^(2−1) = 2.
+> Check: the coprime factor pairs of 216 are (1, 216), (8, 27) [since 216 = 2³ × 3³ split fully to keep them coprime]. Multiply by H = 12: (12, 2592) and (96, 324). Both have HCF 12 and product 31104. So 2 pairs.
+> Final answer: 2 pairs.
+>
+> **✅ Answer: 2 pairs**
+
+**⚠️ Trap:** Three common errors: (1) using 2^n (ordered pairs) instead of 2^(n−1) when the question wants unordered pairs; (2) counting *all* prime factors with multiplicity instead of only the **distinct** primes — the exponents (3 and 3 here) do NOT affect the count; (3) forgetting that the HCF H must divide both, so the coprime parts a, b multiply to N/H², not to N.
+
+---
+
+## Time, Speed & Distance — Late/Early Arrival Bonus
+
+### TSD-X  Late Start + Speed Change → Reach On Time
+
+**💡 Idea:** When a vehicle/person changes speed to make up for a late start (or to save a fixed time), the time saved equals the difference of the two trip times. With original speed x and an increase Δ over a fixed distance D:
+> **D × Δ = (Time Saved) × x(x + Δ)**
+>
+> This is just D/x − D/(x + Δ) = Time Saved, rearranged. The same shape covers 'if speed were x more, he'd arrive T earlier' and 'started late, increased speed, reached on time' (here Time Saved = the lateness). The MOMENT you see this story, write this equation directly.
+
+**🔎 When to use:** Any problem with phrases like 'starts 30 min late and increases speed to reach on time', 'if he had driven Δ km/h faster he'd save T minutes', or 'reduces speed by Δ and arrives T late'. You usually know three of {D, x, Δ, T} and solve for the fourth.
+
+**🔥 Hard example:** A train was scheduled to cover 300 km at a uniform speed, but it started 1 hour late. To reach the destination on time, the driver increased the speed by 10 km/h above the scheduled speed. Find the scheduled (original) speed.
+
+> **Solution:**
+> Here D = 300, Δ = 10, Time Saved = 1 hour (the lateness it must recover). Let scheduled speed = x.
+> Apply: D × Δ = (Time Saved) × x(x + Δ)
+> 300 × 10 = 1 × x(x + 10)
+> 3000 = x² + 10x
+> x² + 10x − 3000 = 0 → (x + 60)(x − 50) = 0 → x = 50 (reject −60).
+> Check: at 50 km/h, time = 300/50 = 6 h; at 60 km/h, time = 300/60 = 5 h; saved exactly 1 h. Correct.
+> Final answer: scheduled speed = 50 km/h.
+>
+> **✅ Answer: 50 km/h**
+
+**⚠️ Trap:** Setting up D/x − D/(x+Δ) and cross-multiplying from scratch under exam pressure (slow, error-prone with the algebra). Memorise the rearranged form **D·Δ = T·x(x+Δ)** so you jump straight to a clean quadratic. Also watch units — convert 'minutes' of time saved to hours (or keep speed in km/min) before substituting.
 
 ---
 
