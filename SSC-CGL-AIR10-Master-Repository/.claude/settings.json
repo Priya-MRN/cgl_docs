@@ -1,7 +1,19 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python gen_syllogism.py)"
+      "Bash(python gen_syllogism.py)",
+      "Bash(python gen_statistics.py)",
+      "Bash(python verify_statistics.py)",
+      "Bash(python gen_simplification.py)",
+      "Bash(python verify_simplification.py)",
+      "Bash(python verify_trig.py)",
+      "Bash(python gen_trig.py)",
+      "Bash(python gen_series.py)",
+      "Bash(python -c ' *)",
+      "Bash(python verify_direction.py)",
+      "Bash(python verify_analogy.py)",
+      "Bash(python gen_venn.py)",
+      "Bash(python verify_ranking.py)"
     ]
   }
 }

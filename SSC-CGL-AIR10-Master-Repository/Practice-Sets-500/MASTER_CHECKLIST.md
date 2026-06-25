@@ -41,6 +41,50 @@ See `_TEMPLATE_AND_STANDARDS.md` for the exact file layout and question-writing 
 | 12 | Error Spotting | English | Comprehension | ✅ | ✅ | ✅ (500 Q, PASS; grammar spot-checked, 2 items tightened) |
 | 13 | Polity / Constitution | GA | History/Polity | ✅ | ✅ | ✅ (500 Q, PASS; 6 defects caught & fixed; facts spot-checked) |
 
+## Batch 2 — Quant Arithmetic (PYQ-pattern, in progress)
+
+| # | Topic | Section | 500 drafted | Verified | Status |
+|---|-------|---------|:-----------:|:--------:|:------:|
+| 14 | Number System | Quant | ✅ | ✅ | ✅ (500 Q, PASS, 360 re-solved, 20 types) |
+| 15 | HCF & LCM | Quant | ✅ | ✅ | ✅ (500 Q, PASS, 370 re-solved, 15 types) |
+| 16 | Average | Quant | ✅ | ✅ | ✅ (500 Q, PASS, 329 re-solved, 12 types) |
+| 17 | Simple & Compound Interest | Quant | ✅ | ✅ | ✅ (500 Q, PASS, 175 re-solved, 7 types) |
+| 18 | Mixture & Alligation | Quant | ✅ | ✅ | ✅ (500 Q, PASS, 437 re-solved, 8 types) |
+| 19 | Trigonometry | Quant | ✅ | ✅ | ✅ (500 Q, PASS, 170 re-solved, 9 types) |
+| 20 | Simplification | Quant | ✅ | ✅ | ✅ (500 Q, PASS, 474 re-evaluated, 12 types) |
+| 21 | Statistics | Quant | ✅ | ✅ | ✅ (500 Q, PASS, 276 re-computed, 8 types) |
+
+> ✅ **QUANT SECTION COMPLETE** — all 17 Quant topics (Number System, HCF&LCM, Simplification, Percentage, Ratio, Average, Profit&Loss+Discount, SI&CI, Partnership[in Ratio set], Mixture&Alligation, Time&Work+Pipes, TSD+Boats, Algebra, Geometry+Coordinate, Mensuration, Trigonometry, Statistics, DI) = **8,500 verified questions**.
+
+## Batch 3 — Reasoning (rule-based, in progress)
+
+| # | Topic | 500 drafted | Verified | Status |
+|---|-------|:-----------:|:--------:|:------:|
+| 22 | Number & Alphabet Series | ✅ | ✅ | ✅ (500 Q, PASS, sidecar+rule re-derivation) |
+| 23 | Blood Relations | ✅ | ✅ | ✅ (500 Q, PASS, resolver self-test + 341 re-derived) |
+| 24 | Analogy & Classification | ✅ | ✅ | ✅ (500 Q, PASS, 390 rule-based re-derived, 16 types) |
+| 24b | Venn Diagrams | ✅ | ✅ | ✅ (500 Q, PASS, 337 numeric re-solved) |
+| 25 | Direction Sense | ✅ | ✅ | ✅ (500 Q, PASS, all 500 re-simulated) |
+
+| 26 | Order & Ranking | ✅ | ✅ | ✅ (500 Q, PASS, 454 re-solved) |
+| 27 | Statement & Conclusion | ✅ | ✅ | ✅ (500 Q, PASS, 420 model-checked) |
+| 28 | Non-Verbal (Mirror/Water/Paper/Embedded/Dice) | ✅ | ✅ | ✅ (500 Q, PASS, 307 re-derived, 12 types) |
+
+> ✅ **REASONING SECTION COMPLETE** — Coding-Decoding, Syllogism, Series, Blood Relations, Analogy & Classification, Direction Sense, Venn Diagrams, Order & Ranking, Statement & Conclusion, Non-Verbal = **5,000 verified questions**.
+
+## Batch 4 — English (curated, in progress)
+
+| # | Topic | 500 drafted | Verified | Status |
+|---|-------|:-----------:|:--------:|:------:|
+| 29 | Synonyms & Antonyms | ☐ | ☐ | 🔨 |
+| 30 | One-Word Substitution + Idioms | ☐ | ☐ | 🔨 |
+| 31 | Sentence Improvement | ☐ | ☐ | ⏳ |
+| 32 | Spelling + Cloze Test | ☐ | ☐ | ⏳ |
+| 33 | Fill in the Blanks + Para Jumbles | ☐ | ☐ | ⏳ |
+| 34 | Active/Passive Voice + Narration | ☐ | ☐ | ⏳ |
+| 35 | Grammar (S-V Agreement, Prepositions, Articles, Tenses) | ☐ | ☐ | ⏳ |
+| 36 | Reading Comprehension | ☐ | ☐ | ⏳ |
+
 ## Remaining syllabus topics (queued after priority block)
 
 **Quant:** Number System · HCF & LCM · Simplification · Average · SI · CI · Partnership · Mixture & Alligation · Trigonometry · Coordinate Geometry · Statistics
