@@ -72,18 +72,39 @@ See `_TEMPLATE_AND_STANDARDS.md` for the exact file layout and question-writing 
 
 > ✅ **REASONING SECTION COMPLETE** — Coding-Decoding, Syllogism, Series, Blood Relations, Analogy & Classification, Direction Sense, Venn Diagrams, Order & Ranking, Statement & Conclusion, Non-Verbal = **5,000 verified questions**.
 
-## Batch 4 — English (curated, in progress)
+## Batch 4 — English (curated) ✅ COMPLETE
 
-| # | Topic | 500 drafted | Verified | Status |
-|---|-------|:-----------:|:--------:|:------:|
-| 29 | Synonyms & Antonyms | ☐ | ☐ | 🔨 |
-| 30 | One-Word Substitution + Idioms | ☐ | ☐ | 🔨 |
-| 31 | Sentence Improvement | ☐ | ☐ | ⏳ |
-| 32 | Spelling + Cloze Test | ☐ | ☐ | ⏳ |
-| 33 | Fill in the Blanks + Para Jumbles | ☐ | ☐ | ⏳ |
-| 34 | Active/Passive Voice + Narration | ☐ | ☐ | ⏳ |
-| 35 | Grammar (S-V Agreement, Prepositions, Articles, Tenses) | ☐ | ☐ | ⏳ |
-| 36 | Reading Comprehension | ☐ | ☐ | ⏳ |
+| # | Topic | File | 500 drafted | Verified | Status |
+|---|-------|------|:-----------:|:--------:|:------:|
+| 29 | Synonyms & Antonyms | English_02 | ✅ | ✅ | ✅ (500 Q, hand-authored, fact-checked) |
+| 30 | One-Word Substitution + Idioms | English_03 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors, 20/60/20) |
+| 31 | Sentence Improvement | English_04 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors; (d)="No improvement" 8.4%) |
+| 32 | Spelling + Cloze Test | English_05 | ✅ | ✅ | ✅ (500 Q, PASS; 250 spelling + 50 cloze passages) |
+| 33 | Fill in the Blanks + Para Jumbles | English_06 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors; jumble labels valid) |
+| 34 | Active/Passive Voice + Narration | English_07 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors, 20/60/20) |
+| 35 | Grammar (S-V Agreement, Prepositions, Articles, Tenses) | English_08 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors) |
+| 36 | Reading Comprehension | English_09 | ✅ | ✅ | ✅ (500 Q, PASS; 50 passages × 10) |
+
+> ✅ **ENGLISH SECTION COMPLETE** — Synonyms/Antonyms, One-Word+Idioms, Error Spotting, Sentence Improvement, Spelling+Cloze, Fill-Blanks+Para Jumbles, Voice+Narration, Grammar, Reading Comprehension = **4,500 verified questions** (9 files).
+
+## Batch 5 — General Awareness (curated) ✅ COMPLETE
+
+| # | Topic | File | 500 drafted | Verified | Status |
+|---|-------|------|:-----------:|:--------:|:------:|
+| 37 | Ancient & Medieval History | GA_02 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors, 20/60/20) |
+| 38 | Modern History & Freedom Struggle | GA_03 | ✅ | ✅ | ✅ (500 Q, PASS; re-run after timeout, incremental-save) |
+| 39 | Indian Art & Culture | GA_04 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors) |
+| 40 | Physical Geography | GA_05 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors) |
+| 41 | Indian Geography | GA_06 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors, 20/60/20) |
+| 42 | World Geography | GA_07 | ✅ | ✅ | ✅ (500 Q, PASS, 0 key errors) |
+| 43 | Indian Economy | GA_08 | ✅ | ✅ | ✅ (500 Q, PASS; settled concepts/definitions) |
+| 44 | General Science: Physics | GA_09 | ✅ | ✅ | ✅ (500 Q, PASS; numerics re-verified) |
+| 45 | General Science: Chemistry | GA_10 | ✅ | ✅ | ✅ (500 Q, PASS; formulae/symbols verified) |
+| 46 | General Science: Biology | GA_11 | ✅ | ✅ | ✅ (500 Q, PASS, 20/60/20) |
+| 47 | Current Affairs & GK | GA_13 | ✅ | ✅ | ✅ (500 Q, PASS; durable/settled-fact bias) |
+| 48 | Static GK | GA_12 | ✅ | ✅ | ✅ (500 Q, PASS; fixed associations) |
+
+> ✅ **GA SECTION COMPLETE** — Polity, Ancient+Medieval History, Modern History+Freedom, Art & Culture, Physical/Indian/World Geography, Economy, Physics, Chemistry, Biology, Current Affairs, Static GK = **6,500 verified questions** (13 files).
 
 ## Remaining syllabus topics (queued after priority block)
 
