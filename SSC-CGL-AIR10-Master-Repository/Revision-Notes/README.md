@@ -25,3 +25,5 @@ You are working full-time in IT and started at beginner level. That is fine. The
 
 > Companion sheets you will revise from constantly:
 > [Quant Formula Sheet](../Formula-Sheets/Quant_Formula_Sheet.md) · [Reasoning Cheat Sheet](../Cheat-Sheets/Reasoning_Cheat_Sheet.md) · [English Grammar Cheat Sheet](../Cheat-Sheets/English_Grammar_Cheat_Sheet.md) · [GK Revision Cheat Sheet](../Cheat-Sheets/GK_Revision_Cheat_Sheet.md)
+>
+> Visual quick-reference (tables + diagrams): [Last-Day Trig & Tricks Quick Reference](Last_Day_Trig_QuickRef.md)

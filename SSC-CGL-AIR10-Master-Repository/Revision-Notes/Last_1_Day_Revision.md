@@ -2,6 +2,7 @@
 
 > Back to: [README.md](README.md)
 > Revise from: [Quant Formula Sheet](../Formula-Sheets/Quant_Formula_Sheet.md) · [Reasoning Cheat Sheet](../Cheat-Sheets/Reasoning_Cheat_Sheet.md) · [English Grammar Cheat Sheet](../Cheat-Sheets/English_Grammar_Cheat_Sheet.md) · [GK Revision Cheat Sheet](../Cheat-Sheets/GK_Revision_Cheat_Sheet.md)
+> Visual quick-reference: [Last-Day Trig & Tricks Quick Reference](Last_Day_Trig_QuickRef.md) — degree↔radian, standard-angle table, unit circle & ASTC, height-distance, CI doubling trick (all with diagrams)
 
 **Today is the day before your exam.** You have already done the hard work over the last two months. Today is not for learning — it is for **calm, light recall and getting your mind and logistics ready.** Trust your preparation. One relaxed, confident day will do more for your score than any last-minute cramming.
 

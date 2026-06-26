@@ -142,4 +142,10 @@
 - "Wrong value corrected" problems: new mean = old mean + (correct − wrong)/n. Never re-add the whole set.
 - Empirical relation `Mode = 3·Median − 2·Mean` lets you get any one of mean/median/mode from the other two.
 
+### 🔑 Mode of Grouped Data — Quick Rules
+> Modal class = the class with the highest frequency. When the mode lands on a class boundary, the adjacent frequencies are forced:
+- **Mode = lower boundary of modal class** → modal frequency = **previous** class frequency.
+- **Mode = upper boundary of modal class** → modal frequency = **next** class frequency.
+- **Mode at the exact junction of two classes** → the two adjacent frequencies are **equal**.
+
 > Re-attempt every ✗ after 3 days. Aim: 19/19 untimed, then under 12 min.
