@@ -155,6 +155,203 @@
 
 ---
 
+## 🧠 Tips & Tricks — Average Speed Shortcuts
+
+> Use each trick **only when its conditions are satisfied**. Targets at the bottom show the speed you should aim for.
+
+---
+
+### 1️⃣ Butterfly Method — Weighted Average of Two Groups
+
+**Use when:** you know the **overall average**, **one group's average**, the **ratio (or count)** of both groups, and must find the other group's average.
+
+```
+        A ───┐
+             │
+            (O)          A = average of Group 1
+             │           B = average of Group 2 (unknown)
+        B ───┘           O = overall average
+```
+
+**Take the absolute difference of each group's average from the overall average. The differences are in the INVERSE ratio of the group sizes.**
+
+```
+   |A − O|        |B − O|
+      ↓               ↓
+  ratio of B  :  ratio of A      ← cross-matched (opposite) ✅
+```
+
+**Worked example**
+
+> Average of 50 people = 60. Male : Female = 3 : 2. Male avg = 70. Find female avg.
+
+| Step | Work |
+|------|------|
+| Differences | Male: `70 − 60 = 10` &nbsp;•&nbsp; Female: `60 − x` |
+| Cross-match to ratio | `10 : (60 − x) = 2 : 3` (male diff pairs with female ratio) |
+| Solve | `3 × 10 = 2(60 − x)` → `30 = 120 − 2x` → **x = 45** |
+
+✅ **Answer = 45**
+
+---
+
+### 2️⃣ Removed-Group Average
+
+**Use when:** a sub-group is removed from a larger group and the average changes.
+
+$$\text{Removed-group avg} = \text{Original avg} \;\pm\; \Big(\text{Difference} \times \tfrac{\text{Remaining count}}{\text{Removed count}}\Big)$$
+
+| After removal the average… | The removed group was… | Sign |
+|---|---|---|
+| **falls** ↓ | **heavier / higher** | **add (+)** |
+| **rises** ↑ | **lighter / lower** | **subtract (−)** |
+
+**Worked example**
+
+> 24 boys + 6 girls, overall avg = 40. Girls removed → avg becomes 36 (difference = 4).
+
+```
+Average fell ⇒ girls were heavier ⇒ ADD
+Girls avg = 40 + 4 × (24 / 6) = 40 + 16 = 56
+```
+
+✅ **Answer = 56**
+
+---
+
+### 2️⃣b Group Removed → Find the INITIAL Number of People
+
+**Use when:** a group leaves, the average changes, and you must find the **count of people** (not the removed average). The removed group's average is known or computable.
+
+Let **A** = original average, **R** = removed-group average, **m** = removed count, **d** = change in average.
+
+**Core balance equation** — extra weight removed = shift spread over the people left behind:
+
+$$(R - A) \times m \;=\; d \times \text{Remaining}$$
+
+Rearranged into ready-to-use form:
+
+$$\text{Remaining} = \frac{|R - A| \times m}{d} \qquad\Rightarrow\qquad \boxed{\text{Initial} = \text{Remaining} + m}$$
+
+> 🔎 **Why it works:** the removed group carried `|R − A| × m` of "extra" total away from the mean; that excess, spread over the *remaining* people, is exactly what shifts their average by `d`. So `(R − A) × m = d × Remaining`.
+
+**Worked example**
+
+> Original avg = 72 kg. Two students (70 kg and 90 kg) leave. Average **drops by 2 kg**. Find the initial number.
+
+| Step | Work |
+|------|------|
+| Removed-group avg (R) | `(70 + 90) / 2 = 80` |
+| Difference from original | `80 − 72 = 8` (removed pair was heavier) |
+| Extra weight removed | `8 × 2 = 16` |
+| Remaining people | `16 ÷ 2 = 8` |
+| Initial people | `8 + 2 = 10` |
+
+✅ **Answer = 10**
+
+**⚡ 5-second mental flow:** removed-avg `80` → gap `8` → extra `8 × 2 = 16` → ÷ drop `2` = `8` remaining → `+2` removed = **10**.
+
+---
+
+### 3️⃣ Replacement (one person in, one out)
+
+**Use when:** one person/item is replaced and the average changes. Find the **old** value.
+
+$$\text{Old value} = \text{New value} \;\mp\; (\text{Change in avg} \times n)$$
+
+| Average after replacement | Sign on the `(Change × n)` term |
+|---|---|
+| **increases** ↑ | **subtract (−)** to recover the old value |
+| **decreases** ↓ | **add (+)** to recover the old value |
+
+**Worked example**
+
+> 7 persons, avg = 40. New person = 60, average rises by 2.
+
+```
+Old = 60 − (2 × 7) = 60 − 14 = 46
+```
+
+✅ **Answer = 46**
+
+---
+
+### 4️⃣ Total-Change Rule (the master key)
+
+Whenever any average changes:
+
+$$\boxed{\text{Total change in sum} = \text{Change in average} \times \text{Number of items}}$$
+
+> Avg rises by 2 across 7 people → total rose by `2 × 7 = 14`. **Always compute this first** — it unlocks tricks 2 and 3.
+
+---
+
+### 5️⃣ Sign-Decision Shortcut (don't memorise — reason it)
+
+> Ask: **"What happened after removing / replacing?"**
+
+```
+Average DECREASED  →  the removed/replaced item was ABOVE average  →  ADD
+Average INCREASED  →  the removed/replaced item was BELOW average  →  SUBTRACT
+```
+
+---
+
+### 6️⃣ Bonus shortcuts worth memorising
+
+| Pattern | Shortcut |
+|---|---|
+| **Consecutive numbers** (any AP) | Average = (first + last) / 2 = the **middle term** (odd count) |
+| **First n natural numbers** | Average = (n + 1) / 2 |
+| **First n even numbers** | Average = (n + 1) |
+| **First n odd numbers** | Average = n |
+| **Squares of first n naturals** | Average = (n + 1)(2n + 1) / 6 |
+| **Every value ± k** | New average = old average ± k |
+| **Every value × k** | New average = old average × k |
+| **Overlapping-element** (two groups share one term) | Shared term = (sum of two group totals) − (grand total) |
+| **Wrong-entry correction** | Avg change = (wrong − correct) / n |
+
+---
+
+### 📋 Quick Revision Table (with ADD / SUBTRACT rule per formula)
+
+| Situation                         | Formula                                                           | ➕ ADD when…                                                 | ➖ SUBTRACT when…                                        |
+| --------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------- |
+| **Two groups, overall avg given** | Butterfly Method                                                  | *(no ± — cross-match the differences to the inverse ratio)* | —                                                       |
+| **Group removed (find avg)**      | `Removed avg = Original ± Difference × (Remaining ÷ Removed)`     | average **falls ↓** (removed group was **heavier**)         | average **rises ↑** (removed group was **lighter**)     |
+| **Group removed (find count)**    | `Remaining = (\|R − A\| × m) ÷ d`, then `Initial = Remaining + m` | *(use absolute difference \|R − A\| — no ±)*                | —                                                       |
+| **Person replaced**               | `Old value = New value ∓ (Δavg × n)`                              | average **decreased ↓**                                     | average **increased ↑**                                 |
+| **Average changes**               | `Total change = Δavg × n`                                         | *(always a multiply — no ±)*                                | —                                                       |
+| **Decide the sign (general)**     | —                                                                 | Avg **↓** ⇒ removed/replaced item was **above** average     | Avg **↑** ⇒ removed/replaced item was **below** average |
+
+> 🧭 **One-line memory hook:** *Average DROPS → the missing piece was BIG → ADD it back. Average JUMPS → the missing piece was SMALL → SUBTRACT.*
+
+---
+
+### ⏱️ Speed Targets
+
+| Trick | Aim for |
+|---|---|
+| Butterfly (two groups) | **10–15 sec** |
+| Removed-group formula | **8–10 sec** |
+| Replacement formula | **5 sec** |
+| Total-change calc | **2 sec (mental)** |
+
+---
+
+### ✅ Average-Question Decision Checklist
+
+```
+□ Two groups + overall average given?      → Butterfly Method
+□ A group removed?                          → Removed-Group Formula
+□ One person/item replaced?                 → Replacement Formula
+□ Did the average change at all?            → First find Total Change = Δavg × n
+□ Unsure about + or − ?                     → Avg ↓ ⇒ removed was heavier (+)
+                                              Avg ↑ ⇒ removed was lighter (−)
+```
+
+---
+
 ### 🔑 Exam Tricks Box
 
 - The average always lies between the smallest and largest values; use this to eliminate impossible options instantly.

@@ -148,6 +148,47 @@
 *Solution:* Buy x get y free → discount = y/(x + y) × 100 = 1/(4 + 1) × 100 = **20%**.
 🔑 *Trick:* The customer pays for 4 but gets 5 → 1 free out of 5 → 20% off.
 
+### 🔁 Successive Change & Markup–Markdown Shortcuts
+
+**A. Two successive percentage changes (net effect)**
+
+When a value changes by `a%` and then by `b%` one after another, the single net change is:
+
+$$\text{Net \%} = a + b + \frac{ab}{100}$$
+
+Plug the changes **with their signs** (increase = +, decrease = −) and the formula handles every case:
+
+| Question says | Use a, b as | Net % shortcut |
+|---|---|---|
+| **Increase then Increase** | `+a , +b` | `a + b + ab/100` |
+| **Increase then Decrease** | `+a , −b` | `a − b − ab/100` |
+| **Decrease then Decrease** | `−a , −b` | `−a − b + ab/100` |
+
+> A positive result = net **gain/increase**; a negative result = net **loss/decrease**.
+> *Example:* +20% then −10% → `20 − 10 − (20×10)/100 = 10 − 2 = +8%` net increase.
+
+**B. Buy x% BELOW cost, Sell y% ABOVE cost → Profit %**
+
+$$\text{Profit \%} = \frac{x + y}{100 - x} \times 100$$
+
+> *Example:* buy 20% below and sell 30% above ⇒ `(20 + 30)/(100 − 20) × 100 = 50/80 × 100 = 62.5%`.
+> *Why:* effective CP = `100 − x`, effective SP = `100 + y`, so profit = `(SP − CP)/CP = (x + y)/(100 − x)`.
+
+**C. Buy x% ABOVE cost, Sell y% BELOW cost**
+
+No clean single fraction — **fix actual BP & SP first**, then apply the standard profit/loss formula:
+
+```
+Take base cost = 100
+Buy price (BP) = 100 + x          (paid x% extra)
+Sell price (SP) = 100 − y         (sold y% under base)
+Result % = (SP − BP) / BP × 100   → negative ⇒ loss, positive ⇒ profit
+```
+
+> *Example:* buy 25% above, sell 10% below ⇒ BP = 125, SP = 90 ⇒ `(90 − 125)/125 × 100 = −28%` → **28% loss**.
+
+---
+
 ### 🔑 Exam Tricks Box
 
 - **Same SP, ±x% on two items** → always a **loss** of `x²/100 %` (never a gain).

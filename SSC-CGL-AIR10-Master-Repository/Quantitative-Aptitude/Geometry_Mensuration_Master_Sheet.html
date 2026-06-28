@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSC CGL — Geometry & Mensuration Master Sheet</title>
+<style>
+  @page { size: A4; margin: 14mm 10mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: #1f2933;
+    margin: 0;
+    padding: 24px;
+    background: #f4f6fb;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+  .page {
+    max-width: 1000px;
+    margin: 0 auto 28px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 22px rgba(0,0,0,0.10);
+    overflow: hidden;
+  }
+  header.cover {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b0764 100%);
+    color: #fff;
+    padding: 30px 34px;
+  }
+  header.cover h1 {
+    margin: 0 0 6px;
+    font-size: 26px;
+    letter-spacing: 0.4px;
+  }
+  header.cover p {
+    margin: 0;
+    opacity: 0.92;
+    font-size: 13.5px;
+  }
+  .badge {
+    display: inline-block;
+    margin-top: 12px;
+    background: rgba(255,255,255,0.16);
+    border: 1px solid rgba(255,255,255,0.35);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .section-title {
+    margin: 0;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.3px;
+  }
+  .body-pad { padding: 0 24px 22px; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 14px 0 8px;
+    font-size: 12.3px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  th {
+    color: #fff;
+    text-align: left;
+    padding: 9px 11px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+  }
+  td {
+    padding: 8px 11px;
+    border-bottom: 1px solid #e5e9f0;
+    vertical-align: top;
+  }
+  tbody tr:nth-child(even) { background: #f7f9fc; }
+  tbody tr:hover { background: #eef3ff; }
+  .figure { font-weight: 700; color: #1e3a8a; white-space: nowrap; }
+  .when { color: #475569; }
+  code, .f {
+    font-family: "Consolas", "SF Mono", Menlo, monospace;
+    background: #eef2ff;
+    color: #3730a3;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 1px 0;
+  }
+
+  /* Color themes per section */
+  .t-plane .section-title { background: #2563eb; }
+  .t-plane th { background: #2563eb; }
+  .t-solid .section-title { background: #0891b2; }
+  .t-solid th { background: #0891b2; }
+  .t-tri .section-title { background: #d97706; }
+  .t-tri th { background: #d97706; }
+  .t-circle .section-title { background: #db2777; }
+  .t-circle th { background: #db2777; }
+  .t-theorem .section-title { background: #7c3aed; }
+  .t-theorem th { background: #7c3aed; }
+  .t-coord .section-title { background: #059669; }
+  .t-coord th { background: #059669; }
+  .t-recog .section-title { background: #b91c1c; }
+  .t-recog th { background: #b91c1c; }
+
+  .note {
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    padding: 8px 12px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #78350f;
+  }
+  footer {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 11px;
+    padding: 16px;
+  }
+
+  /* Diagram section */
+  .t-diagram .section-title { background: #0f766e; }
+  .diagram-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 14px;
+  }
+  .dcard {
+    border: 1px solid #d7e0ec;
+    border-radius: 9px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    page-break-inside: avoid;
+  }
+  .dcard h3 {
+    margin: 0;
+    padding: 9px 12px;
+    font-size: 13px;
+    color: #fff;
+    background: #0f766e;
+  }
+  .dcard .svgwrap {
+    text-align: center;
+    padding: 10px 8px 4px;
+    background: #f8fafc;
+  }
+  .dcard svg { max-width: 100%; height: auto; }
+  .dcard .dbody { padding: 9px 12px 12px; font-size: 12px; }
+  .dcard .dwhen {
+    color: #475569;
+    margin: 0 0 6px;
+  }
+  .dcard .drule {
+    background: #ecfdf5;
+    border-left: 3px solid #0f766e;
+    padding: 6px 9px;
+    border-radius: 4px;
+    color: #064e3b;
+    font-weight: 600;
+  }
+  /* SVG label styling */
+  svg text { font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; fill: #1f2933; }
+  svg .lbl { font-weight: 700; }
+  svg .ang { fill: #b91c1c; font-weight: 700; font-size: 11px; }
+  svg .seg { fill: #2563eb; font-weight: 700; }
+  .print-btn {
+    position: fixed; top: 16px; right: 16px;
+    background: #1e3a8a; color: #fff; border: none;
+    padding: 10px 18px; border-radius: 8px; cursor: pointer;
+    font-size: 13px; font-weight: 600; box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 99;
+  }
+  @media print {
+    body { background: #fff; padding: 0; font-size: 11px; }
+    .page { box-shadow: none; margin: 0 0 10px; border-radius: 0; max-width: 100%; }
+    .print-btn { display: none; }
+    table { page-break-inside: auto; }
+    tr { page-break-inside: avoid; }
+    .t-plane, .t-solid, .t-tri, .t-circle, .t-theorem, .t-coord, .t-recog { page-break-inside: avoid; }
+    .dcard { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">⬇ Save as PDF</button>
+
+<div class="page">
+  <header class="cover">
+    <h1>📐 SSC CGL — Geometry &amp; Mensuration Master Sheet</h1>
+    <p>Every figure &amp; theorem, with recognition cues (<b>when to use</b>), scenarios, and formulas — in one tabular reference.</p>
+    <span class="badge">AIR-10 Master Repository · Quick-Recognition Edition</span>
+  </header>
+</div>
+
+<!-- 1. PLANE FIGURES -->
+<div class="page t-plane">
+  <h2 class="section-title">1 · Plane Figures (2D — Area &amp; Perimeter)</h2>
+  <div class="body-pad">
+  <table>
+    <thead>
+      <tr><th style="width:13%">Figure</th><th style="width:30%">When to use / Scenario</th><th style="width:30%">Area</th><th style="width:27%">Perimeter / Other</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="figure">Square</td><td class="when">"side", equal sides, square tiles/plot</td><td><span class="f">a²</span> &nbsp;or&nbsp; <span class="f">d²/2</span></td><td>Perimeter <span class="f">4a</span>, Diagonal <span class="f">a√2</span></td></tr>
+      <tr><td class="figure">Rectangle</td><td class="when">"length &amp; breadth", floor, field, room</td><td><span class="f">l × b</span></td><td>Perimeter <span class="f">2(l+b)</span>, Diag <span class="f">√(l²+b²)</span></td></tr>
+      <tr><td class="figure">Parallelogram</td><td class="when">slanted sides, base &amp; height given</td><td><span class="f">base × height</span></td><td>Perimeter <span class="f">2(a+b)</span></td></tr>
+      <tr><td class="figure">Rhombus</td><td class="when">all sides equal + diagonals given</td><td><span class="f">½ × d₁ × d₂</span></td><td>Side <span class="f">½√(d₁²+d₂²)</span>, Per <span class="f">4a</span></td></tr>
+      <tr><td class="figure">Trapezium</td><td class="when">two parallel sides (a, b) + height</td><td><span class="f">½ (a+b) × h</span></td><td>a, b = parallel sides</td></tr>
+      <tr><td class="figure">Triangle (general)</td><td class="when">base &amp; height known</td><td><span class="f">½ × b × h</span></td><td>Perimeter = a+b+c</td></tr>
+      <tr><td class="figure">Equilateral △</td><td class="when">all 3 sides equal</td><td><span class="f">(√3/4) a²</span></td><td>Height <span class="f">(√3/2) a</span></td></tr>
+      <tr><td class="figure">Regular Hexagon</td><td class="when">6 equal sides (honeycomb)</td><td><span class="f">(3√3/2) a²</span></td><td>= 6 equilateral triangles</td></tr>
+      <tr><td class="figure">Regular Polygon</td><td class="when">n equal sides</td><td>—</td><td>Interior ∠ <span class="f">(n−2)180/n</span>, Sum <span class="f">(n−2)180</span></td></tr>
+    </tbody>
+  </table>
+  <div class="note"><b>Heron's Formula</b> — use when all 3 sides (a,b,c) are known but no height: &nbsp; <span class="f">s = (a+b+c)/2</span> &nbsp;→&nbsp; Area = <span class="f">√(s(s−a)(s−b)(s−c))</span></div>
+  </div>
+</div>
+
+<!-- 2. SOLID FIGURES -->
+<div class="page t-solid">
+  <h2 class="section-title">2 · Solid Figures (3D — Volume &amp; Surface Area)</h2>
+  <div class="body-pad">
+  <table>
+    <thead>
+      <tr><th style="width:13%">Solid</th><th style="width:26%">When to use / Scenario</th><th style="width:21%">Volume</th><th style="width:20%">Curved / Lateral SA</th><th style="width:20%">Total SA</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="figure">Cube</td><td class="when">"edge a", dice, box equal sides</td><td><span class="f">a³</span></td><td><span class="f">4a²</span></td><td><span class="f">6a²</span></td></tr>
+      <tr><td class="figure">Cuboid<br>(Parallelepiped)</td><td class="when">l, b, h given; brick, tank, room volume</td><td><span class="f">l·b·h</span></td><td><span class="f">2h(l+b)</span></td><td><span class="f">2(lb+bh+hl)</span></td></tr>
+      <tr><td class="figure">Cylinder</td><td class="when">pipe, tank, coin, circular base</td><td><span class="f">πr²h</span></td><td><span class="f">2πrh</span></td><td><span class="f">2πr(r+h)</span></td></tr>
+      <tr><td class="figure">Cone</td><td class="when">ice-cream, heap, tent; slant l</td><td><span class="f">⅓πr²h</span></td><td><span class="f">πrl</span></td><td><span class="f">πr(r+l)</span></td></tr>
+      <tr><td class="figure">Sphere</td><td class="when">ball, globe, full round</td><td><span class="f">(4/3)πr³</span></td><td>—</td><td><span class="f">4πr²</span></td></tr>
+      <tr><td class="figure">Hemisphere</td><td class="when">bowl, dome, half ball</td><td><span class="f">(2/3)πr³</span></td><td><span class="f">2πr²</span></td><td><span class="f">3πr²</span></td></tr>
+      <tr><td class="figure">Prism</td><td class="when">uniform cross-section throughout</td><td><span class="f">(Base area)×h</span></td><td><span class="f">(Perimeter)×h</span></td><td>Lateral + 2·Base</td></tr>
+      <tr><td class="figure">Pyramid</td><td class="when">apex over polygon base</td><td><span class="f">⅓(Base area)×h</span></td><td><span class="f">½·Per·(slant)</span></td><td>Lateral + Base</td></tr>
+    </tbody>
+  </table>
+  <div class="note"><b>Cone slant height:</b> <span class="f">l = √(r² + h²)</span> &nbsp;|&nbsp; <b>Frustum volume:</b> <span class="f">⅓πh(R² + r² + Rr)</span></div>
+  </div>
+</div>
+
+<!-- 3. TRIANGLES -->
+<div class="page t-tri">
+  <h2 class="section-title">3 · Triangle Centres, Sides &amp; Trig</h2>
+  <div class="body-pad">
+  <table>
+    <thead>
+      <tr><th style="width:18%">Concept</th><th style="width:34%">When to use / Scenario</th><th style="width:48%">Formula</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="figure">Pythagoras</td><td class="when">right-angled triangle, hypotenuse</td><td><span class="f">hyp² = base² + perp²</span></td></tr>
+      <tr><td class="figure">Triplets</td><td class="when">spot right triangles fast</td><td>3-4-5 · 5-12-13 · 8-15-17 · 7-24-25 · 9-40-41</td></tr>
+      <tr><td class="figure">Inradius (r)</td><td class="when">circle inside triangle</td><td><span class="f">r = Area / s</span> &nbsp;(s = semi-perimeter)</td></tr>
+      <tr><td class="figure">Circumradius (R)</td><td class="when">circle through all vertices</td><td><span class="f">R = abc / 4·Area</span></td></tr>
+      <tr><td class="figure">Median (length)</td><td class="when">vertex → midpoint opposite</td><td><span class="f">mₐ = ½√(2b²+2c²−a²)</span></td></tr>
+      <tr><td class="figure">Centroid</td><td class="when">intersection of medians</td><td>Divides median <span class="f">2 : 1</span> &nbsp;|&nbsp; G = ((x₁+x₂+x₃)/3, …)</td></tr>
+      <tr><td class="figure">Angle Bisector</td><td class="when">bisector splits opposite side</td><td><span class="f">BD/DC = AB/AC</span></td></tr>
+      <tr><td class="figure">Sine Rule</td><td class="when">angles + opposite sides</td><td><span class="f">a/sinA = b/sinB = c/sinC = 2R</span></td></tr>
+      <tr><td class="figure">Cosine Rule</td><td class="when">2 sides + included angle</td><td><span class="f">c² = a²+b²−2ab·cosC</span></td></tr>
+      <tr><td class="figure">Area (trig)</td><td class="when">2 sides + included angle</td><td><span class="f">½·ab·sinC</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<!-- 4. CIRCLES -->
+<div class="page t-circle">
+  <h2 class="section-title">4 · Circle — Sector, Segment, Arc, Tangent</h2>
+  <div class="body-pad">
+  <table>
+    <thead>
+      <tr><th style="width:18%">Part</th><th style="width:34%">When to use / Scenario</th><th style="width:48%">Formula</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="figure">Area</td><td class="when">radius/diameter given</td><td><span class="f">πr²</span></td></tr>
+      <tr><td class="figure">Circumference</td><td class="when">boundary length, wheel rotations</td><td><span class="f">2πr</span> &nbsp;= πd</td></tr>
+      <tr><td class="figure">Arc length</td><td class="when">central angle θ given</td><td><span class="f">(θ/360) × 2πr</span></td></tr>
+      <tr><td class="figure">Sector area</td><td class="when">"angle at centre", pizza slice</td><td><span class="f">(θ/360) × πr²</span></td></tr>
+      <tr><td class="figure">Triangle (θ=90°)</td><td class="when">chord makes right angle at centre</td><td><span class="f">½ r²</span></td></tr>
+      <tr><td class="figure">Segment</td><td class="when">chord + sector + triangle</td><td><span class="f">Sector − Triangle</span></td></tr>
+      <tr><td class="figure">Chord length</td><td class="when">angle θ subtended at centre</td><td><span class="f">2r·sin(θ/2)</span></td></tr>
+      <tr><td class="figure">Tangent (external pt)</td><td class="when">tangent from outside point</td><td><span class="f">√(d² − r²)</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<!-- 5. CIRCLE THEOREMS -->
+<div class="page t-theorem">
+  <h2 class="section-title">5 · Circle &amp; Geometry Theorems (Recognition → Rule)</h2>
+  <div class="body-pad">
+  <table>
+    <thead>
+      <tr><th style="width:24%">Theorem</th><th style="width:38%">When you see this...</th><th style="width:38%">Apply this rule</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="figure">Angle at centre</td><td class="when">arc subtends ∠ at centre &amp; circumference</td><td>Centre angle = <span class="f">2 ×</span> circumference angle</td></tr>
+      <tr><td class="figure">Angle in semicircle</td><td class="when">diameter is one side of triangle</td><td>Angle in semicircle = <span class="f">90°</span></td></tr>
+      <tr><td class="figure">Same segment</td><td class="when">angles on same arc/chord</td><td>Angles in same segment are <span class="f">equal</span></td></tr>
+      <tr><td class="figure">Cyclic quadrilateral</td><td class="when">4 points on a circle</td><td>Opposite angles sum <span class="f">= 180°</span></td></tr>
+      <tr><td class="figure">Tangent ⟂ radius</td><td class="when">tangent touches circle</td><td>Tangent ⟂ radius at contact (<span class="f">90°</span>)</td></tr>
+      <tr><td class="figure">Two tangents</td><td class="when">tangents from one external point</td><td>Equal length: <span class="f">PA = PB</span></td></tr>
+      <tr><td class="figure">Alternate segment</td><td class="when">tangent + chord angle</td><td>= angle in alternate segment</td></tr>
+      <tr><td class="figure">Intersecting chords</td><td class="when">two chords cross inside</td><td><span class="f">PA·PB = PC·PD</span></td></tr>
+      <tr><td class="figure">⟂ chords → radius</td><td class="when">two chords cross at 90°; distances d₁, d₂ from centre</td><td><span class="f">R = √(d₁² + d₂²)</span> &nbsp;(e.g. 5,12 → 13)</td></tr>
+      <tr><td class="figure">Secant–Tangent</td><td class="when">tangent + secant from outside</td><td><span class="f">PT² = PA·PB</span></td></tr>
+      <tr><td class="figure">Equal chords</td><td class="when">chords of equal length</td><td>Equidistant from centre</td></tr>
+      <tr><td class="figure">Perp. from centre</td><td class="when">perpendicular drops to chord</td><td>Bisects the chord</td></tr>
+      <tr><td class="figure">BPT (Thales)</td><td class="when">line parallel to one side of △</td><td><span class="f">AD/DB = AE/EC</span></td></tr>
+      <tr><td class="figure">Similar triangles</td><td class="when">AA / equal angles / parallel</td><td>Sides proportional; Area ratio = <span class="f">(side ratio)²</span></td></tr>
+      <tr><td class="figure">Apollonius</td><td class="when">median to a side</td><td><span class="f">AB²+AC² = 2(AD²+BD²)</span></td></tr>
+      <tr><td class="figure">Ptolemy</td><td class="when">cyclic quadrilateral diagonals</td><td><span class="f">AC·BD = AB·CD + AD·BC</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<!-- 5B. THEOREM DIAGRAMS -->
+<div class="page t-diagram">
+  <h2 class="section-title">6 · 📊 Tangent &amp; Circle Theorems — Visual Diagrams</h2>
+  <div class="body-pad">
+  <div class="diagram-grid">
+
+    <!-- Tangent perpendicular to radius -->
+    <div class="dcard">
+      <h3>① Tangent ⟂ Radius</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="90" cy="80" r="55" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+          <circle cx="90" cy="80" r="2.5" fill="#0369a1"/>
+          <text class="lbl" x="78" y="78">O</text>
+          <!-- radius to contact point T at right -->
+          <line x1="90" y1="80" x2="145" y2="80" stroke="#d97706" stroke-width="2"/>
+          <text x="112" y="74" fill="#d97706" font-weight="700">r</text>
+          <!-- tangent line vertical at T -->
+          <line x1="145" y1="20" x2="145" y2="140" stroke="#b91c1c" stroke-width="2"/>
+          <circle cx="145" cy="80" r="2.5" fill="#b91c1c"/>
+          <text class="lbl" x="150" y="80">T</text>
+          <!-- right angle box -->
+          <rect x="133" y="68" width="12" height="12" fill="none" stroke="#b91c1c" stroke-width="1.5"/>
+          <text class="ang" x="118" y="100">90°</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">Radius meets the tangent at the point of contact T.</p>
+        <div class="drule">OT ⟂ tangent → angle = 90°</div>
+      </div>
+    </div>
+
+    <!-- Two tangents from external point -->
+    <div class="dcard">
+      <h3>② Two Tangents from a Point</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="80" cy="80" r="45" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+          <circle cx="80" cy="80" r="2.5" fill="#0369a1"/>
+          <text class="lbl" x="68" y="78">O</text>
+          <!-- external point P -->
+          <circle cx="195" cy="80" r="2.5" fill="#7c3aed"/>
+          <text class="lbl" x="198" y="84">P</text>
+          <!-- tangent points A (top) B (bottom) -->
+          <line x1="195" y1="80" x2="103" y2="41" stroke="#16a34a" stroke-width="2"/>
+          <line x1="195" y1="80" x2="103" y2="119" stroke="#16a34a" stroke-width="2"/>
+          <circle cx="103" cy="41" r="2.5" fill="#16a34a"/>
+          <circle cx="103" cy="119" r="2.5" fill="#16a34a"/>
+          <text class="lbl" x="92" y="36">A</text>
+          <text class="lbl" x="92" y="132">B</text>
+          <text class="seg" x="150" y="52">PA</text>
+          <text class="seg" x="150" y="112">PB</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">Two tangents drawn from one external point P.</p>
+        <div class="drule">PA = PB (equal lengths)</div>
+      </div>
+    </div>
+
+    <!-- Tangent length from external point -->
+    <div class="dcard">
+      <h3>③ Tangent Length (PT)</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="75" cy="80" r="42" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+          <circle cx="75" cy="80" r="2.5" fill="#0369a1"/>
+          <text class="lbl" x="63" y="78">O</text>
+          <!-- external point P -->
+          <circle cx="190" cy="80" r="2.5" fill="#7c3aed"/>
+          <text class="lbl" x="193" y="84">P</text>
+          <!-- distance d -->
+          <line x1="75" y1="80" x2="190" y2="80" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <text x="120" y="94" fill="#64748b" font-weight="700">d</text>
+          <!-- tangent point T -->
+          <circle cx="108" cy="52" r="2.5" fill="#b91c1c"/>
+          <text class="lbl" x="98" y="48">T</text>
+          <line x1="75" y1="80" x2="108" y2="52" stroke="#d97706" stroke-width="2"/>
+          <text x="82" y="60" fill="#d97706" font-weight="700">r</text>
+          <line x1="190" y1="80" x2="108" y2="52" stroke="#b91c1c" stroke-width="2"/>
+          <text class="seg" x="150" y="58">PT</text>
+          <rect x="103" y="54" width="11" height="11" fill="none" stroke="#b91c1c" stroke-width="1.2" transform="rotate(-40 108 52)"/>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">Length of tangent from external point, distance d = OP.</p>
+        <div class="drule">PT = √(d² − r²)</div>
+      </div>
+    </div>
+
+    <!-- Angle at centre = 2x circumference -->
+    <div class="dcard">
+      <h3>④ Angle at Centre = 2 × Circumference</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="110" cy="85" r="55" fill="#fdf2f8" stroke="#db2777" stroke-width="2"/>
+          <circle cx="110" cy="85" r="2.5" fill="#db2777"/>
+          <text class="lbl" x="98" y="83">O</text>
+          <!-- chord endpoints A,B at bottom, point P at top -->
+          <circle cx="65" cy="118" r="2.5" fill="#1f2933"/>
+          <circle cx="155" cy="118" r="2.5" fill="#1f2933"/>
+          <circle cx="110" cy="30" r="2.5" fill="#16a34a"/>
+          <text class="lbl" x="54" y="132">A</text>
+          <text class="lbl" x="158" y="132">B</text>
+          <text class="lbl" x="104" y="26">P</text>
+          <!-- centre angle -->
+          <line x1="110" y1="85" x2="65" y2="118" stroke="#db2777" stroke-width="2"/>
+          <line x1="110" y1="85" x2="155" y2="118" stroke="#db2777" stroke-width="2"/>
+          <text class="ang" x="96" y="108">2θ</text>
+          <!-- circumference angle -->
+          <line x1="110" y1="30" x2="65" y2="118" stroke="#16a34a" stroke-width="2"/>
+          <line x1="110" y1="30" x2="155" y2="118" stroke="#16a34a" stroke-width="2"/>
+          <text x="100" y="48" fill="#16a34a" font-weight="700" font-size="11">θ</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">Arc AB subtends ∠ at centre (O) and on circumference (P).</p>
+        <div class="drule">∠AOB = 2 × ∠APB</div>
+      </div>
+    </div>
+
+    <!-- Angle in semicircle -->
+    <div class="dcard">
+      <h3>⑤ Angle in Semicircle = 90°</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="110" cy="85" r="55" fill="#eef2ff" stroke="#4338ca" stroke-width="2"/>
+          <!-- diameter AB horizontal -->
+          <line x1="55" y1="85" x2="165" y2="85" stroke="#4338ca" stroke-width="2"/>
+          <circle cx="110" cy="85" r="2.5" fill="#4338ca"/>
+          <text class="lbl" x="104" y="100">O</text>
+          <circle cx="55" cy="85" r="2.5" fill="#1f2933"/>
+          <circle cx="165" cy="85" r="2.5" fill="#1f2933"/>
+          <text class="lbl" x="42" y="90">A</text>
+          <text class="lbl" x="168" y="90">B</text>
+          <!-- point C on circle top -->
+          <circle cx="138" cy="38" r="2.5" fill="#b91c1c"/>
+          <text class="lbl" x="142" y="36">C</text>
+          <line x1="55" y1="85" x2="138" y2="38" stroke="#b91c1c" stroke-width="2"/>
+          <line x1="165" y1="85" x2="138" y2="38" stroke="#b91c1c" stroke-width="2"/>
+          <rect x="127" y="40" width="11" height="11" fill="none" stroke="#b91c1c" stroke-width="1.3" transform="rotate(28 132 46)"/>
+          <text class="ang" x="120" y="58">90°</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">AB is a diameter; C is any point on the circle.</p>
+        <div class="drule">∠ACB = 90°</div>
+      </div>
+    </div>
+
+    <!-- Cyclic quadrilateral -->
+    <div class="dcard">
+      <h3>⑥ Cyclic Quadrilateral</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="110" cy="80" r="58" fill="#f0fdf4" stroke="#15803d" stroke-width="2"/>
+          <!-- 4 points on circle -->
+          <circle cx="70" cy="38" r="2.5" fill="#1f2933"/>
+          <circle cx="165" cy="62" r="2.5" fill="#1f2933"/>
+          <circle cx="150" cy="128" r="2.5" fill="#1f2933"/>
+          <circle cx="58" cy="112" r="2.5" fill="#1f2933"/>
+          <text class="lbl" x="60" y="32">A</text>
+          <text class="lbl" x="170" y="60">B</text>
+          <text class="lbl" x="154" y="142">C</text>
+          <text class="lbl" x="42" y="118">D</text>
+          <polygon points="70,38 165,62 150,128 58,112" fill="none" stroke="#15803d" stroke-width="2"/>
+          <text class="ang" x="72" y="52">A</text>
+          <text class="ang" x="138" y="120">C</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">All four vertices A, B, C, D lie on the circle.</p>
+        <div class="drule">∠A + ∠C = 180° &nbsp;and&nbsp; ∠B + ∠D = 180°</div>
+      </div>
+    </div>
+
+    <!-- Intersecting chords -->
+    <div class="dcard">
+      <h3>⑦ Intersecting Chords</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="110" cy="80" r="60" fill="#fffbeb" stroke="#b45309" stroke-width="2"/>
+          <!-- chord AB and CD intersect at P -->
+          <line x1="55" y1="50" x2="165" y2="115" stroke="#b45309" stroke-width="2"/>
+          <line x1="60" y1="120" x2="160" y2="45" stroke="#0891b2" stroke-width="2"/>
+          <!-- intersection approx -->
+          <circle cx="110" cy="83" r="2.8" fill="#b91c1c"/>
+          <text class="lbl" x="113" y="96">P</text>
+          <circle cx="55" cy="50" r="2.5" fill="#1f2933"/><text class="lbl" x="42" y="48">A</text>
+          <circle cx="165" cy="115" r="2.5" fill="#1f2933"/><text class="lbl" x="168" y="118">B</text>
+          <circle cx="160" cy="45" r="2.5" fill="#1f2933"/><text class="lbl" x="163" y="42">C</text>
+          <circle cx="60" cy="120" r="2.5" fill="#1f2933"/><text class="lbl" x="46" y="126">D</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">Two chords AB and CD cross inside the circle at P.</p>
+        <div class="drule">PA × PB = PC × PD</div>
+      </div>
+    </div>
+
+    <!-- Secant tangent -->
+    <div class="dcard">
+      <h3>⑧ Tangent–Secant (Power of Point)</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="90" cy="80" r="48" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
+          <!-- external point P right -->
+          <circle cx="200" cy="100" r="2.5" fill="#1f2933"/>
+          <text class="lbl" x="202" y="104">P</text>
+          <!-- tangent to T -->
+          <circle cx="120" cy="42" r="2.5" fill="#b91c1c"/>
+          <text class="lbl" x="123" y="40">T</text>
+          <line x1="200" y1="100" x2="120" y2="42" stroke="#b91c1c" stroke-width="2"/>
+          <text class="seg" x="158" y="62" fill="#b91c1c">PT</text>
+          <!-- secant through A,B -->
+          <line x1="200" y1="100" x2="48" y2="98" stroke="#0891b2" stroke-width="2"/>
+          <circle cx="132" cy="99" r="2.5" fill="#1f2933"/><text class="lbl" x="128" y="115">A</text>
+          <circle cx="48" cy="98" r="2.5" fill="#1f2933"/><text class="lbl" x="36" y="103">B</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">From external P: one tangent PT and one secant cutting at A, B.</p>
+        <div class="drule">PT² = PA × PB</div>
+      </div>
+    </div>
+
+    <!-- Alternate segment -->
+    <div class="dcard">
+      <h3>⑨ Alternate Segment Theorem</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="110" cy="78" r="52" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+          <!-- tangent at T (bottom) -->
+          <line x1="40" y1="130" x2="180" y2="130" stroke="#b91c1c" stroke-width="2"/>
+          <circle cx="110" cy="130" r="2.5" fill="#b91c1c"/>
+          <text class="lbl" x="106" y="146">T</text>
+          <!-- chord TA -->
+          <circle cx="150" cy="48" r="2.5" fill="#1f2933"/>
+          <text class="lbl" x="153" y="46">A</text>
+          <line x1="110" y1="130" x2="150" y2="48" stroke="#0891b2" stroke-width="2"/>
+          <!-- angle between tangent and chord -->
+          <text class="ang" x="118" y="122">x</text>
+          <!-- point B in alternate segment -->
+          <circle cx="72" cy="48" r="2.5" fill="#16a34a"/>
+          <text class="lbl" x="60" y="44">B</text>
+          <line x1="72" y1="48" x2="150" y2="48" stroke="#16a34a" stroke-width="1.6"/>
+          <line x1="72" y1="48" x2="110" y2="130" stroke="#16a34a" stroke-width="1.6"/>
+          <text x="80" y="62" fill="#16a34a" font-weight="700" font-size="11">x</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">Angle between tangent &amp; chord TA = angle in the alternate segment (∠B).</p>
+        <div class="drule">∠(tangent, chord) = ∠ in alternate segment</div>
+      </div>
+    </div>
+
+    <!-- Perpendicular from centre bisects chord -->
+    <div class="dcard">
+      <h3>⑩ Perpendicular from Centre Bisects Chord</h3>
+      <div class="svgwrap">
+        <svg width="220" height="160" viewBox="0 0 220 160">
+          <circle cx="110" cy="75" r="58" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+          <circle cx="110" cy="75" r="2.5" fill="#0369a1"/>
+          <text class="lbl" x="98" y="73">O</text>
+          <!-- chord AB horizontal lower -->
+          <line x1="58" y1="118" x2="162" y2="118" stroke="#1f2933" stroke-width="2"/>
+          <circle cx="58" cy="118" r="2.5" fill="#1f2933"/><text class="lbl" x="46" y="123">A</text>
+          <circle cx="162" cy="118" r="2.5" fill="#1f2933"/><text class="lbl" x="165" y="123">B</text>
+          <!-- perpendicular from O to M -->
+          <line x1="110" y1="75" x2="110" y2="118" stroke="#b91c1c" stroke-width="2"/>
+          <circle cx="110" cy="118" r="2.5" fill="#b91c1c"/>
+          <text class="lbl" x="113" y="132">M</text>
+          <rect x="110" y="107" width="11" height="11" fill="none" stroke="#b91c1c" stroke-width="1.3"/>
+          <text class="seg" x="78" y="113">AM</text>
+          <text class="seg" x="128" y="113">MB</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">Perpendicular OM dropped from centre O to chord AB.</p>
+        <div class="drule">AM = MB (M is midpoint)</div>
+      </div>
+    </div>
+
+    <!-- Two perpendicular chords -> radius -->
+    <div class="dcard">
+      <h3>⑪ Two ⟂ Chords → Radius (5-12-13 PYQ)</h3>
+      <div class="svgwrap">
+        <svg width="220" height="170" viewBox="0 0 220 170">
+          <circle cx="100" cy="85" r="65" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+          <circle cx="100" cy="85" r="2.6" fill="#0369a1"/>
+          <text class="lbl" x="88" y="83">O</text>
+          <!-- chord PQ : horizontal, its perpendicular foot below O (d1=5) -->
+          <line x1="40" y1="120" x2="172" y2="120" stroke="#b45309" stroke-width="2"/>
+          <text class="lbl" x="28" y="124">P</text><text class="lbl" x="176" y="124">Q</text>
+          <!-- d1 from O down to PQ -->
+          <line x1="100" y1="85" x2="100" y2="120" stroke="#b91c1c" stroke-width="2"/>
+          <rect x="100" y="109" width="10" height="11" fill="none" stroke="#b91c1c" stroke-width="1.2"/>
+          <text x="104" y="106" fill="#b91c1c" font-weight="700" font-size="11">5</text>
+          <!-- chord RS : vertical, perpendicular foot left of O (d2=12) -->
+          <line x1="55" y1="30" x2="55" y2="150" stroke="#0891b2" stroke-width="2"/>
+          <text class="lbl" x="50" y="26">R</text><text class="lbl" x="50" y="162">S</text>
+          <!-- d2 from O left to RS -->
+          <line x1="100" y1="85" x2="55" y2="85" stroke="#16a34a" stroke-width="2"/>
+          <rect x="55" y="75" width="10" height="10" fill="none" stroke="#16a34a" stroke-width="1.2"/>
+          <text x="68" y="80" fill="#16a34a" font-weight="700" font-size="11">12</text>
+          <!-- radius diagonal O to a circle point -->
+          <line x1="100" y1="85" x2="148" y2="41" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4 3"/>
+          <text x="124" y="56" fill="#7c3aed" font-weight="700" font-size="11">R=13</text>
+        </svg>
+      </div>
+      <div class="dbody">
+        <p class="dwhen">Two chords cross at 90°; distances from centre are d₁, d₂.</p>
+        <div class="drule">R = √(d₁² + d₂²) = √(5²+12²) = 13 cm</div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</div>
+
+<!-- 6. COORDINATE GEOMETRY -->
+<div class="page t-coord">
+  <h2 class="section-title">7 · Coordinate Geometry</h2>
+  <div class="body-pad">
+  <table>
+    <thead>
+      <tr><th style="width:22%">Concept</th><th style="width:33%">When to use</th><th style="width:45%">Formula</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="figure">Distance</td><td class="when">length between 2 points</td><td><span class="f">√((x₂−x₁)²+(y₂−y₁)²)</span></td></tr>
+      <tr><td class="figure">Midpoint</td><td class="when">centre of a segment</td><td><span class="f">((x₁+x₂)/2, (y₁+y₂)/2)</span></td></tr>
+      <tr><td class="figure">Section (m:n)</td><td class="when">point dividing segment in ratio</td><td><span class="f">((mx₂+nx₁)/(m+n), …)</span></td></tr>
+      <tr><td class="figure">Centroid</td><td class="when">3 vertices of triangle</td><td><span class="f">((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3)</span></td></tr>
+      <tr><td class="figure">Area of △</td><td class="when">3 coordinate vertices</td><td><span class="f">½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|</span></td></tr>
+      <tr><td class="figure">Slope</td><td class="when">steepness / parallel-perp check</td><td><span class="f">m = (y₂−y₁)/(x₂−x₁)</span></td></tr>
+      <tr><td class="figure">Parallel / Perp</td><td class="when">relation between 2 lines</td><td>Parallel <span class="f">m₁=m₂</span> · Perp <span class="f">m₁·m₂=−1</span></td></tr>
+      <tr><td class="figure">Line equation</td><td class="when">slope + intercept</td><td><span class="f">y = mx + c</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<!-- 7. RECOGNITION CARD -->
+<div class="page t-recog">
+  <h2 class="section-title">8 · ⭐ 10-Second Recognition Card</h2>
+  <div class="body-pad">
+  <table>
+    <thead>
+      <tr><th style="width:46%">When you read / see...</th><th style="width:54%">Immediately think...</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="when">"In Arithmetic Progression" / 3 terms</td><td><span class="f">a−d , a , a+d</span> · middle = Sum/3</td></tr>
+      <tr><td class="when">Dimensions + Volume</td><td><span class="f">l × b × h</span></td></tr>
+      <tr><td class="when">Chord + centre angle</td><td><span class="f">Segment = Sector − Triangle</span></td></tr>
+      <tr><td class="when">Angle θ at centre</td><td><span class="f">Sector = (θ/360)πr²</span></td></tr>
+      <tr><td class="when">Right angle in triangle</td><td>Pythagoras / triplet / <span class="f">½·base·perp</span></td></tr>
+      <tr><td class="when">All 3 sides known, no height</td><td>Heron <span class="f">√(s(s−a)(s−b)(s−c))</span></td></tr>
+      <tr><td class="when">Diameter is a side of triangle</td><td>Angle = <span class="f">90°</span> (semicircle)</td></tr>
+      <tr><td class="when">4 points on a circle</td><td>Opposite ∠ sum <span class="f">180°</span> (cyclic)</td></tr>
+      <tr><td class="when">Tangent from external point</td><td><span class="f">√(d²−r²)</span> · two tangents equal</td></tr>
+      <tr><td class="when">Two chords cross at 90° (distances d₁, d₂)</td><td><span class="f">R = √(d₁²+d₂²)</span> · spot 5-12-13</td></tr>
+      <tr><td class="when">Line ∥ one side of triangle</td><td>BPT <span class="f">AD/DB = AE/EC</span></td></tr>
+      <tr><td class="when">"Average"</td><td><span class="f">Average = Sum ÷ Number</span></td></tr>
+      <tr><td class="when">Pipe / tank / coin (round base)</td><td>Cylinder <span class="f">πr²h</span></td></tr>
+      <tr><td class="when">Heap / tent / ice-cream</td><td>Cone <span class="f">⅓πr²h</span> · slant <span class="f">√(r²+h²)</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <footer>SSC CGL AIR-10 Master Repository · Geometry &amp; Mensuration Master Sheet · Click "Save as PDF" → Destination: <b>Save as PDF</b></footer>
+</div>
+
+</body>
+</html>

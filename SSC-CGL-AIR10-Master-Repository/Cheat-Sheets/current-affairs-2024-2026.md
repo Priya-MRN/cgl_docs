@@ -11,12 +11,12 @@
 ## ▣ 2024
 
 ### A1. Polity & National Events
-| Event | Detail |
-|---|---|
-| **Ram Mandir consecration** | *Pran Pratishtha* on **22 Jan 2024**, Ayodhya; PM Modi led rituals; idol by Arun Yogiraj; Nagara style |
-| **18th Lok Sabha Elections** | 7 phases (Apr–Jun); results **4 Jun 2024**; **NDA** 3rd term; Modi PM 3rd time |
-| **3 new criminal laws** | In force **1 Jul 2024** — **BNS** (Bharatiya Nyaya Sanhita), **BNSS** (Bharatiya Nagarik Suraksha Sanhita), **BSA** (Bharatiya Sakshya Adhiniyam) replaced IPC, CrPC, Evidence Act |
-| **Electoral Bonds struck down** | Supreme Court declared the scheme unconstitutional (Feb 2024) |
+| Event                           | Detail                                                                                                                                                                             |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ram Mandir consecration**     | *Pran Pratishtha* on **22 Jan 2024**, Ayodhya; PM Modi led rituals; idol by Arun Yogiraj; Nagara style                                                                             |
+| **18th Lok Sabha Elections**    | 7 phases (Apr–Jun); results **4 Jun 2024**; **NDA** 3rd term; Modi PM 3rd time                                                                                                     |
+| **3 new criminal laws**         | In force **1 Jul 2024** — **BNS** (Bharatiya Nyaya Sanhita), **BNSS** (Bharatiya Nagarik Suraksha Sanhita), **BSA** (Bharatiya Sakshya Adhiniyam) replaced IPC, CrPC, Evidence Act |
+| **Electoral Bonds struck down** | Supreme Court declared the scheme unconstitutional (Feb 2024)                                                                                                                      |
 
 **Lok Sabha 2024 seat tally:** NDA ~293 (BJP 240, TDP 16, JD-U 12); I.N.D.I.A. ~234 (Congress 99, SP 37, TMC 29, DMK 22).
 

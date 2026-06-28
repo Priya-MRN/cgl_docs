@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9c51a18e53b27ad9",
+        "id": "326af100afd1b2fa",
         "type": "tabs",
         "children": [
           {
-            "id": "92d9e3ba612dc5f4",
+            "id": "943934bef1cc66bb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Aptitude-Tables/Multiplication_Tables_1_to_30.pdf"
+                "file": "Quantitative-Aptitude/12_Trigonometry.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Multiplication_Tables_1_to_30"
+              "icon": "lucide-file",
+              "title": "12_Trigonometry"
             }
           }
         ]
@@ -92,17 +94,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aptitude-Tables/Multiplication_Tables_1_to_30.pdf",
+                "file": "Quantitative-Aptitude/12_Trigonometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Multiplication_Tables_1_to_30"
+              "title": "Backlinks for 12_Trigonometry"
             }
           },
           {
@@ -167,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,18 +182,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "92d9e3ba612dc5f4",
+  "active": "943934bef1cc66bb",
   "lastOpenFiles": [
-    "__pycache__/generate_multiplication_tables.cpython-314.pyc",
-    "generate_multiplication_tables.py.tmp.12324.8eb07ab3b46a",
-    "generate_multiplication_tables.py.tmp.12324.68ed7a5b85de",
-    "generate_multiplication_tables.py.tmp.12324.725a942d111a",
-    "generate_multiplication_tables.py.tmp.12324.3986bfbf2c46",
-    "generate_multiplication_tables.py.tmp.12324.c69078849fdb",
-    "generate_multiplication_tables.py.tmp.12324.d955d111fd86",
-    "generate_multiplication_tables.py.tmp.12324.befcfa560db1",
-    "Aptitude-Tables/World_Important_Days_Jan_Dec.pdf",
-    "Aptitude-Tables/Squares_Cubes_Study_Table.pdf",
-    "Aptitude-Tables/Multiplication_Tables_1_to_30.pdf"
+    "Quantitative-Aptitude/03_Profit_Loss.md.tmp.1400.59c1a879da78",
+    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.a2aaeb1e87fa",
+    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.0528135f8f2c",
+    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.fdd1c9526a23",
+    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.97be572a6704",
+    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.306c8e59c774",
+    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.dca19e289bef",
+    "Quantitative-Aptitude/05_Average_Mixtures.md",
+    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.c6d9373a737d",
+    "Quantitative-Aptitude/05_Average_Mixtures.md.tmp.18940.e75ba965e70f",
+    "Quantitative-Aptitude/05_Average_Mixtures.md.tmp.18940.d17eba4a4977",
+    "Untitled 1",
+    "Daily-Editorial-Vocabulary/Daily-Words/2026-06-26_Editorial_Vocabulary.md",
+    "Daily-Editorial-Vocabulary/Daily-Words/2026-06-25_Editorial_Vocabulary.md",
+    "English/10_Newspaper_Vocabulary.md",
+    "English/01_Vocabulary_Synonyms_Antonyms.md",
+    "Cheat-Sheets/English_Grammar_Cheat_Sheet.md",
+    "English/02_Idioms_Phrases.md",
+    "English/03_One_Word_Substitution.md",
+    "Cheat-Sheets/current-affairs-2024-2026.md",
+    "Cheat-Sheets/current.md",
+    "Cheat-Sheets/CGL_Docs_Math_Tricks(1).md"
   ]
 }
