@@ -1,12 +1,9 @@
 # Daily Editorial Vocabulary — Index
 
-Auto-generated 50 words a day, mined from national + international newspaper editorials with a curated SSC/UPSC fallback bank.
+Auto-generated editorial vocabulary, mined from national + international newspaper editorials with a curated SSC/UPSC fallback bank. All words are merged into **one** grouped master file (similar words together, no duplicates).
 
-**Total days generated:** 4
+**Unique words so far:** 1103  
+**Days merged:** 5
 
-| Date | File |
-| --- | --- |
-| 2026-06-28 | [2026-06-28_Editorial_Vocabulary.md](Daily-Words/2026-06-28_Editorial_Vocabulary.md) |
-| 2026-06-27 | [2026-06-27_Editorial_Vocabulary.md](Daily-Words/2026-06-27_Editorial_Vocabulary.md) |
-| 2026-06-26 | [2026-06-26_Editorial_Vocabulary.md](Daily-Words/2026-06-26_Editorial_Vocabulary.md) |
-| 2026-06-25 | [2026-06-25_Editorial_Vocabulary.md](Daily-Words/2026-06-25_Editorial_Vocabulary.md) |
+👉 **[Open the master list »](Daily-Words/Editorial_Vocabulary.md)**
+

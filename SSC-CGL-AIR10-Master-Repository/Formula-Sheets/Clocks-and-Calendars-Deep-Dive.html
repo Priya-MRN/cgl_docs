@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<title>SSC CGL Study Sheet</title>
+<style>
+  :root{ --ink:#1a1a2e; --accent:#c0392b; }
+  body{ font-family:"Segoe UI",Arial,sans-serif; color:var(--ink); max-width:1000px;
+        margin:0 auto; padding:28px; line-height:1.5; }
+  h1{ color:#fff; background:linear-gradient(135deg,#16213e,#0f3460); padding:18px 22px;
+      border-radius:12px; font-size:1.6em; }
+  h2{ color:#0f3460; border-left:7px solid var(--accent); padding:6px 12px;
+      background:#f3f6fb; border-radius:0 8px 8px 0; margin-top:32px; }
+  h3{ color:var(--accent); margin-top:22px; }
+  pre.diagram{ background:#0f1424; color:#e8eefc; font-family:"Cascadia Code","Consolas",
+      "DejaVu Sans Mono",monospace; font-size:12.5px; line-height:1.25; padding:14px 16px;
+      border-radius:10px; overflow-x:auto; white-space:pre; box-shadow:0 3px 10px rgba(0,0,0,.18); }
+  blockquote{ background:#fff8e1; border-left:5px solid #f1c40f; margin:12px 0;
+      padding:10px 16px; border-radius:0 8px 8px 0; }
+  table{ border-collapse:collapse; width:100%; margin:12px 0; font-size:.93em; }
+  th{ background:#0f3460; color:#fff; text-align:left; padding:7px 11px; }
+  td{ border:1px solid #d0d7e2; padding:6px 11px; vertical-align:top; }
+  tr:nth-child(even){ background:#f5f8fc; }
+  code{ background:#eef; padding:1px 5px; border-radius:4px; font-size:.92em; }
+  hr{ border:0; border-top:2px dashed #cfd8e3; margin:24px 0; }
+  a{ color:#0f3460; }
+  @media print{ body{ max-width:none; padding:0; } h2,h3{ page-break-after:avoid; }
+     pre.diagram{ page-break-inside:avoid; font-size:10.5px; }
+     table,blockquote{ page-break-inside:avoid; } h1{ -webkit-print-color-adjust:exact; } }
+</style></head><body>
+<h1>🕐 Clocks &amp; Calendars — Deep Dive (SSC CGL Reasoning)</h1>
+<blockquote>Detailed companion to the Clocks &amp; Calendars row in <a href="SSC-CGL-ASO-Formulas-Tricks-Master.md#24-clocks--calendars-">SSC-CGL-ASO-Formulas-Tricks-Master.md</a>. Syllabus: Reasoning (Para 13.10.1 / 13.11.2). Read each idea, cover the box, redo the worked example.</blockquote>
+<p><strong>Contents</strong></p>
+<ol><li><a href="#1-clock-basics--the-geometry">Clock basics — the geometry</a></li><li><a href="#2-angle-between-the-hands-">Angle between the hands</a></li><li><a href="#3-when-do-the-hands-coincide-oppose-or-make-90">When do the hands coincide / oppose / make 90°?</a></li><li><a href="#4-fast-slow--faulty-clocks">Fast / slow / faulty clocks</a></li><li><a href="#5-calendars--the-odd-days-method-">Calendars — odd days</a></li><li><a href="#6-leap-years">Leap years</a></li><li><a href="#7-finding-the-day-of-any-date-">Finding the day of any date</a></li><li><a href="#8-which-year-has-the-same-calendar">Repeating calendars</a></li><li><a href="#9-practice-set">Practice set + answers</a></li></ol>
+<hr>
+<h1>PART A — CLOCKS</h1>
+<h2>1. Clock basics — the geometry</h2>
+<pre class="diagram">   A clock face = 360°, divided into 12 hours and 60 minutes.
+   ┌───────────────────────────────────────────────┐
+   │  Full circle ............... 360°              │
+   │  1 hour space (12 → 1) ...... 360/12 = 30°      │
+   │  1 minute space ............ 360/60 = 6°        │
+   │  Each hour = 5 minute-spaces (30° = 5 × 6°)     │
+   └───────────────────────────────────────────────┘</pre>
+<table><thead><tr><th>Hand</th><th>Speed</th><th>Per minute</th></tr></thead><tbody><tr><td><strong>Minute hand</strong></td><td>360° in 60 min</td><td><strong>6° per minute</strong></td></tr><tr><td><strong>Hour hand</strong></td><td>360° in 12 h = 720 min</td><td><strong>0.5° per minute</strong></td></tr><tr><td><strong>Relative gain</strong></td><td>minute over hour</td><td><strong>6 − 0.5 = 5.5° per minute</strong> ⭐</td></tr></tbody></table>
+<p>🔑 <strong>The single most useful number:</strong> the minute hand gains <strong>5.5° every minute</strong> on the hour hand. Almost every clock question reduces to <em>"how long to gain X degrees?"</em> → time = X ÷ 5.5 min.</p>
+<pre class="diagram">            12
+        11      1
+     10            2     • Minute hand moves 6°/min  (fast)
+    9       •       3    • Hour hand moves 0.5°/min  (slow)
+     8             4     • Gap changes by 5.5°/min
+        7       5
+            6</pre>
+<h2>2. Angle between the hands  ⭐</h2>
+<pre class="diagram">   ┌──────────────────────────────────────────────┐
+   │   θ = | 30·H − 5.5·M |                         │
+   │   H = hour, M = minutes                        │
+   │   If θ &gt; 180°, the (smaller) angle = 360 − θ   │
+   └──────────────────────────────────────────────┘
+   Why: hour hand is at (30H + 0.5M)°; minute hand at (6M)°.
+        Difference = |30H + 0.5M − 6M| = |30H − 5.5M|.</pre>
+<p><strong>Worked example 1 — angle at 3:40</strong></p>
+<ul><li>θ = |30×3 − 5.5×40| = |90 − 220| = |−130| = <strong>130°</strong>.</li></ul>
+<p><strong>Worked example 2 — angle at 4:20</strong></p>
+<ul><li>θ = |30×4 − 5.5×20| = |120 − 110| = <strong>10°</strong>.</li></ul>
+<p><strong>Worked example 3 — reflex check at 9:15</strong></p>
+<ul><li>θ = |30×9 − 5.5×15| = |270 − 82.5| = 187.5° → greater than 180°</li><li>smaller angle = 360 − 187.5 = <strong>172.5°</strong>.</li></ul>
+<p>🪄 <strong>Speed tip:</strong> at H o'clock exactly (M=0), angle = 30H (take the smaller side). E.g. 5:00 → 150°.</p>
+<h2>3. When do the hands coincide, oppose, or make 90°?</h2>
+<p>The hands start a "race"; the minute hand catches up at <strong>5.5°/min</strong>.</p>
+<table><thead><tr><th>Event</th><th>Angle to cover</th><th>Times in 12 hours</th><th>Gap between events</th></tr></thead><tbody><tr><td><strong>Coincide</strong> (0° apart)</td><td>0° / 360°</td><td><strong>11 times</strong></td><td>every 720/11 = <strong>65 5⁄11 min</strong></td></tr><tr><td><strong>Opposite</strong> (180° apart)</td><td>180°</td><td><strong>11 times</strong></td><td>every 65 5⁄11 min</td></tr><tr><td><strong>Right angle</strong> (90°)</td><td>90° (twice/cycle)</td><td><strong>22 times</strong></td><td>—</td></tr></tbody></table>
+<pre class="diagram">   WHY 11 (not 12) overlaps in 12 hours:
+   In 12 h the minute hand laps the hour hand only 11 times
+   (the 12 o'clock overlap is shared by start &amp; end).
+   → overlaps at 12:00, 1:05⁵⁄₁₁, 2:10¹⁰⁄₁₁, … about every 65.45 min.</pre>
+<p><strong>Worked example 4 — after 4 o'clock, when do hands coincide?</strong></p>
+<ul><li>At 4:00 the hour hand leads by 4×30 = 120°.</li><li>Minute hand must gain 120° at 5.5°/min → time = 120 ÷ 5.5 = <strong>21 9⁄11 min past 4</strong> (≈ 4:21:49).</li></ul>
+<p><strong>Worked example 5 — between 4 and 5, when are hands at right angles (90°)?</strong></p>
+<ul><li>Need gap = 90°. Start gap (at 4:00) = 120°.</li><li><strong>First 90°:</strong> reduce 120 → 90, gain (120−90)=30° → 30÷5.5 = 5 5⁄11 min → <strong>4:05 5⁄11</strong>.</li><li><strong>Second 90°:</strong> go past coincidence to 90° on other side: gain (120+90)=210° → 210÷5.5 = 38 2⁄11 → <strong>4:38 2⁄11</strong>.</li></ul>
+<h2>4. Fast, slow &amp; faulty clocks</h2>
+<table><thead><tr><th>Situation</th><th>How to handle</th><th>🪄 Trick</th></tr></thead><tbody><tr><td>Clock <strong>gains</strong> x min/day</td><td>runs fast; shows later time</td><td>add error over elapsed days</td></tr><tr><td>Clock <strong>loses</strong> x min/day</td><td>runs slow; shows earlier time</td><td>subtract error</td></tr><tr><td>Hands coincide every X min</td><td>if X ≠ 65 5⁄11, clock is <strong>faulty</strong></td><td>compare to 65.4545…</td></tr><tr><td>Total gain/loss</td><td>rate × (number of days/hours)</td><td>proportion</td></tr></tbody></table>
+<p><strong>Worked example 6 — fast clock</strong></p>
+<blockquote>A clock gains 5 minutes every hour. If set correct at 8:00 a.m., what does it show at the real 8:00 p.m. (same day)?</blockquote>
+<ul><li>Real time elapsed = 12 hours → gain = 5 × 12 = 60 min = 1 hour.</li><li>Clock shows <strong>9:00 p.m.</strong></li></ul>
+<p><strong>Worked example 7 — "faulty" detection</strong></p>
+<blockquote>The hands of a clock coincide every 64 minutes of correct time. Is it fast or slow?</blockquote>
+<ul><li>Correct clocks coincide every 65 5⁄11 ≈ 65.45 min. This one does it in 64 min (sooner) → it is running <strong>fast</strong>.</li><li>Gain per coincidence = 65 5⁄11 − 64 = 16⁄11 min, so over a day it can be scaled up.</li></ul>
+<hr>
+<h1>PART B — CALENDARS</h1>
+<h2>5. Calendars — the "odd days" method  ⭐</h2>
+<pre class="diagram">   ┌──────────────────────────────────────────────┐
+   │  ODD DAYS = days left over after counting     │
+   │  complete weeks (remainder when ÷ 7).         │
+   │  The day of the week shifts by the odd days.  │
+   └──────────────────────────────────────────────┘
+   1 ordinary year = 365 days = 52 weeks + 1 → 1 odd day
+   1 leap year     = 366 days = 52 weeks + 2 → 2 odd days</pre>
+<table><thead><tr><th>Period</th><th>Odd days</th><th>🪄 Trick</th></tr></thead><tbody><tr><td>Ordinary year</td><td><strong>1</strong></td><td>"next year same date = next weekday"</td></tr><tr><td>Leap year</td><td><strong>2</strong></td><td>jumps two weekdays</td></tr><tr><td>100 years</td><td><strong>5</strong></td><td>(76 ordinary + 24 leap → 76+48 = 124 ; 124 mod 7 = 5)</td></tr><tr><td>200 years</td><td><strong>3</strong></td><td>(5×2 = 10 → 3)</td></tr><tr><td>300 years</td><td><strong>1</strong></td><td>(5×3 = 15 → 1)</td></tr><tr><td>400 years</td><td><strong>0</strong></td><td>(and every multiple of 400) ⭐</td></tr></tbody></table>
+<pre class="diagram">   ODD-DAY COUNT PER MONTH (memorise the remainders, value mod 7)
+   ┌───────┬────┬───────┬────┬───────┬────┐
+   │ Jan 31│ 3  │ May 31│ 3  │ Sep 30│ 2  │
+   │ Feb 28│ 0  │ Jun 30│ 2  │ Oct 31│ 3  │   (Feb 29 in a leap yr → 1)
+   │ Mar 31│ 3  │ Jul 31│ 3  │ Nov 30│ 2  │
+   │ Apr 30│ 2  │ Aug 31│ 3  │ Dec 31│ 3  │
+   └───────┴────┴───────┴────┴───────┴────┘
+   🪄 30-day months give 2 odd days; 31-day months give 3; Feb gives 0 (or 1 if leap).</pre>
+<h2>6. Leap years</h2>
+<pre class="diagram">   ┌──────────────────────────────────────────────┐
+   │  Leap year rule:                              │
+   │  • divisible by 4              → leap          │
+   │  • BUT century years (÷100)    → NOT leap …    │
+   │  • … UNLESS also ÷ 400         → leap          │
+   └──────────────────────────────────────────────┘
+   ✅ Leap:  2008, 2012, 2024, 2000, 2400
+   ❌ Not :  2009, 1900, 2100, 2200, 2300</pre>
+<p>🪄 <strong>Trick:</strong> 1900 is <strong>not</strong> a leap year (÷100 but not ÷400); 2000 <strong>is</strong> (÷400). This single fact is a very common trap.</p>
+<h2>7. Finding the day of any date  ⭐</h2>
+<p><strong>Method (odd-days from a reference):</strong> add odd days for completed centuries + years + months + date, take mod 7, map to a weekday.</p>
+<pre class="diagram">   WEEKDAY CODE (from total odd days, mod 7)
+   0 → Sunday   1 → Monday   2 → Tuesday   3 → Wednesday
+   4 → Thursday 5 → Friday   6 → Saturday</pre>
+<p><strong>Worked example 8 — what day was 15 August 1947?</strong> Step 1: 1600 yrs → 0 odd days. (use nearest 400-multiple before the year) Step 2: 300 yrs (1601–1900) → 1 odd day. Step 3: 46 complete years (1901–1946): leap years among them = 46÷4 = 11 leaps, 35 ordinary.   odd days = 35×1 + 11×2 = 35 + 22 = 57 → 57 mod 7 = <strong>1</strong>. Step 4: year 1947, months Jan–Jul + 15 days of Aug:   Jan31 Feb28 Mar31 Apr30 May31 Jun30 Jul31 = 212 days; + 15 = 227 days → 227 mod 7 = <strong>3</strong>. Step 5: total odd days = 0 + 1 + 1 + 3 = 5 → <strong>Friday</strong>. ✅ <strong>15 August 1947 was a Friday.</strong></p>
+<pre class="diagram">   COUNT-UP DIAGRAM
+   [centuries: 0+1] + [years 1901-46: 1] + [this year's months+date: 3]
+            = 5  →  Friday</pre>
+<p><strong>Worked example 9 — same date, next year</strong></p>
+<blockquote>If 1 Jan 2025 is Wednesday, what is 1 Jan 2026?</blockquote>
+<ul><li>2025 is an ordinary year → 1 odd day → shift by 1 → <strong>Thursday</strong>.</li></ul>
+<blockquote>And 1 Jan 2027? (2026 ordinary → +1) → <strong>Friday</strong>.</blockquote>
+<h2>8. Which year has the same calendar?</h2>
+<table><thead><tr><th>Case</th><th>Calendar repeats after</th><th>🪄 Trick</th></tr></thead><tbody><tr><td>Ordinary year after ordinary</td><td>+6 or +11 years (commonly <strong>+11</strong>)</td><td>sum of odd days = 7</td></tr><tr><td>Leap year</td><td>repeats after <strong>28 years</strong></td><td>full cycle</td></tr><tr><td>Quick rule</td><td>add years until cumulative odd days = 0 (mod 7)</td><td>—</td></tr></tbody></table>
+<p><strong>Worked example 10</strong></p>
+<blockquote>Which year will have the same calendar as 2024 (a leap year)?</blockquote>
+<ul><li>Leap-year calendars repeat every 28 years → <strong>2052</strong>.</li></ul>
+<hr>
+<h1>9. Practice set</h1>
+<blockquote>Cover the answers. Aim: &lt; 40 seconds each.</blockquote>
+<table><thead><tr><th>#</th><th>Question</th><th>Answer</th></tr></thead><tbody><tr><td>1</td><td>Angle between hands at <strong>2:30</strong>?</td><td>\</td><td>30·2 − 5.5·30\</td><td>= \</td><td>60−165\</td><td>= <strong>105°</strong></td></tr><tr><td>2</td><td>Angle at <strong>6:00</strong>?</td><td>180° (straight line)</td></tr><tr><td>3</td><td>How many times do the hands coincide in <strong>a day (24 h)</strong>?</td><td><strong>22 times</strong> (11 per 12 h)</td></tr><tr><td>4</td><td>Hands coincide every 65 5⁄11 min — true gap in a <strong>correct</strong> clock?</td><td>yes, ≈ <strong>65.45 min</strong></td></tr><tr><td>5</td><td>A clock loses 10 min/day. After 6 days it shows?</td><td><strong>1 hour slow</strong> (10×6=60 min)</td></tr><tr><td>6</td><td>Odd days in a <strong>leap year</strong>?</td><td><strong>2</strong></td></tr><tr><td>7</td><td>Is <strong>2100</strong> a leap year?</td><td><strong>No</strong> (÷100, not ÷400)</td></tr><tr><td>8</td><td>If 1 Jan 2024 is Monday, 1 Jan 2025 is?</td><td>2024 leap → +2 → <strong>Wednesday</strong></td></tr><tr><td>9</td><td>Odd days in <strong>400 years</strong>?</td><td><strong>0</strong></td></tr><tr><td>10</td><td>Day on <strong>26 January 1950</strong> (Republic Day)?</td><td><strong>Thursday</strong></td></tr><tr><td>11</td><td>Between 3 and 4 o'clock, hands coincide at?</td><td>3:00 gap 90° → 90÷5.5 = <strong>3:16 4⁄11</strong></td></tr><tr><td>12</td><td>A leap year's calendar repeats after?</td><td><strong>28 years</strong></td></tr></tbody></table>
+<pre class="diagram">   Q11 working:  at 3:00 hour hand leads by 90°.
+   Minute hand gains 90° at 5.5°/min → 90 ÷ 5.5 = 16 4⁄11 min past 3.</pre>
+<hr>
+<blockquote>✅ <strong>Two numbers carry this whole topic:</strong> <strong>5.5°/min</strong> (clocks) and <strong>odd days mod 7</strong> (calendars). Master those and every question becomes a one-line calculation. Back to the <a href="SSC-CGL-ASO-Formulas-Tricks-Master.md">main formula sheet »</a>.</blockquote>
+</body></html>

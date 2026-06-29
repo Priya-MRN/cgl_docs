@@ -1,8 +1,11 @@
 # Daily Editorial Vocabulary — Setup & Usage
 
-Automatically generates **50 vocabulary words every day** (word, part of speech,
-simple meaning, easy synonym, newspaper-style example) and saves them as a dated
-Markdown file in [Daily-Words/](Daily-Words/).
+Automatically collects vocabulary words (word, part of speech, simple meaning,
+easy synonym, newspaper-style example) and merges them — **deduped and grouped
+by meaning** — into a single, colourful, table-formatted master file:
+[Daily-Words/Editorial_Vocabulary.md](Daily-Words/Editorial_Vocabulary.md).
+Each daily run adds only genuinely new words and rewrites that one file; similar
+words always sit together in the same group.
 
 ## How it works
 
@@ -79,5 +82,6 @@ Edit `word_bank.json` — append objects to the `words` array with keys
 | `used_words.json` | Tracks words already produced (dedupe) |
 | `run_daily_vocab.bat` | Launcher used by Task Scheduler |
 | `setup_task_scheduler.ps1` | Registers / updates the daily task |
+| `master_words.json` | Canonical deduped word store backing the master file |
 | `run.log` | Run history |
-| `Daily-Words/` | Generated dated `.md` files + index |
+| `Daily-Words/Editorial_Vocabulary.md` | **The single master file** — all words, grouped by meaning, overwritten daily |

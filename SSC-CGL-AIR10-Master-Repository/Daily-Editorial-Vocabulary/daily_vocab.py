@@ -41,6 +41,11 @@ BASE_DIR = Path(__file__).resolve().parent
 WORD_BANK_FILE = BASE_DIR / "word_bank.json"
 USED_WORDS_FILE = BASE_DIR / "used_words.json"
 OUTPUT_DIR = BASE_DIR / "Daily-Words"
+# Single master file that is OVERWRITTEN each day. All words ever produced are
+# merged into it, deduped, and grouped by meaning (similar words together).
+MASTER_FILE = OUTPUT_DIR / "Editorial_Vocabulary.md"
+# Canonical store backing the master file (the words + which days they came in).
+MASTER_STORE = BASE_DIR / "master_words.json"
 LOG_FILE = BASE_DIR / "run.log"
 
 # National (Indian) + international editorial RSS feeds.
@@ -269,59 +274,246 @@ def pick_words():
 
 
 # ---------------------------------------------------------------------------
-# Output: write the dated Markdown file
+# Grouping: cluster similar words by meaning so they sit together
 # ---------------------------------------------------------------------------
-def write_markdown(entries, day):
-    nice_date = day.strftime("%d %B %Y (%A)")
-    fname = OUTPUT_DIR / f"{day.strftime('%Y-%m-%d')}_Editorial_Vocabulary.md"
+# Ordered theme groups. First matching rule wins; anything unmatched lands in
+# OTHER. Each rule is matched against the lowercased "meaning + easy synonyms".
+OTHER_GROUP = "Other & Mixed"
+GROUPS = [
+    ("📉 Decline, Fall & Weaken",
+     r"\b(fall|fell|drop|decline|decrease|weak|weaken|shrink|reduce|wear away|"
+     r"fade|lessen|subside|run low|wither|collapse|crash|dive|tumble|sink)\b"),
+    ("📈 Increase, Rise & Spread",
+     r"\b(increase|rise|spread|grow|multiply|spike|surge|momentum|push|"
+     r"widespread|everywhere|unchecked|rampant)\b"),
+    ("🗯️ Criticism & Condemnation",
+     r"\b(criticis|criticize|condemn|attack|scold|rant|harsh|smear|defame|"
+     r"lament|complain|blame|denounce|indict)\b"),
+    ("👏 Praise, Support & Strengthen",
+     r"\b(praise|support|strengthen|boost|reinforce|encourage|back|champion|"
+     r"promote|nurture|foster|empower|endorse|loyal|approve|welcome|embrace)\b"),
+    ("🚧 Block, Hinder & Suppress",
+     r"\b(block|hinder|obstruct|prevent|slow|stop|suppress|choke|restrict|"
+     r"thwart|foil|limit|restrain|control|curb|cut short|impede|stymie)\b"),
+    ("⚔️ Conflict, Crisis & Disorder",
+     r"\b(conflict|crisis|chaos|unrest|disorder|turmoil|riot|deadlock|impasse|"
+     r"havoc|war|trouble|ruin|curse|mess|disturbance|upset)\b"),
+    ("💥 Harm, Damage & Worsen",
+     r"\b(harm|damage|spoil|ruin|worsen|aggravate|inflict|disable|"
+     r"endanger|risk|sabotage|undermine|cripple)\b"),
+    ("🔥 Severity, Seriousness & Urgency",
+     r"\b(severe|serious|strict|tough|grave|urgent|extreme|intense|"
+     r"stern|sharp|gloomy|grim|bleak|stark|dire|acute|fierce|forceful)\b"),
+    ("❓ Difference, Disagreement & Doubt",
+     r"\b(difference|differ|disagree|dispute|controvers|gap|inequalit|"
+     r"oddit|irregularit|unclear|hazy|vague|doubt|sceptic|distrust|cynical)\b"),
+    ("🌱 Beginnings, Change & Turning Points",
+     r"\b(begin|new|emerging|start|spark|trigger|catalyst|revival|comeback|"
+     r"turning point|milestone|reform|revamp|change|ignite|introduce|herald|usher)\b"),
+    ("💰 Wealth, Money & Economy",
+     r"\b(money|profit|wealth|wealthy|rich|prosperous|economic|cutbacks|thrift|"
+     r"lucrative|affluent|waste)\b"),
+    ("🎯 Skill, Care & Wisdom",
+     r"\b(skill|skilled|expert|careful|thorough|wise|sensible|practical|"
+     r"nimble|adept|deft|prudent|painstaking)\b"),
+    ("🗣️ Speech, Persuasion & Claims",
+     r"\b(say|said|speech|claim|accuse|promise|pledge|beg|plead|repeat|restate|"
+     r"persuasive|oratory|rhetoric|implied|unspoken|appeal)\b"),
+    ("⚡ Strong Feeling, Energy & Zeal",
+     r"\b(passion|passionate|enthusiasm|energy|eager|zeal|fervour|fervent|"
+     r"intense feeling|courage|stir|spur)\b"),
+    ("🔍 Examination, Judgement & Standards",
+     r"\b(examin|inspect|review|investigat|inquiry|measure|assess|judge|"
+     r"benchmark|standard|scrutiny|gauge|probe|yardstick)\b"),
+    ("🤝 Agreement, Unity & Cooperation",
+     r"\b(agreement|agree|unity|unite|together|alliance|union|accord|"
+     r"cooperat|coalition|consensus|cohesion|reconcile|harmonis|settle)\b"),
+    ("⭐ Certainty, Importance & Authority",
+     r"\b(certain|unavoidable|inevitable|order|authority|duty|burden|"
+     r"responsib|supreme|chief|most important|paramount|mandate|onus)\b"),
+    ("🌫️ Hidden, Unclear & Secret",
+     r"\b(hidden|secret|dormant|implied|unseen|murky|disguise|conceal|"
+     r"latent|veneer|facade|opaque|obscure)\b"),
+    ("🧱 Real, Concrete & Practical",
+     r"\b(real|concrete|clearly seen|practical|relevant|apt|sturdy|"
+     r"strong and healthy|tangible|robust|pertinent|salient)\b"),
+    ("✊ Reject, Revenge & Force",
+     r"\b(reject|refuse|revenge|retaliat|seize|grab|by force|surrender|yield|"
+     r"give up|spurn|wrest|cede|reprisal|forfeit)\b"),
+    ("⏳ Time, Lateness & Approach",
+     r"\b(soon|near|approach|impending|about to happen|late|overdue|short time|"
+     r"forerunner|omen|imminent|looming|belated|harbinger|aftermath|brief|"
+     r"lasting|temporary|fleeting|ephemeral)\b"),
+    ("🎭 Lies, Trickery & Deception",
+     r"\b(lie|telling the truth|not telling|fake|falsehood|deceive|deceiv|"
+     r"trick|trickery|cheat|flatter|not genuine|forge|fraud|mislead|pretend|"
+     r"sham|hypocri|spurious|specious|dishonest|fabricat)\b"),
+    ("🧗 Problems, Obstacles & Setbacks",
+     r"\b(problem|obstacle|difficulty|setback|hurdle|barrier|delay|"
+     r"backlash|flaw|fault|weakness|drawback|snag|complicat|stumbling)\b"),
+    ("🧠 Thinking, Reasoning & Memory",
+     r"\b(think|consider|ponder|reflect|reason|deduce|infer|recall|"
+     r"remember|deliberat|contemplat|mull|reckon|weigh|conclude|surmise)\b"),
+    ("⚖️ Fairness, Honesty & Truth",
+     r"\b(fair|just|honest|truth|frank|candid|sincere|impartial|"
+     r"unbiased|equitable|credible|integrity|forthright|transparent)\b"),
+    ("🌀 Hostility, Bitterness & Stubbornness",
+     r"\b(hostile|bitter|angry|stubborn|defiant|obstinate|grudge|"
+     r"acrimon|inimical|recalcitrant|vituperat|spite|malice|enmity|grievance)\b"),
+    ("👑 Power, Control & Influence",
+     r"\b(power|control|influence|authority|dominate|rule|sway|grip|"
+     r"clout|command|wield|oust|depose|reign|leverage)\b"),
+    ("😀 Hope, Calm & Positivity",
+     r"\b(hope|hopeful|optimis|cheerful|calm|composed|serene|positive|"
+     r"upbeat|sanguine|buoyant|content|reassur|soothe|placate)\b"),
+    ("🌑 Bad, Harmful & Unpleasant",
+     r"\b(bad|harmful|unpleasant|nasty|wicked|evil|shameless|disgust|"
+     r"notorious|infamous|egregious|flagrant|adverse|inimical|innocuous|"
+     r"shocking|brazen|wanton)\b"),
+    ("📦 Amount, Size & Plenty",
+     r"\b(amount|plenty|plentiful|enough|abundant|ample|large|huge|"
+     r"countless|myriad|scarce|meagre|scanty|hefty|sparse|copious|surplus)\b"),
+    ("🪞 Difference, Comparison & Opposite",
+     r"\b(opposite|contrast|compare|comparison|side by side|model|pattern|"
+     r"typical example|antithesis|paradigm|juxtapose|quintessential|analog)\b"),
+    ("🗃️ Catch, Hold & Seize",
+     r"\b(catch|arrest|hold|grip|grab|capture|seize|cling|stick to|"
+     r"adhere|abide|nab|clutch|grasp)\b"),
+    ("📌 Cause, Effect & Consequence",
+     r"\b(cause|lead to|result|consequence|effect|outcome|trigger|"
+     r"bring about|repercussion|backlash|breed|stem from)\b"),
+    ("🔺 Highest & Lowest Points",
+     r"\b(highest|lowest|peak|summit|climax|final point|top point|"
+     r"worst point|most successful|reach a final|zenith|nadir|heyday|"
+     r"pinnacle|juncture|culminat|apex)\b"),
+    ("🍀 Luck, Chance & Fate",
+     r"\b(luck|lucky|unlucky|chance|fate|fortune|misfortune|by chance|"
+     r"fortuitous|hapless|serendip|providence|destiny)\b"),
+    ("🗨️ Talkative, Loud & Wordy",
+     r"\b(talkative|talking a lot|wordy|loud|chatty|verbose|long-winded|"
+     r"loquacious|garrulous|vociferous|voluble|fancy.*language|florid)\b"),
+    ("😢 Sadness, Regret & Complaint",
+     r"\b(sad|sadness|sorrow|grief|mourn|regret|tearful|gloom|"
+     r"lament|lachrymose|querulous|melanchol|woe|despair)\b"),
+    ("🦅 Boldness, Recklessness & Daring",
+     r"\b(bold|daring|reckless|rash|without thinking|fearless|"
+     r"audacious|impetuous|headlong|brash|intrepid|temerity)\b"),
+    ("😨 Shyness, Caution & Restraint",
+     r"\b(shy|timid|cautious|reserved|restraint|hesitant|reluctant|"
+     r"diffident|wary|coy|demure|circumspect)\b"),
+    ("🪢 Unity, Sameness & Division",
+     r"\b(same|alike|uniform|identical|split|divide|separate|opposing groups|"
+     r"homogeneous|polaris|cleave|dissent|schism|fragment)\b"),
+    ("🛠️ Correct, Fix & Improve",
+     r"\b(correct|fix|repair|mend|improve|set right|put right|amend|"
+     r"rectify|redress|remedy|restore|refine|ameliorate)\b"),
+    ("🎚️ Use, Need & Involve",
+     r"\b(use up|involve|require|need|depend|entail|consume|exhaust|"
+     r"deplete|necessitate|hinge|utilise)\b"),
+    ("🚫 Useless, Hopeless & Empty",
+     r"\b(useless|pointless|hopeless|in vain|empty|worthless|"
+     r"futile|fruitless|vain|barren|hollow|inane)\b"),
+    ("🧩 Complicated, Confusing & Vague",
+     r"\b(complicated|complex|confusing|tangled|maze|intricate|"
+     r"labyrinth|convoluted|perplex|baffl|ambiguous|equivocal)\b"),
+    ("🌟 Quality, Character & Behaviour",
+     r"\b(behaviour|character|nature|trait|quality|manner|attitude|temperament|"
+     r"disposition|conduct|personality)\b"),
+]
+GROUP_ORDER = [name for name, _ in GROUPS] + [OTHER_GROUP]
+
+
+def group_for(entry):
+    text = (entry.get("meaning", "") + " " + entry.get("easy", "")).lower()
+    for name, pattern in GROUPS:
+        if re.search(pattern, text):
+            return name
+    return OTHER_GROUP
+
+
+def _anchor(heading):
+    """GitHub-style anchor: drop emoji, lowercase, spaces->'-', strip punctuation."""
+    text = re.sub(r"[^\x00-\x7f]", "", heading)          # drop emoji
+    text = text.strip().lower()
+    text = re.sub(r"[^a-z0-9 -]", "", text)               # strip punctuation
+    return re.sub(r"\s+", "-", text.strip())
+
+
+# ---------------------------------------------------------------------------
+# Output: the SINGLE master file (overwritten each run), grouped colourful tables
+# ---------------------------------------------------------------------------
+def write_master(words, days):
+    """Render every unique word into one grouped, table-formatted master file."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    from collections import defaultdict
+    buckets = defaultdict(list)
+    for e in words:
+        buckets[group_for(e)].append(e)
+    used_groups = [g for g in GROUP_ORDER if buckets[g]]
 
     lines = [
-        f"# Daily Editorial Vocabulary — {nice_date}",
+        "# 📚 Daily Editorial Vocabulary — Master List",
         "",
-        f"> **{len(entries)} words today.** Each: **Word** *(part of speech)* — "
-        "simple meaning · **easy word:** synonym, followed by a newspaper-style "
-        "sentence.",
+        f"> **{len(words)} unique words**, grouped by meaning so similar words "
+        "sit together. Updated daily — new words are merged in, duplicates are "
+        "never repeated.",
         "",
-        "**How to use:** read each meaning and sentence out loud, cover the "
-        "meaning, and try to recall it. Revise yesterday's file before starting.",
+        "**How to use:** pick a group, read each *meaning* and *example* aloud, "
+        "cover the meaning, and recall it. Words in the same table are close in "
+        "sense — learn them as a family.",
         "",
-        "---",
+        "## 🧭 Contents",
         "",
+        "| # | Group | Words |",
+        "| :-: | :-- | :-: |",
     ]
-    for i, e in enumerate(entries, 1):
-        pos = f" *({e['pos']})*" if e.get("pos") else ""
-        easy = f" · **easy word:** {e['easy']}" if e.get("easy") else ""
-        lines.append(f"**{i}. {e['word']}**{pos} — {e['meaning']}{easy}")
-        lines.append(f"> *{e['example']}*")
+    for i, g in enumerate(used_groups, 1):
+        lines.append(f"| {i} | [{g}](#{_anchor(g)}) | {len(buckets[g])} |")
+    lines += ["", "---", ""]
+
+    for g in used_groups:
+        lines.append(f"## {g}")
+        lines.append("")
+        lines.append("| Word | Part of Speech | Meaning | Easy Synonyms | Example |")
+        lines.append("| :-- | :-: | :-- | :-- | :-- |")
+        for e in sorted(buckets[g], key=lambda x: x["word"].lower()):
+            ex = f"*{e['example']}*" if e.get("example") else ""
+            lines.append(
+                f"| **{e['word']}** | {e.get('pos','')} | {e.get('meaning','')} "
+                f"| {e.get('easy','')} | {ex} |"
+            )
         lines.append("")
 
-    # Sources footer
-    srcs = sorted({e.get("source", "Curated word bank") for e in entries})
-    lines += ["---", "", "**Sources:** " + "; ".join(srcs) + ".", ""]
-
-    with open(fname, "w", encoding="utf-8") as fh:
+    nice_days = ", ".join(days)
+    lines += [
+        "---",
+        "",
+        f"**Days merged:** {len(days)} ({nice_days})  ",
+        "**Sources:** Curated word bank + mined editorial words.",
+        "",
+    ]
+    with open(MASTER_FILE, "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines))
-    return fname
+    return MASTER_FILE
 
 
 def update_index():
-    """Rebuild a README index of all daily files, newest first."""
-    files = sorted(OUTPUT_DIR.glob("*_Editorial_Vocabulary.md"), reverse=True)
+    """Point the README at the single master file."""
+    store = load_json(MASTER_STORE, {"words": [], "days": []})
     lines = [
         "# Daily Editorial Vocabulary — Index",
         "",
-        "Auto-generated 50 words a day, mined from national + international "
-        "newspaper editorials with a curated SSC/UPSC fallback bank.",
+        "Auto-generated editorial vocabulary, mined from national + "
+        "international newspaper editorials with a curated SSC/UPSC fallback "
+        "bank. All words are merged into **one** grouped master file (similar "
+        "words together, no duplicates).",
         "",
-        f"**Total days generated:** {len(files)}",
+        f"**Unique words so far:** {len(store.get('words', []))}  ",
+        f"**Days merged:** {len(store.get('days', []))}",
         "",
-        "| Date | File |",
-        "| --- | --- |",
+        "👉 **[Open the master list »](Daily-Words/Editorial_Vocabulary.md)**",
+        "",
     ]
-    for f in files:
-        date = f.name.split("_")[0]
-        lines.append(f"| {date} | [{f.name}](Daily-Words/{f.name}) |")
     with open(BASE_DIR / "README.md", "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
 
@@ -332,10 +524,16 @@ def update_index():
 def main():
     log("=== Daily vocab run started ===")
     today = datetime.date.today()
+    today_str = today.strftime("%Y-%m-%d")
 
-    out_file = OUTPUT_DIR / f"{today.strftime('%Y-%m-%d')}_Editorial_Vocabulary.md"
-    if out_file.exists() and "--force" not in sys.argv:
-        log(f"Already generated for {today}: {out_file.name}. Use --force to redo.")
+    # Master store: the canonical, deduped word list + the days we've merged.
+    store = load_json(MASTER_STORE, {"words": [], "days": []})
+    master_words = store.get("words", [])
+    days = store.get("days", [])
+    have = {w["word"].lower() for w in master_words}
+
+    if today_str in days and "--force" not in sys.argv:
+        log(f"Already merged today ({today_str}). Use --force to add more.")
         return
 
     entries = pick_words()
@@ -343,13 +541,28 @@ def main():
         log("ERROR: no words could be selected. Check word_bank.json.")
         sys.exit(1)
 
-    fname = write_markdown(entries, today)
-    log(f"Wrote {len(entries)} words -> {fname.name}")
+    # Merge ONLY genuinely new words into the master list (group similar later).
+    added = 0
+    for e in entries:
+        if e["word"].lower() not in have:
+            have.add(e["word"].lower())
+            master_words.append({
+                "word": e["word"], "pos": e.get("pos", ""),
+                "meaning": e.get("meaning", ""), "easy": e.get("easy", ""),
+                "example": e.get("example", ""),
+            })
+            added += 1
+    if today_str not in days:
+        days.append(today_str)
+    days = sorted(set(days))
 
-    # Mark words used (append, keep order = oldest first)
-    used = load_json(USED_WORDS_FILE, [])
-    used.extend(e["word"] for e in entries)
-    save_json(USED_WORDS_FILE, used)
+    save_json(MASTER_STORE, {"words": master_words, "days": days})
+
+    fname = write_master(master_words, days)
+    log(f"Merged {added} new words ({len(master_words)} total) -> {fname.name}")
+
+    # Keep used_words.json in sync so pick_words() never re-offers a known word.
+    save_json(USED_WORDS_FILE, [w["word"] for w in master_words])
 
     update_index()
     log("=== Daily vocab run finished ===")
