@@ -43,7 +43,8 @@ USED_WORDS_FILE = BASE_DIR / "used_words.json"
 OUTPUT_DIR = BASE_DIR / "Daily-Words"
 # Single master file that is OVERWRITTEN each day. All words ever produced are
 # merged into it, deduped, and grouped by meaning (similar words together).
-MASTER_FILE = OUTPUT_DIR / "Editorial_Vocabulary.md"
+# Output is a self-contained HTML page (with working in-page anchors) — no .md.
+MASTER_FILE = OUTPUT_DIR / "Editorial_Vocabulary.html"
 # Canonical store backing the master file (the words + which days they came in).
 MASTER_STORE = BASE_DIR / "master_words.json"
 LOG_FILE = BASE_DIR / "run.log"
@@ -431,19 +432,65 @@ def group_for(entry):
     return OTHER_GROUP
 
 
+def _split_emoji(group):
+    """Group names are stored as '<emoji> Text'. Return (emoji, text)."""
+    m = re.match(r"^([^\w\s]+(?:️)?)\s+(.*)$", group)
+    if m:
+        return m.group(1).strip(), m.group(2).strip()
+    return "", group.strip()
+
+
 def _anchor(heading):
-    """GitHub-style anchor: drop emoji, lowercase, spaces->'-', strip punctuation."""
-    text = re.sub(r"[^\x00-\x7f]", "", heading)          # drop emoji
-    text = text.strip().lower()
-    text = re.sub(r"[^a-z0-9 -]", "", text)               # strip punctuation
-    return re.sub(r"\s+", "-", text.strip())
+    """Reproduce the GitHub / VS Code heading-slug algorithm EXACTLY so the
+    Contents links always match the rendered heading anchors:
+      1. lowercase
+      2. remove every char that is not a letter, number, space or hyphen
+         (emoji, '&', ',', etc. are deleted IN PLACE — surrounding spaces stay)
+      3. turn each space into a single hyphen
+    Note: 'Fall & Weaken' -> 'fall  weaken' -> 'fall--weaken' (double hyphen),
+    which is what the renderers actually produce. Matching it is what makes the
+    links work."""
+    text = heading.strip().lower()
+    text = re.sub(r"[^\w \-]", "", text, flags=re.UNICODE)   # delete punctuation/emoji in place
+    text = re.sub(r"[^\x00-\x7f]", "", text)                  # drop any remaining non-ascii (accents)
+    return text.replace(" ", "-")
 
 
 # ---------------------------------------------------------------------------
-# Output: the SINGLE master file (overwritten each run), grouped colourful tables
+# Output: the SINGLE master file (overwritten each run) as a self-contained,
+# styled HTML page with working in-page anchor links.
 # ---------------------------------------------------------------------------
+import html as _html
+
+_PAGE_CSS = """
+  :root{ --ink:#1a1a2e; --accent:#c0392b; }
+  body{ font-family:"Segoe UI",Arial,sans-serif; color:var(--ink); max-width:1000px;
+        margin:0 auto; padding:28px; line-height:1.5; }
+  h1{ color:#fff; background:linear-gradient(135deg,#16213e,#0f3460); padding:18px 22px;
+      border-radius:12px; font-size:1.6em; }
+  h2{ color:#0f3460; border-left:7px solid var(--accent); padding:6px 12px;
+      background:#f3f6fb; border-radius:0 8px 8px 0; margin-top:30px; scroll-margin-top:14px; }
+  blockquote{ background:#fff8e1; border-left:5px solid #f1c40f; margin:12px 0;
+      padding:10px 16px; border-radius:0 8px 8px 0; }
+  table{ border-collapse:collapse; width:100%; margin:12px 0; font-size:.95em; }
+  th{ background:#0f3460; color:#fff; text-align:left; padding:8px 11px; }
+  td{ border:1px solid #d0d7e2; padding:7px 11px; vertical-align:top; }
+  tr:nth-child(even){ background:#f5f8fc; }
+  a{ color:#0f3460; text-decoration:none; }
+  a:hover{ text-decoration:underline; }
+  .toc th,.toc td{ }
+  .count{ text-align:center; font-weight:600; }
+  .backtop{ font-size:.8em; }
+  hr{ border:0; border-top:2px dashed #cfd8e3; margin:22px 0; }
+"""
+
+
+def _esc(s):
+    return _html.escape(s or "", quote=False)
+
+
 def write_master(words, days):
-    """Render every unique word into one grouped, table-formatted master file."""
+    """Render every unique word into ONE self-contained, grouped HTML page."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     from collections import defaultdict
     buckets = defaultdict(list)
@@ -451,49 +498,58 @@ def write_master(words, days):
         buckets[group_for(e)].append(e)
     used_groups = [g for g in GROUP_ORDER if buckets[g]]
 
-    lines = [
-        "# 📚 Daily Editorial Vocabulary — Master List",
-        "",
-        f"> **{len(words)} unique words**, grouped by meaning so similar words "
-        "sit together. Updated daily — new words are merged in, duplicates are "
-        "never repeated.",
-        "",
-        "**How to use:** pick a group, read each *meaning* and *example* aloud, "
-        "cover the meaning, and recall it. Words in the same table are close in "
-        "sense — learn them as a family.",
-        "",
-        "## 🧭 Contents",
-        "",
-        "| # | Group | Words |",
-        "| :-: | :-- | :-: |",
-    ]
-    for i, g in enumerate(used_groups, 1):
-        lines.append(f"| {i} | [{g}](#{_anchor(g)}) | {len(buckets[g])} |")
-    lines += ["", "---", ""]
+    p = []
+    p.append("<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'>")
+    p.append("<meta name='viewport' content='width=device-width, initial-scale=1'>")
+    p.append("<title>Daily Editorial Vocabulary — Master List</title>")
+    p.append(f"<style>{_PAGE_CSS}</style></head><body>")
+    p.append("<h1>📚 Daily Editorial Vocabulary — Master List</h1>")
+    p.append(
+        f"<blockquote><strong>{len(words)} unique words</strong>, grouped by "
+        "meaning so similar words sit together. Updated daily — new words are "
+        "merged in, duplicates are never repeated.<br><br><strong>How to use:</strong> "
+        "pick a group, read each <em>meaning</em> and <em>example</em> aloud, cover "
+        "the meaning, and recall it.</blockquote>")
 
+    # Contents (anchors target the slug of each group's text)
+    p.append("<h2 id='contents'>🧭 Contents</h2>")
+    p.append("<table class='toc'><thead><tr><th>#</th><th>Group</th>"
+             "<th>Words</th></tr></thead><tbody>")
+    for i, g in enumerate(used_groups, 1):
+        emoji, text = _split_emoji(g)
+        slug = _anchor(text)
+        p.append(f"<tr><td class='count'>{i}</td>"
+                 f"<td><a href='#{slug}'>{_esc(g)}</a></td>"
+                 f"<td class='count'>{len(buckets[g])}</td></tr>")
+    p.append("</tbody></table>")
+
+    # Group sections
     for g in used_groups:
-        lines.append(f"## {g}")
-        lines.append("")
-        lines.append("| Word | Part of Speech | Meaning | Easy Synonyms | Example |")
-        lines.append("| :-- | :-: | :-- | :-- | :-- |")
+        emoji, text = _split_emoji(g)
+        slug = _anchor(text)
+        p.append(f"<h2 id='{slug}'>{_esc(g)} "
+                 "<a class='backtop' href='#contents'>↑ top</a></h2>")
+        p.append("<table><thead><tr><th>Word</th><th>Part of Speech</th>"
+                 "<th>Meaning</th><th>Easy Synonyms</th><th>Example</th>"
+                 "</tr></thead><tbody>")
         for e in sorted(buckets[g], key=lambda x: x["word"].lower()):
-            ex = f"*{e['example']}*" if e.get("example") else ""
-            lines.append(
-                f"| **{e['word']}** | {e.get('pos','')} | {e.get('meaning','')} "
-                f"| {e.get('easy','')} | {ex} |"
-            )
-        lines.append("")
+            ex = f"<em>{_esc(e['example'])}</em>" if e.get("example") else ""
+            p.append(
+                f"<tr><td><strong>{_esc(e['word'])}</strong></td>"
+                f"<td>{_esc(e.get('pos',''))}</td>"
+                f"<td>{_esc(e.get('meaning',''))}</td>"
+                f"<td>{_esc(e.get('easy',''))}</td>"
+                f"<td>{ex}</td></tr>")
+        p.append("</tbody></table>")
 
     nice_days = ", ".join(days)
-    lines += [
-        "---",
-        "",
-        f"**Days merged:** {len(days)} ({nice_days})  ",
-        "**Sources:** Curated word bank + mined editorial words.",
-        "",
-    ]
+    p.append("<hr>")
+    p.append(f"<p><strong>Days merged:</strong> {len(days)} ({_esc(nice_days)})<br>"
+             "<strong>Sources:</strong> Curated word bank + mined editorial words.</p>")
+    p.append("</body></html>")
+
     with open(MASTER_FILE, "w", encoding="utf-8") as fh:
-        fh.write("\n".join(lines))
+        fh.write("\n".join(p))
     return MASTER_FILE
 
 
@@ -511,7 +567,8 @@ def update_index():
         f"**Unique words so far:** {len(store.get('words', []))}  ",
         f"**Days merged:** {len(store.get('days', []))}",
         "",
-        "👉 **[Open the master list »](Daily-Words/Editorial_Vocabulary.md)**",
+        "👉 **[Open the master list (HTML) »](Daily-Words/Editorial_Vocabulary.html)** "
+        "— open in a browser; the Contents links jump to each group.",
         "",
     ]
     with open(BASE_DIR / "README.md", "w", encoding="utf-8") as fh:

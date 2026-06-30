@@ -2,10 +2,11 @@
 
 Automatically collects vocabulary words (word, part of speech, simple meaning,
 easy synonym, newspaper-style example) and merges them — **deduped and grouped
-by meaning** — into a single, colourful, table-formatted master file:
-[Daily-Words/Editorial_Vocabulary.md](Daily-Words/Editorial_Vocabulary.md).
-Each daily run adds only genuinely new words and rewrites that one file; similar
-words always sit together in the same group.
+by meaning** — into a single, colourful, table-formatted **HTML** master file:
+[Daily-Words/Editorial_Vocabulary.html](Daily-Words/Editorial_Vocabulary.html)
+(open it in a browser; the Contents links jump to each group). Each daily run adds
+only genuinely new words and rewrites that one file; similar words always sit
+together in the same group.
 
 ## How it works
 
@@ -84,4 +85,4 @@ Edit `word_bank.json` — append objects to the `words` array with keys
 | `setup_task_scheduler.ps1` | Registers / updates the daily task |
 | `master_words.json` | Canonical deduped word store backing the master file |
 | `run.log` | Run history |
-| `Daily-Words/Editorial_Vocabulary.md` | **The single master file** — all words, grouped by meaning, overwritten daily |
+| `Daily-Words/Editorial_Vocabulary.html` | **The single master file** (HTML) — all words, grouped by meaning, overwritten daily; Contents links jump to each group |

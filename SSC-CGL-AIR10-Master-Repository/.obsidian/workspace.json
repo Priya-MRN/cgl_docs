@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "326af100afd1b2fa",
+        "id": "d6a360333a55538b",
         "type": "tabs",
         "children": [
           {
-            "id": "943934bef1cc66bb",
+            "id": "025b791fa1094821",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quantitative-Aptitude/12_Trigonometry.md",
+                "file": "Daily-Editorial-Vocabulary/README.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "12_Trigonometry"
+              "title": "README"
             }
           }
         ]
@@ -78,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 502.5
   },
   "right": {
     "id": "91bdb993954e045e",
@@ -94,17 +104,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quantitative-Aptitude/12_Trigonometry.md",
+                "file": "Daily-Editorial-Vocabulary/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 12_Trigonometry"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -182,20 +192,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "943934bef1cc66bb",
+  "active": "025b791fa1094821",
   "lastOpenFiles": [
-    "Quantitative-Aptitude/03_Profit_Loss.md.tmp.1400.59c1a879da78",
-    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.a2aaeb1e87fa",
-    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.0528135f8f2c",
-    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.fdd1c9526a23",
-    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.97be572a6704",
-    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.306c8e59c774",
-    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.dca19e289bef",
+    "Daily-Editorial-Vocabulary/SETUP.md.tmp.15996.2b621f561a05",
+    "Daily-Editorial-Vocabulary/SETUP.md.tmp.15996.9b67b502c49c",
+    "Daily-Editorial-Vocabulary/Daily-Words/Editorial_Vocabulary.md",
+    "Daily-Editorial-Vocabulary/daily_vocab.py.tmp.15996.e8ef58da8e7d",
+    "Daily-Editorial-Vocabulary/daily_vocab.py.tmp.15996.6d6c4cae426f",
+    "Daily-Editorial-Vocabulary/Daily-Words/Editorial_Vocabulary.html",
+    "Daily-Editorial-Vocabulary/README.md",
+    "quant-chet/Quant_Worked_Examples.md",
+    "Daily-Editorial-Vocabulary/daily_vocab.py.tmp.15996.b21a1fe8e879",
+    "Daily-Editorial-Vocabulary/SETUP.md",
+    "Daily-Editorial-Vocabulary/__pycache__/daily_vocab.cpython-314.pyc",
+    "Daily-Editorial-Vocabulary/__pycache__",
+    "Daily-Editorial-Vocabulary/daily_vocab.py.tmp.15996.c0ed3db5cfae",
+    "Daily-Editorial-Vocabulary/daily_vocab.py.tmp.15996.f4ce504c3596",
+    "Formula-Sheets/SSC-CGL-ASO-Formulas-Tricks-Master.pdf",
+    "Formula-Sheets/Clocks-and-Calendars-Deep-Dive.md",
+    "Formula-Sheets/SSC-CGL-ASO-Formulas-Tricks-Master.md",
+    "Quantitative-Aptitude/12_Trigonometry.md",
     "Quantitative-Aptitude/05_Average_Mixtures.md",
-    "Quantitative-Aptitude/12_Trigonometry.md.tmp.1400.c6d9373a737d",
-    "Quantitative-Aptitude/05_Average_Mixtures.md.tmp.18940.e75ba965e70f",
-    "Quantitative-Aptitude/05_Average_Mixtures.md.tmp.18940.d17eba4a4977",
-    "Untitled 1",
     "Daily-Editorial-Vocabulary/Daily-Words/2026-06-26_Editorial_Vocabulary.md",
     "Daily-Editorial-Vocabulary/Daily-Words/2026-06-25_Editorial_Vocabulary.md",
     "English/10_Newspaper_Vocabulary.md",
