@@ -1,0 +1,235 @@
+{
+  "tricks": [
+    {
+      "id": "PCT-01", "topic": "Percentage", "priority": "high",
+      "name": "Fraction ⇄ Percentage memorised table",
+      "shortcut": "Memorise 1/n as a %: 1/2=50, 1/3=33.33, 1/4=25, 1/5=20, 1/6=16.66, 1/7=14.28, 1/8=12.5, 1/9=11.11, 1/11=9.09, 1/12=8.33. Then x/n is just a multiple.",
+      "mental": "To find 37.5% of 240: 37.5% = 3/8, so 240÷8×3 = 30×3 = 90. Converting the % to a small fraction makes it a one-step division.",
+      "whenUse": "Whenever the percentage equals a clean fraction (12.5, 16.66, 37.5, 62.5, 87.5, 33.33, 66.66) — extremely common in profit-loss, DI, and data questions.",
+      "whenNotUse": "When the percentage is an 'ugly' number (e.g. 23%, 47%) that is not a neat fraction — then plain multiplication is faster than forcing a fraction.",
+      "traps": "Mixing up 1/6 = 16.66% with 1/16 = 6.25%. And 0.66 is 66.66%, not 66%.",
+      "pyq": "Q: 87.5% of 64 = ? → 87.5% = 7/8 → 64÷8×7 = 8×7 = 56. Answer: 56.",
+      "fails": "Fails for repeating decimals when the question needs exact rupees (e.g. 1/3 of ₹100 = ₹33.33…) — round only at the final step, or the running error compounds."
+    },
+    {
+      "id": "PCT-02", "topic": "Percentage", "priority": "high",
+      "name": "Successive % change = a + b + ab/100",
+      "shortcut": "Two successive changes of a% then b% give a single net change of (a + b + ab/100)%. Use −b for a decrease.",
+      "mental": "20% up then 10% down: 20 − 10 − 200/100 = 10 − 2 = +8%. Add the two, then add their product over 100.",
+      "whenUse": "Price first raised then lowered, population grows two years, length×breadth area change, two successive discounts.",
+      "whenNotUse": "When more than 2 stages and you need an exact figure — chaining multipliers (×1.2×0.9) is cleaner than repeating the formula.",
+      "traps": "Forgetting the ab/100 term and just doing a+b. And the sign: a decrease must enter as negative in BOTH the sum and the product.",
+      "pyq": "Q: A salary rises 10% then falls 10%. Net? → 10 − 10 − 100/100 = −1% (a 1% loss, never zero).",
+      "fails": "Doesn't directly give the rupee value — only the %. If the base differs between the two stages (not the same quantity), the formula is invalid."
+    },
+    {
+      "id": "PCT-03", "topic": "Percentage", "priority": "high",
+      "name": "Product constancy (if one ↑ x%, other ↓ to keep product same)",
+      "shortcut": "If A×B is fixed and A rises by x%, B must fall by x/(100+x)×100 %. If A falls by x%, B rises by x/(100−x)×100 %.",
+      "mental": "Price up 25% (=1/4), so to keep expenditure same, consumption down 1/(4+1) = 1/5 = 20%. Convert x% to a fraction, add/subtract 1 in the denominator.",
+      "whenUse": "Price–consumption–expenditure, speed–time (fixed distance), length–breadth (fixed area) questions.",
+      "whenNotUse": "When the product itself changes (e.g. expenditure also increases by some %) — then it's a normal successive-change problem, not constancy.",
+      "traps": "Using x/(100) instead of x/(100±x). The reduction % is NOT equal to the increase %.",
+      "pyq": "Q: Petrol price rises 20%. By what % must use drop to keep the bill same? → 20/(120)×100 = 16.66%.",
+      "fails": "Fails if the two quantities are not in pure inverse proportion (e.g. a fixed charge is added) — the constancy assumption breaks."
+    },
+    {
+      "id": "PL-01", "topic": "Profit & Loss", "priority": "high",
+      "name": "Single-multiplier chaining",
+      "shortcut": "Treat every deal as a multiplier on CP: +p% → ×(1+p/100), −l% → ×(1−l/100). Chain all deals, then solve once.",
+      "mental": "A→B +20%, B→C +25%: 1.2×1.25 = 1.5. So C pays 1.5× A's cost. Multiply factors, don't add percentages.",
+      "whenUse": "An article passes through a chain of buy–sell deals; or CP↔SP at a given %.",
+      "whenNotUse": "Single straightforward CP→SP — just use SP = CP(100±p)/100 directly; chaining is overkill.",
+      "traps": "Adding the percentages (20+25 = 45%) instead of multiplying the factors (×1.5 = 50%).",
+      "pyq": "Q: D pays ₹1350 after A→B +20%, B→C +25%, C→D −10%. A's cost? → 1.2×1.25×0.9 = 1.35 → 1350/1.35 = ₹1000.",
+      "fails": "Fails when a deal is on a DIFFERENT base (e.g. profit on SP, not CP) — convert that deal's base first or the multiplier is wrong."
+    },
+    {
+      "id": "PL-02", "topic": "Profit & Loss", "priority": "high",
+      "name": "Two articles at same SP, ±x% → always loss (x/10)²%",
+      "shortcut": "Sell two items at the SAME price, one at +x% and one at −x%: net is ALWAYS a loss of (x/10)% squared = x²/100 %.",
+      "mental": "x = 10 → loss = 1%. x = 20 → loss = 4%. x = 25 → 6.25%. Just halve-ish: (x/10) then square.",
+      "whenUse": "'Two items sold at the same price, one gains x%, other loses x%' — asks net profit/loss%.",
+      "whenNotUse": "If the two SELLING PRICES are different, or the gain% ≠ loss% — then compute CPs separately; the formula is invalid.",
+      "traps": "Assuming gain and loss cancel to 0%. They never do at equal SP — it's always a loss.",
+      "pyq": "Q: Two scooters sold at ₹1.4L each, +25% and −25%. Net? → loss (25/10)² = 6.25%.",
+      "fails": "Fails the moment the percentages differ (e.g. +20% and −25%) — there is no clean square formula then."
+    },
+    {
+      "id": "PL-03", "topic": "Profit & Loss", "priority": "medium",
+      "name": "Dishonest dealer false-weight gain %",
+      "shortcut": "Sells at CP but uses a false weight: Gain% = error/(true − error) × 100, where 'error' = shortfall in grams.",
+      "mental": "Uses 900 g for 1 kg → error 100, true 1000: 100/900×100 = 11.11% gain. Shortfall over the weight actually given.",
+      "whenUse": "Shopkeeper claims to sell at cost price but gives less than the stated weight.",
+      "whenNotUse": "When the dealer ALSO marks up the price — then combine the markup multiplier with the weight gain (two effects).",
+      "traps": "Dividing by 1000 (true weight) instead of 900 (given weight). Denominator is what the customer actually receives.",
+      "pyq": "Q: Uses a 950 g weight for a kg, sells at CP. Gain%? → 50/950×100 = 5.26%.",
+      "fails": "Fails if the goods are also sold at a profit/discount — the single formula only covers the weight cheat alone."
+    },
+    {
+      "id": "AVG-01", "topic": "Average & Mixtures", "priority": "high",
+      "name": "Average speed for equal distance (harmonic mean)",
+      "shortcut": "Equal distance at speeds a and b → average speed = 2ab/(a+b), NOT (a+b)/2.",
+      "mental": "60 and 40: 2×60×40/100 = 4800/100 = 48 km/h. Product×2 over the sum.",
+      "whenUse": "Same distance covered at two different speeds (go at a, return at b).",
+      "whenNotUse": "When the TIME is equal (not distance) — then it IS the simple mean (a+b)/2.",
+      "traps": "Using the simple average (a+b)/2 = 50 — wrong; equal distance always gives a number below the simple mean.",
+      "pyq": "Q: 120 km at 60, back at 40. Avg speed? → 2·60·40/100 = 48 km/h.",
+      "fails": "Fails for three speeds or unequal distances — use total distance ÷ total time instead."
+    },
+    {
+      "id": "AVG-02", "topic": "Average & Mixtures", "priority": "high",
+      "name": "Alligation cross method",
+      "shortcut": "Mix cheap (c) and dear (d) to get mean (m): ratio cheap:dear = (d − m) : (m − c). Cross the differences.",
+      "mental": "Tea ₹12 & ₹18 to make ₹16: (18−16):(16−12) = 2:4 = 1:2. The closer price needs the larger share.",
+      "whenUse": "Two ingredients/groups combined to a known average; finding the mix ratio.",
+      "whenNotUse": "Three or more ingredients with no pairing — split into pairs or solve by equations.",
+      "traps": "Putting the ratio on the wrong side. The quantity is INVERSELY proportional to the distance from the mean.",
+      "pyq": "Q: In what ratio mix ₹20 and ₹30 rice to sell at ₹24 (cost)? → (30−24):(24−20) = 6:4 = 3:2.",
+      "fails": "Fails when the 'mean' is outside [c, d] — impossible to mix to it; check the mean lies between the two."
+    },
+    {
+      "id": "AVG-03", "topic": "Average & Mixtures", "priority": "high",
+      "name": "Repeated replacement / dilution",
+      "shortcut": "Remove x units and refill with water, n times, from a vessel of volume V: pure liquid left = Original × (1 − x/V)ⁿ.",
+      "mental": "20 L milk, remove 4 L & refill, twice: 20×(1−4/20)² = 20×(0.8)² = 20×0.64 = 12.8 L milk left.",
+      "whenUse": "Same amount drawn off and replaced by water repeatedly; find remaining pure quantity/ratio.",
+      "whenNotUse": "When DIFFERENT amounts are removed each round — apply the multiplier stage by stage, not the single power.",
+      "traps": "Using x/Original instead of x/V (vessel volume), and forgetting the power n.",
+      "pyq": "Q: 40 L, 8 L replaced thrice. Milk left? → 40×(1−8/40)³ = 40×(0.8)³ = 40×0.512 = 20.48 L.",
+      "fails": "Fails if water is added WITHOUT first removing mixture (volume grows) — that's a different ratio problem."
+    },
+    {
+      "id": "SICI-01", "topic": "Simple & Compound Interest", "priority": "high",
+      "name": "CI − SI difference (2 & 3 years)",
+      "shortcut": "For 2 years: CI − SI = P(R/100)². For 3 years: CI − SI = P(R/100)²·(3 + R/100).",
+      "mental": "P=8000, R=5%, 2 yr: 8000×(1/20)² = 8000/400 = ₹20. Square the rate-fraction, times P.",
+      "whenUse": "Question gives the CI−SI gap (or asks for it) over 2 or 3 years at the same rate.",
+      "whenNotUse": "For 1 year (CI = SI, difference 0), or when compounding is half-yearly — adjust R and n first.",
+      "traps": "Using R/100 without squaring; or applying the 2-year formula to a 3-year gap.",
+      "pyq": "Q: Difference between CI and SI on ₹10000 at 10% for 2 yrs? → 10000×(0.1)² = ₹100.",
+      "fails": "Fails for non-annual compounding (half-yearly/quarterly) unless you convert rate and time accordingly."
+    },
+    {
+      "id": "SICI-02", "topic": "Simple & Compound Interest", "priority": "medium",
+      "name": "Doubling time — Rule of 72 (CI)",
+      "shortcut": "Money doubles under compound interest in ≈ 72/R years. Under simple interest it doubles in exactly 100/R years.",
+      "mental": "At 8% CI, doubles in 72/8 = 9 years. At 8% SI, doubles in 100/8 = 12.5 years.",
+      "whenUse": "Quick estimate of doubling/tripling time, or back-solving the rate from a doubling period.",
+      "whenNotUse": "When an EXACT compound answer is needed — Rule of 72 is an approximation; use (1+R/100)ⁿ for precision.",
+      "traps": "Applying 72/R to simple interest (it's for compound). For SI, doubling is 100/R, tripling 200/R.",
+      "pyq": "Q: A sum doubles in 4 yrs at SI. Rate? → 100/4 = 25% per annum.",
+      "fails": "Inaccurate at high rates (e.g. 24%+) and for non-doubling targets; it's an estimate, not exact for CI."
+    },
+    {
+      "id": "TW-01", "topic": "Time & Work", "priority": "high",
+      "name": "LCM method (assume total work = LCM of days)",
+      "shortcut": "Let total work = LCM of the given days. Each worker's daily output = total ÷ his days. Add rates, divide back.",
+      "mental": "A=10 d, B=15 d → total = LCM 30. A=3/day, B=2/day → together 5/day → 30/5 = 6 days.",
+      "whenUse": "Almost every time-and-work problem with combined/alternate workers, leaving, or joining.",
+      "whenNotUse": "Pure single-worker proportion (M₁D₁=M₂D₂) is faster for simple men-days scaling.",
+      "traps": "Forgetting to add efficiencies before dividing; or using days instead of rates when combining.",
+      "pyq": "Q: A 12 d, B 18 d, together? → LCM 36; rates 3+2=5; 36/5 = 7.2 days.",
+      "fails": "Gets messy when efficiencies are given as ratios with no days, or work is done in unequal shifts — model rates directly."
+    },
+    {
+      "id": "TW-02", "topic": "Time & Work", "priority": "medium",
+      "name": "Efficiency ratio ⇒ inverse time ratio",
+      "shortcut": "If A is x times as efficient as B, A takes 1/x the time. Efficiency and time are inversely proportional.",
+      "mental": "A is 3× as efficient as B and they differ by 20 days: time ratio 1:3, difference 2 parts = 20 → 1 part 10 → A=10, B=30 days.",
+      "whenUse": "'A is twice as good as B', or 'A does in 10 days what B does in 15' type comparisons.",
+      "whenNotUse": "When absolute work rates are already given — just use the LCM method.",
+      "traps": "Flipping the ratio: more efficient = LESS time, so the efficient worker gets the SMALLER time share.",
+      "pyq": "Q: A is thrice as efficient as B; B takes 60 days. A? → 60/3 = 20 days.",
+      "fails": "Fails if efficiency changes mid-task (fatigue, machine slowdown) — constant-rate assumption breaks."
+    },
+    {
+      "id": "TSD-01", "topic": "Time, Speed & Distance", "priority": "high",
+      "name": "km/h ⇄ m/s with 5/18",
+      "shortcut": "km/h → m/s: multiply by 5/18. m/s → km/h: multiply by 18/5.",
+      "mental": "72 km/h → 72×5/18 = 4×5 = 20 m/s. (72/18 = 4, then ×5.)",
+      "whenUse": "Any train/relative-speed problem mixing km/h with seconds and metres.",
+      "whenNotUse": "When all units are already consistent (all km & h, or all m & s) — no conversion needed.",
+      "traps": "Using 18/5 the wrong direction. km/h is the bigger-feeling unit; to get m/s the number gets SMALLER (×5/18).",
+      "pyq": "Q: A train at 90 km/h crosses a pole in 8 s. Length? → 90×5/18 = 25 m/s; 25×8 = 200 m.",
+      "fails": "No failure case — just keep the direction straight; the trap is purely the multiplier orientation."
+    },
+    {
+      "id": "TSD-02", "topic": "Time, Speed & Distance", "priority": "high",
+      "name": "Train crossing: pole vs platform",
+      "shortcut": "Crossing a pole (point): time = train length ÷ speed. Crossing a platform/bridge: time = (train + platform length) ÷ speed.",
+      "mental": "A pole adds nothing; a platform adds its own length to the distance. Decide first whether the object has length.",
+      "whenUse": "Train passing a pole/man (point object) vs a platform/tunnel/another train (has length).",
+      "whenNotUse": "Two trains crossing each other — use relative speed (sum if opposite, difference if same direction) plus both lengths.",
+      "traps": "Adding the platform length when crossing a POLE, or forgetting to add the train's own length for a platform.",
+      "pyq": "Q: 150 m train at 20 m/s crosses a 250 m platform. Time? → (150+250)/20 = 20 s.",
+      "fails": "Fails for two moving trains — that needs relative speed, not this single-object formula."
+    },
+    {
+      "id": "TSD-03", "topic": "Time, Speed & Distance", "priority": "medium",
+      "name": "Boats & streams half-sum / half-difference",
+      "shortcut": "Downstream = b+s, Upstream = b−s. So boat speed b = (down+up)/2 and stream speed s = (down−up)/2.",
+      "mental": "Down 12, up 8: boat = (12+8)/2 = 10, stream = (12−8)/2 = 2 km/h. Average for boat, half-gap for stream.",
+      "whenUse": "Given downstream and upstream speeds (or times over a fixed distance), find boat or stream speed.",
+      "whenNotUse": "When only one of down/up is given without the other — you need both, or a distance-time pair.",
+      "traps": "Swapping which is bigger: downstream is ALWAYS faster (b+s). Stream speed can't exceed boat speed.",
+      "pyq": "Q: Down 15 km/h, up 9 km/h. Stream speed? → (15−9)/2 = 3 km/h.",
+      "fails": "Fails if the stream speed varies along the route or the distances up/down differ — model with time = d/speed."
+    },
+    {
+      "id": "ALG-01", "topic": "Algebra", "priority": "high",
+      "name": "x + 1/x identities",
+      "shortcut": "If x + 1/x = k: then x² + 1/x² = k² − 2, and x³ + 1/x³ = k³ − 3k. If x − 1/x = k: x² + 1/x² = k² + 2.",
+      "mental": "x+1/x = 3 → x²+1/x² = 9−2 = 7 → x³+1/x³ = 27−9 = 18. Square minus 2, then cube minus 3k.",
+      "whenUse": "Given a sum/difference of a number and its reciprocal; asked higher powers.",
+      "whenNotUse": "When x itself is asked (solve the quadratic) rather than a symmetric power expression.",
+      "traps": "Using k²+2 for the (x+1/x) case — it's k²−2 for a sum, k²+2 for a difference.",
+      "pyq": "Q: If x+1/x = 2, find x³+1/x³ → 2³ − 3·2 = 8 − 6 = 2.",
+      "fails": "Doesn't help for x + 1/y (different variables) or non-reciprocal pairs — identities assume the exact reciprocal."
+    },
+    {
+      "id": "ALG-02", "topic": "Algebra", "priority": "medium",
+      "name": "a+b+c = 0 ⇒ a³+b³+c³ = 3abc",
+      "shortcut": "Whenever a + b + c = 0, the sum of cubes collapses to 3abc.",
+      "mental": "Spot that the three terms add to zero, then just multiply them and triple it — skip all expansion.",
+      "whenUse": "Three quantities visibly summing to zero (e.g. (x−y)+(y−z)+(z−x) = 0).",
+      "whenNotUse": "When a+b+c ≠ 0 — must use the full identity a³+b³+c³−3abc = (a+b+c)(a²+b²+c²−ab−bc−ca).",
+      "traps": "Applying 3abc without first CHECKING that the sum is actually zero.",
+      "pyq": "Q: If a=7, b=−3, c=−4 (sum 0), a³+b³+c³ = 3abc = 3·7·(−3)·(−4) = 252.",
+      "fails": "Completely invalid the instant the three don't sum to zero — always verify the condition."
+    },
+    {
+      "id": "ALG-03", "topic": "Algebra", "priority": "high",
+      "name": "x=(a+b)/(a−b), y=(a−b)/(a+b) reciprocal pair",
+      "shortcut": "If x=(a+b)/(a−b) and y=(a−b)/(a+b), then instantly: xy=1 (they're reciprocals) and x+y = 2(a²+b²)/(a²−b²). Then x²+y² = (x+y)²−2xy = (x+y)²−2.",
+      "mental": "Write xy=1 first. For x+y, top = 2(a²+b²), bottom = a²−b². Then square the sum and subtract 2 — no fraction expansion at all.",
+      "whenUse": "Question gives x and y as (a+b)/(a−b) and its flip, and asks x+y, x²+y², x³+y³, or 1/x+1/y.",
+      "whenNotUse": "When x and y are NOT exact reciprocals (e.g. y has a different numerator) — then xy≠1 and you must compute both separately.",
+      "traps": "Forgetting that xy=1 makes 1/x+1/y = x+y, and x²+y² = (x+y)²−2 (not −2xy left as a variable). Also a²−b² in the denominator can be negative if b>a — keep the sign.",
+      "pyq": "Q: a=5,b=3 ⇒ x=4, y=1/4. x+y=2(25+9)/(25−9)=68/16=4.25; x²+y²=4.25²−2=18.0625−2=16.0625. ✔",
+      "fails": "Fails if a=b (denominator a−b=0, undefined) or if the pair isn't truly reciprocal — verify xy=1 before using x²+y²=(x+y)²−2."
+    },
+    {
+      "id": "GEO-01", "topic": "Geometry & Mensuration", "priority": "high",
+      "name": "Pythagorean triples (skip the root)",
+      "shortcut": "Recognise triples instead of computing roots: 3-4-5, 5-12-13, 8-15-17, 7-24-25, 9-40-41, 20-21-29 (and their multiples).",
+      "mental": "Sides 9 and 12 → it's 3-4-5 ×3 → hypotenuse 15. Spot the family, scale up.",
+      "whenUse": "Right triangles, diagonals, ladder/wall, and any √(a²+b²) where a,b fit a known triple.",
+      "whenNotUse": "When the sides don't form a triple — then actually compute √(a²+b²).",
+      "traps": "Assuming every right triangle is 3-4-5; check the ratio first. 6-8-10 is a triple, 6-8-9 is not.",
+      "pyq": "Q: Ladder foot 5 m from wall, top at 12 m. Length? → 5-12-13 → 13 m.",
+      "fails": "Fails for non-triple sides (e.g. 2 and 3) — no clean integer hypotenuse, must use the root."
+    },
+    {
+      "id": "GEO-02", "topic": "Geometry & Mensuration", "priority": "medium",
+      "name": "Painted cube — 3/2/1/0 face counts",
+      "shortcut": "Cube painted then cut into n³: 3 faces = 8 (corners), 2 faces = 12(n−2), 1 face = 6(n−2)², 0 faces = (n−2)³.",
+      "mental": "n=4: corners 8, edges 12·2=24, faces 6·4=24, inner 2³=8. They sum to 64 = 4³ (always check).",
+      "whenUse": "A painted cube cut into equal smaller cubes; asks how many have k painted faces.",
+      "whenNotUse": "When only some faces are painted, or two faces left blank — recompute; the standard counts assume all 6 painted.",
+      "traps": "Using n instead of (n−2) for edges/faces/inner. Corners are always 8 regardless of n.",
+      "pyq": "Q: Cube cut into 27 (n=3), how many have exactly 2 faces painted? → 12(3−2) = 12.",
+      "fails": "Fails when faces are partially painted or the cuts are unequal — the symmetric formula no longer holds."
+    }
+  ]
+}

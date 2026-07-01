@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSC CGL — Arithmetic Trick Decision Matrix (Recognition → Shortcut → Speed)</title>
+<style>
+  :root{
+    --bg:#0f1420; --card:#161c2b; --ink:#e9edf5; --muted:#9aa7bd;
+    --line:#28304a; --accent:#4ea1ff; --accent2:#ffb454; --good:#4ade80; --bad:#f87171;
+    --chip:#1f2740;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;font-size:15px}
+  header{padding:28px 20px 18px;border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,#141b2c,#0f1420)}
+  header h1{margin:0 0 6px;font-size:26px;letter-spacing:.2px}
+  header p{margin:2px 0;color:var(--muted);font-size:14px}
+  .wrap{max-width:1280px;margin:0 auto;padding:0 16px 80px}
+  nav.toc{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 8px}
+  nav.toc a{background:var(--chip);color:var(--ink);text-decoration:none;padding:7px 12px;
+    border-radius:999px;font-size:13px;border:1px solid var(--line)}
+  nav.toc a:hover{border-color:var(--accent);color:var(--accent)}
+  section{margin:34px 0 0}
+  h2.sec{font-size:20px;margin:0 0 4px;padding:10px 14px;border-left:4px solid var(--accent);
+    background:var(--card);border-radius:8px}
+  .sub{color:var(--muted);font-size:13px;margin:6px 2px 12px}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+  table{border-collapse:collapse;width:100%;min-width:1050px;font-size:13.5px}
+  th,td{border:1px solid var(--line);padding:9px 11px;vertical-align:top;text-align:left}
+  thead th{background:#1c2438;color:var(--accent);position:sticky;top:0;font-size:12.5px;
+    text-transform:uppercase;letter-spacing:.4px;white-space:nowrap}
+  tbody tr:nth-child(even){background:#131a29}
+  td.sit{font-weight:600;color:#fff;white-space:nowrap;min-width:120px}
+  .formula{font-family:"Cascadia Code","Consolas",monospace;background:#0d1220;
+    border:1px solid var(--line);border-radius:6px;padding:2px 6px;color:#d7e3ff;
+    display:inline-block;margin:1px 0;font-size:12.5px}
+  .fast{color:var(--good);font-weight:600}
+  .mistake{color:var(--bad)}
+  .chip{display:inline-block;background:var(--chip);border:1px solid var(--line);
+    border-radius:5px;padding:1px 7px;font-size:11.5px;color:var(--muted)}
+  .callout{background:#12203a;border:1px solid #234;border-left:4px solid var(--accent2);
+    padding:12px 14px;border-radius:8px;margin:14px 0;font-size:13.5px}
+  .callout b{color:var(--accent2)}
+  .legend{display:flex;flex-wrap:wrap;gap:14px;margin:10px 0 0;color:var(--muted);font-size:12.5px}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+  footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:40px;
+    padding-top:18px;border-top:1px solid var(--line)}
+  .top{position:fixed;right:16px;bottom:16px;background:var(--accent);color:#04122a;
+    text-decoration:none;padding:9px 13px;border-radius:999px;font-weight:700;font-size:13px;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+  code{color:#ffd9a0}
+  .butterfly{color:#f0abfc}
+  @media print{
+    body{background:#fff;color:#000}
+    header,section h2.sec,.tablewrap,td,th{background:#fff !important;color:#000 !important}
+    nav.toc,.top{display:none}
+    .formula{background:#f2f2f2;color:#000}
+    thead th{color:#000;border-bottom:2px solid #000}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap" style="padding-bottom:0">
+    <h1>⚡ SSC CGL — Arithmetic Trick Decision Matrix</h1>
+    <p><b>Recognition → Shortcut → Formula → Fastest route.</b> Built from the repository's PYQ pattern banks (2021–2025).</p>
+    <p>Target post: ASO · Tier-I + Paper-I scope · Solve each type in under 30 seconds.</p>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--good)"></span> Fastest method</span>
+      <span><span class="dot" style="background:var(--bad)"></span> Common trap / mistake</span>
+      <span><span class="butterfly">◆</span> Butterfly (cross-multiply) trick</span>
+      <span class="chip">🔴 High-repeat topic</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="toc">
+    <a href="#pl">1 · Profit &amp; Loss 🔴</a>
+    <a href="#pct">2 · Percentage 🔴</a>
+    <a href="#si">3 · SI &amp; CI 🔴</a>
+    <a href="#tw">4 · Time &amp; Work 🔴</a>
+    <a href="#part">5 · Partnership</a>
+    <a href="#mix">6 · Mixture &amp; Alligation</a>
+    <a href="#tsd">7 · Speed–Time–Distance 🔴</a>
+    <a href="#train">8 · Trains</a>
+    <a href="#boat">9 · Boats &amp; Streams</a>
+    <a href="#ratio">10 · Ratio &amp; Proportion</a>
+    <a href="#avg">11 · Average</a>
+    <a href="#master">★ Master Recognition Table</a>
+  </nav>
+
+  <div class="callout">
+    <b>How to read every row:</b> Match the question to a <b>Situation</b> → confirm via the <b>Recognition</b> cue (the words that give it away) → apply the <b>Shortcut/Formula</b> → the <span class="fast">green</span> column is the single fastest route in the exam → dodge the <span class="mistake">red</span> trap. The <span class="butterfly">Butterfly</span> and <b>Ratio</b> columns are the two speed-tools that recur across almost every topic.
+  </div>
+
+  <!-- ============ 1. PROFIT & LOSS ============ -->
+  <section id="pl">
+    <h2 class="sec">1 · Profit &amp; Loss <span class="chip">🔴 High Repeat · 2–4 Q/paper</span></h2>
+    <p class="sub">Golden rule: fix <b>CP = 100</b> (or CP = ₹100 per unit) and everything becomes a percentage you can read off directly.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Ratio / Butterfly trick</th><th>Worked example (PYQ style)</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Basic P%/L%</td>
+          <td>CP &amp; SP</td><td>Profit or loss %</td>
+          <td>"bought … sold …"</td>
+          <td><span class="formula">P% = (SP−CP)/CP ×100</span></td>
+          <td>Set CP=100; SP−100 = P%</td>
+          <td>CP 500, SP 600 → 100/500 = <b>20%</b></td>
+          <td class="fast">Read gain over CP=100</td>
+          <td class="mistake">Dividing by SP instead of CP</td>
+        </tr>
+        <tr>
+          <td class="sit">Find CP from SP</td>
+          <td>SP &amp; P% (or L%)</td><td>CP</td>
+          <td>"gains x%, find CP"</td>
+          <td><span class="formula">CP = SP×100/(100+P%)</span></td>
+          <td>SP×(100/(100±%)) as a clean fraction</td>
+          <td>SP 78, +30% → 78×10/13 = <b>₹60</b></td>
+          <td class="fast">Turn 100/130 into 10/13, multiply</td>
+          <td class="mistake">Subtracting 30% of 78</td>
+        </tr>
+        <tr>
+          <td class="sit">Mark-up + discount</td>
+          <td>x% above CP, y% discount</td><td>Net profit %</td>
+          <td>"marks … above, gives … discount"</td>
+          <td><span class="formula">x − y − xy/100</span></td>
+          <td>MP=140, SP=140×0.75 on CP 100</td>
+          <td>+40% mark, 25% disc → 140×.75=105 → <b>5%</b></td>
+          <td class="fast">Successive-% formula in one line</td>
+          <td class="mistake">Just doing 40−25 = 15%</td>
+        </tr>
+        <tr>
+          <td class="sit">Same SP, ±x%</td>
+          <td>2 items, +x% &amp; −x%</td><td>Overall %</td>
+          <td>"one at gain x%, other at loss x%"</td>
+          <td><span class="formula">Always LOSS = x²/100 %</span></td>
+          <td>—</td>
+          <td>±10% → 100/100 = <b>1% loss</b></td>
+          <td class="fast">Answer is loss x²/100 by memory</td>
+          <td class="mistake">Thinking it nets to 0%</td>
+        </tr>
+        <tr>
+          <td class="sit">Loss = SP of n articles</td>
+          <td>"loses SP of n on selling N"</td><td>Loss %</td>
+          <td>"loses = SP of 3 articles"</td>
+          <td>Let SP=1; CP(N)=N+n; <span class="formula">Loss%=n/(N+n)×100</span></td>
+          <td>SP=1 each; ratio directly</td>
+          <td>N=33,n=3 → 3/36 = <b>8⅓%</b></td>
+          <td class="fast">SP=1 per article, plug ratio</td>
+          <td class="mistake">Using n/N instead of n/(N+n)</td>
+        </tr>
+        <tr>
+          <td class="sit">Dishonest weight</td>
+          <td>False weight sold at CP</td><td>Gain %</td>
+          <td>"uses faulty/short weight"</td>
+          <td><span class="formula">Gain% = Error/(True−Error)×100</span></td>
+          <td>Error over remaining true</td>
+          <td>Sells 960 g as 1 kg → 40/960 = <b>4⅙%</b></td>
+          <td class="fast">Error/(True−Error)</td>
+          <td class="mistake">Error/True (understates gain)</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 2. PERCENTAGE ============ -->
+  <section id="pct">
+    <h2 class="sec">2 · Percentage <span class="chip">🔴 Feeds P&amp;L, SI/CI, DI</span></h2>
+    <p class="sub">Convert every % to a fraction (25%=1/4, 12½%=1/8, 16⅔%=1/6). The fraction method is 3× faster than long multiplication.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Ratio / fraction trick</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Price ↑, cut use</td>
+          <td>Price rises x%</td><td>% cut in consumption</td>
+          <td>"expenditure unchanged"</td>
+          <td><span class="formula">x/(100+x)×100</span></td>
+          <td>Rise 1/4 → cut 1/(4+1)=1/5</td>
+          <td>+25% → 25/125 = <b>20%</b></td>
+          <td class="fast">Fraction: rise 1/n → cut 1/(n+1)</td>
+          <td class="mistake">Reducing by the same 25%</td>
+        </tr>
+        <tr>
+          <td class="sit">A is x% more than B</td>
+          <td>A vs B relation</td><td>B is how much less</td>
+          <td>"by what % is B less than A"</td>
+          <td><span class="formula">x/(100+x)×100</span></td>
+          <td>+25% ↔ −20% (5:4 pair)</td>
+          <td>A 25% more → B is <b>20%</b> less</td>
+          <td class="fast">Memorize ± pairs (⅓↔¼, 25↔20)</td>
+          <td class="mistake">Assuming it is also 25%</td>
+        </tr>
+        <tr>
+          <td class="sit">Election margin</td>
+          <td>Winner w%, wins by V</td><td>Total votes</td>
+          <td>"won by … votes"</td>
+          <td>Margin=(2w−100)% ; <span class="formula">Total=V×100/margin</span></td>
+          <td>V ÷ margin-fraction</td>
+          <td>60%, win 1600 → margin 20% → <b>8000</b></td>
+          <td class="fast">V/(margin%) ×100</td>
+          <td class="mistake">Dividing V by 60% not by margin</td>
+        </tr>
+        <tr>
+          <td class="sit">↑then↓ same x%</td>
+          <td>+x% then −x%</td><td>Net change</td>
+          <td>"increased then decreased"</td>
+          <td><span class="formula">net = −x²/100 %</span> (always loss)</td>
+          <td>Factor 1.1×0.9 = 0.99</td>
+          <td>+10% −10% → <b>−1%</b></td>
+          <td class="fast">Multiply factors, or −x²/100</td>
+          <td class="mistake">Concluding "no change"</td>
+        </tr>
+        <tr>
+          <td class="sit">Successive %</td>
+          <td>a% then b%</td><td>Single equivalent</td>
+          <td>two chained changes</td>
+          <td><span class="formula">a + b + ab/100</span></td>
+          <td>Multiply decimal factors</td>
+          <td>+20,+30 → 20+30+6 = <b>+56%</b></td>
+          <td class="fast">a+b+ab/100 (sign of b matters)</td>
+          <td class="mistake">Just adding a+b</td>
+        </tr>
+        <tr>
+          <td class="sit">Population back-track</td>
+          <td>+p%,−q% over years</td><td>Original</td>
+          <td>"present population is …"</td>
+          <td>P × factor₁ × factor₂ = now</td>
+          <td>Divide now by product of factors</td>
+          <td>×1.1×0.9=0.99; 29700/0.99 = <b>30000</b></td>
+          <td class="fast">Multiply factors, divide once</td>
+          <td class="mistake">Adding/subtracting % on final value</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 3. SI & CI ============ -->
+  <section id="si">
+    <h2 class="sec">3 · Simple &amp; Compound Interest <span class="chip">🔴 High Repeat</span></h2>
+    <p class="sub">For 2 years, the whole chapter reduces to two memorized results. For rate-finding, read the amount ratio as a perfect square/cube.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Ratio trick</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">CI−SI, 2 yr</td>
+          <td>Difference, r, t=2</td><td>Principal</td>
+          <td>"difference between CI and SI, 2 years"</td>
+          <td><span class="formula">Diff = P(r/100)²</span></td>
+          <td>Diff = P × (r%)² directly</td>
+          <td>Diff 50, r 10% → P×0.01=50 → <b>5000</b></td>
+          <td class="fast">P = Diff×(100/r)²</td>
+          <td class="mistake">Using 3-yr formula for 2 yr</td>
+        </tr>
+        <tr>
+          <td class="sit">CI−SI, 3 yr</td>
+          <td>Difference, r, t=3</td><td>Principal</td>
+          <td>"…for 3 years"</td>
+          <td><span class="formula">Diff = P(r/100)²·(3+r/100)</span></td>
+          <td>—</td>
+          <td>r 10%: Diff = P(0.01)(3.1)</td>
+          <td class="fast">Plug once; watch the (3+r/100)</td>
+          <td class="mistake">Forgetting the (3+r/100) factor</td>
+        </tr>
+        <tr>
+          <td class="sit">Find rate (CI)</td>
+          <td>P → A in 2 yr</td><td>Rate</td>
+          <td>"amounts to … in 2 years CI"</td>
+          <td><span class="formula">A/P = (1+r/100)²</span></td>
+          <td>Read A/P as a square</td>
+          <td>2420/2000 = 1.21 = (1.1)² → <b>10%</b></td>
+          <td class="fast">Recognize 1.21, 1.331, 1.44…</td>
+          <td class="mistake">Solving a full quadratic</td>
+        </tr>
+        <tr>
+          <td class="sit">Amount at two times</td>
+          <td>A at t and at 2t</td><td>Principal</td>
+          <td>"becomes X after 3 yr, Y after 6 yr"</td>
+          <td>Ratio Y/X = (1+r)ᵗ ; P=X/(that)</td>
+          <td>Y/X gives the growth factor for t</td>
+          <td>20070/13380=1.5; P=13380/1.5=<b>8920</b></td>
+          <td class="fast">Divide the two amounts first</td>
+          <td class="mistake">Trying to find r explicitly</td>
+        </tr>
+        <tr>
+          <td class="sit">Doubling / n-fold</td>
+          <td>Sum doubles in t yr (CI)</td><td>Time to 4×, 8×</td>
+          <td>"doubles … becomes 4 times"</td>
+          <td>2× in t → 4× in 2t → 8× in 3t</td>
+          <td>Powers of the doubling time</td>
+          <td>2× in 5 yr → 8× in <b>15 yr</b></td>
+          <td class="fast">Multiply t by log₂(fold)</td>
+          <td class="mistake">Linear scaling (4×→10 yr)</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 4. TIME & WORK ============ -->
+  <section id="tw">
+    <h2 class="sec">4 · Time &amp; Work + Pipes &amp; Cisterns <span class="chip">🔴 Every paper</span></h2>
+    <p class="sub"><b>LCM method beats fractions every time.</b> Total Work = LCM(days). Efficiency = Total ÷ days → whole numbers → add/subtract freely.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">LCM / Ratio trick</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Two together</td>
+          <td>A=a days, B=b days</td><td>Combined time</td>
+          <td>"working together"</td>
+          <td><span class="formula">ab/(a+b)</span></td>
+          <td>LCM: add efficiencies, Total÷sum</td>
+          <td>12 &amp; 18 → 216/30 = <b>7.2 d</b></td>
+          <td class="fast">Small numbers: ab/(a+b) mentally</td>
+          <td class="mistake">Averaging the two times</td>
+        </tr>
+        <tr>
+          <td class="sit">Find one alone</td>
+          <td>(A+B) &amp; B</td><td>A alone</td>
+          <td>"together …, B alone …"</td>
+          <td><span class="formula">1/A = 1/T − 1/B</span></td>
+          <td>LCM: effᴬ = Total − effᴮ</td>
+          <td>T=8,B=12 → 1/8−1/12=1/24 → <b>24 d</b></td>
+          <td class="fast">Subtract efficiencies on LCM</td>
+          <td class="mistake">Subtracting the days directly</td>
+        </tr>
+        <tr>
+          <td class="sit">Pairwise (A+B,B+C,C+A)</td>
+          <td>3 pair-times</td><td>All-three time</td>
+          <td>"A&amp;B in…, B&amp;C in…, C&amp;A in…"</td>
+          <td>Sum pairs = 2(A+B+C)</td>
+          <td>LCM: pair effs, halve the sum</td>
+          <td>12,15,20 → sum 1/5 → all = <b>10 d</b></td>
+          <td class="fast">Add three rates, halve</td>
+          <td class="mistake">Averaging the three pair-times</td>
+        </tr>
+        <tr>
+          <td class="sit">% more efficient</td>
+          <td>A is x% more than B</td><td>Other's time</td>
+          <td>"25% more efficient"</td>
+          <td>eff 125:100=5:4 → time 4:5</td>
+          <td>Time ratio = 100:(100+x)</td>
+          <td>A=20d (4 parts) → B = <b>25 d</b></td>
+          <td class="fast">Flip eff-ratio to time-ratio</td>
+          <td class="mistake">Adding 25% to A's days</td>
+        </tr>
+        <tr>
+          <td class="sit">Leave / join midway</td>
+          <td>Some work, then change</td><td>Remaining days</td>
+          <td>"after k days, X leaves/joins"</td>
+          <td>Units done → Total − done → ÷ new rate</td>
+          <td>Track units on the LCM board</td>
+          <td>B+C 3d=42u of 72 → A does 30/3=<b>10 d</b></td>
+          <td class="fast">Subtract units, divide by new eff</td>
+          <td class="mistake">Restarting the whole fraction sum</td>
+        </tr>
+        <tr>
+          <td class="sit">Men–Days–Hours</td>
+          <td>M₁D₁H₁, work scaled</td><td>New M/D/H</td>
+          <td>"×larger work, hrs/day"</td>
+          <td><span class="formula">M₁D₁H₁/W₁ = M₂D₂H₂/W₂</span></td>
+          <td>Keep man-days constant</td>
+          <td>10·15·8/1 = 12·D·10/3 → <b>30 d</b></td>
+          <td class="fast">One chain-rule equation</td>
+          <td class="mistake">Mixing men &amp; days before final ÷</td>
+        </tr>
+        <tr>
+          <td class="sit">Pipe + leak</td>
+          <td>Fill x, empty y</td><td>Net fill time</td>
+          <td>"leak empties in …"</td>
+          <td><span class="formula">Net = 1/x − 1/y</span> (inlet +, leak −)</td>
+          <td>LCM: +eff for fill, −eff for leak</td>
+          <td>10 &amp; 15 → +3−2=+1 of 30 → <b>30 h</b></td>
+          <td class="fast">LCM board with signs</td>
+          <td class="mistake">Adding instead of subtracting leak</td>
+        </tr>
+        <tr>
+          <td class="sit">Leak from delay</td>
+          <td>Fills in x, took x′ with leak</td><td>Leak-empty time</td>
+          <td>"due to leak took longer"</td>
+          <td><span class="formula">Leak = x·x′/(x′−x)</span></td>
+          <td>1/x − 1/x′ = leak rate</td>
+          <td>12 &amp; 16 → 192/4 = <b>48 h</b></td>
+          <td class="fast">x·x′/(x′−x)</td>
+          <td class="mistake">Using x′−x as the answer</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 5. PARTNERSHIP ============ -->
+  <section id="part">
+    <h2 class="sec">5 · Partnership</h2>
+    <p class="sub">Profit share ∝ <b>capital × time</b>. Reduce to a clean ratio, then split. Deduct any salary/commission <i>before</i> ratio-splitting.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Ratio / Butterfly</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Equal time</td>
+          <td>Capitals, same period</td><td>Profit split</td>
+          <td>"invested for a year each"</td>
+          <td>Share ∝ capital</td>
+          <td>Ratio of capitals</td>
+          <td>C 3000:5000 = 3:5 of profit</td>
+          <td class="fast">Cap ratio = profit ratio</td>
+          <td class="mistake">Forgetting to reduce ratio</td>
+        </tr>
+        <tr>
+          <td class="sit">Different times</td>
+          <td>Capital &amp; months differ</td><td>Profit split</td>
+          <td>"A for 12 mo, B for 8 mo"</td>
+          <td><span class="formula">Share ∝ C×T</span></td>
+          <td class="butterfly">Multiply C×T, take ratio</td>
+          <td>C 4000×12 : 6000×8 = 48:48 = <b>1:1</b></td>
+          <td class="fast">Equivalent capital = C×T</td>
+          <td class="mistake">Using capital only, ignoring time</td>
+        </tr>
+        <tr>
+          <td class="sit">Work-done share (link)</td>
+          <td>Wages for a job</td><td>Each share</td>
+          <td>"earn ₹… for the work"</td>
+          <td>Wages ∝ work = eff×days</td>
+          <td>C does 4/11 → 4/11 of money</td>
+          <td>₹1540, C does 4/11 → <b>₹560</b></td>
+          <td class="fast">Work-fraction × total money</td>
+          <td class="mistake">Splitting by days agreed, not work</td>
+        </tr>
+        <tr>
+          <td class="sit">Working partner</td>
+          <td>Salary + capital ratio</td><td>Net split</td>
+          <td>"gets salary for managing"</td>
+          <td>Deduct salary → split remainder by C×T</td>
+          <td>Remaining ÷ equivalent capital</td>
+          <td>Profit−salary, then ratio</td>
+          <td class="fast">Salary out first, ratio after</td>
+          <td class="mistake">Ratio-splitting the whole profit</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 6. MIXTURE & ALLIGATION ============ -->
+  <section id="mix">
+    <h2 class="sec">6 · Mixture &amp; Alligation</h2>
+    <p class="sub">Alligation is the fastest tool whenever a <b>mean/average value</b> sits between two ingredient values — it gives the mix ratio in one cross.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Alligation cross (Butterfly)</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Two-ingredient mix</td>
+          <td>Cheap c, dear d, mean m</td><td>Mix ratio</td>
+          <td>"mixed to cost/average …"</td>
+          <td><span class="formula">cheap:dear = (d−m):(m−c)</span></td>
+          <td class="butterfly">Cross-subtract m diagonally</td>
+          <td>Rice ₹20 &amp; ₹30, mean 24 → (30−24):(24−20)=<b>6:4=3:2</b></td>
+          <td class="fast">Draw the X, cross-subtract</td>
+          <td class="mistake">Reversing which diff goes with which</td>
+        </tr>
+        <tr>
+          <td class="sit">Milk–water dilution</td>
+          <td>Add water free</td><td>Ratio / profit</td>
+          <td>"adds water and sells at CP"</td>
+          <td>Water is 0-cost ingredient in cross</td>
+          <td class="butterfly">Treat water value = 0</td>
+          <td>Milk ₹40 to mean 32 → water:milk = (40−32):(32−0)=8:32=<b>1:4</b></td>
+          <td class="fast">Alligation with 0 for water</td>
+          <td class="mistake">Forgetting water contributes 0 value</td>
+        </tr>
+        <tr>
+          <td class="sit">Repeated replacement</td>
+          <td>Remove &amp; refill n times</td><td>Final pure qty</td>
+          <td>"drawn off and replaced, n times"</td>
+          <td><span class="formula">Final = V(1−r/V)ⁿ</span></td>
+          <td>Ratio (1−r/V) per operation</td>
+          <td>40L, 8L out ×3 → 40(4/5)³ = <b>20.48 L</b></td>
+          <td class="fast">Power formula once</td>
+          <td class="mistake">Subtracting r each time linearly</td>
+        </tr>
+        <tr>
+          <td class="sit">Two mixtures combined</td>
+          <td>Ratios in each vessel</td><td>Final ratio</td>
+          <td>"mix vessel A and B"</td>
+          <td>Find each part's fraction, alligate on the fraction</td>
+          <td class="butterfly">Cross on the milk-fraction</td>
+          <td>3:2 &amp; 7:3 milk → alligate .6 &amp; .7</td>
+          <td class="fast">Alligation on the component fraction</td>
+          <td class="mistake">Adding the ratios directly</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 7. SPEED TIME DISTANCE ============ -->
+  <section id="tsd">
+    <h2 class="sec">7 · Speed · Time · Distance <span class="chip">🔴 High Repeat</span></h2>
+    <p class="sub">One conversion unlocks most sums: <span class="formula">km/h → m/s ×5/18</span> · <span class="formula">m/s → km/h ×18/5</span>.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Ratio trick</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Equal-distance avg</td>
+          <td>Speeds x, y (same dist)</td><td>Average speed</td>
+          <td>"half journey at …, half at …"</td>
+          <td><span class="formula">2xy/(x+y)</span> (harmonic)</td>
+          <td>Never the plain mean</td>
+          <td>40 &amp; 60 → 4800/100 = <b>48</b></td>
+          <td class="fast">2xy/(x+y) straight</td>
+          <td class="mistake">Taking (x+y)/2 = 50 (trap)</td>
+        </tr>
+        <tr>
+          <td class="sit">Late / early</td>
+          <td>Two speeds, ±minutes</td><td>Distance</td>
+          <td>"late at …, early at …"</td>
+          <td>Time gap = (late+early); d/x − d/y = gap</td>
+          <td>Add late+early → total gap</td>
+          <td>5&amp;6 kmh, 10 late+5 early=¼h → <b>7.5 km</b></td>
+          <td class="fast">Sum the times, one equation</td>
+          <td class="mistake">Subtracting late−early</td>
+        </tr>
+        <tr>
+          <td class="sit">Same-time meeting</td>
+          <td>Two bodies start together</td><td>Distances / total</td>
+          <td>"meet after starting together"</td>
+          <td>Distance ∝ speed (same time)</td>
+          <td>d₁:d₂ = s₁:s₂</td>
+          <td>20:30=2:3; 2 parts=60 → total <b>150 km</b></td>
+          <td class="fast">Speed ratio = distance ratio</td>
+          <td class="mistake">Assuming they cover equal distance</td>
+        </tr>
+        <tr>
+          <td class="sit">Ratio of speeds ↔ time</td>
+          <td>Fixed distance</td><td>Time ratio</td>
+          <td>"same distance, speeds a:b"</td>
+          <td>Time ∝ 1/speed</td>
+          <td>speeds a:b → times b:a</td>
+          <td>speeds 3:4 → times <b>4:3</b></td>
+          <td class="fast">Invert the speed ratio</td>
+          <td class="mistake">Keeping the same ratio for time</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 8. TRAINS ============ -->
+  <section id="train">
+    <h2 class="sec">8 · Trains</h2>
+    <p class="sub">Decide the <b>distance to cover</b> first: pole = train length only; platform/bridge = length + platform; passing another train = <b>sum</b> of both lengths.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Ratio trick</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Cross a pole/man</td>
+          <td>L, t</td><td>Speed</td>
+          <td>"crosses a pole/standing man"</td>
+          <td><span class="formula">S = L/t</span></td>
+          <td>—</td>
+          <td>150 m in 15 s → 10 m/s = <b>36 km/h</b></td>
+          <td class="fast">L/t then ×18/5</td>
+          <td class="mistake">Adding a platform that isn't there</td>
+        </tr>
+        <tr>
+          <td class="sit">Cross platform/bridge</td>
+          <td>L, P, t</td><td>Speed / length</td>
+          <td>"crosses a platform/bridge"</td>
+          <td><span class="formula">S = (L+P)/t</span></td>
+          <td>—</td>
+          <td>200+300 in 25 s → 20 m/s = <b>72 km/h</b></td>
+          <td class="fast">(L+P)/t</td>
+          <td class="mistake">Forgetting to add platform</td>
+        </tr>
+        <tr>
+          <td class="sit">Pole then platform</td>
+          <td>t₁ (pole), t₂ (platform P)</td><td>Length</td>
+          <td>"pole in …, platform in …"</td>
+          <td>Extra time (t₂−t₁) covers P → S=P/(t₂−t₁)</td>
+          <td>Platform ÷ extra time = speed</td>
+          <td>120 m in extra 6 s → 20 m/s, L=<b>240 m</b></td>
+          <td class="fast">P/(t₂−t₁) gives speed instantly</td>
+          <td class="mistake">Setting up two full equations slowly</td>
+        </tr>
+        <tr>
+          <td class="sit">Two trains, opposite</td>
+          <td>L₁,L₂, speeds</td><td>Crossing time</td>
+          <td>"opposite directions"</td>
+          <td>Rel speed = S₁+S₂; dist = L₁+L₂</td>
+          <td>Add speeds, add lengths</td>
+          <td>120+80 m at 72 km/h(20 m/s) → <b>10 s</b></td>
+          <td class="fast">(L₁+L₂)/(S₁+S₂)</td>
+          <td class="mistake">Subtracting speeds</td>
+        </tr>
+        <tr>
+          <td class="sit">Two trains, same dir</td>
+          <td>L₁,L₂, speeds</td><td>Overtake time</td>
+          <td>"same direction / overtakes"</td>
+          <td>Rel speed = S₁−S₂; dist = L₁+L₂</td>
+          <td>Subtract speeds, add lengths</td>
+          <td>300 m at 12 km/h(10/3 m/s) → <b>90 s</b></td>
+          <td class="fast">(L₁+L₂)/(S₁−S₂)</td>
+          <td class="mistake">Using only one train's length</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 9. BOATS & STREAMS ============ -->
+  <section id="boat">
+    <h2 class="sec">9 · Boats &amp; Streams</h2>
+    <p class="sub">Two back-solve identities crack almost everything: <span class="formula">b = (down+up)/2</span> and <span class="formula">s = (down−up)/2</span>.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Ratio trick</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Basic up/down</td>
+          <td>b (still), s (stream)</td><td>Down/up speed</td>
+          <td>"downstream / upstream"</td>
+          <td><span class="formula">down=b+s, up=b−s</span></td>
+          <td>—</td>
+          <td>b 8, s 2 → down <b>10</b>, up 6</td>
+          <td class="fast">Add for down, subtract for up</td>
+          <td class="mistake">Swapping the ± signs</td>
+        </tr>
+        <tr>
+          <td class="sit">Back-solve b &amp; s</td>
+          <td>down &amp; up speeds/times</td><td>b or s</td>
+          <td>"…km down in …h, back in …h"</td>
+          <td><span class="formula">b=(d+u)/2, s=(d−u)/2</span></td>
+          <td>Convert each leg to speed first</td>
+          <td>15 &amp; 9 → b=12, s=<b>3</b></td>
+          <td class="fast">Speeds first, then the two identities</td>
+          <td class="mistake">Averaging times, not speeds</td>
+        </tr>
+        <tr>
+          <td class="sit">Up = k × down time</td>
+          <td>Time ratio, s known</td><td>b</td>
+          <td>"twice/thrice as long upstream"</td>
+          <td>down speed = k × up speed → solve</td>
+          <td>(b+s)=k(b−s)</td>
+          <td>up=2×down time, s=3 → b=<b>9</b></td>
+          <td class="fast">Set (b+s)=k(b−s), solve b</td>
+          <td class="mistake">Equating times to speeds directly</td>
+        </tr>
+        <tr>
+          <td class="sit">There-and-back time</td>
+          <td>b, s, total time</td><td>Distance</td>
+          <td>"to a place and back in … h"</td>
+          <td>d/(b+s) + d/(b−s) = T</td>
+          <td>Sum the two leg-times</td>
+          <td>b6,s2,T2h → d/8+d/4=2 → <b>16/3 km</b></td>
+          <td class="fast">One equation, solve d</td>
+          <td class="mistake">Using one speed for both legs</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 10. RATIO ============ -->
+  <section id="ratio">
+    <h2 class="sec">10 · Ratio &amp; Proportion</h2>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Butterfly / trick</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Combine A:B, B:C</td>
+          <td>Two chained ratios</td><td>A:B:C</td>
+          <td>"A:B=…, B:C=…"</td>
+          <td>Make B common (cross-multiply)</td>
+          <td class="butterfly">×B-terms across</td>
+          <td>2:3 &amp; 4:5 → <b>8:12:15</b></td>
+          <td class="fast">Scale each to common B</td>
+          <td class="mistake">Just writing 2:3:5</td>
+        </tr>
+        <tr>
+          <td class="sit">Divide by ratio</td>
+          <td>Total, parts</td><td>One share</td>
+          <td>"divide ₹… in ratio …"</td>
+          <td>Each part = Total ÷ Σparts</td>
+          <td>Multiply share by part-value</td>
+          <td>7800 in 6:4:3(13) → C=3×600=<b>1800</b></td>
+          <td class="fast">One part value, then multiply</td>
+          <td class="mistake">Not clearing fraction ratios first</td>
+        </tr>
+        <tr>
+          <td class="sit">Proportionals</td>
+          <td>a,b (,c)</td><td>Mean/3rd/4th</td>
+          <td>"mean/third/fourth proportional"</td>
+          <td>mean √(ab); 3rd b²/a; 4th bc/a</td>
+          <td class="butterfly">ad=bc cross-check</td>
+          <td>4,9 mean = √36 = <b>6</b></td>
+          <td class="fast">Pick the right proportional formula</td>
+          <td class="mistake">Confusing 3rd vs 4th proportional</td>
+        </tr>
+        <tr>
+          <td class="sit">Componendo-dividendo</td>
+          <td>a/b = c/d</td><td>(a+b)/(a−b)</td>
+          <td>fraction with ± on both</td>
+          <td><span class="formula">(a+b)/(a−b)=(c+d)/(c−d)</span></td>
+          <td>Add/sub numerator &amp; denom</td>
+          <td>Speeds up complex ratio identities</td>
+          <td class="fast">Apply C&amp;D directly</td>
+          <td class="mistake">Expanding the whole fraction</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ 11. AVERAGE ============ -->
+  <section id="avg">
+    <h2 class="sec">11 · Average</h2>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>Situation</th><th>Given</th><th>Asked</th><th>Recognition cue</th><th>Shortcut / Formula</th><th class="butterfly">Ratio / shortcut</th><th>Worked example</th><th>Fastest route</th><th>Common mistake</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td class="sit">Add one value</td>
+          <td>avg of n, new value</td><td>New average</td>
+          <td>"one more is included"</td>
+          <td>Δavg = (new − old avg)/(n+1)</td>
+          <td>Shift, don't re-sum</td>
+          <td>avg27(5), add33 → +6/6=+1 → <b>28</b></td>
+          <td class="fast">Deviation ÷ new count</td>
+          <td class="mistake">Recomputing full sum every time</td>
+        </tr>
+        <tr>
+          <td class="sit">Consecutive numbers</td>
+          <td>First &amp; last</td><td>Average</td>
+          <td>"consecutive / evenly spaced"</td>
+          <td>(first+last)/2</td>
+          <td>Middle term = average</td>
+          <td>12…16 → (12+16)/2 = <b>14</b></td>
+          <td class="fast">Just the middle term</td>
+          <td class="mistake">Summing all then dividing</td>
+        </tr>
+        <tr>
+          <td class="sit">Replace a member</td>
+          <td>n, old, new person</td><td>Age/weight change</td>
+          <td>"replaced by, average changes"</td>
+          <td>New−Old = n × Δavg</td>
+          <td>Total shift spread over n</td>
+          <td>avg ↑2 over 8 → newcomer +16</td>
+          <td class="fast">n×Δavg = difference</td>
+          <td class="mistake">Ignoring the ×n multiplier</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- ============ MASTER RECOGNITION ============ -->
+  <section id="master">
+    <h2 class="sec">★ Master Recognition Table — "Which trick, how fast?"</h2>
+    <p class="sub">Skim this the night before the exam. Left = the words in the question; right = the reflex tool.</p>
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th>If the question says…</th><th>Instant tool</th><th>Why it's fastest</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>"expenditure unchanged / consumption"</td><td>Fraction: rise 1/n → cut 1/(n+1)</td><td>No algebra, one fraction</td></tr>
+        <tr><td>"gain x%, find CP"</td><td>SP×100/(100+x) as a reduced fraction</td><td>Single multiply</td></tr>
+        <tr><td>"marks above &amp; gives discount"</td><td>x − y − xy/100</td><td>Avoids MP→SP steps</td></tr>
+        <tr><td>"CI − SI for 2 years"</td><td>P(r/100)²</td><td>Whole chapter → one line</td></tr>
+        <tr><td>"amounts to … in 2 yr CI"</td><td>Read A/P as a perfect square</td><td>No quadratic</td></tr>
+        <tr><td>"working together"</td><td>LCM board / ab·(a+b)⁻¹</td><td>Whole-number efficiencies</td></tr>
+        <tr><td>"x% more efficient"</td><td>Flip eff-ratio → time-ratio</td><td>Ratio, not equations</td></tr>
+        <tr><td>"leak / pipe empties"</td><td>Signed LCM (+fill, −leak)</td><td>Add rates with sign</td></tr>
+        <tr><td>"invested for different months"</td><td>Equivalent capital = C×T</td><td class="butterfly">Butterfly the C×T</td></tr>
+        <tr><td>"mixed to average / mean value"</td><td>Alligation cross</td><td class="butterfly">One diagonal subtraction</td></tr>
+        <tr><td>"drawn off and replaced n times"</td><td>V(1−r/V)ⁿ</td><td>Power beats step-by-step</td></tr>
+        <tr><td>"half at …, half at …" (speed)</td><td>2xy/(x+y)</td><td>Harmonic, dodges the mean trap</td></tr>
+        <tr><td>"late … early …"</td><td>gap = late+early, one equation</td><td>Straight to distance</td></tr>
+        <tr><td>"crosses pole vs platform"</td><td>Extra time × speed = platform</td><td>Speed in one subtraction</td></tr>
+        <tr><td>"downstream … upstream …"</td><td>b=(d+u)/2, s=(d−u)/2</td><td>Two-line back-solve</td></tr>
+        <tr><td>"start together &amp; meet"</td><td>distance ∝ speed</td><td>Ratio, no time needed</td></tr>
+        <tr><td>"A:B and B:C"</td><td>Make B common (cross-multiply)</td><td class="butterfly">Butterfly across</td></tr>
+      </tbody>
+    </table></div>
+
+    <div class="callout" style="margin-top:22px">
+      <b>Three universal speed-tools</b> that reappear in every topic above:<br>
+      <span class="butterfly">◆ Butterfly / cross-multiplication</span> — combining ratios, alligation, C×T partnership, proportion (ad=bc).<br>
+      <b>▣ LCM board</b> — Time&amp;Work, Pipes; turn every rate into a whole number.<br>
+      <b>⚖ Ratio inversion</b> — efficiency↔time, speed↔time; whatever is "more" of one is "less" of the other in exact inverse.
+    </div>
+  </section>
+
+  <footer>
+    SSC-CGL-AIR10-Master-Repository · Arithmetic Trick Decision Matrix · grounded in the repo's PYQ pattern banks (2021–2025).<br>
+    Print to PDF for a revision handout · figures are authentic-style PYQ patterns, not verbatim official papers.
+  </footer>
+</div>
+
+<a href="#" class="top">↑ Top</a>
+</body>
+</html>

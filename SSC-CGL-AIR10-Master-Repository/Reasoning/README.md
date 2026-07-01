@@ -15,4 +15,10 @@ This is the master index for the Reasoning solved-question bank. Each file follo
 | 7 | Seating & Puzzles | [07_Seating_Puzzles.md](07_Seating_Puzzles.md) | Linear & circular seating, simple arrangement puzzles |
 | 8 | Non-Verbal & Misc | [08_NonVerbal_Misc.md](08_NonVerbal_Misc.md) | Mirror/water image, paper folding, embedded & counting figures, Venn, statement-conclusion |
 
+## Add-on reference (HTML — open in a browser; Contents links jump)
+
+| Topic | File | Coverage |
+|---|---|---|
+| 🔺 Counting Figures (tricks) | [Counting-Figures-Tricks.html](Counting-Figures-Tricks.html) | Counting **triangles, squares, rectangles**, cubes cut into pieces, and **painted-cube** problems — with figures, formulas (n(n+1)/2, n×n squares, painted-cube 3/2/1/0-face) & SSC shortcuts |
+
 > Tip: Practise one file per day, then revisit the Trick Box of each before the exam.

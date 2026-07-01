@@ -1,0 +1,767 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<title>SSC CGL Study Sheet</title>
+<style>
+  :root{ --ink:#1a1a2e; --accent:#c0392b; }
+  body{ font-family:"Segoe UI",Arial,sans-serif; color:var(--ink); max-width:1000px;
+        margin:0 auto; padding:28px; line-height:1.5; }
+  h1{ color:#fff; background:linear-gradient(135deg,#16213e,#0f3460); padding:18px 22px;
+      border-radius:12px; font-size:1.6em; }
+  h2{ color:#0f3460; border-left:7px solid var(--accent); padding:6px 12px;
+      background:#f3f6fb; border-radius:0 8px 8px 0; margin-top:32px; }
+  h3{ color:var(--accent); margin-top:22px; }
+  pre.diagram{ background:#0f1424; color:#e8eefc; font-family:"Cascadia Code","Consolas",
+      "DejaVu Sans Mono",monospace; font-size:12.5px; line-height:1.25; padding:14px 16px;
+      border-radius:10px; overflow-x:auto; white-space:pre; box-shadow:0 3px 10px rgba(0,0,0,.18); }
+  blockquote{ background:#fff8e1; border-left:5px solid #f1c40f; margin:12px 0;
+      padding:10px 16px; border-radius:0 8px 8px 0; }
+  table{ border-collapse:collapse; width:100%; margin:12px 0; font-size:.93em; }
+  th{ background:#0f3460; color:#fff; text-align:left; padding:7px 11px; }
+  td{ border:1px solid #d0d7e2; padding:6px 11px; vertical-align:top; }
+  tr:nth-child(even){ background:#f5f8fc; }
+  code{ background:#eef; padding:1px 5px; border-radius:4px; font-size:.92em; }
+  hr{ border:0; border-top:2px dashed #cfd8e3; margin:24px 0; }
+  a{ color:#0f3460; }
+  svg.fig{ background:#fbfcfe; border:1px solid #e2e8f2; border-radius:10px;
+     padding:6px; box-shadow:0 2px 8px rgba(15,52,96,.08); margin:10px 0;
+     width:100%; max-width:760px; height:auto; display:block; }
+  /* shared figure primitives */
+  .gw{ stroke:#16213e; stroke-width:3; fill:none; stroke-linejoin:round; stroke-linecap:round; }
+  .gr{ stroke:#c0392b; stroke-width:3; fill:none; stroke-linejoin:round; stroke-linecap:round; }
+  .gb{ stroke:#0f3460; stroke-width:3; fill:none; stroke-linejoin:round; stroke-linecap:round; }
+  .gdash{ stroke-dasharray:6 5; }
+  .gv{ fill:#16213e; }              /* vertex dot */
+  .glab{ font:700 15px "Segoe UI",Arial,sans-serif; fill:#16213e; }
+  .gtxt{ font:600 13px "Segoe UI",Arial,sans-serif; fill:#16213e; }
+  .gnote{ font:600 12.5px "Segoe UI",Arial,sans-serif; fill:#0f3460; }
+  .gcap{ font:700 13px "Segoe UI",Arial,sans-serif; fill:#16213e; text-anchor:middle; }
+  .gsub{ font:700 12px "Segoe UI",Arial,sans-serif; text-anchor:middle; }
+  .fillA{ fill:#27ae60; opacity:.18; }  /* green  */
+  .fillB{ fill:#2980b9; opacity:.18; }  /* blue   */
+  .fillC{ fill:#e67e22; opacity:.18; }  /* orange */
+  .fillD{ fill:#8e44ad; opacity:.18; }  /* purple */
+  .fillE{ fill:#c0392b; opacity:.16; }  /* red    */
+  @media print{ body{ max-width:none; padding:0; } h2,h3{ page-break-after:avoid; }
+     pre.diagram{ page-break-inside:avoid; font-size:10.5px; }
+     svg.fig{ page-break-inside:avoid; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+     table,blockquote{ page-break-inside:avoid; } h1{ -webkit-print-color-adjust:exact; } }
+</style></head><body>
+<h1 id="-geometry-handbook--formulas--figures-ssc-cgl">📐 Geometry Handbook — Formulas &amp; Figures (SSC CGL)</h1>
+<blockquote>Every shape &amp; theorem with a <strong>labelled figure</strong> + its formulas. Companion to <a href="SSC-CGL-ASO-Formulas-Tricks-Master.md">SSC-CGL-ASO-Formulas-Tricks-Master.md</a>. Syllabus: Quant — Geometry &amp; Mensuration (Para 13.10.3 / 13.11.1.4–13.11.1.5). View in a monospace font (or the HTML/PDF) so the figures stay aligned.</blockquote>
+<p><strong>Contents</strong></p>
+<ol><li><a href="#1-lines--angles">Lines &amp; Angles</a></li><li><a href="#2-triangle--basics--types">Triangle — basics &amp; types</a></li><li><a href="#3-the-four-centres-of-a-triangle">Triangle — centres</a></li><li><a href="#4-triangle-area-formulas">Triangle — area formulas</a></li><li><a href="#5-pythagoras-theorem--triples">Pythagoras &amp; triples</a></li><li><a href="#6-similarity--congruence">Similarity &amp; congruence</a></li><li><a href="#7-quadrilaterals">Quadrilaterals</a></li><li><a href="#8-polygons">Polygons</a></li><li><a href="#9-circle--parts--theorems">Circle — parts &amp; theorems</a></li></ol>
+<p>   · <a href="#9a-circle--chord-theorems">9A Chord theorems</a>    · <a href="#9b-intersecting-chords-secants--tangentsecant-power-of-a-point-">9B Intersecting chords / secants (Power of a Point)</a>    · <a href="#9c-tangent-theorems">9C Tangent theorems</a>    · <a href="#9d-proportionality--angle-theorems-circle">9D Proportionality &amp; angle theorems</a></p>
+<ol><li><a href="#10-mensuration-2d--areas--perimeters">Mensuration 2D (areas)</a></li><li><a href="#11-mensuration-3d--solids">Mensuration 3D (solids)</a></li><li><a href="#12-coordinate-geometry">Coordinate geometry</a></li><li><a href="#13-quick-recall-table">Quick recall table</a></li></ol>
+<hr>
+<h2 id="1-lines--angles">1. Lines &amp; Angles</h2>
+
+<h3>① Types of angles</h3>
+<svg class="fig" viewBox="0 0 760 200" role="img" aria-label="The five types of angles">
+  <style>
+    .fig{ width:100%; max-width:760px; height:auto; display:block; margin:8px auto 4px; }
+    .arm{ stroke:#16213e; stroke-width:3.5; stroke-linecap:round; fill:none; }
+    .vtx{ fill:#16213e; }
+    .lbl{ font:600 13px "Segoe UI",Arial,sans-serif; fill:#16213e; text-anchor:middle; }
+    .deg{ font:700 12px "Segoe UI",Arial,sans-serif; text-anchor:middle; }
+  </style>
+  <!-- Acute: arms along 0° and ~52° above horizontal; sector fill from vertex -->
+  <g transform="translate(40,30)">
+    <path d="M0,110 L80,110" class="arm"/>
+    <path d="M0,110 L62,46" class="arm"/>
+    <path d="M0,110 L30,110 A30,30 0 0,0 18.5,86.3 Z" fill="#27ae60" opacity=".30"/>
+    <circle cx="0" cy="110" r="4" class="vtx"/>
+    <text x="40" y="135" class="lbl">Acute</text>
+    <text x="40" y="152" class="deg" fill="#27ae60">&lt; 90°</text>
+  </g>
+  <!-- Right -->
+  <g transform="translate(180,30)">
+    <path d="M0,110 L80,110" class="arm"/>
+    <path d="M0,110 L0,30" class="arm"/>
+    <rect x="0" y="92" width="18" height="18" fill="#2980b9" opacity=".25"/>
+    <circle cx="0" cy="110" r="4" class="vtx"/>
+    <text x="40" y="135" class="lbl">Right</text>
+    <text x="40" y="152" class="deg" fill="#2980b9">= 90°</text>
+  </g>
+  <!-- Obtuse: one arm horizontal-right, other up-left (~125°); sector sweeps the wide angle -->
+  <g transform="translate(330,30)">
+    <path d="M0,110 L80,110" class="arm"/>
+    <path d="M0,110 L-46,46" class="arm"/>
+    <path d="M0,110 L30,110 A30,30 0 0,0 -17.2,85.4 Z" fill="#e67e22" opacity=".30"/>
+    <circle cx="0" cy="110" r="4" class="vtx"/>
+    <text x="10" y="135" class="lbl">Obtuse</text>
+    <text x="10" y="152" class="deg" fill="#e67e22">90°–180°</text>
+  </g>
+  <!-- Straight: half-disc above the line, vertex at centre -->
+  <g transform="translate(470,30)">
+    <path d="M-10,110 L120,110" class="arm"/>
+    <path d="M30,110 A30,30 0 0,0 -30,110 Z" fill="#8e44ad" opacity=".28"/>
+    <circle cx="0" cy="110" r="4" class="vtx"/>
+    <text x="55" y="135" class="lbl">Straight</text>
+    <text x="55" y="152" class="deg" fill="#8e44ad">= 180°</text>
+  </g>
+  <!-- Reflex: right arm (+x) and down-left arm; shade the LARGE >180° sweep going up and over the top -->
+  <g transform="translate(650,40)">
+    <path d="M0,110 L72,110" class="arm"/>
+    <path d="M0,110 L-44,154" class="arm"/>
+    <!-- reflex sector: vertex → right-arm pt → LARGE arc up & over the top → down-left arm pt -->
+    <path d="M0,110 L34,110 A34,34 0 1,0 -24,134 Z" fill="#c0392b" opacity=".22"/>
+    <text x="20" y="52" class="lbl">Reflex</text>
+    <text x="20" y="69" class="deg" fill="#c0392b">180°–360°</text>
+  </g>
+</svg>
+
+<h3>② A transversal cutting two parallel lines</h3>
+<svg class="fig" viewBox="0 0 620 300" role="img" aria-label="Transversal cutting two parallel lines with all eight angles labelled">
+  <style>
+    .pll{ stroke:#0f3460; stroke-width:3.5; }
+    .trv{ stroke:#c0392b; stroke-width:3.5; }
+    .ptl{ font:700 15px "Segoe UI",Arial,sans-serif; fill:#16213e; text-anchor:middle; }
+    .lnm{ font:italic 600 13px "Segoe UI",Arial,sans-serif; fill:#0f3460; }
+    .tnm{ font:italic 600 13px "Segoe UI",Arial,sans-serif; fill:#c0392b; text-anchor:middle; }
+  </style>
+  <!-- two parallel lines -->
+  <line x1="40" y1="90"  x2="560" y2="90"  class="pll"/>
+  <line x1="40" y1="210" x2="560" y2="210" class="pll"/>
+  <!-- transversal -->
+  <line x1="180" y1="30" x2="420" y2="270" class="trv"/>
+  <!-- parallel marks (arrows) -->
+  <path d="M520,84 l10,6 l-10,6" fill="none" stroke="#0f3460" stroke-width="2.5"/>
+  <path d="M520,204 l10,6 l-10,6" fill="none" stroke="#0f3460" stroke-width="2.5"/>
+  <!-- intersection dots -->
+  <circle cx="240" cy="90"  r="5" fill="#c0392b"/>
+  <circle cx="300" cy="210" r="5" fill="#c0392b"/>
+  <!-- top intersection angle labels a b c d -->
+  <text x="218" y="74"  class="ptl">a</text>
+  <text x="270" y="74"  class="ptl">b</text>
+  <text x="216" y="116" class="ptl">c</text>
+  <text x="272" y="116" class="ptl">d</text>
+  <!-- bottom intersection angle labels e f g h -->
+  <text x="278" y="194" class="ptl">e</text>
+  <text x="330" y="194" class="ptl">f</text>
+  <text x="276" y="238" class="ptl">g</text>
+  <text x="332" y="238" class="ptl">h</text>
+  <!-- line names -->
+  <text x="50" y="82"  class="lnm">line 1</text>
+  <text x="50" y="202" class="lnm">line 2</text>
+  <text x="430" y="276" class="tnm">transversal</text>
+</svg>
+<table><thead><tr><th>Pair (in figure)</th><th>Relationship</th></tr></thead><tbody>
+<tr><td>Corresponding — <strong>a&amp;e, b&amp;f, c&amp;g, d&amp;h</strong></td><td><strong>equal</strong></td></tr>
+<tr><td>Alternate interior — <strong>c&amp;f, d&amp;e</strong></td><td><strong>equal</strong></td></tr>
+<tr><td>Alternate exterior — <strong>a&amp;h, b&amp;g</strong></td><td><strong>equal</strong></td></tr>
+<tr><td>Co-interior (allied) — <strong>c&amp;e, d&amp;f</strong></td><td>sum = <strong>180°</strong></td></tr>
+<tr><td>Vertically opposite — <strong>a&amp;d, b&amp;c</strong> (and e&amp;h, f&amp;g)</td><td><strong>equal</strong></td></tr></tbody></table>
+
+<h3>③ Angle-pair definitions</h3>
+<svg class="fig" viewBox="0 0 760 220" role="img" aria-label="Complementary, supplementary and vertically opposite angles">
+  <style>
+    .arm2{ stroke:#16213e; stroke-width:3.5; stroke-linecap:round; }
+    .cap{ font:600 13px "Segoe UI",Arial,sans-serif; fill:#16213e; text-anchor:middle; }
+    .sub{ font:700 12px "Segoe UI",Arial,sans-serif; text-anchor:middle; }
+    .an{ font:700 14px "Segoe UI",Arial,sans-serif; text-anchor:middle; }
+    .vtx{ fill:#16213e; }
+  </style>
+  <!-- Complementary: vertex at (0,110); horizontal arm, diagonal arm at 45°, plus vertical reference -->
+  <g transform="translate(40,20)">
+    <line x1="0" y1="110" x2="120" y2="110" class="arm2"/>
+    <line x1="0" y1="110" x2="0"   y2="20"  class="arm2"/>
+    <line x1="0" y1="110" x2="74"  y2="36"  class="arm2"/>
+    <!-- x = from horizontal up to the diagonal (~45°) -->
+    <path d="M0,110 L40,110 A40,40 0 0,0 28.3,81.7 Z" fill="#27ae60" opacity=".30"/>
+    <!-- y = from the diagonal up to the vertical -->
+    <path d="M0,110 L28.3,81.7 A40,40 0 0,0 0,70 Z" fill="#2980b9" opacity=".30"/>
+    <text x="46" y="98" class="an" fill="#27ae60">x</text>
+    <text x="12" y="78" class="an" fill="#2980b9">y</text>
+    <circle cx="0" cy="110" r="4" class="vtx"/>
+    <text x="50" y="160" class="cap">Complementary</text>
+    <text x="50" y="178" class="sub" fill="#27ae60">x + y = 90°</text>
+  </g>
+  <!-- Supplementary: straight line, one ray up; the two angles on a straight line -->
+  <g transform="translate(270,20)">
+    <line x1="0" y1="110" x2="180" y2="110" class="arm2"/>
+    <line x1="90" y1="110" x2="40" y2="36" class="arm2"/>
+    <!-- x = right side (between up-ray and right arm) -->
+    <path d="M90,110 L130,110 A40,40 0 0,0 116.5,80.4 Z" fill="#e67e22" opacity=".30"/>
+    <!-- y = left side (between left arm and up-ray) -->
+    <path d="M90,110 L116.5,80.4 A40,40 0 0,0 50,110 Z" fill="#8e44ad" opacity=".30"/>
+    <text x="120" y="98" class="an" fill="#e67e22">x</text>
+    <text x="74"  y="98" class="an" fill="#8e44ad">y</text>
+    <circle cx="90" cy="110" r="4" class="vtx"/>
+    <text x="90" y="160" class="cap">Supplementary</text>
+    <text x="90" y="178" class="sub" fill="#e67e22">x + y = 180°</text>
+  </g>
+  <!-- Vertically opposite: two lines crossing at (90,95); shade the equal LEFT & RIGHT pair -->
+  <g transform="translate(560,16)">
+    <line x1="20" y1="40" x2="160" y2="150" class="arm2"/>
+    <line x1="20" y1="150" x2="160" y2="40" class="arm2"/>
+    <!-- crossing point ≈ (90,95). Right wedge between the two rightward rays -->
+    <path d="M90,95 L128,125 A48,48 0 0,0 128,65 Z" fill="#c0392b" opacity=".28"/>
+    <!-- Left wedge (the vertically-opposite equal angle) -->
+    <path d="M90,95 L52,65 A48,48 0 0,0 52,125 Z" fill="#c0392b" opacity=".28"/>
+    <text x="118" y="100" class="an" fill="#c0392b">x</text>
+    <text x="62"  y="100" class="an" fill="#c0392b">x</text>
+    <circle cx="90" cy="95" r="4" class="vtx"/>
+    <text x="90" y="182" class="cap">Vertically opposite</text>
+    <text x="90" y="200" class="sub" fill="#c0392b">the two x angles are equal</text>
+  </g>
+</svg>
+<table><thead><tr><th>Concept</th><th>Rule</th></tr></thead><tbody><tr><td>Complementary angles</td><td>sum = <strong>90°</strong></td></tr><tr><td>Supplementary angles</td><td>sum = <strong>180°</strong></td></tr><tr><td>Angles on a straight line</td><td>sum = <strong>180°</strong> (linear pair)</td></tr><tr><td>Angles around a point</td><td>sum = <strong>360°</strong></td></tr><tr><td>Vertically opposite angles</td><td><strong>equal</strong> (a = d, b = c)</td></tr><tr><td>Parallel lines: corresponding</td><td><strong>equal</strong></td></tr><tr><td>Parallel lines: alternate (interior/exterior)</td><td><strong>equal</strong></td></tr><tr><td>Parallel lines: co-interior (allied)</td><td>sum = <strong>180°</strong></td></tr></tbody></table>
+<hr>
+<h2 id="2-triangle--basics--types">2. Triangle — basics &amp; types</h2>
+<svg class="fig" viewBox="0 0 620 250" role="img" aria-label="Triangle angle sum and exterior angle">
+  <!-- triangle A(180,30) B(60,200) C(360,200), D extends BC to 520 -->
+  <path d="M60,200 L520,200" class="gw"/>
+  <path d="M180,30 L60,200 L360,200 Z" class="gw"/>
+  <!-- angle fills -->
+  <path d="M180,30 L158,61 A38,38 0 0,1 202,61 Z" class="fillA"/>
+  <path d="M60,200 L98,200 A38,38 0 0,1 87,173 Z" class="fillB"/>
+  <path d="M360,200 L322,200 A38,38 0 0,0 339,166 Z" class="fillC"/>
+  <path d="M360,200 L398,200 A38,38 0 0,1 381,166 Z" class="fillE"/>
+  <!-- vertices -->
+  <circle cx="180" cy="30" r="4" class="gv"/>
+  <circle cx="60" cy="200" r="4" class="gv"/>
+  <circle cx="360" cy="200" r="4" class="gv"/>
+  <text x="172" y="22" class="glab">A</text>
+  <text x="44" y="216" class="glab">B</text>
+  <text x="352" y="222" class="glab">C</text>
+  <text x="524" y="216" class="glab" fill="#c0392b">D</text>
+  <!-- interior angle marks -->
+  <text x="174" y="58" class="gsub" fill="#27ae60">A</text>
+  <text x="86" y="190" class="gsub" fill="#2980b9">B</text>
+  <text x="336" y="192" class="gsub" fill="#e67e22">C</text>
+  <text x="388" y="192" class="gsub" fill="#c0392b">ext</text>
+  <!-- notes -->
+  <g class="gnote">
+    <text x="400" y="60">∠A + ∠B + ∠C = 180°</text>
+    <text x="400" y="84">Exterior ∠ACD = ∠A + ∠B</text>
+    <text x="400" y="108">(sum of 2 remote interiors)</text>
+    <text x="400" y="132">Any two sides &gt; third side</text>
+    <text x="400" y="156">Bigger angle ↔ longer</text>
+    <text x="400" y="172">opposite side</text>
+  </g>
+</svg>
+<table><thead><tr><th>By sides</th><th>By angles</th></tr></thead><tbody><tr><td><strong>Equilateral</strong> — all sides equal (each angle 60°)</td><td><strong>Acute</strong> — all angles &lt; 90°</td></tr><tr><td><strong>Isosceles</strong> — two sides equal (base angles equal)</td><td><strong>Right</strong> — one angle = 90°</td></tr><tr><td><strong>Scalene</strong> — all sides different</td><td><strong>Obtuse</strong> — one angle &gt; 90°</td></tr></tbody></table>
+<hr>
+<h2 id="3-the-four-centres-of-a-triangle">3. The Four Centres of a Triangle</h2>
+<table><thead><tr><th>Centre</th><th>Where lines meet</th><th>Note</th></tr></thead><tbody>
+<tr><td><strong>Centroid&nbsp;G</strong></td><td>the 3 <strong>medians</strong> (vertex → midpoint)</td><td>divides each median <strong>2:1</strong> (from vertex)</td></tr>
+<tr><td><strong>Incentre&nbsp;I</strong></td><td>the 3 <strong>angle bisectors</strong></td><td>centre of <strong>inscribed</strong> circle</td></tr>
+<tr><td><strong>Circumcentre&nbsp;O</strong></td><td>the 3 <strong>perp. bisectors</strong> of the sides</td><td>centre of <strong>circumscribed</strong> ○; equidistant from vertices</td></tr>
+<tr><td><strong>Orthocentre&nbsp;H</strong></td><td>the 3 <strong>altitudes</strong> (vertex ⟂ opposite side)</td><td>—</td></tr></tbody></table>
+<blockquote>• G, O, H are collinear → the <strong>Euler line</strong>; and OG : GH = <strong>1 : 2</strong>.<br>• In an equilateral triangle all four centres <strong>coincide</strong>.</blockquote>
+<svg class="fig" viewBox="0 0 800 360" role="img" aria-label="The four centres of a triangle: centroid, incentre, circumcentre and orthocentre, with their construction lines">
+  <!--
+    All coordinates are GEOMETRICALLY EXACT for triangle:
+      A(110,70)  B(70,300)  C(470,250)
+    Midpoints: BC(270,275) AC(290,160) AB(90,185)
+    Centres:  G(216.7,206.7)  I(175.4,199.5)  O(262.5,215)  H(125,190)
+    Altitude feet: fA(137.7,291.5) fB(170,100) fC(90.2,183.9)
+    Incircle r=86.6 ; Circumcircle R=210.4 centred at O
+  -->
+  <!-- ===== CIRCUMCIRCLE (blue): passes through A, B, C ===== -->
+  <circle cx="262.5" cy="215" r="210.4" fill="none" stroke="#2980b9" stroke-width="1.4" stroke-dasharray="2 5"/>
+
+  <!-- ===== INCIRCLE (orange): inscribed, centre I ===== -->
+  <circle cx="175.4" cy="199.5" r="86.6" fill="#e67e22" fill-opacity=".08" stroke="#e67e22" stroke-width="1.6"/>
+
+  <!-- ===== MEDIANS (green) → meet at centroid G ===== -->
+  <line x1="110" y1="70"  x2="270" y2="275" stroke="#27ae60" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="70"  y1="300" x2="290" y2="160" stroke="#27ae60" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="470" y1="250" x2="90"  y2="185" stroke="#27ae60" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- ===== ALTITUDES (red) → meet at orthocentre H ===== -->
+  <line x1="110" y1="70"  x2="137.7" y2="291.5" stroke="#c0392b" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="70"  y1="300" x2="170"   y2="100"   stroke="#c0392b" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="470" y1="250" x2="90.2"  y2="183.9" stroke="#c0392b" stroke-width="1.8" stroke-dasharray="3 3"/>
+
+  <!-- ===== the triangle itself (on top) ===== -->
+  <path d="M110,70 L70,300 L470,250 Z" class="gw"/>
+
+  <!-- vertices -->
+  <circle cx="110" cy="70"  r="4.5" class="gv"/>
+  <circle cx="70"  cy="300" r="4.5" class="gv"/>
+  <circle cx="470" cy="250" r="4.5" class="gv"/>
+  <text x="98"  y="62"  class="glab">A</text>
+  <text x="52"  y="316" class="glab">B</text>
+  <text x="476" y="248" class="glab">C</text>
+
+  <!-- the four centres as distinct, well-separated coloured dots -->
+  <circle cx="216.7" cy="206.7" r="6.5" fill="#27ae60" stroke="#fff" stroke-width="1.5"/><!-- G -->
+  <circle cx="175.4" cy="199.5" r="6.5" fill="#e67e22" stroke="#fff" stroke-width="1.5"/><!-- I -->
+  <circle cx="262.5" cy="215"   r="6.5" fill="#2980b9" stroke="#fff" stroke-width="1.5"/><!-- O -->
+  <circle cx="125"   cy="190"   r="6.5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/><!-- H -->
+  <text x="222" y="201" class="gsub" fill="#27ae60" text-anchor="start" font-weight="700">G</text>
+  <text x="168" y="220" class="gsub" fill="#e67e22" font-weight="700">I</text>
+  <text x="268" y="230" class="gsub" fill="#2980b9" text-anchor="start" font-weight="700">O</text>
+  <text x="116" y="184" class="gsub" fill="#c0392b" font-weight="700">H</text>
+
+  <!-- ===== aligned legend on the right (shifted clear of the triangle) ===== -->
+  <g transform="translate(150,0)">
+    <circle cx="380" cy="62"  r="7" fill="#27ae60"/>
+    <text x="396" y="59"  class="gtxt"><tspan font-weight="700">G</tspan> — Centroid</text>
+    <text x="396" y="77"  class="gnote">3 medians · splits each 2 : 1</text>
+
+    <circle cx="380" cy="112" r="7" fill="#e67e22"/>
+    <text x="396" y="109" class="gtxt"><tspan font-weight="700">I</tspan> — Incentre</text>
+    <text x="396" y="127" class="gnote">3 angle bisectors · inscribed ○</text>
+
+    <circle cx="380" cy="162" r="7" fill="#2980b9"/>
+    <text x="396" y="159" class="gtxt"><tspan font-weight="700">O</tspan> — Circumcentre</text>
+    <text x="396" y="177" class="gnote">3 perp. bisectors · circumscribed ○</text>
+
+    <circle cx="380" cy="212" r="7" fill="#c0392b"/>
+    <text x="396" y="209" class="gtxt"><tspan font-weight="700">H</tspan> — Orthocentre</text>
+    <text x="396" y="227" class="gnote">3 altitudes (vertex ⟂ opp. side)</text>
+
+    <line x1="380" y1="262" x2="620" y2="262" stroke="#cfd8e3" stroke-width="1.5"/>
+    <text x="380" y="286" class="gnote"><tspan font-weight="700" fill="#16213e">Euler line:</tspan> O, G, H are collinear,</text>
+    <text x="380" y="304" class="gnote">with OG : GH = 1 : 2.</text>
+    <text x="380" y="324" class="gnote">Equilateral △ → all four coincide.</text>
+  </g>
+</svg>
+<blockquote><strong>Radii:</strong> inradius <strong>r = Area / s</strong> &nbsp;·&nbsp; circumradius <strong>R = (a·b·c) / (4·Area)</strong>.<br>In a <strong>right triangle</strong>, R = hypotenuse / 2 and the circumcentre O is the <strong>midpoint of the hypotenuse</strong>.</blockquote>
+<hr>
+<h2 id="4-triangle-area-formulas">4. Triangle Area Formulas</h2>
+<table><thead><tr><th>Given</th><th>Area</th></tr></thead><tbody><tr><td>base &amp; height</td><td><strong>½ × base × height</strong></td></tr><tr><td>3 sides a,b,c (Heron)</td><td><strong>√[s(s−a)(s−b)(s−c)]</strong>,  s = (a+b+c)/2</td></tr><tr><td>two sides &amp; included angle</td><td><strong>½ · a · b · sin C</strong></td></tr><tr><td>equilateral side a</td><td><strong>(√3 / 4) · a²</strong></td></tr><tr><td>with inradius r</td><td><strong>r × s</strong></td></tr><tr><td>with circumradius R</td><td><strong>(a·b·c) / (4R)</strong></td></tr></tbody></table>
+<svg class="fig" viewBox="0 0 620 230" role="img" aria-label="Equilateral triangle with height, inradius and circumradius">
+  <!-- equilateral: A(150,30) B(60,196) C(240,196), height foot M(150,196) -->
+  <path d="M150,30 L60,196 L240,196 Z" class="gw"/>
+  <path d="M150,30 L150,196" class="gr gdash"/>
+  <!-- right-angle mark at foot -->
+  <path d="M150,196 L150,180 L166,180" class="gr"/>
+  <!-- tick marks for equal sides -->
+  <text x="98" y="110" class="gsub" fill="#16213e">a</text>
+  <text x="196" y="110" class="gsub" fill="#16213e">a</text>
+  <text x="150" y="214" class="gcap">a</text>
+  <text x="158" y="120" class="gsub" fill="#c0392b" text-anchor="start">h</text>
+  <circle cx="150" cy="30" r="4" class="gv"/>
+  <circle cx="60" cy="196" r="4" class="gv"/>
+  <circle cx="240" cy="196" r="4" class="gv"/>
+  <g class="gnote">
+    <text x="310" y="58">height  h = (√3 / 2)·a</text>
+    <text x="310" y="90">area      = (√3 / 4)·a²</text>
+    <text x="310" y="122">inradius  r = a / (2√3)</text>
+    <text x="310" y="154">circumradius R = a / √3</text>
+    <text x="310" y="178">(so R = 2r)</text>
+  </g>
+</svg>
+<hr>
+<h2 id="5-pythagoras-theorem--triples">5. Pythagoras Theorem &amp; Triples</h2>
+<svg class="fig" viewBox="0 0 620 230" role="img" aria-label="Right triangle showing Pythagoras theorem and common triples">
+  <!-- right triangle: right angle at B(60,200), A(60,40), C(260,200) -->
+  <path d="M60,40 L60,200 L260,200 Z" class="gw"/>
+  <path d="M60,200 L60,180 L80,180" class="gr"/>
+  <path d="M60,40 L260,200" class="gr"/>
+  <circle cx="60" cy="40" r="4" class="gv"/>
+  <circle cx="60" cy="200" r="4" class="gv"/>
+  <circle cx="260" cy="200" r="4" class="gv"/>
+  <text x="40" y="124" class="gcap" fill="#16213e">b</text>
+  <text x="158" y="218" class="gcap">a</text>
+  <text x="168" y="108" class="gcap" fill="#c0392b">c</text>
+  <g class="gnote">
+    <text x="320" y="52" style="font-weight:700;fill:#c0392b">c² = a² + b²</text>
+    <text x="320" y="72">hypotenuse² = sum of squares of legs</text>
+    <text x="320" y="100" style="font-weight:700">Common Pythagorean triples:</text>
+    <text x="320" y="122">3, 4, 5      5, 12, 13</text>
+    <text x="320" y="142">8, 15, 17    7, 24, 25</text>
+    <text x="320" y="162">9, 40, 41    20, 21, 29</text>
+    <text x="320" y="186">…and any multiple (6-8-10, 9-12-15)</text>
+  </g>
+</svg>
+<table><thead><tr><th>Result</th><th>Formula</th></tr></thead><tbody><tr><td>Hypotenuse</td><td>√(a² + b²)</td></tr><tr><td>A leg</td><td>√(c² − other leg²)</td></tr><tr><td>Altitude to hypotenuse</td><td>(a·b)/c</td></tr><tr><td>Right-triangle inradius</td><td>r = (a + b − c)/2</td></tr></tbody></table>
+<hr>
+<h2 id="6-similarity--congruence">6. Similarity &amp; Congruence</h2>
+<svg class="fig" viewBox="0 0 620 230" role="img" aria-label="Similar versus congruent triangles">
+  <text x="150" y="28" class="gcap">SIMILAR — same shape, scaled</text>
+  <!-- small triangle -->
+  <path d="M70,120 L40,180 L100,180 Z" class="gb"/>
+  <text x="66" y="114" class="gsub" fill="#0f3460">A</text>
+  <text x="30" y="194" class="gsub" fill="#0f3460">B</text>
+  <text x="104" y="194" class="gsub" fill="#0f3460">C</text>
+  <!-- big similar triangle -->
+  <path d="M210,70 L160,180 L260,180 Z" class="gb"/>
+  <text x="206" y="64" class="gsub" fill="#0f3460">P</text>
+  <text x="150" y="194" class="gsub" fill="#0f3460">Q</text>
+  <text x="264" y="194" class="gsub" fill="#0f3460">R</text>
+  <text x="150" y="216" class="gnote" text-anchor="middle">AB/PQ = BC/QR = CA/RP = k</text>
+  <!-- divider -->
+  <line x1="320" y1="20" x2="320" y2="210" stroke="#cfd8e3" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="470" y="28" class="gcap">CONGRUENT — identical</text>
+  <path d="M380,80 L350,160 L420,160 Z" class="gr"/>
+  <path d="M470,80 L440,160 L510,160 Z" class="gr"/>
+  <g class="gnote">
+    <text x="350" y="186">Congruence tests: SSS, SAS, ASA, AAS, RHS</text>
+    <text x="350" y="206">Similarity tests: AA, SSS~, SAS~  (RHS = right △ only)</text>
+  </g>
+</svg>
+<table><thead><tr><th>In similar triangles (ratio k)</th><th>Relationship</th></tr></thead><tbody><tr><td>Corresponding sides</td><td>in ratio <strong>k</strong></td></tr><tr><td>Perimeters</td><td>in ratio <strong>k</strong></td></tr><tr><td><strong>Areas</strong></td><td>in ratio <strong>k²</strong></td></tr><tr><td>(for solids) Volumes</td><td>in ratio <strong>k³</strong></td></tr><tr><td>Basic Proportionality (Thales)</td><td>a line ∥ one side divides the other two <strong>proportionally</strong></td></tr></tbody></table>
+<hr>
+<h2 id="7-quadrilaterals">7. Quadrilaterals</h2>
+<svg class="fig" viewBox="0 0 620 180" role="img" aria-label="Square, rectangle, parallelogram and rhombus">
+  <!-- Square -->
+  <rect x="30" y="50" width="90" height="90" rx="3" class="gb fillB"/>
+  <text x="75" y="166" class="gcap">Square</text>
+  <!-- Rectangle -->
+  <rect x="170" y="60" width="130" height="70" rx="3" class="gb fillA"/>
+  <text x="235" y="166" class="gcap">Rectangle</text>
+  <!-- Parallelogram -->
+  <path d="M360,130 L410,60 L500,60 L450,130 Z" class="gb fillC"/>
+  <text x="430" y="166" class="gcap">Parallelogram</text>
+  <!-- Rhombus -->
+  <path d="M560,95 L585,55 L610,95 L585,135 Z" class="gb fillE"/>
+  <text x="585" y="166" class="gcap">Rhombus</text>
+</svg>
+<table><thead><tr><th>Shape</th><th>Area</th><th>Perimeter / notes</th></tr></thead><tbody><tr><td>Square (side a)</td><td>a²</td><td>4a; diagonal = a√2</td></tr><tr><td>Rectangle (l, b)</td><td>l·b</td><td>2(l+b); diagonal = √(l²+b²)</td></tr><tr><td>Parallelogram</td><td>base × height</td><td>opposite sides ∥ &amp; equal; diagonals bisect</td></tr><tr><td>Rhombus (diagonals d₁,d₂)</td><td><strong>½ · d₁ · d₂</strong></td><td>all sides equal; diagonals ⟂ bisect</td></tr><tr><td>Trapezium (∥ sides a,b; height h)</td><td><strong>½ (a + b) · h</strong></td><td>one pair of sides parallel</td></tr><tr><td>Kite (diagonals d₁,d₂)</td><td>½ · d₁ · d₂</td><td>diagonals ⟂</td></tr><tr><td>Cyclic quad (Brahmagupta)</td><td>√[(s−a)(s−b)(s−c)(s−d)]</td><td>opposite angles sum 180°</td></tr></tbody></table>
+<hr>
+<h2 id="8-polygons">8. Polygons</h2>
+<svg class="fig" viewBox="0 0 620 220" role="img" aria-label="Regular hexagon with polygon angle formulas">
+  <!-- regular hexagon centre (120,110) radius 80 -->
+  <polygon points="200,110 160,179 80,179 40,110 80,41 160,41" class="gb fillC"/>
+  <!-- a couple of diagonals from one vertex -->
+  <path d="M200,110 L80,179" class="gr gdash"/>
+  <path d="M200,110 L40,110" class="gr gdash"/>
+  <path d="M200,110 L80,41" class="gr gdash"/>
+  <text x="120" y="206" class="gcap">Regular hexagon (n = 6)</text>
+  <g class="gnote">
+    <text x="300" y="58">Sum of interior angles = (n − 2) × 180°</text>
+    <text x="300" y="88">Each interior (regular) = (n−2)·180° / n</text>
+    <text x="300" y="118">Each exterior (regular) = 360° / n</text>
+    <text x="300" y="148">Number of diagonals = n(n − 3) / 2</text>
+    <text x="300" y="178" style="fill:#c0392b">Hexagon: interior 120°, 9 diagonals</text>
+  </g>
+</svg>
+<table><thead><tr><th>n</th><th>Name</th><th>Interior-angle sum</th><th>Each interior (regular)</th></tr></thead><tbody><tr><td>3</td><td>Triangle</td><td>180°</td><td>60°</td></tr><tr><td>4</td><td>Quadrilateral</td><td>360°</td><td>90°</td></tr><tr><td>5</td><td>Pentagon</td><td>540°</td><td>108°</td></tr><tr><td>6</td><td>Hexagon</td><td>720°</td><td>120°</td></tr><tr><td>8</td><td>Octagon</td><td>1080°</td><td>135°</td></tr></tbody></table>
+<hr>
+<h2 id="9-circle--parts--theorems">9. Circle — parts &amp; theorems</h2>
+<svg class="fig" viewBox="0 0 620 250" role="img" aria-label="Parts of a circle: radius, diameter, chord, tangent, secant, arc">
+  <!-- circle centre (150,125) r=95 -->
+  <circle cx="150" cy="125" r="95" class="gb" fill="#eaf2fb"/>
+  <circle cx="150" cy="125" r="3.5" fill="#0f3460"/>
+  <text x="150" y="118" class="gsub" fill="#0f3460" text-anchor="start">C</text>
+  <!-- radius -->
+  <line x1="150" y1="125" x2="245" y2="125" class="gr"/>
+  <text x="180" y="118" class="gsub" fill="#c0392b">radius r</text>
+  <!-- chord (green) -->
+  <line x1="86" y1="55" x2="226" y2="78" class="gw" stroke="#27ae60"/>
+  <text x="120" y="52" class="gsub" fill="#27ae60">chord</text>
+  <!-- tangent (purple) at bottom, touching at (150,220) -->
+  <line x1="55" y1="220" x2="245" y2="220" stroke="#8e44ad" stroke-width="3"/>
+  <line x1="150" y1="125" x2="150" y2="220" class="gb gdash"/>
+  <path d="M150,220 L150,206 L164,206" stroke="#8e44ad" stroke-width="2.5" fill="none"/>
+  <circle cx="150" cy="220" r="3.5" fill="#8e44ad"/>
+  <text x="150" y="240" class="gsub" fill="#8e44ad">tangent (⟂ radius)</text>
+  <!-- secant (orange) -->
+  <line x1="60" y1="170" x2="250" y2="200" stroke="#e67e22" stroke-width="3"/>
+  <text x="250" y="178" class="gsub" fill="#e67e22" text-anchor="start">secant</text>
+  <g class="gnote">
+    <text x="330" y="60">Radius r; Diameter d = 2r</text>
+    <text x="330" y="86">Circumference = 2πr = πd</text>
+    <text x="330" y="112">Area = πr²</text>
+    <text x="330" y="146" style="fill:#27ae60">Chord — joins two points on ○</text>
+    <text x="330" y="172" style="fill:#8e44ad">Tangent — touches at 1 point, ⟂ radius</text>
+    <text x="330" y="198" style="fill:#e67e22">Secant — cuts ○ at two points</text>
+  </g>
+</svg>
+<table><thead><tr><th>Theorem</th><th>Statement</th></tr></thead><tbody><tr><td>Angle at centre</td><td>= <strong>2 ×</strong> angle at circumference (same arc)</td></tr><tr><td>Angles in same segment</td><td><strong>equal</strong></td></tr><tr><td>Angle in a semicircle</td><td><strong>90°</strong> (diameter subtends right angle)</td></tr><tr><td>Cyclic quadrilateral</td><td>opposite angles sum <strong>180°</strong></td></tr><tr><td>Tangent ⟂ radius</td><td>at the point of contact (90°)</td></tr><tr><td>Two tangents from a point</td><td>are <strong>equal</strong> in length</td></tr><tr><td>Alternate segment</td><td>tangent-chord angle = angle in alternate segment</td></tr><tr><td>Intersecting chords</td><td>PA · PB = PC · PD</td></tr><tr><td>Equal chords</td><td>equidistant from the centre</td></tr></tbody></table>
+<table><thead><tr><th>Circle measure</th><th>Formula</th></tr></thead><tbody><tr><td>Area</td><td>π r²</td></tr><tr><td>Circumference</td><td>2 π r</td></tr><tr><td>Arc length (angle θ°)</td><td>(θ/360) × 2πr</td></tr><tr><td>Sector area (angle θ°)</td><td>(θ/360) × πr²</td></tr><tr><td>Segment area</td><td>sector area − triangle area</td></tr></tbody></table>
+<hr>
+<h2 id="9a-circle--chord-theorems">9A. Circle — Chord Theorems</h2>
+<svg class="fig" viewBox="0 0 620 230" role="img" aria-label="Perpendicular from centre bisects a chord">
+  <!-- circle centre O(160,90) r=90; chord AB at y=160 -->
+  <circle cx="160" cy="90" r="90" class="gb" fill="#eaf2fb"/>
+  <circle cx="160" cy="90" r="3.5" fill="#0f3460"/>
+  <text x="168" y="86" class="gsub" fill="#0f3460" text-anchor="start">O</text>
+  <!-- chord AB: from (82,160) to (238,160), midpoint M(160,160) -->
+  <line x1="82" y1="160" x2="238" y2="160" stroke="#27ae60" stroke-width="3"/>
+  <!-- radii to A and B -->
+  <line x1="160" y1="90" x2="82" y2="160" class="gw"/>
+  <line x1="160" y1="90" x2="238" y2="160" class="gw"/>
+  <!-- perpendicular OM -->
+  <line x1="160" y1="90" x2="160" y2="160" class="gr"/>
+  <path d="M160,160 L160,146 L146,146" class="gr"/>
+  <circle cx="82" cy="160" r="4" class="gv"/>
+  <circle cx="238" cy="160" r="4" class="gv"/>
+  <circle cx="160" cy="160" r="3.5" fill="#c0392b"/>
+  <text x="66" y="176" class="gsub" fill="#16213e">A</text>
+  <text x="244" y="176" class="gsub" fill="#16213e">B</text>
+  <text x="160" y="182" class="gsub" fill="#c0392b">M</text>
+  <text x="130" y="128" class="gsub" fill="#c0392b" text-anchor="start">r</text>
+  <g class="gnote">
+    <text x="320" y="64" style="font-weight:700">OM ⟂ AB  ⇒  AM = MB</text>
+    <text x="320" y="94">Distance of chord from centre:</text>
+    <text x="320" y="116">OM = √(r² − (AB/2)²)</text>
+    <text x="320" y="150">Conversely, the line from O to the</text>
+    <text x="320" y="172">midpoint of a chord is ⟂ to it.</text>
+  </g>
+</svg>
+<table><thead><tr><th>Chord theorem</th><th>Statement</th></tr></thead><tbody><tr><td>Perpendicular from centre</td><td><strong>bisects</strong> the chord (AM = MB)</td></tr><tr><td>Line from centre to chord-midpoint</td><td>is <strong>perpendicular</strong> to the chord</td></tr><tr><td>Equal chords</td><td>are <strong>equidistant</strong> from the centre (and vice-versa)</td></tr><tr><td>Longer chord</td><td>is <strong>nearer</strong> the centre; the diameter is the longest chord</td></tr><tr><td>Equal chords subtend</td><td><strong>equal angles</strong> at the centre</td></tr></tbody></table>
+<hr>
+<h2 id="9b-intersecting-chords-secants--tangentsecant-power-of-a-point-">9B. Intersecting Chords, Secants &amp; Tangent–Secant (Power of a Point) ⭐</h2>
+<svg class="fig" viewBox="0 0 620 250" role="img" aria-label="Power of a point: intersecting chords, two secants, and tangent-secant">
+  <!-- (1) chords inside -->
+  <g>
+    <circle cx="100" cy="110" r="70" class="gb" fill="#eaf2fb"/>
+    <!-- chord AB and CD crossing at X(100,110) -->
+    <line x1="48" y1="65" x2="158" y2="142" class="gr"/>
+    <line x1="150" y1="62" x2="55" y2="160" class="gw" stroke="#27ae60"/>
+    <circle cx="100" cy="110" r="4" fill="#c0392b"/>
+    <text x="104" y="106" class="gsub" text-anchor="start" fill="#c0392b">X</text>
+    <text x="40" y="60" class="gsub">A</text>
+    <text x="162" y="146" class="gsub">B</text>
+    <text x="156" y="58" class="gsub" fill="#27ae60">D</text>
+    <text x="46" y="174" class="gsub" fill="#27ae60">C</text>
+    <text x="100" y="208" class="gcap">① Chords inside</text>
+    <text x="100" y="226" class="gsub" fill="#c0392b">AX·XB = CX·XD</text>
+  </g>
+  <!-- (2) two secants outside -->
+  <g>
+    <circle cx="340" cy="110" r="62" class="gb" fill="#eaf2fb"/>
+    <!-- P external at (210,110) -->
+    <circle cx="210" cy="90" r="4" fill="#16213e"/>
+    <text x="196" y="86" class="gsub">P</text>
+    <line x1="210" y1="90" x2="400" y2="78" class="gr"/>
+    <line x1="210" y1="90" x2="392" y2="150" class="gr"/>
+    <text x="286" y="78" class="gsub">A</text>
+    <text x="402" y="76" class="gsub">B</text>
+    <text x="298" y="132" class="gsub">C</text>
+    <text x="396" y="160" class="gsub">D</text>
+    <text x="340" y="208" class="gcap">② Two secants</text>
+    <text x="340" y="226" class="gsub" fill="#c0392b">PA·PB = PC·PD</text>
+  </g>
+  <!-- (3) tangent + secant -->
+  <g>
+    <circle cx="545" cy="110" r="55" class="gb" fill="#eaf2fb"/>
+    <circle cx="470" cy="150" r="4" fill="#16213e"/>
+    <text x="456" y="146" class="gsub">P</text>
+    <!-- tangent to T -->
+    <line x1="470" y1="150" x2="556" y2="58" stroke="#8e44ad" stroke-width="3"/>
+    <circle cx="556" cy="58" r="3.5" fill="#8e44ad"/>
+    <text x="560" y="54" class="gsub" text-anchor="start" fill="#8e44ad">T</text>
+    <!-- secant through A,B -->
+    <line x1="470" y1="150" x2="600" y2="150" class="gr"/>
+    <text x="500" y="166" class="gsub">A</text>
+    <text x="592" y="166" class="gsub">B</text>
+    <text x="545" y="208" class="gcap">③ Tangent + secant</text>
+    <text x="545" y="226" class="gsub" fill="#c0392b">PT² = PA·PB</text>
+  </g>
+</svg>
+<table><thead><tr><th>Theorem (Power of a Point)</th><th>Relation</th></tr></thead><tbody><tr><td>Two chords intersect <strong>inside</strong> at X</td><td>AX · XB = CX · XD</td></tr><tr><td>Two secants from an <strong>external</strong> point P</td><td>PA · PB = PC · PD</td></tr><tr><td><strong>Tangent–Secant</strong> from external point P</td><td>PT² = PA · PB</td></tr><tr><td>Two <strong>tangents</strong> from external point P</td><td>PT₁ = PT₂ (equal lengths)</td></tr></tbody></table>
+<p>🪄 <strong>One idea:</strong> for any point P and a line through it cutting the circle at two points, the <strong>product of the two distances is constant</strong> (the "power" of P). Inside → chord·chord; outside → secant·secant; tangent is the limiting case where the two points merge → PT².</p>
+<hr>
+<h2 id="9c-tangent-theorems">9C. Tangent Theorems</h2>
+<svg class="fig" viewBox="0 0 760 240" role="img" aria-label="Tangent perpendicular to radius, and two tangents from an external point">
+  <!-- left: tangent ⟂ radius -->
+  <g>
+    <circle cx="130" cy="95" r="65" class="gb" fill="#eaf2fb"/>
+    <circle cx="130" cy="95" r="3.5" fill="#0f3460"/>
+    <text x="138" y="92" class="gsub" text-anchor="start" fill="#0f3460">O</text>
+    <line x1="130" y1="95" x2="130" y2="160" class="gr"/>
+    <line x1="50" y1="160" x2="210" y2="160" stroke="#8e44ad" stroke-width="3"/>
+    <path d="M130,160 L130,146 L144,146" stroke="#8e44ad" stroke-width="2.5" fill="none"/>
+    <circle cx="130" cy="160" r="3.5" fill="#8e44ad"/>
+    <text x="130" y="178" class="gsub" fill="#8e44ad">T</text>
+    <text x="130" y="208" class="gcap">Tangent ⟂ radius (90°)</text>
+  </g>
+  <!-- right: two tangents from P -->
+  <g>
+    <circle cx="430" cy="80" r="58" class="gb" fill="#eaf2fb"/>
+    <circle cx="430" cy="80" r="3.5" fill="#0f3460"/>
+    <text x="438" y="77" class="gsub" text-anchor="start" fill="#0f3460">O</text>
+    <!-- P below -->
+    <circle cx="430" cy="195" r="4" fill="#16213e"/>
+    <text x="430" y="216" class="gsub">P (external)</text>
+    <!-- tangent points T1,T2 -->
+    <line x1="430" y1="195" x2="376" y2="103" class="gr"/>
+    <line x1="430" y1="195" x2="484" y2="103" class="gr"/>
+    <line x1="430" y1="80" x2="376" y2="103" class="gw gdash"/>
+    <line x1="430" y1="80" x2="484" y2="103" class="gw gdash"/>
+    <line x1="430" y1="80" x2="430" y2="195" class="gb gdash"/>
+    <circle cx="376" cy="103" r="3.5" fill="#c0392b"/>
+    <circle cx="484" cy="103" r="3.5" fill="#c0392b"/>
+    <text x="356" y="104" class="gsub" fill="#c0392b">T₁</text>
+    <text x="490" y="104" class="gsub" text-anchor="start" fill="#c0392b">T₂</text>
+  </g>
+  <g class="gnote">
+    <text x="560" y="96" style="font-weight:700">PT₁ = PT₂</text>
+    <text x="560" y="122">OP bisects ∠T₁PT₂</text>
+    <text x="560" y="148">OT₁ ⟂ PT₁</text>
+    <text x="560" y="170">OT₂ ⟂ PT₂</text>
+  </g>
+</svg>
+<table><thead><tr><th>Tangent theorem</th><th>Statement</th></tr></thead><tbody><tr><td>Tangent ⟂ radius</td><td>at the point of contact (90°)</td></tr><tr><td>Two tangents from external point</td><td>are <strong>equal</strong> (PT₁ = PT₂)</td></tr><tr><td>Line from centre to external point</td><td><strong>bisects</strong> the angle between the two tangents</td></tr><tr><td>Tangent length</td><td>PT = √(OP² − r²)</td></tr><tr><td>Alternate Segment Theorem</td><td>angle between tangent &amp; chord = angle in the <strong>alternate segment</strong></td></tr></tbody></table>
+<svg class="fig" viewBox="0 0 760 190" role="img" aria-label="Direct and transverse common tangents of two circles">
+  <!-- two circles: big centre (120,95) R=55, small centre (410,95) r=32 -->
+  <circle cx="120" cy="95" r="55" class="gb" fill="#eaf2fb"/>
+  <circle cx="410" cy="95" r="32" class="gb" fill="#eaf2fb"/>
+  <circle cx="120" cy="95" r="3" fill="#0f3460"/>
+  <circle cx="410" cy="95" r="3" fill="#0f3460"/>
+  <line x1="120" y1="95" x2="410" y2="95" class="gw gdash"/>
+  <text x="265" y="89" class="gsub">d</text>
+  <!-- direct common tangents (green, outer) -->
+  <line x1="98"  y1="44" x2="397" y2="66" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="98"  y1="146" x2="397" y2="124" stroke="#27ae60" stroke-width="2.5"/>
+  <!-- transverse common tangent (red, crossing between the circles) -->
+  <line x1="145" y1="145" x2="392" y2="66" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="120" y="178" class="gsub" fill="#27ae60">direct</text>
+  <text x="300" y="150" class="gsub" fill="#c0392b">transverse</text>
+  <!-- formulas in clear space on the right -->
+  <g class="gnote">
+    <text x="500" y="82"  style="fill:#27ae60;font-weight:700">Direct common tangent</text>
+    <text x="500" y="102" style="fill:#27ae60">= √(d² − (R − r)²)</text>
+    <text x="500" y="132" style="fill:#c0392b;font-weight:700">Transverse common tangent</text>
+    <text x="500" y="152" style="fill:#c0392b">= √(d² − (R + r)²)</text>
+  </g>
+</svg>
+<hr>
+<h2 id="9d-proportionality--angle-theorems-circle">9D. Proportionality &amp; Angle Theorems (Circle)</h2>
+<svg class="fig" viewBox="0 0 620 240" role="img" aria-label="Angle at centre is twice the angle at circumference; angles in same segment are equal">
+  <!-- left: angle at centre = 2 x circumference -->
+  <g>
+    <circle cx="150" cy="110" r="85" class="gb" fill="#eaf2fb"/>
+    <circle cx="150" cy="110" r="3.5" fill="#0f3460"/>
+    <text x="158" y="106" class="gsub" text-anchor="start" fill="#0f3460">O</text>
+    <!-- A and B on circle, chord at bottom; C on top arc -->
+    <!-- A(72,165) B(228,165) C(150,25) -->
+    <line x1="150" y1="110" x2="72" y2="165" class="gr"/>
+    <line x1="150" y1="110" x2="228" y2="165" class="gr"/>
+    <line x1="150" y1="25" x2="72" y2="165" class="gw"/>
+    <line x1="150" y1="25" x2="228" y2="165" class="gw"/>
+    <line x1="72" y1="165" x2="228" y2="165" stroke="#27ae60" stroke-width="2.5"/>
+    <circle cx="72" cy="165" r="4" class="gv"/>
+    <circle cx="228" cy="165" r="4" class="gv"/>
+    <circle cx="150" cy="25" r="4" class="gv"/>
+    <text x="56" y="180" class="gsub">A</text>
+    <text x="234" y="180" class="gsub">B</text>
+    <text x="150" y="18" class="gsub">C</text>
+    <text x="150" y="216" class="gcap">Centre angle = 2 × circumference</text>
+    <text x="150" y="234" class="gsub" fill="#c0392b">∠AOB = 2·∠ACB  (arc AB)</text>
+  </g>
+  <!-- right: same segment -->
+  <g>
+    <circle cx="450" cy="110" r="85" class="gb" fill="#eaf2fb"/>
+    <!-- A(372,165) B(528,165); C(400,35) D(500,35) both on major arc -->
+    <line x1="400" y1="35" x2="372" y2="165" class="gr"/>
+    <line x1="400" y1="35" x2="528" y2="165" class="gr"/>
+    <line x1="500" y1="35" x2="372" y2="165" class="gw"/>
+    <line x1="500" y1="35" x2="528" y2="165" class="gw"/>
+    <line x1="372" y1="165" x2="528" y2="165" stroke="#27ae60" stroke-width="2.5"/>
+    <circle cx="372" cy="165" r="4" class="gv"/>
+    <circle cx="528" cy="165" r="4" class="gv"/>
+    <circle cx="400" cy="35" r="4" class="gv"/>
+    <circle cx="500" cy="35" r="4" class="gv"/>
+    <text x="356" y="180" class="gsub">A</text>
+    <text x="534" y="180" class="gsub">B</text>
+    <text x="388" y="30" class="gsub">C</text>
+    <text x="506" y="30" class="gsub">D</text>
+    <text x="450" y="216" class="gcap">Angles in same segment</text>
+    <text x="450" y="234" class="gsub" fill="#c0392b">∠ACB = ∠ADB  (arc AB)</text>
+  </g>
+</svg>
+<table><thead><tr><th>Angle / proportion theorem</th><th>Statement</th></tr></thead><tbody><tr><td>Angle at centre</td><td>= <strong>2 ×</strong> angle at the circumference on the same arc</td></tr><tr><td>Angles in the same segment</td><td>are <strong>equal</strong></td></tr><tr><td>Angle in a semicircle</td><td>= <strong>90°</strong></td></tr><tr><td>Cyclic quadrilateral</td><td>opposite angles are <strong>supplementary</strong> (sum 180°)</td></tr><tr><td>Exterior angle of cyclic quad</td><td>= interior <strong>opposite</strong> angle</td></tr><tr><td>Ptolemy's theorem (cyclic quad)</td><td>AC · BD = AB · CD + AD · BC (product of diagonals)</td></tr><tr><td>Equal arcs</td><td>subtend equal angles at the centre &amp; equal chords</td></tr></tbody></table>
+<hr>
+<h2 id="10-mensuration-2d--areas--perimeters">10. Mensuration 2D — areas &amp; perimeters</h2>
+<table><thead><tr><th>Shape</th><th>Area</th><th>Perimeter</th></tr></thead><tbody><tr><td>Square (a)</td><td>a²</td><td>4a</td></tr><tr><td>Rectangle (l,b)</td><td>l·b</td><td>2(l+b)</td></tr><tr><td>Triangle (b,h)</td><td>½·b·h</td><td>a+b+c</td></tr><tr><td>Equilateral (a)</td><td>(√3/4)a²</td><td>3a</td></tr><tr><td>Parallelogram</td><td>b·h</td><td>2(a+b)</td></tr><tr><td>Rhombus (d₁,d₂)</td><td>½·d₁·d₂</td><td>4·side</td></tr><tr><td>Trapezium (a,b,h)</td><td>½(a+b)h</td><td>sum of sides</td></tr><tr><td>Circle (r)</td><td>πr²</td><td>2πr</td></tr><tr><td>Semicircle (r)</td><td>½πr²</td><td>πr + 2r</td></tr><tr><td>Ring (R,r)</td><td>π(R²−r²)</td><td>—</td></tr></tbody></table>
+<hr>
+<h2 id="11-mensuration-3d--solids">11. Mensuration 3D — solids</h2>
+<svg class="fig" viewBox="0 0 620 170" role="img" aria-label="Cube, cuboid, cylinder, cone and sphere">
+  <!-- Cube -->
+  <g>
+    <rect x="30" y="55" width="60" height="60" class="gw fillB"/>
+    <path d="M30,55 L50,35 L110,35 L90,55" class="gw" fill="#2980b9" fill-opacity=".12"/>
+    <path d="M90,55 L110,35 L110,95 L90,115" class="gw" fill="#2980b9" fill-opacity=".25"/>
+    <text x="65" y="150" class="gcap">Cube</text>
+  </g>
+  <!-- Cuboid -->
+  <g>
+    <rect x="150" y="60" width="90" height="50" class="gw fillA"/>
+    <path d="M150,60 L168,42 L258,42 L240,60" class="gw" fill="#27ae60" fill-opacity=".12"/>
+    <path d="M240,60 L258,42 L258,92 L240,110" class="gw" fill="#27ae60" fill-opacity=".25"/>
+    <text x="195" y="150" class="gcap">Cuboid</text>
+  </g>
+  <!-- Cylinder -->
+  <g>
+    <ellipse cx="330" cy="42" rx="34" ry="11" class="gw fillC"/>
+    <path d="M296,42 L296,108" class="gw"/>
+    <path d="M364,42 L364,108" class="gw"/>
+    <path d="M296,108 A34,11 0 0,0 364,108" class="gw" fill="#e67e22" fill-opacity=".18"/>
+    <text x="330" y="150" class="gcap">Cylinder</text>
+  </g>
+  <!-- Cone -->
+  <g>
+    <path d="M450,35 L420,108 L480,108 Z" class="gw fillD"/>
+    <path d="M420,108 A30,9 0 0,0 480,108" class="gw" fill="#8e44ad" fill-opacity=".18"/>
+    <text x="450" y="150" class="gcap">Cone</text>
+  </g>
+  <!-- Sphere -->
+  <g>
+    <circle cx="560" cy="72" r="38" class="gw fillE"/>
+    <ellipse cx="560" cy="72" rx="38" ry="13" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="560" y="150" class="gcap">Sphere</text>
+  </g>
+</svg>
+<table><thead><tr><th>Solid</th><th>Volume</th><th>Curved/Lateral SA</th><th>Total SA</th></tr></thead><tbody><tr><td>Cube (a)</td><td>a³</td><td>4a²</td><td>6a²; diagonal a√3</td></tr><tr><td>Cuboid (l,b,h)</td><td>l·b·h</td><td>2h(l+b)</td><td>2(lb+bh+hl); diag √(l²+b²+h²)</td></tr><tr><td>Cylinder (r,h)</td><td>πr²h</td><td>2πrh</td><td>2πr(r+h)</td></tr><tr><td>Cone (r,h)</td><td>⅓πr²h</td><td>πrl</td><td>πr(r+l); slant l=√(r²+h²)</td></tr><tr><td>Sphere (r)</td><td>4/3·πr³</td><td>—</td><td>4πr²</td></tr><tr><td>Hemisphere (r)</td><td>2/3·πr³</td><td>2πr²</td><td>3πr²</td></tr><tr><td>Frustum (R,r,h)</td><td>⅓πh(R²+r²+Rr)</td><td>π(R+r)l</td><td>+ π(R²+r²)</td></tr></tbody></table>
+<svg class="fig" viewBox="0 0 620 200" role="img" aria-label="Cone slant height, sphere and hemisphere volume and surface area">
+  <!-- Cone slant height triangle: right angle at base centre -->
+  <g>
+    <path d="M70,30 L40,140 L160,140 Z" class="gw fillD"/>
+    <line x1="100" y1="30" x2="100" y2="140" class="gr gdash"/>
+    <path d="M100,140 L100,126 L114,126" class="gr"/>
+    <text x="58" y="92" class="gsub" fill="#8e44ad">l</text>
+    <text x="108" y="92" class="gsub" text-anchor="start" fill="#c0392b">h</text>
+    <text x="130" y="158" class="gsub">r</text>
+    <text x="100" y="178" class="gcap">Cone: l² = r² + h²</text>
+  </g>
+  <!-- Sphere -->
+  <g>
+    <circle cx="330" cy="80" r="48" class="gw fillE"/>
+    <ellipse cx="330" cy="80" rx="48" ry="16" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <g class="gnote">
+      <text x="290" y="158">V = (4/3)·πr³</text>
+      <text x="290" y="178">SA = 4πr²</text>
+    </g>
+  </g>
+  <!-- Hemisphere -->
+  <g>
+    <path d="M460,80 A55,55 0 0,1 570,80 Z" class="gw fillC"/>
+    <ellipse cx="515" cy="80" rx="55" ry="15" fill="none" stroke="#16213e" stroke-width="2"/>
+    <g class="gnote">
+      <text x="466" y="120">V = (2/3)·πr³</text>
+      <text x="466" y="140">TSA = 3πr²</text>
+      <text x="466" y="158" style="font-size:11px">(flat base + curved)</text>
+    </g>
+  </g>
+</svg>
+<hr>
+<h2 id="12-coordinate-geometry">12. Coordinate Geometry</h2>
+<svg class="fig" viewBox="0 0 620 230" role="img" aria-label="Coordinate geometry: two points, distance, midpoint, slope and section formula">
+  <!-- axes -->
+  <line x1="40" y1="200" x2="300" y2="200" class="gw"/>
+  <line x1="70" y1="20" x2="70" y2="215" class="gw"/>
+  <path d="M300,200 l-12,-6 l0,12 z" class="gv"/>
+  <path d="M70,20 l-6,12 l12,0 z" class="gv"/>
+  <text x="305" y="205" class="gsub" text-anchor="start">x</text>
+  <text x="62" y="18" class="gsub">y</text>
+  <!-- P(120,150) Q(250,60) -->
+  <line x1="120" y1="150" x2="250" y2="60" class="gr"/>
+  <!-- right-triangle legs (dashed) for distance -->
+  <line x1="120" y1="150" x2="250" y2="150" class="gb gdash"/>
+  <line x1="250" y1="150" x2="250" y2="60" class="gb gdash"/>
+  <circle cx="120" cy="150" r="4.5" fill="#16213e"/>
+  <circle cx="250" cy="60" r="4.5" fill="#16213e"/>
+  <text x="100" y="166" class="gsub" fill="#16213e">P(x₁,y₁)</text>
+  <text x="252" y="54" class="gsub" text-anchor="start" fill="#16213e">Q(x₂,y₂)</text>
+  <g class="gnote">
+    <text x="330" y="56">Distance = √[(x₂−x₁)² + (y₂−y₁)²]</text>
+    <text x="330" y="88">Midpoint = ((x₁+x₂)/2 , (y₁+y₂)/2)</text>
+    <text x="330" y="120">Slope m = (y₂−y₁)/(x₂−x₁)</text>
+    <text x="330" y="152">Section (m:n) =</text>
+    <text x="346" y="172">((mx₂+nx₁)/(m+n),</text>
+    <text x="346" y="190">(my₂+ny₁)/(m+n))</text>
+  </g>
+</svg>
+<table><thead><tr><th>Concept</th><th>Formula</th></tr></thead><tbody><tr><td>Distance</td><td>√[(x₂−x₁)² + (y₂−y₁)²]</td></tr><tr><td>Midpoint</td><td>((x₁+x₂)/2, (y₁+y₂)/2)</td></tr><tr><td>Slope m</td><td>(y₂−y₁)/(x₂−x₁)</td></tr><tr><td>Line (slope-intercept)</td><td>y = mx + c</td></tr><tr><td>Parallel lines</td><td>equal slopes (m₁ = m₂)</td></tr><tr><td>Perpendicular lines</td><td>m₁ · m₂ = −1</td></tr><tr><td>Area of triangle (vertices)</td><td>½ \</td><td>x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)\</td><td></td></tr></tbody></table>
+<hr>
+<h2 id="13-quick-recall-table">13. Quick recall table</h2>
+<table><thead><tr><th>Prompt</th><th>Answer</th></tr></thead><tbody><tr><td>Triangle angle sum</td><td>180°</td></tr><tr><td>Equilateral area</td><td>(√3/4)·a²</td></tr><tr><td>Heron's area</td><td>√[s(s−a)(s−b)(s−c)]</td></tr><tr><td>Centroid divides median</td><td>2 : 1</td></tr><tr><td>Circumradius R</td><td>abc/(4·Area)</td></tr><tr><td>Inradius r</td><td>Area/s</td></tr><tr><td>Angle in semicircle</td><td>90°</td></tr><tr><td>Angle at centre vs circumference</td><td>2 : 1</td></tr><tr><td>Rhombus area</td><td>½·d₁·d₂</td></tr><tr><td>Trapezium area</td><td>½(a+b)·h</td></tr><tr><td>Interior-angle sum (n-gon)</td><td>(n−2)·180°</td></tr><tr><td>Diagonals of n-gon</td><td>n(n−3)/2</td></tr><tr><td>Cube diagonal</td><td>a√3</td></tr><tr><td>Cuboid diagonal</td><td>√(l²+b²+h²)</td></tr><tr><td>Cone slant l</td><td>√(r²+h²)</td></tr><tr><td>Sphere volume / SA</td><td>4/3·πr³ / 4πr²</td></tr><tr><td>Hemisphere TSA</td><td>3πr²</td></tr><tr><td>Areas of similar figures</td><td>ratio of sides²</td></tr><tr><td>Perpendicular slopes</td><td>m₁·m₂ = −1</td></tr></tbody></table>
+<hr>
+<blockquote>✅ <strong>Strategy:</strong> learn the <strong>figure first</strong>, then attach its formulas — recall is far stronger when you can <em>picture</em> the shape. Redraw 2–3 figures from memory daily. Back to the <a href="SSC-CGL-ASO-Formulas-Tricks-Master.md">main formula sheet »</a>.</blockquote>
+</body></html>

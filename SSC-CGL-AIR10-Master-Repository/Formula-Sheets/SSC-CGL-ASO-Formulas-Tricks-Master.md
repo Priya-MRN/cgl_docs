@@ -175,6 +175,10 @@ Example: 20% up then 20% down → 20 − 20 − 400/100 = **−4%** (net 4% loss
 
 ## 1.10 Geometry — Triangles & Circles  ⭐ *(13.11.1.4)*
 
+> 📖 **Full handbook with labelled figures for every shape & theorem (lines, triangles,
+> centres, circles, quadrilaterals, polygons, 2D/3D mensuration, coordinate geometry):**
+> [Geometry Handbook — Formulas & Figures »](Geometry-Handbook-Formulas-and-Figures.md)
+
 | Concept | Formula / Fact | 🪄 Trick |
 | :-- | :-- | :-- |
 | Pythagoras | a² + b² = c² | triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25 |

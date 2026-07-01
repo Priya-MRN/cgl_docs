@@ -481,6 +481,11 @@ _PAGE_CSS = """
   .toc th,.toc td{ }
   .count{ text-align:center; font-weight:600; }
   .backtop{ font-size:.8em; }
+  /* TODAY's newly-added words highlighted */
+  tr.today{ background:#fff3cd !important; }
+  tr.today td:first-child::after{ content:" 🆕"; }
+  .newbadge{ background:#e67e22; color:#fff; border-radius:6px; padding:1px 8px;
+      font-size:.8em; margin-left:8px; }
   hr{ border:0; border-top:2px dashed #cfd8e3; margin:22px 0; }
 """
 
@@ -489,14 +494,16 @@ def _esc(s):
     return _html.escape(s or "", quote=False)
 
 
-def write_master(words, days):
-    """Render every unique word into ONE self-contained, grouped HTML page."""
+def write_master(words, days, today_str=None):
+    """Render every unique word into ONE self-contained, grouped HTML page.
+    Words whose 'added' == today_str are highlighted as TODAY's new words."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     from collections import defaultdict
     buckets = defaultdict(list)
     for e in words:
         buckets[group_for(e)].append(e)
     used_groups = [g for g in GROUP_ORDER if buckets[g]]
+    today_count = sum(1 for e in words if e.get("added") == today_str) if today_str else 0
 
     p = []
     p.append("<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'>")
@@ -504,23 +511,28 @@ def write_master(words, days):
     p.append("<title>Daily Editorial Vocabulary — Master List</title>")
     p.append(f"<style>{_PAGE_CSS}</style></head><body>")
     p.append("<h1>📚 Daily Editorial Vocabulary — Master List</h1>")
+    badge = (f"<span class='newbadge'>{today_count} new today</span>"
+             if today_count else "")
     p.append(
-        f"<blockquote><strong>{len(words)} unique words</strong>, grouped by "
+        f"<blockquote><strong>{len(words)} unique words</strong>{badge}, grouped by "
         "meaning so similar words sit together. Updated daily — new words are "
-        "merged in, duplicates are never repeated.<br><br><strong>How to use:</strong> "
+        "merged in, duplicates are never repeated. Rows added <strong>today are "
+        "highlighted</strong> 🆕.<br><br><strong>How to use:</strong> "
         "pick a group, read each <em>meaning</em> and <em>example</em> aloud, cover "
         "the meaning, and recall it.</blockquote>")
 
     # Contents (anchors target the slug of each group's text)
     p.append("<h2 id='contents'>🧭 Contents</h2>")
     p.append("<table class='toc'><thead><tr><th>#</th><th>Group</th>"
-             "<th>Words</th></tr></thead><tbody>")
+             "<th>Words</th><th>New</th></tr></thead><tbody>")
     for i, g in enumerate(used_groups, 1):
         emoji, text = _split_emoji(g)
         slug = _anchor(text)
+        n_new = sum(1 for e in buckets[g] if e.get("added") == today_str) if today_str else 0
         p.append(f"<tr><td class='count'>{i}</td>"
                  f"<td><a href='#{slug}'>{_esc(g)}</a></td>"
-                 f"<td class='count'>{len(buckets[g])}</td></tr>")
+                 f"<td class='count'>{len(buckets[g])}</td>"
+                 f"<td class='count'>{n_new or ''}</td></tr>")
     p.append("</tbody></table>")
 
     # Group sections
@@ -534,8 +546,9 @@ def write_master(words, days):
                  "</tr></thead><tbody>")
         for e in sorted(buckets[g], key=lambda x: x["word"].lower()):
             ex = f"<em>{_esc(e['example'])}</em>" if e.get("example") else ""
+            cls = " class='today'" if e.get("added") == today_str and today_str else ""
             p.append(
-                f"<tr><td><strong>{_esc(e['word'])}</strong></td>"
+                f"<tr{cls}><td><strong>{_esc(e['word'])}</strong></td>"
                 f"<td>{_esc(e.get('pos',''))}</td>"
                 f"<td>{_esc(e.get('meaning',''))}</td>"
                 f"<td>{_esc(e.get('easy',''))}</td>"
@@ -599,6 +612,7 @@ def main():
         sys.exit(1)
 
     # Merge ONLY genuinely new words into the master list (group similar later).
+    # New words are stamped with today's date so the HTML can highlight them.
     added = 0
     for e in entries:
         if e["word"].lower() not in have:
@@ -606,7 +620,7 @@ def main():
             master_words.append({
                 "word": e["word"], "pos": e.get("pos", ""),
                 "meaning": e.get("meaning", ""), "easy": e.get("easy", ""),
-                "example": e.get("example", ""),
+                "example": e.get("example", ""), "added": today_str,
             })
             added += 1
     if today_str not in days:
@@ -615,7 +629,7 @@ def main():
 
     save_json(MASTER_STORE, {"words": master_words, "days": days})
 
-    fname = write_master(master_words, days)
+    fname = write_master(master_words, days, today_str)
     log(f"Merged {added} new words ({len(master_words)} total) -> {fname.name}")
 
     # Keep used_words.json in sync so pick_words() never re-offers a known word.
