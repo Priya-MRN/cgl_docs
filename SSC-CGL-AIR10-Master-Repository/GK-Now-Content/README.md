@@ -18,9 +18,7 @@ GK-Now-Content/
 │   ├── 07_International.md
 │   ├── 08_National.md
 │   ├── 09_Polity.md
-│   ├── 10_Sports.md
 │   ├── 11_States.md
-│   ├── 12_Art_and_Culture.md
 │   └── 13_Books_and_Authors.md
 ├── GK-Topics/                      ← Static GK MCQ topics
 │   ├── 01_History.md
