@@ -24,3 +24,7 @@ Static-GK/Environment-Master.md
 Static-GK/Sports-Master.md
 Static-GK/Defence-International-Master.md
 GK-Now-Content/Current-Affairs-Daily-Digest.md
+
+# Python build artifacts
+__pycache__/
+*.pyc
