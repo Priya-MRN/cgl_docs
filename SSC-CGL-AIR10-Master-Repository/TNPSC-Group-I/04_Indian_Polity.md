@@ -1,6 +1,6 @@
 # Unit IV — Indian Polity (40 Questions)
 
-> Quick links: [TNPSC Group I Index](README.md) · [History & National Movement](03_History_Culture_National_Movement.md) · [Economy & TN Development](05_Indian_Economy_TN_Development.md) · [repo Static-GK Polity](../Static-GK/02_Polity_Constitution.md)
+> Quick links: [TNPSC Group I Index](README.md) · [History & National Movement](03_History_Culture_National_Movement.md) · [Economy & TN Development](05_Indian_Economy_TN_Development.md) · [repo Polity & Governance Master (PDF)](../Static-GK/Polity-Governance-Master.pdf)
 
 The single highest-marks "static" unit. Covers the Constitution, rights & duties, the Union & State machinery, federalism, elections, judiciary, anti-corruption bodies, RTI, women's & consumer & human rights, and the party system.
 

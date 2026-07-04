@@ -4,7 +4,7 @@
 > a central idea in the middle with branches around it, exactly like a flow-chart you
 > can picture in your head. Read the box, cover it, and redraw it from memory.
 >
-> Sources in this repo: [Polity & Constitution notes](../Static-GK/02_Polity_Constitution.md) ·
+> Sources in this repo: [Polity & Governance Master (PDF)](../Static-GK/Polity-Governance-Master.pdf) ·
 > [History Master (PDF)](../Static-GK/History-Master.pdf) · [GK Revision Cheat Sheet](GK_Revision_Cheat_Sheet.md)
 
 **How to use these maps**

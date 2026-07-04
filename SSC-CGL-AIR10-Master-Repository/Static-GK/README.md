@@ -10,7 +10,7 @@ This is the master bank of high-yield Static General Knowledge for SSC CGL. Each
 | # | Topic | File | Weightage | Coverage |
 |---|-------|------|-----------|----------|
 | 1 | History (Ancient+Medieval+Modern) — **Master** | [History-Master.pdf](History-Master.pdf) | 🔴 High | **Consolidated single file**: IVC, Mauryas, Guptas, Delhi Sultanate, Mughal admin, 1857, INC, freedom struggle, PYQ + new questions · *skip random dates* |
-| 2 | Polity & Constitution | [02_Polity_Constitution.md](02_Polity_Constitution.md) | 🔴 High — easiest GA marks | FRs/DPSP/FDs, Parliament, President, PM, **amendments 42/44/73/74/86** |
+| 2 | Polity & Governance — **Master** | [Polity-Governance-Master.pdf](Polity-Governance-Master.pdf) | 🔴 High — easiest GA marks | **Consolidated single file**: Constitution, FRs/DPSP/FDs, Articles/Schedules, Parliament/President/PM/Judiciary, **amendments 42/44/73/74/86**, schemes/e-gov/appointments, PYQ + new questions |
 | 3 | Geography (World + Indian) — **Master** | [Geography-Master.pdf](Geography-Master.pdf) | 🔴 High | **Consolidated single file**: World & Indian geography, rivers, borders, superlatives, population/settlements/resources, PYQ + new questions |
 | 4 | Economics | [04_Economics.md](04_Economics.md) | 🟡 Medium | GDP/GNP, RBI (Repo/Reverse Repo, CRR/SLR), basic terms — *don't over-read* |
 | 5 | Science | [05_Science.md](05_Science.md) | 🔴 High — hidden gold mine | Physics (motion, light, electricity, sound), Chemistry (acids/bases, metals), Biology (human body, vitamins, diseases, nutrition) |
