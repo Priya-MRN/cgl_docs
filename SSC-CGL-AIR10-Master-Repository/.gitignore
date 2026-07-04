@@ -9,6 +9,10 @@ Subject-Flowcharts/03_Polity-Flowchart.html
 Subject-Flowcharts/04_Science-Flowchart.html
 Subject-Flowcharts/05_Current-Affairs-Flowchart.html
 
+# Hand-authored HTML source for the English grammar tables handout — kept
+# locally as the editable source; only the rendered PDF is committed.
+English/English-Grammar-Rules-Tables.html
+
 # Markdown source for consolidated PDF study files — kept locally as the editable
 # source, but only the rendered PDF is committed (PDF-only policy for study docs).
 Static-GK/Geography-Master.md

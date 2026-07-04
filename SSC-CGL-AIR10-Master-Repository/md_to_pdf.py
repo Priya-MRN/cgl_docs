@@ -77,8 +77,9 @@ body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; line-height:
 h1 { font-size: 24px; color: #0b5394; border-bottom: 3px solid #0b5394; padding-bottom: 6px; }
 h2 { font-size: 18px; color: #0b5394; margin-top: 22px; border-bottom: 1px solid #cfe2f3; padding-bottom: 3px; page-break-after: avoid; }
 h3 { font-size: 14px; color: #134f5c; margin-top: 14px; page-break-after: avoid; }
-table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 11px; page-break-inside: avoid; }
-th, td { border: 1px solid #b7c9d9; padding: 4px 7px; text-align: left; vertical-align: top; }
+table { border-collapse: collapse; width: 100%; table-layout: fixed; margin: 8px 0; font-size: 11px; page-break-inside: avoid; }
+th, td { border: 1px solid #b7c9d9; padding: 4px 7px; text-align: left; vertical-align: top;
+         overflow-wrap: anywhere; word-break: break-word; }
 th { background: #0b5394; color: #fff; }
 tr:nth-child(even) td { background: #f1f6fb; }
 blockquote { background: #fff8e1; border-left: 4px solid #f1c232; margin: 8px 0; padding: 6px 12px; color: #444; }
