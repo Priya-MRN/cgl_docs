@@ -35,7 +35,8 @@ $Tasks = @(
     @{ Name = "DailyEditorialVocabulary"; Bat = "Daily-Editorial-Vocabulary\run_daily_vocab.bat"; Offset = 0;  Desc = "Daily SSC/UPSC editorial vocabulary (HTML, highlights today's words)." },
     @{ Name = "DailyOneWordSubstitution"; Bat = "One-Word-Substitution\run_ows.bat";              Offset = 5;  Desc = "Daily One-Word Substitution builder (HTML, highlights today's words)." },
     @{ Name = "DailyGKCurrentAffairs";    Bat = "GK-Now-Content\run_gk.bat";                      Offset = 10; Desc = "Daily GK / Current Affairs mined from GKToday (HTML, highlights today's)." },
-    @{ Name = "DailyBookReleases";        Bat = "Static-GK\run_books.bat";                       Offset = 15; Desc = "Daily book-release headlines from GKToday into Books-and-Authors.html." }
+    @{ Name = "DailyBookReleases";        Bat = "Static-GK\run_books.bat";                       Offset = 15; Desc = "Daily book-release headlines from GKToday into Books-and-Authors.html." },
+    @{ Name = "DailyCurrentAffairsDigest"; Bat = "GK-Now-Content\run_ca_digest.bat";             Offset = 20; Desc = "Daily Current Affairs digest (Sports/Days/Summits/Agreements/Awards, dated PDF) - auto commits & pushes to git." }
 )
 
 function Remove-Task($name) {

@@ -16,12 +16,6 @@ REPO = Path(__file__).resolve().parent
 sys.path.insert(0, str(REPO))
 from html_to_pdf import html_to_pdf
 
-if len(sys.argv) < 2:
-    print("usage: python md_to_pdf.py <file.md>")
-    raise SystemExit(2)
-SRC = Path(sys.argv[1]).resolve()
-HTML_OUT = SRC.with_suffix(".html")
-
 def inline(t):
     t = html.escape(t, quote=False)
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
@@ -97,10 +91,23 @@ hr { border: none; border-top: 1px solid #ddd; margin: 14px 0; }
 </style>
 """
 
-md = SRC.read_text(encoding="utf-8")
-body = render(md)
-doc = f"<!DOCTYPE html><html><head><meta charset='utf-8'><title>Geography Master</title>{CSS}</head><body>{body}</body></html>"
-HTML_OUT.write_text(doc, encoding="utf-8")
-print("HTML written:", HTML_OUT.name, len(doc), "bytes")
-res = html_to_pdf(HTML_OUT, delete_html=True)
-print("PDF:", res)
+def convert(src_path):
+    """Render a Markdown file to a sibling PDF; returns the PDF path (or None)."""
+    src = Path(src_path).resolve()
+    html_out = src.with_suffix(".html")
+    body = render(src.read_text(encoding="utf-8"))
+    title = src.stem.replace("-", " ")
+    doc = (f"<!DOCTYPE html><html><head><meta charset='utf-8'>"
+           f"<title>{title}</title>{CSS}</head><body>{body}</body></html>")
+    html_out.write_text(doc, encoding="utf-8")
+    print("HTML written:", html_out.name, len(doc), "bytes")
+    res = html_to_pdf(html_out, delete_html=True)
+    print("PDF:", res)
+    return res
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("usage: python md_to_pdf.py <file.md>")
+        raise SystemExit(2)
+    convert(sys.argv[1])
