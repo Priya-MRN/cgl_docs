@@ -1,6 +1,6 @@
 # Unit I — General Science (10 Questions)
 
-> Quick links: [TNPSC Group I Index](README.md) · [Geography](02_Geography_of_India.md) · [repo Static-GK Science](../Static-GK/05_Science.md)
+> Quick links: [TNPSC Group I Index](README.md) · [Geography](02_Geography_of_India.md) · [repo Science Master (PDF)](../Static-GK/Science-Master.pdf)
 
 Covers scientific temper, general laws, physics (mechanics, electricity, magnetism, light, sound, heat, nuclear, electronics), chemistry (elements, acids/bases, fertilizers), life science (classification, genetics, physiology, health, diseases), environment, and science current affairs.
 
