@@ -1,6 +1,6 @@
 # Unit III — History, Culture of India & Indian National Movement (25 Questions)
 
-> Quick links: [TNPSC Group I Index](README.md) · [Indian Polity](04_Indian_Polity.md) · [TN History](06_TN_History_Culture_Movements.md) · [repo Static-GK History](../Static-GK/01_History.md)
+> Quick links: [TNPSC Group I Index](README.md) · [Indian Polity](04_Indian_Polity.md) · [TN History](06_TN_History_Culture_Movements.md) · [repo History Master (PDF)](../Static-GK/History-Master.pdf)
 
 Covers Indus Valley to the Marathas, South Indian dynasties, socio-cultural change, the national renaissance, the freedom struggle, leaders, Indian culture/unity in diversity, and national symbols.
 

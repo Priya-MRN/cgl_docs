@@ -1,6 +1,6 @@
 # Indus Valley Civilization (Harappan Civilization) — Detailed Notes
 
-> Quick links: [Static GK Index](README.md) · [History — Quick Notes & MCQs](01_History.md) · [GK Revision Cheat Sheet](../Cheat-Sheets/GK_Revision_Cheat_Sheet.md)
+> Quick links: [Static GK Index](README.md) · [History Master (PDF)](History-Master.pdf) · [GK Revision Cheat Sheet](../Cheat-Sheets/GK_Revision_Cheat_Sheet.md)
 
 A reading-friendly note covering all exam-essential facts. **Bold = high-yield / frequently asked.**
 

@@ -9,7 +9,7 @@ This is the master bank of high-yield Static General Knowledge for SSC CGL. Each
 
 | # | Topic | File | Weightage | Coverage |
 |---|-------|------|-----------|----------|
-| 1 | History | [01_History.md](01_History.md) | 🔴 High | Ancient (Indus, Mauryas, Guptas), Medieval (Delhi Sultanate, Mughals — **administration**), Modern (1857, INC, freedom struggle, sessions, movements) · *skip random dates* |
+| 1 | History (Ancient+Medieval+Modern) — **Master** | [History-Master.pdf](History-Master.pdf) | 🔴 High | **Consolidated single file**: IVC, Mauryas, Guptas, Delhi Sultanate, Mughal admin, 1857, INC, freedom struggle, PYQ + new questions · *skip random dates* |
 | 2 | Polity & Constitution | [02_Polity_Constitution.md](02_Polity_Constitution.md) | 🔴 High — easiest GA marks | FRs/DPSP/FDs, Parliament, President, PM, **amendments 42/44/73/74/86** |
 | 3 | Geography (World + Indian) — **Master** | [Geography-Master.pdf](Geography-Master.pdf) | 🔴 High | **Consolidated single file**: World & Indian geography, rivers, borders, superlatives, population/settlements/resources, PYQ + new questions |
 | 4 | Economics | [04_Economics.md](04_Economics.md) | 🟡 Medium | GDP/GNP, RBI (Repo/Reverse Repo, CRR/SLR), basic terms — *don't over-read* |

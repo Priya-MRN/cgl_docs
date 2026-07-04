@@ -5,7 +5,7 @@
 > can picture in your head. Read the box, cover it, and redraw it from memory.
 >
 > Sources in this repo: [Polity & Constitution notes](../Static-GK/02_Polity_Constitution.md) ·
-> [History notes](../Static-GK/01_History.md) · [GK Revision Cheat Sheet](GK_Revision_Cheat_Sheet.md)
+> [History Master (PDF)](../Static-GK/History-Master.pdf) · [GK Revision Cheat Sheet](GK_Revision_Cheat_Sheet.md)
 
 **How to use these maps**
 1. Look at one box. Say the centre word aloud, then each branch.
