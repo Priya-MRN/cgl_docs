@@ -7720,6 +7720,126 @@
       "meaning": "showing no interest",
       "easy": "indifferent, unconcerned, uninterested, listless",
       "example": ""
+    },
+    {
+      "word": "Malign",
+      "pos": "verb",
+      "meaning": "to speak badly about someone unfairly",
+      "easy": "root MAL=bad; slander, defame",
+      "example": "Rivals tried to malign the minister before the vote.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Credulous",
+      "pos": "adjective",
+      "meaning": "too ready to believe things",
+      "easy": "root CRED=believe; gullible, naive",
+      "example": "Credulous investors lost money in the fake scheme.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Incredulous",
+      "pos": "adjective",
+      "meaning": "unwilling to believe something",
+      "easy": "root CRED=believe + IN=not; disbelieving",
+      "example": "She gave an incredulous look at the sudden claim.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Veracity",
+      "pos": "noun",
+      "meaning": "truthfulness; accuracy",
+      "easy": "root VER=truth; honesty",
+      "example": "The court questioned the veracity of the witness.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Verify",
+      "pos": "verb",
+      "meaning": "to check that something is true",
+      "easy": "root VER=truth; confirm",
+      "example": "Officials verify each document before approval.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Magnate",
+      "pos": "noun",
+      "meaning": "a rich and powerful business person",
+      "easy": "root MAGN=great; tycoon, baron",
+      "example": "A steel magnate funded the new hospital.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Unanimous",
+      "pos": "adjective",
+      "meaning": "fully agreed by everyone",
+      "easy": "root UN=one + ANIM=mind; united",
+      "example": "The board gave unanimous approval to the merger.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Provoke",
+      "pos": "verb",
+      "meaning": "to deliberately make someone angry or cause a reaction",
+      "easy": "root VOKE=call forth; incite",
+      "example": "The remarks provoked protests across the city.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Circumspect",
+      "pos": "adjective",
+      "meaning": "cautious; considering all risks",
+      "easy": "root SPEC=look + CIRCUM=around; wary",
+      "example": "Banks turned circumspect after the market crash.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Indict",
+      "pos": "verb",
+      "meaning": "to formally accuse of a crime",
+      "easy": "root DICT=say; charge, accuse",
+      "example": "The officials were indicted for corruption.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Implacable",
+      "pos": "adjective",
+      "meaning": "impossible to calm or satisfy",
+      "easy": "root PLAC=please + IM=not; unyielding",
+      "example": "He faced implacable opposition from the unions.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Fidelity",
+      "pos": "noun",
+      "meaning": "faithfulness; loyalty",
+      "easy": "root FID=faith; devotion",
+      "example": "The contract demands strict fidelity to the rules.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Empathy",
+      "pos": "noun",
+      "meaning": "ability to share another's feelings",
+      "easy": "root PATH=feeling + EM=in; understanding",
+      "example": "Good leaders show empathy in a crisis.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Sedentary",
+      "pos": "adjective",
+      "meaning": "involving much sitting; inactive",
+      "easy": "root SED=sit; inactive",
+      "example": "A sedentary lifestyle raises health risks.",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Assiduous",
+      "pos": "adjective",
+      "meaning": "showing great care and effort",
+      "easy": "root SID/SED=sit at; diligent, hardworking",
+      "example": "Assiduous preparation earned her the top rank.",
+      "added": "2026-07-04"
     }
   ],
   "days": [
@@ -7729,6 +7849,8 @@
     "2026-06-28",
     "2026-06-29",
     "2026-06-30",
-    "2026-07-01"
+    "2026-07-01",
+    "2026-07-02",
+    "2026-07-04"
   ]
 }

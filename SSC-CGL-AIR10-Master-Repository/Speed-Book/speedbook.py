@@ -35,6 +35,9 @@ from pathlib import Path
 from collections import defaultdict, OrderedDict
 
 BASE = Path(__file__).resolve().parent
+sys.path.insert(0, str(BASE.parent))  # repo root, for html_to_pdf
+from html_to_pdf import html_to_pdf  # noqa: E402
+
 DATA = BASE / "speedbook.json"
 DROP = BASE / "new_tricks.json"          # optional drop-box for new tricks
 OUT = BASE / "Speed-Book.html"
@@ -79,8 +82,24 @@ def load_json(path, default):
         return default
 
 
+# Map Unicode super/subscript chars to normal digits so we can render them as
+# real, slightly-larger <sup>/<sub> tags (powers are easier to read).
+_SUP = {"⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5",
+        "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "ⁿ": "n", "⁺": "+", "⁻": "-"}
+_SUB = {"₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5",
+        "₆": "6", "₇": "7", "₈": "8", "₉": "9"}
+_SUP_RE = re.compile("([" + "".join(_SUP) + "]+)")
+_SUB_RE = re.compile("([" + "".join(_SUB) + "]+)")
+
+
 def _esc(s):
-    return _html.escape(s or "", quote=False)
+    out = _html.escape(s or "", quote=False)
+    # runs of unicode superscripts -> <sup class='pw'>digits</sup>
+    out = _SUP_RE.sub(lambda m: "<sup class='pw'>"
+                      + "".join(_SUP[c] for c in m.group(1)) + "</sup>", out)
+    out = _SUB_RE.sub(lambda m: "<sub class='sb'>"
+                      + "".join(_SUB[c] for c in m.group(1)) + "</sub>", out)
+    return out
 
 
 def _anchor(s):
@@ -91,8 +110,9 @@ def _anchor(s):
 
 CSS = """
   :root{ --ink:#1a1a2e; --accent:#c0392b; }
-  body{ font-family:"Segoe UI",Arial,sans-serif; color:var(--ink); max-width:1000px;
-        margin:0 auto; padding:28px; line-height:1.5; }
+  *{ box-sizing:border-box; }
+  body{ font-family:"Segoe UI",Arial,sans-serif; color:var(--ink); width:100%;
+        margin:0; padding:24px; line-height:1.5; overflow-x:hidden; }
   h1{ color:#fff; background:linear-gradient(135deg,#7d1128,#c0392b); padding:18px 22px;
       border-radius:12px; font-size:1.6em; }
   h2{ color:#7d1128; border-left:7px solid var(--accent); padding:6px 12px;
@@ -104,11 +124,15 @@ CSS = """
   .card h3{ margin:0; padding:10px 16px; background:#7d1128; color:#fff; font-size:1.05em; }
   .card .id{ font-size:.8em; opacity:.8; font-weight:normal; }
   .star{ color:#ffd166; }
-  table.parts{ border-collapse:collapse; width:100%; margin:0; }
-  table.parts td{ border-top:1px solid #eee; padding:8px 14px; vertical-align:top; font-size:.95em; }
-  table.parts td.k{ width:210px; font-weight:600; color:#7d1128; background:#fcf5f6; white-space:nowrap; }
+  table.parts{ border-collapse:collapse; width:100%; margin:0; table-layout:fixed; }
+  table.parts td{ border-top:1px solid #eee; padding:8px 14px; vertical-align:top; font-size:.95em;
+      overflow-wrap:anywhere; word-break:break-word; }
+  table.parts td.k{ width:210px; font-weight:600; color:#7d1128; background:#fcf5f6; }
   td.pyq{ background:#f3f8ff; }
   td.fail{ background:#fff4f4; }
+  /* larger, readable exponents/powers */
+  sup.pw{ font-size:.78em; line-height:0; vertical-align:super; font-weight:700; color:#7d1128; }
+  sub.sb{ font-size:.72em; line-height:0; vertical-align:sub; font-weight:600; }
   a{ color:#7d1128; text-decoration:none; } a:hover{ text-decoration:underline; }
   .count{ text-align:center; font-weight:600; }
   .backtop{ font-size:.75em; font-weight:normal; }
@@ -195,6 +219,7 @@ def main():
         DROP.write_text("[]", encoding="utf-8")
 
     render(tricks)
+    html_to_pdf(OUT, delete_html=True, log=log)  # mobile-friendly PDF; drop HTML
     log(f"Merged {added} new; {len(tricks)} tricks total -> {OUT.name}")
     log("=== Speed Book build finished ===")
 

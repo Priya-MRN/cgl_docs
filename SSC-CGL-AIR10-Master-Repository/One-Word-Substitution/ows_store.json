@@ -2206,6 +2206,55 @@
       "source": "Gen-Z slang",
       "category": "🔥 Gen-Z / Internet Slang (not exam OWS)",
       "added": "2026-06-30"
+    },
+    {
+      "word": "Insomnia",
+      "phrase": "Inability to sleep",
+      "meaning": "sleeplessness",
+      "source": "SSC curated (root SOMN=sleep + IN=not)",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Egotist",
+      "phrase": "A person who talks too much about himself",
+      "meaning": "self-centred person",
+      "source": "SSC curated (root EGO=self)",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Altruist",
+      "phrase": "A person who thinks of the welfare of others",
+      "meaning": "selfless person",
+      "source": "SSC curated (root ALTER=other)",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Iconoclast",
+      "phrase": "One who attacks established beliefs or customs",
+      "meaning": "breaker of images/traditions",
+      "source": "SSC curated (root ICON=image + CLAST=break)",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Nostalgia",
+      "phrase": "A sentimental longing for the past",
+      "meaning": "longing for the past",
+      "source": "SSC curated (root NOSTOS=return + ALGIA=pain)",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Utopia",
+      "phrase": "An imaginary perfect society or place",
+      "meaning": "ideal place",
+      "source": "SSC curated",
+      "added": "2026-07-04"
+    },
+    {
+      "word": "Amphibian",
+      "phrase": "An animal that can live both on land and in water",
+      "meaning": "land-and-water creature",
+      "source": "SSC curated (root AMPHI=both)",
+      "added": "2026-07-04"
     }
   ]
 }

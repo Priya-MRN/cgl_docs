@@ -1,174 +1,1426 @@
 {
   "_comment": "Curated SSC-CGL / UPSC editorial vocabulary bank. Offline fallback source. Each entry: word, pos (part of speech), meaning (simple), easy (easy synonyms), example (newspaper-style sentence). Add more entries any time; the generator dedupes against words already used.",
   "words": [
-    {"word": "Allege", "pos": "verb", "meaning": "to say someone did something wrong, without proof yet", "easy": "claim, accuse", "example": "The report alleges that the company hid its losses."},
-    {"word": "Curb", "pos": "verb", "meaning": "to control or reduce something", "easy": "limit, restrain", "example": "The government announced new rules to curb pollution in the city."},
-    {"word": "Slump", "pos": "noun/verb", "meaning": "a big fall or weak period", "easy": "drop, decline", "example": "The economy is facing a slump as factories cut production."},
-    {"word": "Probe", "pos": "noun/verb", "meaning": "an investigation", "easy": "inquiry, examination", "example": "A probe has been ordered into the bridge collapse."},
-    {"word": "Hail", "pos": "verb", "meaning": "to praise something publicly", "easy": "praise, welcome", "example": "Leaders hailed the agreement as a historic step."},
-    {"word": "Slam", "pos": "verb", "meaning": "to criticise strongly", "easy": "attack, condemn", "example": "The opposition slammed the budget for ignoring farmers."},
-    {"word": "Vow", "pos": "verb/noun", "meaning": "to promise firmly", "easy": "promise, pledge", "example": "The minister vowed to complete the project by next year."},
-    {"word": "Plunge", "pos": "verb", "meaning": "to fall suddenly and steeply", "easy": "crash, dive", "example": "Stock markets plunged amid global tension."},
-    {"word": "Mitigate", "pos": "verb", "meaning": "to make something less harmful or severe", "easy": "reduce, ease", "example": "New flood barriers were built to mitigate the damage from storms."},
-    {"word": "Exacerbate", "pos": "verb", "meaning": "to make a bad situation worse", "easy": "worsen, aggravate", "example": "Cutting subsidies could exacerbate the crisis for poor families."},
-    {"word": "Ubiquitous", "pos": "adjective", "meaning": "present or found everywhere", "easy": "widespread, omnipresent", "example": "Smartphones have become ubiquitous in modern life."},
-    {"word": "Plummet", "pos": "verb", "meaning": "to fall very fast and far", "easy": "drop, tumble", "example": "Exports plummeted after the new tariffs were imposed."},
-    {"word": "Resilient", "pos": "adjective", "meaning": "able to recover quickly from difficulty", "easy": "tough, sturdy", "example": "The economy proved resilient despite the pandemic shock."},
-    {"word": "Galvanise", "pos": "verb", "meaning": "to shock or excite someone into action", "easy": "spur, stir", "example": "The disaster galvanised the public into demanding reform."},
-    {"word": "Austerity", "pos": "noun", "meaning": "strict economic policy with reduced spending", "easy": "cutbacks, thrift", "example": "Years of austerity led to widespread protests across the country."},
-    {"word": "Coalition", "pos": "noun", "meaning": "a group of parties or people working together", "easy": "alliance, union", "example": "A fragile coalition government took power after the election."},
-    {"word": "Sanction", "pos": "noun/verb", "meaning": "a penalty against a country, or official permission", "easy": "penalty, approve", "example": "The nation faced harsh sanctions over its nuclear programme."},
-    {"word": "Stalemate", "pos": "noun", "meaning": "a situation where no side can win or move forward", "easy": "deadlock, impasse", "example": "Talks ended in a stalemate, with neither side willing to compromise."},
-    {"word": "Ratify", "pos": "verb", "meaning": "to formally approve an agreement or treaty", "easy": "approve, confirm", "example": "Parliament voted to ratify the climate treaty."},
-    {"word": "Bolster", "pos": "verb", "meaning": "to support or strengthen something", "easy": "boost, reinforce", "example": "The bank cut rates to bolster the slowing economy."},
-    {"word": "Scrutiny", "pos": "noun", "meaning": "careful and critical examination", "easy": "inspection, review", "example": "The deal came under intense scrutiny from regulators."},
-    {"word": "Pragmatic", "pos": "adjective", "meaning": "dealing with things practically, not idealistically", "easy": "practical, sensible", "example": "The leader took a pragmatic approach to the trade dispute."},
-    {"word": "Contentious", "pos": "adjective", "meaning": "likely to cause disagreement", "easy": "controversial, disputed", "example": "The contentious bill divided lawmakers sharply."},
-    {"word": "Unprecedented", "pos": "adjective", "meaning": "never having happened before", "easy": "unheard-of, novel", "example": "The country faced an unprecedented heatwave this summer."},
-    {"word": "Deteriorate", "pos": "verb", "meaning": "to become worse over time", "easy": "decline, worsen", "example": "Relations between the two nations continued to deteriorate."},
-    {"word": "Advocate", "pos": "verb/noun", "meaning": "to publicly support a cause; a supporter", "easy": "support, champion", "example": "She advocates for stronger laws against child labour."},
-    {"word": "Imminent", "pos": "adjective", "meaning": "about to happen very soon", "easy": "impending, near", "example": "Forecasters warned of an imminent cyclone along the coast."},
-    {"word": "Resurgence", "pos": "noun", "meaning": "a return or rise after a decline", "easy": "revival, comeback", "example": "The region saw a resurgence of the virus in winter."},
-    {"word": "Rhetoric", "pos": "noun", "meaning": "persuasive (often empty) language in speech", "easy": "oratory, talk", "example": "The campaign was full of fiery rhetoric but few real plans."},
-    {"word": "Volatile", "pos": "adjective", "meaning": "likely to change suddenly and unpredictably", "easy": "unstable, erratic", "example": "Oil prices remained volatile amid the conflict."},
-    {"word": "Consensus", "pos": "noun", "meaning": "general agreement among a group", "easy": "agreement, accord", "example": "Members failed to reach a consensus on the new policy."},
-    {"word": "Endorse", "pos": "verb", "meaning": "to publicly approve or support", "easy": "back, support", "example": "Several economists endorsed the reform package."},
-    {"word": "Lucrative", "pos": "adjective", "meaning": "producing a lot of money or profit", "easy": "profitable, rich", "example": "The firm won a lucrative contract to build the highway."},
-    {"word": "Diminish", "pos": "verb", "meaning": "to become or make smaller or less", "easy": "reduce, shrink", "example": "Public trust in the institution has steadily diminished."},
-    {"word": "Inevitable", "pos": "adjective", "meaning": "certain to happen, unavoidable", "easy": "unavoidable, certain", "example": "Some job losses were inevitable after the merger."},
-    {"word": "Turmoil", "pos": "noun", "meaning": "a state of great confusion or disorder", "easy": "chaos, unrest", "example": "The country was plunged into political turmoil."},
-    {"word": "Catalyst", "pos": "noun", "meaning": "something that causes change or action", "easy": "trigger, spark", "example": "The protest became a catalyst for nationwide reform."},
-    {"word": "Stringent", "pos": "adjective", "meaning": "strict and severe", "easy": "strict, tough", "example": "The agency imposed stringent safety standards on factories."},
-    {"word": "Wane", "pos": "verb", "meaning": "to gradually decrease or weaken", "easy": "fade, decline", "example": "Public support for the war began to wane."},
-    {"word": "Hamper", "pos": "verb", "meaning": "to slow down or get in the way of progress", "easy": "hinder, obstruct", "example": "Heavy rain hampered rescue operations."},
-    {"word": "Reiterate", "pos": "verb", "meaning": "to say something again for emphasis", "easy": "repeat, restate", "example": "The minister reiterated the need for unity."},
-    {"word": "Inadvertent", "pos": "adjective", "meaning": "done without intention, by accident", "easy": "accidental, unintended", "example": "An inadvertent error delayed the entire project."},
-    {"word": "Tenuous", "pos": "adjective", "meaning": "weak, thin, or not strongly supported", "easy": "weak, fragile", "example": "The link between the two events is tenuous at best."},
-    {"word": "Proliferate", "pos": "verb", "meaning": "to increase or spread rapidly", "easy": "multiply, spread", "example": "Fake news proliferated during the election."},
-    {"word": "Mandate", "pos": "noun/verb", "meaning": "official order or authority to act", "easy": "order, authority", "example": "The new government claimed a strong mandate from voters."},
-    {"word": "Bleak", "pos": "adjective", "meaning": "without hope or encouragement", "easy": "gloomy, grim", "example": "The report painted a bleak picture of the job market."},
-    {"word": "Surge", "pos": "noun/verb", "meaning": "a sudden strong increase", "easy": "rise, spike", "example": "There was a surge in demand for electric cars."},
-    {"word": "Curtail", "pos": "verb", "meaning": "to reduce or cut short", "easy": "cut, limit", "example": "The lockdown curtailed many basic freedoms."},
-    {"word": "Onus", "pos": "noun", "meaning": "responsibility or duty for something", "easy": "burden, duty", "example": "The onus is on the company to prove its product is safe."},
-    {"word": "Precarious", "pos": "adjective", "meaning": "unsafe, uncertain, or dangerous", "easy": "risky, shaky", "example": "Millions live in precarious financial conditions."},
-    {"word": "Vindicate", "pos": "verb", "meaning": "to prove someone right or free from blame", "easy": "justify, clear", "example": "The verdict vindicated the whistle-blower."},
-    {"word": "Quell", "pos": "verb", "meaning": "to stop or suppress something, often by force", "easy": "suppress, calm", "example": "Police were called in to quell the riots."},
-    {"word": "Disparity", "pos": "noun", "meaning": "a big or unfair difference", "easy": "gap, inequality", "example": "There is a wide disparity between rich and poor regions."},
-    {"word": "Foster", "pos": "verb", "meaning": "to encourage the growth of something", "easy": "promote, nurture", "example": "The scheme aims to foster innovation among startups."},
-    {"word": "Belated", "pos": "adjective", "meaning": "coming later than it should", "easy": "late, overdue", "example": "The government offered a belated apology to the victims."},
-    {"word": "Reprieve", "pos": "noun", "meaning": "a temporary relief from trouble or punishment", "easy": "respite, relief", "example": "Falling prices gave consumers a brief reprieve."},
-    {"word": "Stark", "pos": "adjective", "meaning": "harshly clear; severe and plain", "easy": "harsh, sharp", "example": "The data revealed a stark rise in unemployment."},
-    {"word": "Wary", "pos": "adjective", "meaning": "cautious about possible danger", "easy": "cautious, careful", "example": "Investors remained wary of the new market."},
-    {"word": "Subdue", "pos": "verb", "meaning": "to bring under control", "easy": "control, calm", "example": "Authorities struggled to subdue the spreading unrest."},
-    {"word": "Aftermath", "pos": "noun", "meaning": "the situation after a bad event", "easy": "consequences, fallout", "example": "Thousands were left homeless in the aftermath of the flood."},
-    {"word": "Compelling", "pos": "adjective", "meaning": "very convincing or forceful", "easy": "convincing, strong", "example": "The lawyer made a compelling case for reform."},
-    {"word": "Erode", "pos": "verb", "meaning": "to gradually wear away or weaken", "easy": "wear away, weaken", "example": "Corruption has eroded faith in public institutions."},
-    {"word": "Looming", "pos": "adjective", "meaning": "approaching and threatening", "easy": "impending, approaching", "example": "Businesses are worried about a looming recession."},
-    {"word": "Acute", "pos": "adjective", "meaning": "severe and serious", "easy": "severe, sharp", "example": "The city faces an acute shortage of drinking water."},
-    {"word": "Stipulate", "pos": "verb", "meaning": "to state a clear condition in an agreement", "easy": "specify, require", "example": "The contract stipulates a strict deadline."},
-    {"word": "Brunt", "pos": "noun", "meaning": "the main force or worst part of something", "easy": "impact, force", "example": "Poor families bore the brunt of the price rise."},
-    {"word": "Implore", "pos": "verb", "meaning": "to beg earnestly", "easy": "beg, plead", "example": "Aid groups implored the world to send help."},
-    {"word": "Dwindle", "pos": "verb", "meaning": "to slowly shrink or run low", "easy": "shrink, decline", "example": "Water supplies dwindled during the long drought."},
-    {"word": "Spurn", "pos": "verb", "meaning": "to reject with contempt", "easy": "reject, refuse", "example": "The offer was spurned by union leaders."},
-    {"word": "Anomaly", "pos": "noun", "meaning": "something that is different from normal", "easy": "oddity, irregularity", "example": "Scientists noticed an anomaly in the climate data."},
-    {"word": "Cohesion", "pos": "noun", "meaning": "the state of sticking together or unity", "easy": "unity, togetherness", "example": "The crisis tested the cohesion of the alliance."},
-    {"word": "Impede", "pos": "verb", "meaning": "to block or slow progress", "easy": "hinder, block", "example": "Red tape continues to impede small businesses."},
-    {"word": "Lull", "pos": "noun/verb", "meaning": "a quiet or calm period", "easy": "pause, calm", "example": "There was a brief lull in the fighting."},
-    {"word": "Tangible", "pos": "adjective", "meaning": "real and able to be clearly seen or felt", "easy": "real, concrete", "example": "The talks produced no tangible results."},
-    {"word": "Lopsided", "pos": "adjective", "meaning": "uneven or unbalanced", "easy": "uneven, unequal", "example": "Critics called the deal lopsided and unfair."},
-    {"word": "Embolden", "pos": "verb", "meaning": "to give someone courage to act", "easy": "encourage, empower", "example": "The win emboldened the protesters to demand more."},
-    {"word": "Painstaking", "pos": "adjective", "meaning": "done with great care and effort", "easy": "careful, thorough", "example": "Restoring the temple took painstaking work."},
-    {"word": "Reckon", "pos": "verb", "meaning": "to think or consider; to deal with", "easy": "believe, calculate", "example": "Analysts reckon growth will slow next year."},
-    {"word": "Pertinent", "pos": "adjective", "meaning": "relevant and to the point", "easy": "relevant, apt", "example": "She raised several pertinent questions in the debate."},
-    {"word": "Stymie", "pos": "verb", "meaning": "to prevent or block something", "easy": "block, thwart", "example": "Political disputes stymied the relief effort."},
-    {"word": "Latent", "pos": "adjective", "meaning": "existing but not yet visible or active", "easy": "hidden, dormant", "example": "The policy exposed latent tensions in society."},
-    {"word": "Culminate", "pos": "verb", "meaning": "to reach a final or highest point", "easy": "end, climax", "example": "Months of protests culminated in a mass strike."},
-    {"word": "Adept", "pos": "adjective", "meaning": "very skilled at something", "easy": "skilled, expert", "example": "She is adept at handling difficult negotiations."},
-    {"word": "Squander", "pos": "verb", "meaning": "to waste something valuable", "easy": "waste, fritter", "example": "The country squandered its oil wealth on vanity projects."},
-    {"word": "Veneer", "pos": "noun", "meaning": "a thin, often false, outer appearance", "easy": "facade, cover", "example": "Behind the veneer of calm lay deep anxiety."},
-    {"word": "Cripple", "pos": "verb", "meaning": "to seriously damage or weaken", "easy": "disable, weaken", "example": "The strike crippled public transport for days."},
-    {"word": "Recalcitrant", "pos": "adjective", "meaning": "stubbornly refusing to obey", "easy": "defiant, stubborn", "example": "A few recalcitrant states blocked the reform."},
-    {"word": "Nascent", "pos": "adjective", "meaning": "just beginning to develop", "easy": "new, emerging", "example": "The nascent industry needs government support."},
-    {"word": "Deft", "pos": "adjective", "meaning": "skilful and quick", "easy": "skilful, nimble", "example": "A deft handling of the crisis won her praise."},
-    {"word": "Forfeit", "pos": "verb", "meaning": "to lose a right or possession as a penalty", "easy": "lose, give up", "example": "Defaulters may forfeit their deposits."},
-    {"word": "Mar", "pos": "verb", "meaning": "to spoil or damage", "easy": "spoil, ruin", "example": "Violence marred the otherwise peaceful rally."},
-    {"word": "Repercussion", "pos": "noun", "meaning": "an indirect, usually bad, consequence", "easy": "consequence, fallout", "example": "The decision had serious economic repercussions."},
-    {"word": "Tepid", "pos": "adjective", "meaning": "showing little enthusiasm; lukewarm", "easy": "lukewarm, half-hearted", "example": "The plan met with a tepid response from voters."},
-    {"word": "Bemoan", "pos": "verb", "meaning": "to express sorrow or complaint about", "easy": "lament, complain", "example": "Farmers bemoaned the lack of fair prices."},
-    {"word": "Cede", "pos": "verb", "meaning": "to give up power or territory", "easy": "surrender, yield", "example": "The party refused to cede control of the council."},
-    {"word": "Inept", "pos": "adjective", "meaning": "lacking skill; clumsy", "easy": "incompetent, clumsy", "example": "The response to the disaster was widely called inept."},
-    {"word": "Overhaul", "pos": "noun/verb", "meaning": "a thorough change or repair of a system", "easy": "revamp, reform", "example": "The tax system is due for a major overhaul."},
-    {"word": "Brazen", "pos": "adjective", "meaning": "bold and shameless", "easy": "shameless, bold", "example": "The brazen theft happened in broad daylight."},
-    {"word": "Wither", "pos": "verb", "meaning": "to dry up, fade, or weaken", "easy": "fade, shrivel", "example": "Support for the scheme withered within months."},
-    {"word": "Lambast", "pos": "verb", "meaning": "to criticise harshly", "easy": "criticise, scold", "example": "The press lambasted the government for inaction."},
-    {"word": "Reconcile", "pos": "verb", "meaning": "to restore friendly relations; to make agree", "easy": "settle, harmonise", "example": "It is hard to reconcile growth with environmental care."},
-    {"word": "Untenable", "pos": "adjective", "meaning": "impossible to defend or maintain", "easy": "indefensible, shaky", "example": "His position became untenable after the scandal."},
-    {"word": "Quagmire", "pos": "noun", "meaning": "a difficult situation hard to escape", "easy": "mess, mire", "example": "The war turned into a costly quagmire."},
-    {"word": "Salient", "pos": "adjective", "meaning": "most noticeable or important", "easy": "key, prominent", "example": "The editor summarised the salient points of the report."},
-    {"word": "Throttle", "pos": "verb", "meaning": "to control or choke; to limit severely", "easy": "choke, restrict", "example": "New rules could throttle online free speech."},
-    {"word": "Equitable", "pos": "adjective", "meaning": "fair and just to all", "easy": "fair, just", "example": "Activists demanded a more equitable sharing of resources."},
-    {"word": "Pernicious", "pos": "adjective", "meaning": "harmful in a slow, hidden way", "easy": "harmful, damaging", "example": "Misinformation has a pernicious effect on democracy."},
-    {"word": "Wreak", "pos": "verb", "meaning": "to cause great harm or damage", "easy": "inflict, cause", "example": "The floods wreaked havoc across the state."},
-    {"word": "Buoyant", "pos": "adjective", "meaning": "cheerful or economically strong", "easy": "lively, upbeat", "example": "The market stayed buoyant despite the bad news."},
-    {"word": "Disenchant", "pos": "verb", "meaning": "to make someone lose hope or trust", "easy": "disillusion, sour", "example": "Many young voters feel disenchanted with politics."},
-    {"word": "Forge", "pos": "verb", "meaning": "to build or create (a bond); to fake", "easy": "build, create", "example": "The two nations forged a new trade partnership."},
-    {"word": "Inflict", "pos": "verb", "meaning": "to cause harm or suffering", "easy": "impose, cause", "example": "The sanctions inflicted heavy losses on the economy."},
-    {"word": "Stagnant", "pos": "adjective", "meaning": "not moving or growing", "easy": "still, flat", "example": "Wages have remained stagnant for years."},
-    {"word": "Tirade", "pos": "noun", "meaning": "a long angry speech of criticism", "easy": "rant, outburst", "example": "He launched into a tirade against the media."},
-    {"word": "Wield", "pos": "verb", "meaning": "to hold and use power or a tool", "easy": "exercise, hold", "example": "The committee wields great influence over policy."},
-    {"word": "Ominous", "pos": "adjective", "meaning": "suggesting something bad will happen", "easy": "threatening, sinister", "example": "There were ominous signs of an economic slowdown."},
-    {"word": "Placate", "pos": "verb", "meaning": "to calm someone who is angry", "easy": "pacify, soothe", "example": "The minister tried to placate angry protesters."},
-    {"word": "Rampant", "pos": "adjective", "meaning": "spreading uncontrollably", "easy": "widespread, unchecked", "example": "Corruption is rampant in many departments."},
-    {"word": "Tacit", "pos": "adjective", "meaning": "understood without being said", "easy": "implied, unspoken", "example": "The deal had the tacit approval of the leadership."},
-    {"word": "Usher", "pos": "verb", "meaning": "to bring in or begin a new period", "easy": "introduce, herald", "example": "The reforms ushered in a new era of growth."},
-    {"word": "Vague", "pos": "adjective", "meaning": "not clear or definite", "easy": "unclear, hazy", "example": "The promise was vague and lacked detail."},
-    {"word": "Wrest", "pos": "verb", "meaning": "to take something by force or effort", "easy": "seize, grab", "example": "The opposition wrested control of three states."},
-    {"word": "Affluent", "pos": "adjective", "meaning": "wealthy; having plenty of money", "easy": "rich, prosperous", "example": "The policy mainly benefits affluent households."},
-    {"word": "Cumbersome", "pos": "adjective", "meaning": "slow, heavy, and hard to use", "easy": "clumsy, awkward", "example": "The approval process is cumbersome and slow."},
-    {"word": "Dire", "pos": "adjective", "meaning": "extremely serious or urgent", "easy": "grave, severe", "example": "Aid agencies warned of a dire humanitarian crisis."},
-    {"word": "Fledgling", "pos": "adjective/noun", "meaning": "new and inexperienced", "easy": "young, budding", "example": "The fledgling democracy faced many challenges."},
-    {"word": "Grim", "pos": "adjective", "meaning": "very serious, gloomy, or unpleasant", "easy": "bleak, harsh", "example": "The survivors described a grim scene of destruction."},
-    {"word": "Hefty", "pos": "adjective", "meaning": "large in amount, size, or weight", "easy": "large, heavy", "example": "The court imposed a hefty fine on the firm."},
-    {"word": "Inertia", "pos": "noun", "meaning": "a lack of movement or unwillingness to change", "easy": "sluggishness, apathy", "example": "Bureaucratic inertia delayed the much-needed reform."},
-    {"word": "Jeopardise", "pos": "verb", "meaning": "to put something at risk", "easy": "endanger, risk", "example": "The leak could jeopardise national security."},
-    {"word": "Keen", "pos": "adjective", "meaning": "eager or sharply aware", "easy": "eager, sharp", "example": "There is keen interest in the new policy."},
-    {"word": "Languish", "pos": "verb", "meaning": "to remain in a bad or weak state", "easy": "suffer, stagnate", "example": "Thousands of cases languish in the courts for years."},
-    {"word": "Meagre", "pos": "adjective", "meaning": "very small in amount; inadequate", "easy": "scanty, poor", "example": "Workers earn a meagre wage for long hours."},
-    {"word": "Nuance", "pos": "noun", "meaning": "a small but important difference in meaning", "easy": "subtlety, shade", "example": "The debate ignored the nuances of the issue."},
-    {"word": "Obscure", "pos": "adjective/verb", "meaning": "not well known or hard to understand; to hide", "easy": "unclear, hide", "example": "The real cause remains obscure to investigators."},
-    {"word": "Paramount", "pos": "adjective", "meaning": "more important than anything else", "easy": "supreme, chief", "example": "Public safety must be of paramount importance."},
-    {"word": "Quintessential", "pos": "adjective", "meaning": "the most perfect example of something", "easy": "typical, classic", "example": "It was a quintessential case of bureaucratic delay."},
-    {"word": "Robust", "pos": "adjective", "meaning": "strong and healthy", "easy": "strong, sturdy", "example": "The country posted robust economic growth."},
-    {"word": "Scathing", "pos": "adjective", "meaning": "harshly critical", "easy": "harsh, severe", "example": "The audit was a scathing indictment of the management."},
-    {"word": "Thwart", "pos": "verb", "meaning": "to prevent someone from doing something", "easy": "foil, block", "example": "Security forces thwarted a major attack."},
-    {"word": "Undermine", "pos": "verb", "meaning": "to secretly weaken something", "easy": "weaken, sabotage", "example": "False claims undermine public trust in science."},
-    {"word": "Vehement", "pos": "adjective", "meaning": "showing strong, intense feeling", "easy": "fierce, forceful", "example": "He was a vehement critic of the new law."},
-    {"word": "Watershed", "pos": "noun", "meaning": "a turning point that changes everything", "easy": "turning point, milestone", "example": "The verdict was a watershed moment for civil rights."},
-    {"word": "Yardstick", "pos": "noun", "meaning": "a standard used for comparison", "easy": "measure, benchmark", "example": "Literacy is a key yardstick of development."},
-    {"word": "Zeal", "pos": "noun", "meaning": "great energy or enthusiasm", "easy": "passion, fervour", "example": "Reformers pursued change with great zeal."},
-    {"word": "Abate", "pos": "verb", "meaning": "to become less intense", "easy": "subside, lessen", "example": "The storm finally began to abate by evening."},
-    {"word": "Bane", "pos": "noun", "meaning": "a cause of great trouble or ruin", "easy": "curse, scourge", "example": "Unemployment is the bane of the youth."},
-    {"word": "Cynical", "pos": "adjective", "meaning": "believing people act only out of self-interest", "easy": "distrustful, sceptical", "example": "Voters have grown cynical about politicians' promises."},
-    {"word": "Daunting", "pos": "adjective", "meaning": "seeming difficult and scary to face", "easy": "intimidating, tough", "example": "Rebuilding the city is a daunting task."},
-    {"word": "Espouse", "pos": "verb", "meaning": "to support or adopt a belief", "easy": "support, embrace", "example": "The party espouses free-market policies."},
-    {"word": "Fervent", "pos": "adjective", "meaning": "showing very strong feeling", "easy": "passionate, intense", "example": "She made a fervent appeal for peace."},
-    {"word": "Gauge", "pos": "verb/noun", "meaning": "to measure or judge", "easy": "measure, assess", "example": "The survey tried to gauge public opinion."},
-    {"word": "Harbinger", "pos": "noun", "meaning": "a sign of something to come", "easy": "omen, forerunner", "example": "Falling sales were a harbinger of recession."},
-    {"word": "Impetus", "pos": "noun", "meaning": "a force that drives something forward", "easy": "momentum, push", "example": "The crisis gave fresh impetus to reform."},
-    {"word": "Juxtapose", "pos": "verb", "meaning": "to place side by side for comparison", "easy": "contrast, compare", "example": "The article juxtaposes wealth and poverty."},
-    {"word": "Kindle", "pos": "verb", "meaning": "to start or arouse a feeling", "easy": "spark, ignite", "example": "The speech kindled hope among the people."},
-    {"word": "Lethargy", "pos": "noun", "meaning": "a lack of energy or enthusiasm", "easy": "tiredness, sluggishness", "example": "Economic lethargy gripped the region for years."},
-    {"word": "Myriad", "pos": "noun/adjective", "meaning": "a very large number", "easy": "countless, many", "example": "The reform faces a myriad of challenges."},
-    {"word": "Notorious", "pos": "adjective", "meaning": "famous for something bad", "easy": "infamous, well-known", "example": "The area is notorious for its high crime rate."},
-    {"word": "Opaque", "pos": "adjective", "meaning": "hard to see through or understand", "easy": "unclear, murky", "example": "The deal's terms remain opaque to the public."},
-    {"word": "Prudent", "pos": "adjective", "meaning": "careful and sensible", "easy": "wise, cautious", "example": "Prudent spending helped the state avoid debt."},
-    {"word": "Quell2", "pos": "verb", "meaning": "to calm or put an end to", "easy": "calm, suppress", "example": "Officials moved quickly to quell rumours."},
-    {"word": "Reprisal", "pos": "noun", "meaning": "an act of revenge or retaliation", "easy": "retaliation, revenge", "example": "Witnesses stayed silent for fear of reprisal."},
-    {"word": "Staunch", "pos": "adjective", "meaning": "very loyal and firm", "easy": "loyal, firm", "example": "She is a staunch supporter of the reform."},
-    {"word": "Truncate", "pos": "verb", "meaning": "to shorten by cutting off", "easy": "shorten, cut", "example": "The session was truncated due to protests."},
-    {"word": "Upheaval", "pos": "noun", "meaning": "a big and sudden change or disturbance", "easy": "upset, turmoil", "example": "The reforms caused major social upheaval."},
-    {"word": "Vilify", "pos": "verb", "meaning": "to speak about someone in a very bad way", "easy": "defame, smear", "example": "Critics were vilified in the state media."},
-    {"word": "Wanton", "pos": "adjective", "meaning": "deliberate and without reason or care", "easy": "reckless, needless", "example": "The report described wanton destruction of forests."},
-    {"word": "Zealot", "pos": "noun", "meaning": "a person with extreme, uncompromising views", "easy": "fanatic, extremist", "example": "A few zealots derailed the peace talks."}
+    {
+      "word": "Allege",
+      "pos": "verb",
+      "meaning": "to say someone did something wrong, without proof yet",
+      "easy": "claim, accuse",
+      "example": "The report alleges that the company hid its losses."
+    },
+    {
+      "word": "Curb",
+      "pos": "verb",
+      "meaning": "to control or reduce something",
+      "easy": "limit, restrain",
+      "example": "The government announced new rules to curb pollution in the city."
+    },
+    {
+      "word": "Slump",
+      "pos": "noun/verb",
+      "meaning": "a big fall or weak period",
+      "easy": "drop, decline",
+      "example": "The economy is facing a slump as factories cut production."
+    },
+    {
+      "word": "Probe",
+      "pos": "noun/verb",
+      "meaning": "an investigation",
+      "easy": "inquiry, examination",
+      "example": "A probe has been ordered into the bridge collapse."
+    },
+    {
+      "word": "Hail",
+      "pos": "verb",
+      "meaning": "to praise something publicly",
+      "easy": "praise, welcome",
+      "example": "Leaders hailed the agreement as a historic step."
+    },
+    {
+      "word": "Slam",
+      "pos": "verb",
+      "meaning": "to criticise strongly",
+      "easy": "attack, condemn",
+      "example": "The opposition slammed the budget for ignoring farmers."
+    },
+    {
+      "word": "Vow",
+      "pos": "verb/noun",
+      "meaning": "to promise firmly",
+      "easy": "promise, pledge",
+      "example": "The minister vowed to complete the project by next year."
+    },
+    {
+      "word": "Plunge",
+      "pos": "verb",
+      "meaning": "to fall suddenly and steeply",
+      "easy": "crash, dive",
+      "example": "Stock markets plunged amid global tension."
+    },
+    {
+      "word": "Mitigate",
+      "pos": "verb",
+      "meaning": "to make something less harmful or severe",
+      "easy": "reduce, ease",
+      "example": "New flood barriers were built to mitigate the damage from storms."
+    },
+    {
+      "word": "Exacerbate",
+      "pos": "verb",
+      "meaning": "to make a bad situation worse",
+      "easy": "worsen, aggravate",
+      "example": "Cutting subsidies could exacerbate the crisis for poor families."
+    },
+    {
+      "word": "Ubiquitous",
+      "pos": "adjective",
+      "meaning": "present or found everywhere",
+      "easy": "widespread, omnipresent",
+      "example": "Smartphones have become ubiquitous in modern life."
+    },
+    {
+      "word": "Plummet",
+      "pos": "verb",
+      "meaning": "to fall very fast and far",
+      "easy": "drop, tumble",
+      "example": "Exports plummeted after the new tariffs were imposed."
+    },
+    {
+      "word": "Resilient",
+      "pos": "adjective",
+      "meaning": "able to recover quickly from difficulty",
+      "easy": "tough, sturdy",
+      "example": "The economy proved resilient despite the pandemic shock."
+    },
+    {
+      "word": "Galvanise",
+      "pos": "verb",
+      "meaning": "to shock or excite someone into action",
+      "easy": "spur, stir",
+      "example": "The disaster galvanised the public into demanding reform."
+    },
+    {
+      "word": "Austerity",
+      "pos": "noun",
+      "meaning": "strict economic policy with reduced spending",
+      "easy": "cutbacks, thrift",
+      "example": "Years of austerity led to widespread protests across the country."
+    },
+    {
+      "word": "Coalition",
+      "pos": "noun",
+      "meaning": "a group of parties or people working together",
+      "easy": "alliance, union",
+      "example": "A fragile coalition government took power after the election."
+    },
+    {
+      "word": "Sanction",
+      "pos": "noun/verb",
+      "meaning": "a penalty against a country, or official permission",
+      "easy": "penalty, approve",
+      "example": "The nation faced harsh sanctions over its nuclear programme."
+    },
+    {
+      "word": "Stalemate",
+      "pos": "noun",
+      "meaning": "a situation where no side can win or move forward",
+      "easy": "deadlock, impasse",
+      "example": "Talks ended in a stalemate, with neither side willing to compromise."
+    },
+    {
+      "word": "Ratify",
+      "pos": "verb",
+      "meaning": "to formally approve an agreement or treaty",
+      "easy": "approve, confirm",
+      "example": "Parliament voted to ratify the climate treaty."
+    },
+    {
+      "word": "Bolster",
+      "pos": "verb",
+      "meaning": "to support or strengthen something",
+      "easy": "boost, reinforce",
+      "example": "The bank cut rates to bolster the slowing economy."
+    },
+    {
+      "word": "Scrutiny",
+      "pos": "noun",
+      "meaning": "careful and critical examination",
+      "easy": "inspection, review",
+      "example": "The deal came under intense scrutiny from regulators."
+    },
+    {
+      "word": "Pragmatic",
+      "pos": "adjective",
+      "meaning": "dealing with things practically, not idealistically",
+      "easy": "practical, sensible",
+      "example": "The leader took a pragmatic approach to the trade dispute."
+    },
+    {
+      "word": "Contentious",
+      "pos": "adjective",
+      "meaning": "likely to cause disagreement",
+      "easy": "controversial, disputed",
+      "example": "The contentious bill divided lawmakers sharply."
+    },
+    {
+      "word": "Unprecedented",
+      "pos": "adjective",
+      "meaning": "never having happened before",
+      "easy": "unheard-of, novel",
+      "example": "The country faced an unprecedented heatwave this summer."
+    },
+    {
+      "word": "Deteriorate",
+      "pos": "verb",
+      "meaning": "to become worse over time",
+      "easy": "decline, worsen",
+      "example": "Relations between the two nations continued to deteriorate."
+    },
+    {
+      "word": "Advocate",
+      "pos": "verb/noun",
+      "meaning": "to publicly support a cause; a supporter",
+      "easy": "support, champion",
+      "example": "She advocates for stronger laws against child labour."
+    },
+    {
+      "word": "Imminent",
+      "pos": "adjective",
+      "meaning": "about to happen very soon",
+      "easy": "impending, near",
+      "example": "Forecasters warned of an imminent cyclone along the coast."
+    },
+    {
+      "word": "Resurgence",
+      "pos": "noun",
+      "meaning": "a return or rise after a decline",
+      "easy": "revival, comeback",
+      "example": "The region saw a resurgence of the virus in winter."
+    },
+    {
+      "word": "Rhetoric",
+      "pos": "noun",
+      "meaning": "persuasive (often empty) language in speech",
+      "easy": "oratory, talk",
+      "example": "The campaign was full of fiery rhetoric but few real plans."
+    },
+    {
+      "word": "Volatile",
+      "pos": "adjective",
+      "meaning": "likely to change suddenly and unpredictably",
+      "easy": "unstable, erratic",
+      "example": "Oil prices remained volatile amid the conflict."
+    },
+    {
+      "word": "Consensus",
+      "pos": "noun",
+      "meaning": "general agreement among a group",
+      "easy": "agreement, accord",
+      "example": "Members failed to reach a consensus on the new policy."
+    },
+    {
+      "word": "Endorse",
+      "pos": "verb",
+      "meaning": "to publicly approve or support",
+      "easy": "back, support",
+      "example": "Several economists endorsed the reform package."
+    },
+    {
+      "word": "Lucrative",
+      "pos": "adjective",
+      "meaning": "producing a lot of money or profit",
+      "easy": "profitable, rich",
+      "example": "The firm won a lucrative contract to build the highway."
+    },
+    {
+      "word": "Diminish",
+      "pos": "verb",
+      "meaning": "to become or make smaller or less",
+      "easy": "reduce, shrink",
+      "example": "Public trust in the institution has steadily diminished."
+    },
+    {
+      "word": "Inevitable",
+      "pos": "adjective",
+      "meaning": "certain to happen, unavoidable",
+      "easy": "unavoidable, certain",
+      "example": "Some job losses were inevitable after the merger."
+    },
+    {
+      "word": "Turmoil",
+      "pos": "noun",
+      "meaning": "a state of great confusion or disorder",
+      "easy": "chaos, unrest",
+      "example": "The country was plunged into political turmoil."
+    },
+    {
+      "word": "Catalyst",
+      "pos": "noun",
+      "meaning": "something that causes change or action",
+      "easy": "trigger, spark",
+      "example": "The protest became a catalyst for nationwide reform."
+    },
+    {
+      "word": "Stringent",
+      "pos": "adjective",
+      "meaning": "strict and severe",
+      "easy": "strict, tough",
+      "example": "The agency imposed stringent safety standards on factories."
+    },
+    {
+      "word": "Wane",
+      "pos": "verb",
+      "meaning": "to gradually decrease or weaken",
+      "easy": "fade, decline",
+      "example": "Public support for the war began to wane."
+    },
+    {
+      "word": "Hamper",
+      "pos": "verb",
+      "meaning": "to slow down or get in the way of progress",
+      "easy": "hinder, obstruct",
+      "example": "Heavy rain hampered rescue operations."
+    },
+    {
+      "word": "Reiterate",
+      "pos": "verb",
+      "meaning": "to say something again for emphasis",
+      "easy": "repeat, restate",
+      "example": "The minister reiterated the need for unity."
+    },
+    {
+      "word": "Inadvertent",
+      "pos": "adjective",
+      "meaning": "done without intention, by accident",
+      "easy": "accidental, unintended",
+      "example": "An inadvertent error delayed the entire project."
+    },
+    {
+      "word": "Tenuous",
+      "pos": "adjective",
+      "meaning": "weak, thin, or not strongly supported",
+      "easy": "weak, fragile",
+      "example": "The link between the two events is tenuous at best."
+    },
+    {
+      "word": "Proliferate",
+      "pos": "verb",
+      "meaning": "to increase or spread rapidly",
+      "easy": "multiply, spread",
+      "example": "Fake news proliferated during the election."
+    },
+    {
+      "word": "Mandate",
+      "pos": "noun/verb",
+      "meaning": "official order or authority to act",
+      "easy": "order, authority",
+      "example": "The new government claimed a strong mandate from voters."
+    },
+    {
+      "word": "Bleak",
+      "pos": "adjective",
+      "meaning": "without hope or encouragement",
+      "easy": "gloomy, grim",
+      "example": "The report painted a bleak picture of the job market."
+    },
+    {
+      "word": "Surge",
+      "pos": "noun/verb",
+      "meaning": "a sudden strong increase",
+      "easy": "rise, spike",
+      "example": "There was a surge in demand for electric cars."
+    },
+    {
+      "word": "Curtail",
+      "pos": "verb",
+      "meaning": "to reduce or cut short",
+      "easy": "cut, limit",
+      "example": "The lockdown curtailed many basic freedoms."
+    },
+    {
+      "word": "Onus",
+      "pos": "noun",
+      "meaning": "responsibility or duty for something",
+      "easy": "burden, duty",
+      "example": "The onus is on the company to prove its product is safe."
+    },
+    {
+      "word": "Precarious",
+      "pos": "adjective",
+      "meaning": "unsafe, uncertain, or dangerous",
+      "easy": "risky, shaky",
+      "example": "Millions live in precarious financial conditions."
+    },
+    {
+      "word": "Vindicate",
+      "pos": "verb",
+      "meaning": "to prove someone right or free from blame",
+      "easy": "justify, clear",
+      "example": "The verdict vindicated the whistle-blower."
+    },
+    {
+      "word": "Quell",
+      "pos": "verb",
+      "meaning": "to stop or suppress something, often by force",
+      "easy": "suppress, calm",
+      "example": "Police were called in to quell the riots."
+    },
+    {
+      "word": "Disparity",
+      "pos": "noun",
+      "meaning": "a big or unfair difference",
+      "easy": "gap, inequality",
+      "example": "There is a wide disparity between rich and poor regions."
+    },
+    {
+      "word": "Foster",
+      "pos": "verb",
+      "meaning": "to encourage the growth of something",
+      "easy": "promote, nurture",
+      "example": "The scheme aims to foster innovation among startups."
+    },
+    {
+      "word": "Belated",
+      "pos": "adjective",
+      "meaning": "coming later than it should",
+      "easy": "late, overdue",
+      "example": "The government offered a belated apology to the victims."
+    },
+    {
+      "word": "Reprieve",
+      "pos": "noun",
+      "meaning": "a temporary relief from trouble or punishment",
+      "easy": "respite, relief",
+      "example": "Falling prices gave consumers a brief reprieve."
+    },
+    {
+      "word": "Stark",
+      "pos": "adjective",
+      "meaning": "harshly clear; severe and plain",
+      "easy": "harsh, sharp",
+      "example": "The data revealed a stark rise in unemployment."
+    },
+    {
+      "word": "Wary",
+      "pos": "adjective",
+      "meaning": "cautious about possible danger",
+      "easy": "cautious, careful",
+      "example": "Investors remained wary of the new market."
+    },
+    {
+      "word": "Subdue",
+      "pos": "verb",
+      "meaning": "to bring under control",
+      "easy": "control, calm",
+      "example": "Authorities struggled to subdue the spreading unrest."
+    },
+    {
+      "word": "Aftermath",
+      "pos": "noun",
+      "meaning": "the situation after a bad event",
+      "easy": "consequences, fallout",
+      "example": "Thousands were left homeless in the aftermath of the flood."
+    },
+    {
+      "word": "Compelling",
+      "pos": "adjective",
+      "meaning": "very convincing or forceful",
+      "easy": "convincing, strong",
+      "example": "The lawyer made a compelling case for reform."
+    },
+    {
+      "word": "Erode",
+      "pos": "verb",
+      "meaning": "to gradually wear away or weaken",
+      "easy": "wear away, weaken",
+      "example": "Corruption has eroded faith in public institutions."
+    },
+    {
+      "word": "Looming",
+      "pos": "adjective",
+      "meaning": "approaching and threatening",
+      "easy": "impending, approaching",
+      "example": "Businesses are worried about a looming recession."
+    },
+    {
+      "word": "Acute",
+      "pos": "adjective",
+      "meaning": "severe and serious",
+      "easy": "severe, sharp",
+      "example": "The city faces an acute shortage of drinking water."
+    },
+    {
+      "word": "Stipulate",
+      "pos": "verb",
+      "meaning": "to state a clear condition in an agreement",
+      "easy": "specify, require",
+      "example": "The contract stipulates a strict deadline."
+    },
+    {
+      "word": "Brunt",
+      "pos": "noun",
+      "meaning": "the main force or worst part of something",
+      "easy": "impact, force",
+      "example": "Poor families bore the brunt of the price rise."
+    },
+    {
+      "word": "Implore",
+      "pos": "verb",
+      "meaning": "to beg earnestly",
+      "easy": "beg, plead",
+      "example": "Aid groups implored the world to send help."
+    },
+    {
+      "word": "Dwindle",
+      "pos": "verb",
+      "meaning": "to slowly shrink or run low",
+      "easy": "shrink, decline",
+      "example": "Water supplies dwindled during the long drought."
+    },
+    {
+      "word": "Spurn",
+      "pos": "verb",
+      "meaning": "to reject with contempt",
+      "easy": "reject, refuse",
+      "example": "The offer was spurned by union leaders."
+    },
+    {
+      "word": "Anomaly",
+      "pos": "noun",
+      "meaning": "something that is different from normal",
+      "easy": "oddity, irregularity",
+      "example": "Scientists noticed an anomaly in the climate data."
+    },
+    {
+      "word": "Cohesion",
+      "pos": "noun",
+      "meaning": "the state of sticking together or unity",
+      "easy": "unity, togetherness",
+      "example": "The crisis tested the cohesion of the alliance."
+    },
+    {
+      "word": "Impede",
+      "pos": "verb",
+      "meaning": "to block or slow progress",
+      "easy": "hinder, block",
+      "example": "Red tape continues to impede small businesses."
+    },
+    {
+      "word": "Lull",
+      "pos": "noun/verb",
+      "meaning": "a quiet or calm period",
+      "easy": "pause, calm",
+      "example": "There was a brief lull in the fighting."
+    },
+    {
+      "word": "Tangible",
+      "pos": "adjective",
+      "meaning": "real and able to be clearly seen or felt",
+      "easy": "real, concrete",
+      "example": "The talks produced no tangible results."
+    },
+    {
+      "word": "Lopsided",
+      "pos": "adjective",
+      "meaning": "uneven or unbalanced",
+      "easy": "uneven, unequal",
+      "example": "Critics called the deal lopsided and unfair."
+    },
+    {
+      "word": "Embolden",
+      "pos": "verb",
+      "meaning": "to give someone courage to act",
+      "easy": "encourage, empower",
+      "example": "The win emboldened the protesters to demand more."
+    },
+    {
+      "word": "Painstaking",
+      "pos": "adjective",
+      "meaning": "done with great care and effort",
+      "easy": "careful, thorough",
+      "example": "Restoring the temple took painstaking work."
+    },
+    {
+      "word": "Reckon",
+      "pos": "verb",
+      "meaning": "to think or consider; to deal with",
+      "easy": "believe, calculate",
+      "example": "Analysts reckon growth will slow next year."
+    },
+    {
+      "word": "Pertinent",
+      "pos": "adjective",
+      "meaning": "relevant and to the point",
+      "easy": "relevant, apt",
+      "example": "She raised several pertinent questions in the debate."
+    },
+    {
+      "word": "Stymie",
+      "pos": "verb",
+      "meaning": "to prevent or block something",
+      "easy": "block, thwart",
+      "example": "Political disputes stymied the relief effort."
+    },
+    {
+      "word": "Latent",
+      "pos": "adjective",
+      "meaning": "existing but not yet visible or active",
+      "easy": "hidden, dormant",
+      "example": "The policy exposed latent tensions in society."
+    },
+    {
+      "word": "Culminate",
+      "pos": "verb",
+      "meaning": "to reach a final or highest point",
+      "easy": "end, climax",
+      "example": "Months of protests culminated in a mass strike."
+    },
+    {
+      "word": "Adept",
+      "pos": "adjective",
+      "meaning": "very skilled at something",
+      "easy": "skilled, expert",
+      "example": "She is adept at handling difficult negotiations."
+    },
+    {
+      "word": "Squander",
+      "pos": "verb",
+      "meaning": "to waste something valuable",
+      "easy": "waste, fritter",
+      "example": "The country squandered its oil wealth on vanity projects."
+    },
+    {
+      "word": "Veneer",
+      "pos": "noun",
+      "meaning": "a thin, often false, outer appearance",
+      "easy": "facade, cover",
+      "example": "Behind the veneer of calm lay deep anxiety."
+    },
+    {
+      "word": "Cripple",
+      "pos": "verb",
+      "meaning": "to seriously damage or weaken",
+      "easy": "disable, weaken",
+      "example": "The strike crippled public transport for days."
+    },
+    {
+      "word": "Recalcitrant",
+      "pos": "adjective",
+      "meaning": "stubbornly refusing to obey",
+      "easy": "defiant, stubborn",
+      "example": "A few recalcitrant states blocked the reform."
+    },
+    {
+      "word": "Nascent",
+      "pos": "adjective",
+      "meaning": "just beginning to develop",
+      "easy": "new, emerging",
+      "example": "The nascent industry needs government support."
+    },
+    {
+      "word": "Deft",
+      "pos": "adjective",
+      "meaning": "skilful and quick",
+      "easy": "skilful, nimble",
+      "example": "A deft handling of the crisis won her praise."
+    },
+    {
+      "word": "Forfeit",
+      "pos": "verb",
+      "meaning": "to lose a right or possession as a penalty",
+      "easy": "lose, give up",
+      "example": "Defaulters may forfeit their deposits."
+    },
+    {
+      "word": "Mar",
+      "pos": "verb",
+      "meaning": "to spoil or damage",
+      "easy": "spoil, ruin",
+      "example": "Violence marred the otherwise peaceful rally."
+    },
+    {
+      "word": "Repercussion",
+      "pos": "noun",
+      "meaning": "an indirect, usually bad, consequence",
+      "easy": "consequence, fallout",
+      "example": "The decision had serious economic repercussions."
+    },
+    {
+      "word": "Tepid",
+      "pos": "adjective",
+      "meaning": "showing little enthusiasm; lukewarm",
+      "easy": "lukewarm, half-hearted",
+      "example": "The plan met with a tepid response from voters."
+    },
+    {
+      "word": "Bemoan",
+      "pos": "verb",
+      "meaning": "to express sorrow or complaint about",
+      "easy": "lament, complain",
+      "example": "Farmers bemoaned the lack of fair prices."
+    },
+    {
+      "word": "Cede",
+      "pos": "verb",
+      "meaning": "to give up power or territory",
+      "easy": "surrender, yield",
+      "example": "The party refused to cede control of the council."
+    },
+    {
+      "word": "Inept",
+      "pos": "adjective",
+      "meaning": "lacking skill; clumsy",
+      "easy": "incompetent, clumsy",
+      "example": "The response to the disaster was widely called inept."
+    },
+    {
+      "word": "Overhaul",
+      "pos": "noun/verb",
+      "meaning": "a thorough change or repair of a system",
+      "easy": "revamp, reform",
+      "example": "The tax system is due for a major overhaul."
+    },
+    {
+      "word": "Brazen",
+      "pos": "adjective",
+      "meaning": "bold and shameless",
+      "easy": "shameless, bold",
+      "example": "The brazen theft happened in broad daylight."
+    },
+    {
+      "word": "Wither",
+      "pos": "verb",
+      "meaning": "to dry up, fade, or weaken",
+      "easy": "fade, shrivel",
+      "example": "Support for the scheme withered within months."
+    },
+    {
+      "word": "Lambast",
+      "pos": "verb",
+      "meaning": "to criticise harshly",
+      "easy": "criticise, scold",
+      "example": "The press lambasted the government for inaction."
+    },
+    {
+      "word": "Reconcile",
+      "pos": "verb",
+      "meaning": "to restore friendly relations; to make agree",
+      "easy": "settle, harmonise",
+      "example": "It is hard to reconcile growth with environmental care."
+    },
+    {
+      "word": "Untenable",
+      "pos": "adjective",
+      "meaning": "impossible to defend or maintain",
+      "easy": "indefensible, shaky",
+      "example": "His position became untenable after the scandal."
+    },
+    {
+      "word": "Quagmire",
+      "pos": "noun",
+      "meaning": "a difficult situation hard to escape",
+      "easy": "mess, mire",
+      "example": "The war turned into a costly quagmire."
+    },
+    {
+      "word": "Salient",
+      "pos": "adjective",
+      "meaning": "most noticeable or important",
+      "easy": "key, prominent",
+      "example": "The editor summarised the salient points of the report."
+    },
+    {
+      "word": "Throttle",
+      "pos": "verb",
+      "meaning": "to control or choke; to limit severely",
+      "easy": "choke, restrict",
+      "example": "New rules could throttle online free speech."
+    },
+    {
+      "word": "Equitable",
+      "pos": "adjective",
+      "meaning": "fair and just to all",
+      "easy": "fair, just",
+      "example": "Activists demanded a more equitable sharing of resources."
+    },
+    {
+      "word": "Pernicious",
+      "pos": "adjective",
+      "meaning": "harmful in a slow, hidden way",
+      "easy": "harmful, damaging",
+      "example": "Misinformation has a pernicious effect on democracy."
+    },
+    {
+      "word": "Wreak",
+      "pos": "verb",
+      "meaning": "to cause great harm or damage",
+      "easy": "inflict, cause",
+      "example": "The floods wreaked havoc across the state."
+    },
+    {
+      "word": "Buoyant",
+      "pos": "adjective",
+      "meaning": "cheerful or economically strong",
+      "easy": "lively, upbeat",
+      "example": "The market stayed buoyant despite the bad news."
+    },
+    {
+      "word": "Disenchant",
+      "pos": "verb",
+      "meaning": "to make someone lose hope or trust",
+      "easy": "disillusion, sour",
+      "example": "Many young voters feel disenchanted with politics."
+    },
+    {
+      "word": "Forge",
+      "pos": "verb",
+      "meaning": "to build or create (a bond); to fake",
+      "easy": "build, create",
+      "example": "The two nations forged a new trade partnership."
+    },
+    {
+      "word": "Inflict",
+      "pos": "verb",
+      "meaning": "to cause harm or suffering",
+      "easy": "impose, cause",
+      "example": "The sanctions inflicted heavy losses on the economy."
+    },
+    {
+      "word": "Stagnant",
+      "pos": "adjective",
+      "meaning": "not moving or growing",
+      "easy": "still, flat",
+      "example": "Wages have remained stagnant for years."
+    },
+    {
+      "word": "Tirade",
+      "pos": "noun",
+      "meaning": "a long angry speech of criticism",
+      "easy": "rant, outburst",
+      "example": "He launched into a tirade against the media."
+    },
+    {
+      "word": "Wield",
+      "pos": "verb",
+      "meaning": "to hold and use power or a tool",
+      "easy": "exercise, hold",
+      "example": "The committee wields great influence over policy."
+    },
+    {
+      "word": "Ominous",
+      "pos": "adjective",
+      "meaning": "suggesting something bad will happen",
+      "easy": "threatening, sinister",
+      "example": "There were ominous signs of an economic slowdown."
+    },
+    {
+      "word": "Placate",
+      "pos": "verb",
+      "meaning": "to calm someone who is angry",
+      "easy": "pacify, soothe",
+      "example": "The minister tried to placate angry protesters."
+    },
+    {
+      "word": "Rampant",
+      "pos": "adjective",
+      "meaning": "spreading uncontrollably",
+      "easy": "widespread, unchecked",
+      "example": "Corruption is rampant in many departments."
+    },
+    {
+      "word": "Tacit",
+      "pos": "adjective",
+      "meaning": "understood without being said",
+      "easy": "implied, unspoken",
+      "example": "The deal had the tacit approval of the leadership."
+    },
+    {
+      "word": "Usher",
+      "pos": "verb",
+      "meaning": "to bring in or begin a new period",
+      "easy": "introduce, herald",
+      "example": "The reforms ushered in a new era of growth."
+    },
+    {
+      "word": "Vague",
+      "pos": "adjective",
+      "meaning": "not clear or definite",
+      "easy": "unclear, hazy",
+      "example": "The promise was vague and lacked detail."
+    },
+    {
+      "word": "Wrest",
+      "pos": "verb",
+      "meaning": "to take something by force or effort",
+      "easy": "seize, grab",
+      "example": "The opposition wrested control of three states."
+    },
+    {
+      "word": "Affluent",
+      "pos": "adjective",
+      "meaning": "wealthy; having plenty of money",
+      "easy": "rich, prosperous",
+      "example": "The policy mainly benefits affluent households."
+    },
+    {
+      "word": "Cumbersome",
+      "pos": "adjective",
+      "meaning": "slow, heavy, and hard to use",
+      "easy": "clumsy, awkward",
+      "example": "The approval process is cumbersome and slow."
+    },
+    {
+      "word": "Dire",
+      "pos": "adjective",
+      "meaning": "extremely serious or urgent",
+      "easy": "grave, severe",
+      "example": "Aid agencies warned of a dire humanitarian crisis."
+    },
+    {
+      "word": "Fledgling",
+      "pos": "adjective/noun",
+      "meaning": "new and inexperienced",
+      "easy": "young, budding",
+      "example": "The fledgling democracy faced many challenges."
+    },
+    {
+      "word": "Grim",
+      "pos": "adjective",
+      "meaning": "very serious, gloomy, or unpleasant",
+      "easy": "bleak, harsh",
+      "example": "The survivors described a grim scene of destruction."
+    },
+    {
+      "word": "Hefty",
+      "pos": "adjective",
+      "meaning": "large in amount, size, or weight",
+      "easy": "large, heavy",
+      "example": "The court imposed a hefty fine on the firm."
+    },
+    {
+      "word": "Inertia",
+      "pos": "noun",
+      "meaning": "a lack of movement or unwillingness to change",
+      "easy": "sluggishness, apathy",
+      "example": "Bureaucratic inertia delayed the much-needed reform."
+    },
+    {
+      "word": "Jeopardise",
+      "pos": "verb",
+      "meaning": "to put something at risk",
+      "easy": "endanger, risk",
+      "example": "The leak could jeopardise national security."
+    },
+    {
+      "word": "Keen",
+      "pos": "adjective",
+      "meaning": "eager or sharply aware",
+      "easy": "eager, sharp",
+      "example": "There is keen interest in the new policy."
+    },
+    {
+      "word": "Languish",
+      "pos": "verb",
+      "meaning": "to remain in a bad or weak state",
+      "easy": "suffer, stagnate",
+      "example": "Thousands of cases languish in the courts for years."
+    },
+    {
+      "word": "Meagre",
+      "pos": "adjective",
+      "meaning": "very small in amount; inadequate",
+      "easy": "scanty, poor",
+      "example": "Workers earn a meagre wage for long hours."
+    },
+    {
+      "word": "Nuance",
+      "pos": "noun",
+      "meaning": "a small but important difference in meaning",
+      "easy": "subtlety, shade",
+      "example": "The debate ignored the nuances of the issue."
+    },
+    {
+      "word": "Obscure",
+      "pos": "adjective/verb",
+      "meaning": "not well known or hard to understand; to hide",
+      "easy": "unclear, hide",
+      "example": "The real cause remains obscure to investigators."
+    },
+    {
+      "word": "Paramount",
+      "pos": "adjective",
+      "meaning": "more important than anything else",
+      "easy": "supreme, chief",
+      "example": "Public safety must be of paramount importance."
+    },
+    {
+      "word": "Quintessential",
+      "pos": "adjective",
+      "meaning": "the most perfect example of something",
+      "easy": "typical, classic",
+      "example": "It was a quintessential case of bureaucratic delay."
+    },
+    {
+      "word": "Robust",
+      "pos": "adjective",
+      "meaning": "strong and healthy",
+      "easy": "strong, sturdy",
+      "example": "The country posted robust economic growth."
+    },
+    {
+      "word": "Scathing",
+      "pos": "adjective",
+      "meaning": "harshly critical",
+      "easy": "harsh, severe",
+      "example": "The audit was a scathing indictment of the management."
+    },
+    {
+      "word": "Thwart",
+      "pos": "verb",
+      "meaning": "to prevent someone from doing something",
+      "easy": "foil, block",
+      "example": "Security forces thwarted a major attack."
+    },
+    {
+      "word": "Undermine",
+      "pos": "verb",
+      "meaning": "to secretly weaken something",
+      "easy": "weaken, sabotage",
+      "example": "False claims undermine public trust in science."
+    },
+    {
+      "word": "Vehement",
+      "pos": "adjective",
+      "meaning": "showing strong, intense feeling",
+      "easy": "fierce, forceful",
+      "example": "He was a vehement critic of the new law."
+    },
+    {
+      "word": "Watershed",
+      "pos": "noun",
+      "meaning": "a turning point that changes everything",
+      "easy": "turning point, milestone",
+      "example": "The verdict was a watershed moment for civil rights."
+    },
+    {
+      "word": "Yardstick",
+      "pos": "noun",
+      "meaning": "a standard used for comparison",
+      "easy": "measure, benchmark",
+      "example": "Literacy is a key yardstick of development."
+    },
+    {
+      "word": "Zeal",
+      "pos": "noun",
+      "meaning": "great energy or enthusiasm",
+      "easy": "passion, fervour",
+      "example": "Reformers pursued change with great zeal."
+    },
+    {
+      "word": "Abate",
+      "pos": "verb",
+      "meaning": "to become less intense",
+      "easy": "subside, lessen",
+      "example": "The storm finally began to abate by evening."
+    },
+    {
+      "word": "Bane",
+      "pos": "noun",
+      "meaning": "a cause of great trouble or ruin",
+      "easy": "curse, scourge",
+      "example": "Unemployment is the bane of the youth."
+    },
+    {
+      "word": "Cynical",
+      "pos": "adjective",
+      "meaning": "believing people act only out of self-interest",
+      "easy": "distrustful, sceptical",
+      "example": "Voters have grown cynical about politicians' promises."
+    },
+    {
+      "word": "Daunting",
+      "pos": "adjective",
+      "meaning": "seeming difficult and scary to face",
+      "easy": "intimidating, tough",
+      "example": "Rebuilding the city is a daunting task."
+    },
+    {
+      "word": "Espouse",
+      "pos": "verb",
+      "meaning": "to support or adopt a belief",
+      "easy": "support, embrace",
+      "example": "The party espouses free-market policies."
+    },
+    {
+      "word": "Fervent",
+      "pos": "adjective",
+      "meaning": "showing very strong feeling",
+      "easy": "passionate, intense",
+      "example": "She made a fervent appeal for peace."
+    },
+    {
+      "word": "Gauge",
+      "pos": "verb/noun",
+      "meaning": "to measure or judge",
+      "easy": "measure, assess",
+      "example": "The survey tried to gauge public opinion."
+    },
+    {
+      "word": "Harbinger",
+      "pos": "noun",
+      "meaning": "a sign of something to come",
+      "easy": "omen, forerunner",
+      "example": "Falling sales were a harbinger of recession."
+    },
+    {
+      "word": "Impetus",
+      "pos": "noun",
+      "meaning": "a force that drives something forward",
+      "easy": "momentum, push",
+      "example": "The crisis gave fresh impetus to reform."
+    },
+    {
+      "word": "Juxtapose",
+      "pos": "verb",
+      "meaning": "to place side by side for comparison",
+      "easy": "contrast, compare",
+      "example": "The article juxtaposes wealth and poverty."
+    },
+    {
+      "word": "Kindle",
+      "pos": "verb",
+      "meaning": "to start or arouse a feeling",
+      "easy": "spark, ignite",
+      "example": "The speech kindled hope among the people."
+    },
+    {
+      "word": "Lethargy",
+      "pos": "noun",
+      "meaning": "a lack of energy or enthusiasm",
+      "easy": "tiredness, sluggishness",
+      "example": "Economic lethargy gripped the region for years."
+    },
+    {
+      "word": "Myriad",
+      "pos": "noun/adjective",
+      "meaning": "a very large number",
+      "easy": "countless, many",
+      "example": "The reform faces a myriad of challenges."
+    },
+    {
+      "word": "Notorious",
+      "pos": "adjective",
+      "meaning": "famous for something bad",
+      "easy": "infamous, well-known",
+      "example": "The area is notorious for its high crime rate."
+    },
+    {
+      "word": "Opaque",
+      "pos": "adjective",
+      "meaning": "hard to see through or understand",
+      "easy": "unclear, murky",
+      "example": "The deal's terms remain opaque to the public."
+    },
+    {
+      "word": "Prudent",
+      "pos": "adjective",
+      "meaning": "careful and sensible",
+      "easy": "wise, cautious",
+      "example": "Prudent spending helped the state avoid debt."
+    },
+    {
+      "word": "Quell2",
+      "pos": "verb",
+      "meaning": "to calm or put an end to",
+      "easy": "calm, suppress",
+      "example": "Officials moved quickly to quell rumours."
+    },
+    {
+      "word": "Reprisal",
+      "pos": "noun",
+      "meaning": "an act of revenge or retaliation",
+      "easy": "retaliation, revenge",
+      "example": "Witnesses stayed silent for fear of reprisal."
+    },
+    {
+      "word": "Staunch",
+      "pos": "adjective",
+      "meaning": "very loyal and firm",
+      "easy": "loyal, firm",
+      "example": "She is a staunch supporter of the reform."
+    },
+    {
+      "word": "Truncate",
+      "pos": "verb",
+      "meaning": "to shorten by cutting off",
+      "easy": "shorten, cut",
+      "example": "The session was truncated due to protests."
+    },
+    {
+      "word": "Upheaval",
+      "pos": "noun",
+      "meaning": "a big and sudden change or disturbance",
+      "easy": "upset, turmoil",
+      "example": "The reforms caused major social upheaval."
+    },
+    {
+      "word": "Vilify",
+      "pos": "verb",
+      "meaning": "to speak about someone in a very bad way",
+      "easy": "defame, smear",
+      "example": "Critics were vilified in the state media."
+    },
+    {
+      "word": "Wanton",
+      "pos": "adjective",
+      "meaning": "deliberate and without reason or care",
+      "easy": "reckless, needless",
+      "example": "The report described wanton destruction of forests."
+    },
+    {
+      "word": "Zealot",
+      "pos": "noun",
+      "meaning": "a person with extreme, uncompromising views",
+      "easy": "fanatic, extremist",
+      "example": "A few zealots derailed the peace talks."
+    },
+    {
+      "word": "Benevolent",
+      "pos": "adjective",
+      "meaning": "kind and wanting to do good",
+      "easy": "root BENE=good; kind, generous",
+      "example": "The benevolent trust funds schools for poor children."
+    },
+    {
+      "word": "Malevolent",
+      "pos": "adjective",
+      "meaning": "wishing harm to others",
+      "easy": "root MAL=bad + VOL=wish; spiteful, evil",
+      "example": "The article exposed the malevolent intent behind the scam."
+    },
+    {
+      "word": "Benign",
+      "pos": "adjective",
+      "meaning": "gentle and harmless",
+      "easy": "root BENE=good; mild, kindly",
+      "example": "The tumour was benign, so no surgery was needed."
+    },
+    {
+      "word": "Malign",
+      "pos": "verb",
+      "meaning": "to speak badly about someone unfairly",
+      "easy": "root MAL=bad; slander, defame",
+      "example": "Rivals tried to malign the minister before the vote."
+    },
+    {
+      "word": "Credible",
+      "pos": "adjective",
+      "meaning": "able to be believed; trustworthy",
+      "easy": "root CRED=believe; convincing",
+      "example": "Investigators found no credible evidence of fraud."
+    },
+    {
+      "word": "Credulous",
+      "pos": "adjective",
+      "meaning": "too ready to believe things",
+      "easy": "root CRED=believe; gullible, naive",
+      "example": "Credulous investors lost money in the fake scheme."
+    },
+    {
+      "word": "Incredulous",
+      "pos": "adjective",
+      "meaning": "unwilling to believe something",
+      "easy": "root CRED=believe + IN=not; disbelieving",
+      "example": "She gave an incredulous look at the sudden claim."
+    },
+    {
+      "word": "Veracity",
+      "pos": "noun",
+      "meaning": "truthfulness; accuracy",
+      "easy": "root VER=truth; honesty",
+      "example": "The court questioned the veracity of the witness."
+    },
+    {
+      "word": "Verify",
+      "pos": "verb",
+      "meaning": "to check that something is true",
+      "easy": "root VER=truth; confirm",
+      "example": "Officials verify each document before approval."
+    },
+    {
+      "word": "Loquacious",
+      "pos": "adjective",
+      "meaning": "talking a great deal",
+      "easy": "root LOQU=speak; talkative, chatty",
+      "example": "The loquacious host filled every silence with stories."
+    },
+    {
+      "word": "Eloquent",
+      "pos": "adjective",
+      "meaning": "speaking fluently and persuasively",
+      "easy": "root LOQU=speak; articulate",
+      "example": "Her eloquent speech moved the entire hall."
+    },
+    {
+      "word": "Magnanimous",
+      "pos": "adjective",
+      "meaning": "generous and forgiving, especially to a rival",
+      "easy": "root MAGN=great + ANIM=mind; big-hearted",
+      "example": "In victory he was magnanimous, praising his opponent."
+    },
+    {
+      "word": "Magnate",
+      "pos": "noun",
+      "meaning": "a rich and powerful business person",
+      "easy": "root MAGN=great; tycoon, baron",
+      "example": "A steel magnate funded the new hospital."
+    },
+    {
+      "word": "Animosity",
+      "pos": "noun",
+      "meaning": "strong hostility",
+      "easy": "root ANIM=spirit; hatred, ill-will",
+      "example": "Years of animosity divided the two neighbouring states."
+    },
+    {
+      "word": "Unanimous",
+      "pos": "adjective",
+      "meaning": "fully agreed by everyone",
+      "easy": "root UN=one + ANIM=mind; united",
+      "example": "The board gave unanimous approval to the merger."
+    },
+    {
+      "word": "Provoke",
+      "pos": "verb",
+      "meaning": "to deliberately make someone angry or cause a reaction",
+      "easy": "root VOKE=call forth; incite",
+      "example": "The remarks provoked protests across the city."
+    },
+    {
+      "word": "Tenacious",
+      "pos": "adjective",
+      "meaning": "holding firmly; not giving up",
+      "easy": "root TEN=hold; persistent, dogged",
+      "example": "Her tenacious effort finally cleared the backlog."
+    },
+    {
+      "word": "Tenable",
+      "pos": "adjective",
+      "meaning": "able to be defended or held",
+      "easy": "root TEN=hold; defensible",
+      "example": "The argument was no longer tenable after new data."
+    },
+    {
+      "word": "Circumspect",
+      "pos": "adjective",
+      "meaning": "cautious; considering all risks",
+      "easy": "root SPEC=look + CIRCUM=around; wary",
+      "example": "Banks turned circumspect after the market crash."
+    },
+    {
+      "word": "Perspicacious",
+      "pos": "adjective",
+      "meaning": "having sharp insight",
+      "easy": "root SPEC=look; shrewd, perceptive",
+      "example": "A perspicacious analyst spotted the fraud early."
+    },
+    {
+      "word": "Indict",
+      "pos": "verb",
+      "meaning": "to formally accuse of a crime",
+      "easy": "root DICT=say; charge, accuse",
+      "example": "The officials were indicted for corruption."
+    },
+    {
+      "word": "Implacable",
+      "pos": "adjective",
+      "meaning": "impossible to calm or satisfy",
+      "easy": "root PLAC=please + IM=not; unyielding",
+      "example": "He faced implacable opposition from the unions."
+    },
+    {
+      "word": "Fidelity",
+      "pos": "noun",
+      "meaning": "faithfulness; loyalty",
+      "easy": "root FID=faith; devotion",
+      "example": "The contract demands strict fidelity to the rules."
+    },
+    {
+      "word": "Perfidious",
+      "pos": "adjective",
+      "meaning": "deceitful and untrustworthy",
+      "easy": "root FID=faith + PER=away; treacherous",
+      "example": "The perfidious ally leaked the secret plans."
+    },
+    {
+      "word": "Apathy",
+      "pos": "noun",
+      "meaning": "lack of interest or concern",
+      "easy": "root PATH=feeling + A=without; indifference",
+      "example": "Voter apathy led to a low turnout."
+    },
+    {
+      "word": "Empathy",
+      "pos": "noun",
+      "meaning": "ability to share another's feelings",
+      "easy": "root PATH=feeling + EM=in; understanding",
+      "example": "Good leaders show empathy in a crisis."
+    },
+    {
+      "word": "Lucid",
+      "pos": "adjective",
+      "meaning": "clear and easy to understand",
+      "easy": "root LUC=light; clear, coherent",
+      "example": "The report gave a lucid account of the crisis."
+    },
+    {
+      "word": "Elucidate",
+      "pos": "verb",
+      "meaning": "to make something clear; explain",
+      "easy": "root LUC=light; clarify, explain",
+      "example": "The minister elucidated the new policy point by point."
+    },
+    {
+      "word": "Gregarious",
+      "pos": "adjective",
+      "meaning": "sociable; fond of company",
+      "easy": "root GREG=flock; outgoing, social",
+      "example": "A gregarious leader, she thrived at public events."
+    },
+    {
+      "word": "Egregious",
+      "pos": "adjective",
+      "meaning": "outstandingly bad; shocking",
+      "easy": "root GREG=flock + E=out; flagrant, glaring",
+      "example": "The audit revealed egregious misuse of funds."
+    },
+    {
+      "word": "Sedentary",
+      "pos": "adjective",
+      "meaning": "involving much sitting; inactive",
+      "easy": "root SED=sit; inactive",
+      "example": "A sedentary lifestyle raises health risks."
+    },
+    {
+      "word": "Assiduous",
+      "pos": "adjective",
+      "meaning": "showing great care and effort",
+      "easy": "root SID/SED=sit at; diligent, hardworking",
+      "example": "Assiduous preparation earned her the top rank."
+    },
+    {
+      "word": "Ostensible",
+      "pos": "adjective",
+      "meaning": "stated as real but perhaps not true",
+      "easy": "apparent, so-called",
+      "example": "The ostensible reason was safety, but cost was the real one."
+    },
+    {
+      "word": "Rescind",
+      "pos": "verb",
+      "meaning": "to officially cancel",
+      "easy": "revoke, repeal",
+      "example": "The court rescinded the earlier order."
+    }
   ]
 }

@@ -28,6 +28,9 @@ from pathlib import Path
 from collections import defaultdict
 
 BASE_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(BASE_DIR.parent))  # repo root, for html_to_pdf
+from html_to_pdf import html_to_pdf  # noqa: E402
+
 STORE = BASE_DIR / "gk_store.json"
 NEW_TODAY = BASE_DIR / "gk_new_today.json"
 OUTPUT = BASE_DIR / "Daily_GK_Current_Affairs.html"
@@ -259,6 +262,7 @@ def main():
     n_today = write_html(items, today)
     log(f"Merged {added} new; {len(items)} total; {n_today} highlighted today "
         f"-> {OUTPUT.name}")
+    html_to_pdf(OUTPUT, delete_html=True, log=log)  # mobile-friendly PDF; drop HTML
     log("=== GK daily build finished ===")
 
 

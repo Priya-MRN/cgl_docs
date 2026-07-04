@@ -1,18 +1,19 @@
 # One-Word Substitution — Daily Builder
 
-A single, self-contained HTML file of **One-Word Substitutions** (phrase → one word),
+A single, self-contained PDF of **One-Word Substitutions** (phrase → one word),
 seeded from the **SSC-CGL PYQ papers** and curated word banks, grouped by theme,
 deduped, and **updated daily** from newspapers, articles, speeches & books.
-**Today's newly-added words are highlighted** 🆕.
+**Today's newly-added words are highlighted** 🆕. (The builder renders a
+mobile-friendly PDF each run — GitHub displays it correctly on phones.)
 
-👉 **[Open One_Word_Substitution.html »](One_Word_Substitution.html)** in a browser —
-the Contents links jump to each theme; new rows are shaded yellow with a 🆕 badge.
+👉 **[Open One_Word_Substitution.pdf »](One_Word_Substitution.pdf)** —
+grouped by theme; new rows are shaded with a 🆕 badge.
 
 ## Files
 
 | File | Purpose |
 | --- | --- |
-| `One_Word_Substitution.html` | **The single master file** (open this) |
+| `One_Word_Substitution.pdf` | **The single master file** (open this) — rebuilt each run |
 | `ows_store.json` | Canonical deduped entries (the data) |
 | `new_today.json` | Drop-box for today's new additions (see below) |
 | `ows_daily.py` | Builder / daily merger |
@@ -38,9 +39,9 @@ the Contents links jump to each theme; new rows are shaded yellow with a 🆕 ba
    ```
 
    New, non-duplicate words are merged, **stamped with today's date, highlighted**
-   in the HTML, and the drop-box is cleared. Duplicates are skipped automatically.
+   in the PDF, and the drop-box is cleared. Duplicates are skipped automatically.
 
-3. Just rebuild the HTML (no new words):
+3. Just rebuild the PDF (no new words):
 
    ```bash
    py ows_daily.py --rebuild

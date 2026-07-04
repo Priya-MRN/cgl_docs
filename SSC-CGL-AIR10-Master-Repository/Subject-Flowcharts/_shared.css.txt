@@ -1,0 +1,8 @@
+/* Reference copy of the shared design tokens embedded in every Subject-Flowchart page.
+   Kept here for editing convenience only — pages are self-contained (styles inlined). */
+:root{
+  --bg:#f5f7fb; --card:#ffffff; --ink:#1a2233; --muted:#5b6577;
+  --line:#d9e0ec; --accent:#1f6fd6; --accent2:#c76a00; --good:#128a3a; --bad:#d23b3b;
+  --chip:#eef2f9; --head:#e8eefb;
+  --p1:#d23b3b; --p2:#c76a00; --p3:#128a3a;   /* priority tiers */
+}

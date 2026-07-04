@@ -25,7 +25,12 @@ import urllib.request
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(BASE_DIR.parent))  # repo root, for html_to_pdf
+from html_to_pdf import html_to_pdf  # noqa: E402
+
 STORE = BASE_DIR / "books_news_store.json"
+# HTML is the script's local working file (patched in place each run) and is
+# .gitignored; the committed, mobile-friendly artifact is the sibling PDF.
 HTML = BASE_DIR / "Books-and-Authors.html"
 LOG = BASE_DIR / "run.log"
 
@@ -165,6 +170,8 @@ def main():
         STORE.write_text(json.dumps(store, ensure_ascii=False, indent=2), encoding="utf-8")
 
     refresh_html(items, today)
+    # keep HTML local (script patches it in place); publish a mobile-friendly PDF
+    html_to_pdf(HTML, delete_html=False, log=log)
     log(f"Merged {added} new book headline(s); {len(items)} total -> {HTML.name}")
     log("=== Books-news build finished ===")
 

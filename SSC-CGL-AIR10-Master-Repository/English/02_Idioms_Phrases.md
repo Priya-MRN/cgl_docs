@@ -132,6 +132,35 @@
 **Answer: (b) To hope for good luck**
 *Solution:* "Keep one's fingers crossed" means to hope that things go well. The other options do not capture this meaning.
 
+## 🆕 Fresh Idioms — 2026-07-04 batch
+
+High-frequency SSC idioms as a quick reference. Cover the meaning, guess, then check.
+
+| Idiom | Meaning | Example |
+|---|---|---|
+| **A blessing in disguise** | Something that seems bad but turns out good | Losing that job was a blessing in disguise — it led to a better one. |
+| **Bite the bullet** | To endure a painful situation bravely | She bit the bullet and paid off the huge fine. |
+| **Burn the midnight oil** | To work or study late into the night | Aspirants burn the midnight oil before the exam. |
+| **Cut corners** | To do something cheaply or hastily, sacrificing quality | The builder cut corners, so the wall soon cracked. |
+| **Beat around the bush** | To avoid the main point | Stop beating around the bush and tell me the result. |
+| **Hit the nail on the head** | To describe exactly what is causing a problem | Her comment hit the nail on the head. |
+| **A dime a dozen** | Very common and of little value | Such cheap gadgets are a dime a dozen now. |
+| **The ball is in your court** | It is your turn to act or decide | I have made my offer; the ball is in your court. |
+| **Add fuel to the fire** | To make a bad situation worse | His rude reply only added fuel to the fire. |
+| **Cost an arm and a leg** | To be very expensive | The wedding cost them an arm and a leg. |
+| **Spill the beans** | To reveal secret information | He finally spilled the beans about the merger. |
+| **Steal someone's thunder** | To take credit for another's idea or achievement | She stole my thunder by announcing the plan first. |
+| **On thin ice** | In a risky or precarious situation | After missing deadlines, he is on thin ice at work. |
+| **Throw in the towel** | To give up | They threw in the towel after months of losses. |
+| **Back to the drawing board** | To start again after a failed attempt | The design was rejected, so it's back to the drawing board. |
+| **A storm in a teacup** | A lot of fuss over a trivial matter | The argument was just a storm in a teacup. |
+| **Turn a blind eye** | To ignore something wrong deliberately | Officials turned a blind eye to the violations. |
+| **Make ends meet** | To manage on a limited income | With prices rising, families struggle to make ends meet. |
+| **In the same boat** | In the same difficult situation | All the unpaid workers are in the same boat. |
+| **Call it a day** | To stop working on something | After twelve hours, they decided to call it a day. |
+
+---
+
 ### 🔑 Memory Techniques
 - Attach a **picture** to each idiom (e.g. someone biting a literal bullet) to lock the meaning.
 - Sort idioms by **theme** (difficulty, money, secrets) to recall related expressions together.

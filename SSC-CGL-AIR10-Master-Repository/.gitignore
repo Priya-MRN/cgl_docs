@@ -1,0 +1,10 @@
+# Local HTML working files for the stateful daily scripts.
+# These scripts patch their HTML in place each run, so the HTML must persist
+# locally — but the committed, mobile-friendly artifact is the sibling PDF.
+# (The stateless scripts delete their HTML outright, so they aren't listed here.)
+Static-GK/Books-and-Authors.html
+Subject-Flowcharts/01_History-Flowchart.html
+Subject-Flowcharts/02_Geography-Flowchart.html
+Subject-Flowcharts/03_Polity-Flowchart.html
+Subject-Flowcharts/04_Science-Flowchart.html
+Subject-Flowcharts/05_Current-Affairs-Flowchart.html

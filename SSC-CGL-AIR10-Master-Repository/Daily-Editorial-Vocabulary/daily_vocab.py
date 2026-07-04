@@ -38,6 +38,9 @@ from pathlib import Path
 WORDS_PER_DAY = 50
 
 BASE_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(BASE_DIR.parent))  # repo root, for html_to_pdf
+from html_to_pdf import html_to_pdf  # noqa: E402
+
 WORD_BANK_FILE = BASE_DIR / "word_bank.json"
 USED_WORDS_FILE = BASE_DIR / "used_words.json"
 OUTPUT_DIR = BASE_DIR / "Daily-Words"
@@ -580,8 +583,8 @@ def update_index():
         f"**Unique words so far:** {len(store.get('words', []))}  ",
         f"**Days merged:** {len(store.get('days', []))}",
         "",
-        "👉 **[Open the master list (HTML) »](Daily-Words/Editorial_Vocabulary.html)** "
-        "— open in a browser; the Contents links jump to each group.",
+        "👉 **[Open the master list (PDF) »](Daily-Words/Editorial_Vocabulary.pdf)** "
+        "— mobile-friendly; rebuilt automatically each day.",
         "",
     ]
     with open(BASE_DIR / "README.md", "w", encoding="utf-8") as fh:
@@ -630,6 +633,7 @@ def main():
     save_json(MASTER_STORE, {"words": master_words, "days": days})
 
     fname = write_master(master_words, days, today_str)
+    html_to_pdf(fname, delete_html=True, log=log)  # mobile-friendly PDF; drop HTML
     log(f"Merged {added} new words ({len(master_words)} total) -> {fname.name}")
 
     # Keep used_words.json in sync so pick_words() never re-offers a known word.

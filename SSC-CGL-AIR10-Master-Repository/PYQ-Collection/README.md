@@ -17,6 +17,12 @@ Use these like a flashcard drill: read the question, commit to an answer, then c
 
 ---
 
+## 🗺️ Start Here — The High-Yield Pattern Blueprint
+
+Before drilling any bank, read **[PYQ-Pattern-Blueprint.md](PYQ-Pattern-Blueprint.md)** — a section-by-section map of the *exact topic clusters SSC repeats every year* (from a 5-year 2021–2025 analysis), tagged with the same 🔴/🟡/🟢 repeat-probability system. It tells you what's worth your time and what's a time-waster, so you study what SSC actually recycles instead of everything.
+
+---
+
 ## 🏷️ How the Repeat-Probability Tags Work
 
 Each question carries a tag estimating **how often that pattern recurs** across SSC CGL papers in 2021–2025:

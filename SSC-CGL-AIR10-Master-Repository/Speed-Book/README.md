@@ -1,10 +1,10 @@
 # ⚡ SSC CGL Speed Book
 
 Your own growing book of **200–300 high-value SSC tricks**, each in a fixed
-**7-part anatomy** so revision is consistent. Output is one self-contained HTML book,
-grouped by topic, with jump-to Contents.
+**7-part anatomy** so revision is consistent. Output is one self-contained PDF book,
+grouped by topic (mobile-friendly on GitHub; rebuilt each time you run the builder).
 
-👉 **[Open Speed-Book.html »](Speed-Book.html)** in a browser (Contents links jump).
+👉 **[Open Speed-Book.pdf »](Speed-Book.pdf)**
 Current count: **20 tricks** — growing toward 200–300.
 
 ## The 7-part anatomy (every trick has these)
@@ -23,7 +23,7 @@ Current count: **20 tricks** — growing toward 200–300.
 
 | File | Purpose |
 | --- | --- |
-| `Speed-Book.html` | **The revision book** (open this) |
+| `Speed-Book.pdf` | **The revision book** (open this) — auto-generated from the JSON |
 | `speedbook.json` | The trick data (one object per trick) |
 | `new_tricks.json` | Drop-box: add new tricks here, then run the builder |
 | `speedbook.py` | Generator |

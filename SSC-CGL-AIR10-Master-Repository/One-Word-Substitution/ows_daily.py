@@ -27,6 +27,9 @@ from pathlib import Path
 from collections import defaultdict
 
 BASE_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(BASE_DIR.parent))  # repo root, for html_to_pdf
+from html_to_pdf import html_to_pdf  # noqa: E402
+
 STORE = BASE_DIR / "ows_store.json"          # canonical deduped entries
 NEW_TODAY = BASE_DIR / "new_today.json"      # drop-box for today's additions
 OUTPUT = BASE_DIR / "One_Word_Substitution.html"
@@ -220,6 +223,7 @@ def main():
     n_today = write_html(entries, today)
     log(f"Merged {added} new; {len(entries)} total; {n_today} highlighted today "
         f"-> {OUTPUT.name}")
+    html_to_pdf(OUTPUT, delete_html=True, log=log)  # mobile-friendly PDF; drop HTML
     log("=== OWS build finished ===")
 
 
