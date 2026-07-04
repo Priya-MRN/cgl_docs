@@ -19,6 +19,7 @@ This is the master bank of high-yield Static General Knowledge for SSC CGL. Each
 | 8 | Sports (Rules · Persons · Events) — **Master** | [Sports-Master.pdf](Sports-Master.pdf) | 🟡 Medium — CA core (Sports) | **Consolidated single file**: domestic & international trophies, multi-sport games, players-per-side & governing bodies, terms, mottos, sports awards, PYQ + new questions |
 | 9 | Current Affairs Special — **Master** | [Current-Affairs-Special-Master.pdf](Current-Affairs-Special-Master.pdf) | 🔴 High — CA that SSC tests | **Consolidated single file**: Awards, Reports & Indices, Important Days, Int'l Orgs, Books & Authors, PYQ + new questions |
 | 10 | Environment (Species + Others) — **Master** | [Environment-Master.pdf](Environment-Master.pdf) | 🟡 Medium | **Consolidated single file**: ecology, biodiversity & species, protected areas, pollution, climate & conventions, PYQ + new questions |
+| 11 | Defence & International Relations — **Master** | [Defence-International-Master.pdf](Defence-International-Master.pdf) | 🟡 Medium | **Consolidated single file**: armed forces & ranks, DRDO & missiles, military exercises, UN & world bodies, India's groupings, boundary lines, PYQ + new questions |
 
 > **Note:** Rivers, Borders & Superlatives (old file 7) are now merged into the consolidated **[Geography-Master.pdf](Geography-Master.pdf)**. History/Polity/Science/Geography now each have a single consolidated **Master PDF** (see rows 1–5).
 
