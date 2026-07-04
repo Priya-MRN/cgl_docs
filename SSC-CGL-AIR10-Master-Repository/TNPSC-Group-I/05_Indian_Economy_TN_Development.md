@@ -1,6 +1,6 @@
 # Unit V — Indian Economy & Development Administration in Tamil Nadu (50 Questions)
 
-> Quick links: [TNPSC Group I Index](README.md) · [Indian Polity](04_Indian_Polity.md) · [TN History & Movements](06_TN_History_Culture_Movements.md) · [repo Static-GK Economics](../Static-GK/04_Economics.md)
+> Quick links: [TNPSC Group I Index](README.md) · [Indian Polity](04_Indian_Polity.md) · [TN History & Movements](06_TN_History_Culture_Movements.md) · [repo Economics Master (PDF)](../Static-GK/Economics-Master.pdf)
 
 **The largest single block (50 Q).** Covers the nature of the Indian economy, planning (Five-Year Plans → NITI Aayog), public finance (RBI, fiscal/monetary policy, Finance Commission, GST), agriculture & industry, social problems, and — heavily — **Tamil Nadu's development administration, HDI, welfare schemes and e-Governance**.
 
