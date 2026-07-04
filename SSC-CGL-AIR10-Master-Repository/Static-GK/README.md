@@ -11,13 +11,14 @@ This is the master bank of high-yield Static General Knowledge for SSC CGL. Each
 |---|-------|------|-----------|----------|
 | 1 | History | [01_History.md](01_History.md) | 🔴 High | Ancient (Indus, Mauryas, Guptas), Medieval (Delhi Sultanate, Mughals — **administration**), Modern (1857, INC, freedom struggle, sessions, movements) · *skip random dates* |
 | 2 | Polity & Constitution | [02_Polity_Constitution.md](02_Polity_Constitution.md) | 🔴 High — easiest GA marks | FRs/DPSP/FDs, Parliament, President, PM, **amendments 42/44/73/74/86** |
-| 3 | Geography | [03_Geography.md](03_Geography.md) | 🔴 High | Rivers, mountains, soils, climate/monsoon, agriculture, National Parks (NCERT basics) |
+| 3 | Geography (World + Indian) — **Master** | [Geography-Master.pdf](Geography-Master.pdf) | 🔴 High | **Consolidated single file**: World & Indian geography, rivers, borders, superlatives, population/settlements/resources, PYQ + new questions |
 | 4 | Economics | [04_Economics.md](04_Economics.md) | 🟡 Medium | GDP/GNP, RBI (Repo/Reverse Repo, CRR/SLR), basic terms — *don't over-read* |
 | 5 | Science | [05_Science.md](05_Science.md) | 🔴 High — hidden gold mine | Physics (motion, light, electricity, sound), Chemistry (acids/bases, metals), Biology (human body, vitamins, diseases, nutrition) |
 | 6 | Art, Culture, Days & Orgs | [06_Art_Culture_Days_Orgs.md](06_Art_Culture_Days_Orgs.md) | 🟡 Medium — CA core (Days, Orgs) | Important days & themes, organizations & HQ/head/est. year, books & authors |
-| 7 | Rivers, Borders & Superlatives | [07_Rivers_Borders_Superlatives.md](07_Rivers_Borders_Superlatives.md) | 🟡 Medium | Indian river systems, borders & boundary lines, superlatives |
-| 8 | Mottos & Scheme Slogans | [08_Mottos_and_Scheme_Slogans.md](08_Mottos_and_Scheme_Slogans.md) | 🟡 Medium — CA core (Schemes) | Govt scheme slogans/ministries, sporting-event & national mottos |
-| 9 | Trophies, Cups & Sports | [09_Trophies_Cups_and_Sports.md](09_Trophies_Cups_and_Sports.md) | 🟡 Medium — CA core (Sports) | Trophies↔sports, major games (Olympics/CWG/Asian), governing bodies |
+| 7 | Mottos & Scheme Slogans | [08_Mottos_and_Scheme_Slogans.md](08_Mottos_and_Scheme_Slogans.md) | 🟡 Medium — CA core (Schemes) | Govt scheme slogans/ministries, sporting-event & national mottos |
+| 8 | Trophies, Cups & Sports | [09_Trophies_Cups_and_Sports.md](09_Trophies_Cups_and_Sports.md) | 🟡 Medium — CA core (Sports) | Trophies↔sports, major games (Olympics/CWG/Asian), governing bodies |
+
+> **Note:** Rivers, Borders & Superlatives (old file 7) are now merged into the consolidated **[Geography-Master.pdf](Geography-Master.pdf)**.
 
 ## Add-on reference pages (PDF — mobile-friendly on GitHub)
 

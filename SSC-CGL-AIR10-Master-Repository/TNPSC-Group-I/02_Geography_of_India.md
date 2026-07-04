@@ -1,6 +1,6 @@
 # Unit II — Geography of India (10 Questions)
 
-> Quick links: [TNPSC Group I Index](README.md) · [General Science](01_General_Science.md) · [repo Static-GK Geography](../Static-GK/03_Geography.md) · [Rivers & Borders](../Static-GK/07_Rivers_Borders_Superlatives.md)
+> Quick links: [TNPSC Group I Index](README.md) · [General Science](01_General_Science.md) · [Geography Master (World + Indian)](../Static-GK/Geography-Master.pdf)
 
 Covers location, physical features, monsoon & climate, water resources & rivers, soils & minerals, forests & wildlife, agriculture, transport & communication, population, disasters, pollution, climate change and green energy.
 
@@ -38,7 +38,7 @@ Covers location, physical features, monsoon & climate, water resources & rivers,
 
 - **Himalayan rivers** (perennial): Ganga, Yamuna, Brahmaputra, Indus.
 - **Peninsular rivers** (rain-fed, seasonal): Godavari (longest peninsular, "Dakshin Ganga"), Krishna, Kaveri, Mahanadi, Narmada & Tapi (west-flowing, form estuaries).
-- See [Rivers & Borders notes](../Static-GK/07_Rivers_Borders_Superlatives.md) for the full river table.
+- See the [Geography Master file](../Static-GK/Geography-Master.pdf) for the full river table, borders & superlatives.
 
 ---
 
