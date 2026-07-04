@@ -15,7 +15,6 @@ GK-Now-Content/
 │   ├── 03_Government_Schemes.md
 │   ├── 04_Science_and_Technology.md
 │   ├── 05_Economy.md
-│   ├── 06_Environment.md
 │   ├── 07_International.md
 │   ├── 08_National.md
 │   ├── 09_Polity.md

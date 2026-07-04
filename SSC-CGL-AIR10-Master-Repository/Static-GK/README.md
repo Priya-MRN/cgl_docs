@@ -18,6 +18,7 @@ This is the master bank of high-yield Static General Knowledge for SSC CGL. Each
 | 7 | Mottos & Scheme Slogans | [08_Mottos_and_Scheme_Slogans.md](08_Mottos_and_Scheme_Slogans.md) | 🟡 Medium — CA core (Schemes) | Govt scheme slogans/ministries, sporting-event & national mottos |
 | 8 | Trophies, Cups & Sports | [09_Trophies_Cups_and_Sports.md](09_Trophies_Cups_and_Sports.md) | 🟡 Medium — CA core (Sports) | Trophies↔sports, major games (Olympics/CWG/Asian), governing bodies |
 | 9 | Current Affairs Special — **Master** | [Current-Affairs-Special-Master.pdf](Current-Affairs-Special-Master.pdf) | 🔴 High — CA that SSC tests | **Consolidated single file**: Awards, Reports & Indices, Important Days, Int'l Orgs, Books & Authors, PYQ + new questions |
+| 10 | Environment (Species + Others) — **Master** | [Environment-Master.pdf](Environment-Master.pdf) | 🟡 Medium | **Consolidated single file**: ecology, biodiversity & species, protected areas, pollution, climate & conventions, PYQ + new questions |
 
 > **Note:** Rivers, Borders & Superlatives (old file 7) are now merged into the consolidated **[Geography-Master.pdf](Geography-Master.pdf)**. History/Polity/Science/Geography now each have a single consolidated **Master PDF** (see rows 1–5).
 
