@@ -48,4 +48,4 @@ GK-Now-Content/
 2. **GK Topics** — attempt the MCQs first, then read the notes to fill gaps.
 3. **State GK** — relevant for state-level exams and a few SSC GA questions.
 
-_Important Days detailed table lives in the main repo at [Static-GK/06_Art_Culture_Days_Orgs.md](../Static-GK/06_Art_Culture_Days_Orgs.md)._
+_Important Days, Organizations & Books/Authors now live in [Static-GK/Current-Affairs-Special-Master.pdf](../Static-GK/Current-Affairs-Special-Master.pdf); Art & Culture in [Static-GK/Art-Culture-Master.pdf](../Static-GK/Art-Culture-Master.pdf)._

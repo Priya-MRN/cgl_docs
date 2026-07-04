@@ -1,6 +1,6 @@
 # Mottos & Slogans — Sporting Events & Government Schemes
 
-> Quick links: [Static GK Index](README.md) · [Art, Culture, Days & Orgs](06_Art_Culture_Days_Orgs.md) · [GK Revision Cheat Sheet](../Cheat-Sheets/GK_Revision_Cheat_Sheet.md)
+> Quick links: [Static GK Index](README.md) · [Art & Culture Master (PDF)](Art-Culture-Master.pdf) · [Current Affairs Special (PDF)](Current-Affairs-Special-Master.pdf) · [GK Revision Cheat Sheet](../Cheat-Sheets/GK_Revision_Cheat_Sheet.md)
 
 High-yield "match the motto/slogan" GK for SSC CGL: official mottos of popular games & sporting events, and the catch-slogans (taglines) of popular government schemes. SSC frequently asks "Which scheme has the slogan …?" or "What is the motto of the Olympics?".
 
