@@ -9,9 +9,11 @@ Subject-Flowcharts/03_Polity-Flowchart.html
 Subject-Flowcharts/04_Science-Flowchart.html
 Subject-Flowcharts/05_Current-Affairs-Flowchart.html
 
-# Hand-authored HTML source for the English grammar tables handout — kept
+# Hand-authored / generated HTML source for the English handouts — kept
 # locally as the editable source; only the rendered PDF is committed.
 English/English-Grammar-Rules-Tables.html
+English/English-Master-Vocabulary-Table.html
+English/English-Practice-MCQs.html
 
 # Markdown source for consolidated PDF study files — kept locally as the editable
 # source, but only the rendered PDF is committed (PDF-only policy for study docs).
