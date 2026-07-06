@@ -30,12 +30,15 @@ import re
 import sys
 import json
 import datetime
+import html as _html
+import urllib.request
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
 WORDS_PER_DAY = 50
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 BASE_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(BASE_DIR.parent))  # repo root, for html_to_pdf
@@ -145,45 +148,210 @@ government india indian us said new said will say also said may amid set get got
 made one two three first second new
 """.split())
 
+# RSS/site boilerplate and generic newsroom words that are NOT exam vocabulary.
+# These slip in from feed furniture ("Continue reading", "Guardian columnist").
+BOILERPLATE = set("""
+continue reading opinion editorial column columnist correspondent guardian
+hindustan express telegraph reuters bloomberg article report reports reported
+according photograph photographs getty images caption subscribe newsletter
+podcast follow twitter facebook instagram whatsapp updated published minutes
+thehindu indianexpress nytimes email please click features feature story stories
+comment comments share sharing default footer header author writes wrote
+""".split())
+
+# Ordinary long words that clear the 7-letter bar but are NOT "difficult
+# editorial vocabulary" — frequency-ranking floods the list with these, so we
+# drop them and keep the genuinely elevated words.
+ORDINARY = set("""
+country children national economic political response delivery football letters
+minister project publication question section supreme technology company morning
+evening yesterday tomorrow president government official officials countries
+students teachers hospital district village markets company business companies
+percent billion million thousand another between because however therefore
+themselves something anything everything nothing important different available
+including following according possible probably actually recently currently
+already through without within around across before myself herself himself
+housing funeral justice meeting meetings members building buildings families
+program programme service services support workers leaders leader partners
+capital january february august october november december monday tuesday
+wednesday thursday friday saturday sunday
+investigation conversation celebration information education organisation
+organization administration independence coordination generation operation
+population situation relationship application association communication
+""".split())
+
+# Latinate / editorial-register suffixes — a word carrying one is more likely to
+# be genuinely "hard" exam vocabulary. Used to score, not to hard-filter.
+HARD_SUFFIX = re.compile(
+    r"(ation|ition| acity|acity|ously|iously|ность|ance|ence|andum|escent|"
+    r"ferous|ulent|itude|ability|ibility|escence|ocracy|ology|ogeny|"
+    r"iferous|aceous|escent|escible)$", re.I)
+HARD_HINT = re.compile(
+    r"(ous|ate|ify|ise|ize|ism|ist|ity|ive|ory|ent|ant|ance|ence|able|ible|"
+    r"al|ic|tion|sion|ment)$", re.I)
+
 
 def fetch_editorial_words(limit=120):
-    """Return candidate 'difficult' words mined from editorial feeds."""
+    """Mine candidate 'difficult' words from today's editorial feeds.
+
+    Returns (words, contexts):
+      words    -> ranked list of Capitalised candidate words (most cross-cited first)
+      contexts -> {word_lower: newspaper sentence it appeared in} so a scraped
+                  word can carry a REAL editorial example even when the free
+                  dictionary has none.
+    """
     try:
         import feedparser  # noqa
     except ImportError:
         log("feedparser not installed; skipping editorial source.")
-        return []
+        return [], {}
 
-    candidates = {}
+    candidates = {}          # word -> cross-editorial count
+    lower_seen = {}          # word -> times seen ALL-lowercase (i.e. not a proper noun)
+    contexts = {}
     for url in EDITORIAL_FEEDS:
         try:
             feed = feedparser.parse(url)
             if getattr(feed, "bozo", 0) and not feed.entries:
                 continue
             for entry in feed.entries[:25]:
-                text = " ".join(filter(None, [
-                    entry.get("title", ""),
-                    entry.get("summary", ""),
-                ]))
+                title = entry.get("title", "") or ""
+                summary = re.sub(r"<[^>]+>", " ", entry.get("summary", "") or "")
+                text = " ".join(filter(None, [title, summary]))
+                text = _html.unescape(re.sub(r"\s+", " ", text)).strip()
+                sentences = re.split(r"(?<=[.!?])\s+", text)
                 for raw in re.findall(r"[A-Za-z][A-Za-z'-]{6,}", text):
                     w = raw.lower().strip("'-")
-                    if len(w) < 7 or w in COMMON_WORDS:
+                    if (len(w) < 7 or w in COMMON_WORDS or w in BOILERPLATE
+                            or w in ORDINARY or "-" in raw):   # skip hyphenated tokens
                         continue
                     candidates[w] = candidates.get(w, 0) + 1
+                    if raw[0].islower():          # seen as a normal (non-proper) word
+                        lower_seen[w] = lower_seen.get(w, 0) + 1
+                    if w not in contexts:
+                        for s in sentences:
+                            # keep a clean sentence that actually contains the word
+                            if (re.search(rf"\b{re.escape(w)}\b", s, re.I)
+                                    and 40 <= len(s) <= 220
+                                    and "reading" not in s.lower()
+                                    and "columnist" not in s.lower()):
+                                contexts[w] = s.strip()
+                                break
         except Exception as exc:  # network / parse issues -> skip feed
             log(f"Feed failed ({url.split('/')[2]}): {exc}")
             continue
 
-    # Prefer words that appear across multiple editorials (more "editorial-y")
-    ranked = sorted(candidates.items(), key=lambda kv: (-kv[1], kv[0]))
+    # Drop probable proper nouns: words that never appeared lowercase in any feed.
+    common_nouns = {w: c for w, c in candidates.items() if lower_seen.get(w, 0) > 0}
+
+    def difficulty(word):
+        """Higher = more likely to be genuine 'hard' editorial vocabulary.
+        Rewards length + Latinate/editorial suffixes; frequency is a weak tie-break
+        so rare elevated words aren't buried under common long ones."""
+        score = 0
+        score += min(len(word) - 6, 8)                 # longer -> harder (capped)
+        if HARD_SUFFIX.search(word): score += 5
+        elif HARD_HINT.search(word): score += 2
+        if len(word) >= 10: score += 2
+        return score
+
+    ranked = sorted(common_nouns.items(),
+                    key=lambda kv: (-difficulty(kv[0]), -kv[1], kv[0]))
     words = [w.capitalize() for w, _ in ranked[:limit]]
     if words:
-        log(f"Editorial source mined {len(words)} candidate words.")
-    return words
+        log(f"Editorial source mined {len(words)} candidate words "
+            f"({len(contexts)} with sentence context).")
+    return words, contexts
 
 
 # ---------------------------------------------------------------------------
-# Source 2: Claude API (defines scraped words OR generates fresh ones)
+# Source 2a: FREE dictionary API (no key needed) — the primary definer.
+#
+# dictionaryapi.dev is a free, key-less wrapper over Wiktionary data. It turns a
+# scraped editorial word into a usable flashcard (pos + simple meaning + easy
+# synonyms). The example sentence prefers the REAL editorial sentence the word
+# was mined from; it falls back to the dictionary's own example. This is what
+# lets the daily editorial words actually flow through WITHOUT an API key.
+# ---------------------------------------------------------------------------
+FREE_DICT_URL = "https://api.dictionaryapi.dev/api/v2/entries/en/{}"
+# skip words the free dictionary defines poorly / that aren't exam vocabulary
+_SKIP_DEF = re.compile(r"(plural|past tense|present participle|proper noun|"
+                       r"surname|given name|initialism|abbreviation)", re.I)
+
+
+def _simplify_meaning(defn):
+    """Trim a Wiktionary definition to a short, flashcard-friendly gloss."""
+    defn = re.sub(r"\([^)]*\)", "", defn).strip()          # drop parentheticals
+    defn = re.split(r"[.;:]", defn)[0].strip()             # first clause only
+    defn = re.sub(r"^\s*(to|a|an|the)\s+", "", defn, flags=re.I).strip()
+    return defn[:140]
+
+
+def free_dict_define(words, contexts, need, used_keys):
+    """Define scraped words via the free dictionary API. Returns entry dicts.
+
+    words       -> candidate Capitalised words (ranked)
+    contexts    -> {word_lower: editorial sentence} for real examples
+    need        -> how many entries we still want
+    used_keys   -> lowercase words already produced (skip these)
+    """
+    entries = []
+    tried = 0
+    for word in words:
+        if len(entries) >= need:
+            break
+        key = word.lower()
+        if key in used_keys:
+            continue
+        tried += 1
+        if tried > need * 6:          # cap network calls per run
+            break
+        try:
+            req = urllib.request.Request(FREE_DICT_URL.format(key),
+                                         headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=12) as resp:
+                data = json.load(resp)
+        except Exception:
+            continue                  # not found / network hiccup -> skip word
+        if not isinstance(data, list) or not data:
+            continue
+        meanings = data[0].get("meanings", [])
+        if not meanings:
+            continue
+        m = meanings[0]
+        pos = m.get("partOfSpeech", "")
+        defs = m.get("definitions", [])
+        if not defs:
+            continue
+        raw_def = defs[0].get("definition", "")
+        if not raw_def or _SKIP_DEF.search(raw_def):
+            continue
+        # synonyms: prefer meaning-level, then definition-level
+        syn = (m.get("synonyms") or defs[0].get("synonyms") or [])[:3]
+        # example: real editorial sentence (must contain the word) first, then
+        # the dictionary's own example; skip the word if neither is usable.
+        ctx = contexts.get(key, "")
+        if ctx and re.search(rf"\b{re.escape(key)}\b", ctx, re.I):
+            example = ctx
+        else:
+            example = defs[0].get("example", "")
+        if not example or not re.search(rf"\b{re.escape(key)}\b", example, re.I):
+            continue
+        entries.append({
+            "word": word,
+            "pos": pos,
+            "meaning": _simplify_meaning(raw_def),
+            "easy": ", ".join(syn),
+            "example": example[:240],
+            "source": "Today's editorials (free-dictionary)",
+        })
+    if entries:
+        log(f"Free-dictionary defined {len(entries)} editorial words.")
+    return entries
+
+
+# ---------------------------------------------------------------------------
+# Source 2b: Claude API (defines scraped words OR generates fresh ones)
 # ---------------------------------------------------------------------------
 def claude_define(words):
     """Given a list of words, ask Claude for meaning/pos/easy/example.
@@ -249,15 +417,29 @@ def pick_words():
         chosen_keys.add(key)
         selected.append(entry)
 
-    # 1 + 2) Editorials (mined) defined by AI, if available
-    mined = fetch_editorial_words()
+    # 1) Scrape today's editorials (words + the sentence each came from).
+    mined, contexts = fetch_editorial_words()
     fresh_mined = [w for w in mined if w.lower() not in used]
-    for entry in claude_define(fresh_mined):
+
+    # 2a) PRIMARY definer: the free dictionary API (no key needed). This is what
+    #     makes real editorial words show up every day.
+    for entry in free_dict_define(fresh_mined, contexts,
+                                  need=WORDS_PER_DAY, used_keys=used):
         if len(selected) >= WORDS_PER_DAY:
             break
         add(entry)
 
-    # 3) Curated word bank fills the rest
+    # 2b) If the Claude API key IS set, use it to define any still-undefined
+    #     scraped words (richer meanings/examples). Optional enhancement.
+    if len(selected) < WORDS_PER_DAY:
+        still = [w for w in fresh_mined
+                 if w.lower() not in chosen_keys and w.lower() not in used]
+        for entry in claude_define(still):
+            if len(selected) >= WORDS_PER_DAY:
+                break
+            add(entry)
+
+    # 3) Curated word bank fills any remaining slots.
     bank = load_word_bank()
     for entry in bank:
         if len(selected) >= WORDS_PER_DAY:
@@ -463,8 +645,6 @@ def _anchor(heading):
 # Output: the SINGLE master file (overwritten each run) as a self-contained,
 # styled HTML page with working in-page anchor links.
 # ---------------------------------------------------------------------------
-import html as _html
-
 _PAGE_CSS = """
   :root{ --ink:#1a1a2e; --accent:#c0392b; }
   body{ font-family:"Segoe UI",Arial,sans-serif; color:var(--ink); max-width:1000px;
