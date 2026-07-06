@@ -62,9 +62,14 @@ def _find_browser() -> str | None:
 _SAFETY_STYLE_BODY = """
 @media print {
   html, body { max-width: 100% !important; }
+  /* Neutralise a fixed min-width on tables (e.g. min-width:1050px) and any
+     overflow-x scroll wrapper — both let a table stay wider than the page, so
+     Chrome clips the overflow in print. Force everything to shrink-to-fit. */
   table { table-layout: fixed !important; width: 100% !important;
-          max-width: 100% !important; }
-  th, td { overflow-wrap: anywhere !important; word-break: break-word !important; }
+          max-width: 100% !important; min-width: 0 !important; }
+  div, section, figure { overflow-x: visible !important; }
+  th, td { overflow-wrap: anywhere !important; word-break: break-word !important;
+           min-width: 0 !important; white-space: normal !important; }
   pre, code { white-space: pre-wrap !important; overflow-wrap: anywhere !important; }
   img, svg { max-width: 100% !important; height: auto !important; }
 }
