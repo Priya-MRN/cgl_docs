@@ -14,6 +14,7 @@ grouped by theme; new rows are shaded with a 🆕 badge.
 | File | Purpose |
 | --- | --- |
 | `One_Word_Substitution.pdf` | **The single master file** (open this) — rebuilt each run |
+| [`Black-Book-One-Word-Substitution.pdf`](Black-Book-One-Word-Substitution.pdf) | **Complete 3,356-word reference** (Word → Meaning, A–Z; ★ = high-repeat). Static companion compiled from the Black Book of English Vocabulary for personal exam prep. |
 | `ows_store.json` | Canonical deduped entries (the data) |
 | `new_today.json` | Drop-box for today's new additions (see below) |
 | `ows_daily.py` | Builder / daily merger |
