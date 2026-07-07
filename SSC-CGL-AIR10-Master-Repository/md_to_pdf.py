@@ -35,6 +35,17 @@ def render(md):
     while i < len(lines):
         ln = lines[i].rstrip("\n")
         s = ln.strip()
+        # fenced code block ``` ... ``` -> <pre> (preserves ASCII-art alignment)
+        if s.startswith("```"):
+            close_lists()
+            i += 1
+            buf = []
+            while i < len(lines) and not lines[i].strip().startswith("```"):
+                buf.append(html.escape(lines[i].rstrip("\n"), quote=False))
+                i += 1
+            i += 1  # skip closing fence
+            out.append("<pre>" + "\n".join(buf) + "</pre>")
+            continue
         # table block
         if "|" in ln and i + 1 < len(lines) and re.match(r"^\s*\|?[\s:|-]+\|[\s:|-]+$", lines[i+1]):
             close_lists()
@@ -83,6 +94,9 @@ th, td { border: 1px solid #b7c9d9; padding: 4px 7px; text-align: left; vertical
 th { background: #0b5394; color: #fff; }
 tr:nth-child(even) td { background: #f1f6fb; }
 blockquote { background: #fff8e1; border-left: 4px solid #f1c232; margin: 8px 0; padding: 6px 12px; color: #444; }
+pre { background: #f7f9fc; border: 1px solid #cfe2f3; border-left: 4px solid #6fa8dc; border-radius: 4px;
+      padding: 8px 12px; margin: 8px 0; font-family: Consolas, 'Courier New', monospace; font-size: 11px;
+      line-height: 1.35; white-space: pre; overflow-x: auto; color: #0b3a5c; page-break-inside: avoid; }
 code { background: #eef; padding: 1px 4px; border-radius: 3px; font-family: Consolas, monospace; font-size: 11px; }
 a { color: #1155cc; text-decoration: none; }
 ul, ol { margin: 6px 0 6px 4px; padding-left: 20px; }
