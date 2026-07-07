@@ -38,6 +38,19 @@ GK-Now-Content/
 | **GK MCQ (Topic-wise)** | History (Ancient/Medieval/Modern/World) · Geography (Indian/World) · Polity & Constitution · Economy · Science (Bio/Chem/Physics) · Art & Culture · Sports · Environment · Awards · Books & Authors · Important Days |
 | **State-wise GK** | Uttarakhand · Bihar · Haryana · UP |
 
+## 📖 Daily Combined Digest (auto-updated)
+
+The eight Current-Affairs categories are merged into **one** mobile-friendly PDF —
+curated revision notes + MCQs on top, then the **latest headlines & descriptions
+scraped daily from [gknow.in](https://gknow.in)** underneath each category, with a
+by-date coverage index at the end.
+
+👉 **[Open the combined GK digest (PDF) »](GK-Current-Affairs-Digest.pdf)** — rebuilt & auto-pushed every day.
+
+- Builder: `daily_gk_digest.py` (scrape + merge + render + git push).
+- Schedule it: run `setup_gk_digest_task.ps1` once (Windows Task Scheduler, daily 07:15).
+- Manual run: `py daily_gk_digest.py` · rebuild-only: `--rebuild` · skip push: `--no-push`.
+
 ## How to Use
 
 1. **Current Affairs** — skim daily; revise sub-category files weekly.
