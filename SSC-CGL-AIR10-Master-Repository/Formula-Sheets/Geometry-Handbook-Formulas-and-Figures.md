@@ -326,6 +326,19 @@ outside → secant·secant; tangent is the limiting case where the two points me
    • Length of TRANSVERSE common tangent = √(d² − (R + r)²)
 ```
 
+**Number of common tangents by position of two circles** (centres `d` apart, radii `R ≥ r`):
+
+| Condition | Position of Circles | Common Tangents |
+| :-- | :-- | :--: |
+| `d > R + r` | Separate (do not touch) | 4 |
+| `d = R + r` | Externally touching | 3 ⭐ |
+| `R − r < d < R + r` | Intersecting | 2 |
+| `d = R − r` | Internally touching | 1 ⭐ |
+| `d < R − r` | One circle inside another | 0 |
+| `d = 0, R = r` | Coincident (same circle) | Infinite |
+
+🔑 *Trick:* Tangent count drops as the circles get closer — the two **touching** cases (⭐) are the exam favourites: externally touching → **3**, internally touching → **1**.
+
 ---
 
 ## 9D. Proportionality & Angle Theorems (Circle)

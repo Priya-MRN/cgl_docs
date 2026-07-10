@@ -8184,6 +8184,598 @@
       "easy": "casually, fortuitously",
       "example": "Then he accidentally drops it in the sink.",
       "added": "2026-07-06"
+    },
+    {
+      "word": "Inappropriate",
+      "pos": "adjective",
+      "meaning": "Not appropriate",
+      "easy": "improper, out of line, unfit",
+      "example": "Australian PM apologises for 'inappropriate' comments about Kylie Minogue Albanese has apologised 'unequivocally' after his remarks prompted a backlash.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Resistance",
+      "pos": "noun",
+      "meaning": "act of resisting, or the capacity to resist",
+      "easy": "opposition",
+      "example": "the resistance of bacteria to certain antibiotics",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Adolescent",
+      "pos": "noun",
+      "meaning": "person who is in adolescence",
+      "easy": "",
+      "example": "How schools can tackle adolescent malnutrition Physical inactivity must be treated as seriously as poor diet.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Confidence",
+      "pos": "noun",
+      "meaning": "Self-assurance",
+      "easy": "",
+      "example": "From the very start, confidence in a bright, exceptional US future was combined with foreboding and doubt.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Environmental",
+      "pos": "adjective",
+      "meaning": "Pertaining to the environment",
+      "easy": "",
+      "example": "Rice-to-ethanol policy is deepening economic and environmental stress",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Evacuation",
+      "pos": "noun",
+      "meaning": "act of evacuating",
+      "easy": "",
+      "example": "Wildfire in southern France forces evacuation of 10,000 people Tour de France organisers ban spectators from stage three as a wildfire hits the Pyrénées-Orientales region.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Importance",
+      "pos": "noun",
+      "meaning": "quality or condition of being important or worthy of note",
+      "easy": "",
+      "example": "​Tragic evening: On the earthquake in Venezuela Venezuela’s quake holds lessons on the importance of preparedness",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Indispensable",
+      "pos": "noun",
+      "meaning": "thing that is not dispensable",
+      "easy": "",
+      "example": "However bright you shine, you’re never so indispensable that you couldn’t be replaced tomorrow – or so, at least, convention has it.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Misconception",
+      "pos": "noun",
+      "meaning": "mistaken belief, a wrong idea",
+      "easy": "",
+      "example": "In doing so, society is gradually internalising a dangerous misconception that AI generates knowledge",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Previously",
+      "pos": "adverb",
+      "meaning": "First",
+      "easy": "",
+      "example": "Inspectors who visited two homes in England – which had previously been rated good and outstanding – found “high levels of distress” and staff as well as children feeling unsafe.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Sanitation",
+      "pos": "noun",
+      "meaning": "hygienic disposal or recycling of waste",
+      "easy": "",
+      "example": "Need for inclusive, integrated climate action Climate and heat considerations should be integrated into occupational health policies for municipal and contracted sanitation workers",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Starvation",
+      "pos": "noun",
+      "meaning": "condition of severe suffering due to a lack of nutrition",
+      "easy": "",
+      "example": "The alarm was raised repeatedly last year as the starvation siege of El Fasher in north Darfur deepened.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Technological",
+      "pos": "adjective",
+      "meaning": "Of, relating to, or involving technology, especially modern scientific technology",
+      "easy": "",
+      "example": "Reimagining sovereign AI for India’s strategic future India must leverage global AI while reducing strategic technological dependence over time",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Transactional",
+      "pos": "adjective",
+      "meaning": "Of, pertaining to or involving transactions",
+      "easy": "",
+      "example": "Why some African nations are turning down Trump aid money The Trump administration sees the aid as more transactional - but some say it is not a fair trade.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Constitution",
+      "pos": "noun",
+      "meaning": "act, or process of setting something up, or establishing something",
+      "easy": "configuration, form",
+      "example": "A legislative tangle in Maharashtra The grey areas in the Tenth Schedule of the Constitution needs urgent revisiting",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Apprenticeships",
+      "pos": "noun",
+      "meaning": "condition of, or the time served by, an apprentice",
+      "easy": "",
+      "example": "The Guardian view on apprenticeships: young people need help getting started at work | Editorial Existing staff are taking too much of a fund intended for new recruits.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Construction",
+      "pos": "noun",
+      "meaning": "process of constructing",
+      "easy": "building",
+      "example": "Fragmented accountability: On the Taratala warehouse collapse in Kolkata Corruption at all levels takes a toll on lives at construction sites",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Presidential",
+      "pos": "adjective",
+      "meaning": "Pertaining to a president or presidency",
+      "easy": "",
+      "example": "Marine Le Pen appeal verdict: Why this moment matters for France The leader of France's National Rally leads the opinion polls ahead of the 2027 presidential election and will now find out if she can stand.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Agricultural",
+      "pos": "noun",
+      "meaning": "product or commodity from agriculture",
+      "easy": "",
+      "example": "Razor’s edge: On the progress of the southwest monsoon High heat and low rainfall is threatening agricultural produce",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Apprenticeship",
+      "pos": "noun",
+      "meaning": "condition of, or the time served by, an apprentice",
+      "easy": "",
+      "example": "A letter from Jacqui Smith , the skills minister, to the recently formed agency Skills England, last month, asked for urgent advice about which apprenticeship programmes should receive funding increases.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Architecturally",
+      "pos": "adverb",
+      "meaning": "In an architectural manner",
+      "easy": "",
+      "example": "They are surrounded by modern-looking housing developments – architecturally smart, medium-rise, expensive-looking in their design.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Considerable",
+      "pos": "noun",
+      "meaning": "thing to be considered, consideration",
+      "easy": "",
+      "example": "A considerable part of the attraction of Vienna relates to its large social-housing stock.",
+      "added": "2026-07-07"
+    },
+    {
+      "word": "Facilitation",
+      "pos": "noun",
+      "meaning": "act of facilitating or making easy",
+      "easy": "",
+      "example": "| Marina Hyde Joy is unbounded and when it dies down perhaps the guilty will be held to account for cheating and facilitation: perhaps they won’t.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Inexperience",
+      "pos": "noun",
+      "meaning": "lack of experience",
+      "easy": "",
+      "example": "He has the makings of a great ally | Jessica Berlin Defence strategists fret about the next PM’s inexperience.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Destination",
+      "pos": "noun",
+      "meaning": "act of destining or appointing",
+      "easy": "",
+      "example": "What used to be a meandering journey is now an immediate arrival at your destination.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Exoneration",
+      "pos": "noun",
+      "meaning": "act of disburdening, discharging, or freeing morally from a charge or imputation",
+      "easy": "",
+      "example": "Rather than wait for the exoneration he insists is inevitable, Mr Farage says he will resign as MP for Clacton and stand again.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Preparation",
+      "pos": "noun",
+      "meaning": "act of preparing or getting ready",
+      "easy": "",
+      "example": "The criteria on which inspectors judge prisons are safety, respect, preparation for release and purposeful activity.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Experience",
+      "pos": "noun",
+      "meaning": "effect upon the judgment or feelings produced by any event, whether witnessed or participated in",
+      "easy": "",
+      "example": "Given that Keir Starmer’s resignation came after a mutiny within his own government over inadequate defence spending, some may view Burnham’s lack of direct defence experience as a worrying liability.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Innovation",
+      "pos": "noun",
+      "meaning": "act of innovating",
+      "easy": "",
+      "example": "Beyond three Cs, the new lexicon of India-Australia ties A growing partnership now spans trade, defence, energy, education and innovation",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Attendance",
+      "pos": "noun",
+      "meaning": "state of attending",
+      "easy": "",
+      "example": "In most places budgets and classes have been cut and attendance is poor.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Automation",
+      "pos": "noun",
+      "meaning": "act or process of converting the controlling of a machine or device to a more automatic system, such as computer or electronic controls",
+      "easy": "automatisation, automatization",
+      "example": "Australia dock workers call for 28-hour week in AI talks A union says workers are \"in the crosshairs\" of automation as AI is being tested across ports.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Establishment",
+      "pos": "noun",
+      "meaning": "act of establishing",
+      "easy": "foundation",
+      "example": "His argument is a con: that the “establishment” should not judge him over million-pound gifts; only the voters should.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Motivation",
+      "pos": "noun",
+      "meaning": "Willingness of action especially in behavior",
+      "easy": "",
+      "example": "She shares her motivation to find new solutions on “The Ezra Klein Show.”",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Considerations",
+      "pos": "noun",
+      "meaning": "thought process of considering, of taking multiple or specified factors into account",
+      "easy": "deliberation, thought, factor",
+      "example": "Need for inclusive, integrated climate action Climate and heat considerations should be integrated into occupational health policies for municipal and contracted sanitation workers",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Excruciatingly",
+      "pos": "adverb",
+      "meaning": "In an excruciating manner or to an excruciating degree",
+      "easy": "",
+      "example": "We have even, excruciatingly, seen a few American commentators attempt to use the word in conversation.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Infrastructure",
+      "pos": "noun",
+      "meaning": "underlying base or foundation especially for an organization or system",
+      "easy": "underbuilding",
+      "example": "​Falling behind: On Mumbai and the monsoon Urbanisation in Mumbai is evolving faster than its infrastructure upgrades",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Inspectorate",
+      "pos": "noun",
+      "meaning": "organized group of inspectors",
+      "easy": "",
+      "example": "In a survey for the inspectorate, 34% of male prisoners reported spending more than 22 hours a day locked in their cells.",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Occupational",
+      "pos": "adjective",
+      "meaning": "Of, belonging or relating to an occupation",
+      "easy": "",
+      "example": "Need for inclusive, integrated climate action Climate and heat considerations should be integrated into occupational health policies for municipal and contracted sanitation workers",
+      "added": "2026-07-08"
+    },
+    {
+      "word": "Misappropriation",
+      "pos": "noun",
+      "meaning": "wrongful, fraudulent or corrupt use of other's funds in one's care",
+      "easy": "embezzlement",
+      "example": "For a few hours, it looked as though the court of appeal had unexpectedly played a masterful hand by unequivocally upholdingthe far-right National Rally (RN) figurehead’s conviction for misappropriation of public funds.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Disobedience",
+      "pos": "noun",
+      "meaning": "Refusal to obey",
+      "easy": "contumacy, rebellion",
+      "example": "A civil disobedience movement is showing how to beat the far right At 5am on Saturday morning, I found myself jogging across a field with a few hundred strangers, on my way to block a highway.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Intelligence",
+      "pos": "noun",
+      "meaning": "Capacity of mind, especially to understand principles, truths, facts or meanings, acquire knowledge, and apply it to practice",
+      "easy": "brightness, intellect, wit",
+      "example": "Maybe Anthropic and OpenAI are not the future of artificial intelligence.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Eligibility",
+      "pos": "noun",
+      "meaning": "state, quality, or the fact of being eligible",
+      "easy": "",
+      "example": "The court’s ruling enabled her to make a fourth bid for the Élysée by reducing an eligibility ban to a length of time already served.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Retaliation",
+      "pos": "noun",
+      "meaning": "Violent or otherwise punitive response to an act of harm or perceived injustice",
+      "easy": "",
+      "example": "Iran earlier promised strong retaliation.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Accusation",
+      "pos": "noun",
+      "meaning": "act of accusing",
+      "easy": "allegation, assertion, censure",
+      "example": "Democrat Graham Platner suspends campaign for key US Senate race in Maine The decision came days after a woman accused him of sexual assault, an accusation he says is \"categorically false\".",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Ammunition",
+      "pos": "noun",
+      "meaning": "Articles used in charging firearms and ordnance of all kinds",
+      "easy": "ammo",
+      "example": "Starmer gifted gun and ammunition by Turkish president at Nato The weapon has not been brought back to the UK and has instead been left with British officials in Turkey.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Aspiration",
+      "pos": "noun",
+      "meaning": "act of aspiring or ardently desiring",
+      "easy": "",
+      "example": "Morgan has an aspiration of winning the game.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Conference",
+      "pos": "noun",
+      "meaning": "act of consulting together formally",
+      "easy": "",
+      "example": "We were just outside the east German city of Erfurt, one of several groups setting up roadblocks to try to stop delegates from reaching the far-right Alternative für Deutschland (AfD) party conference.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Invitation",
+      "pos": "noun",
+      "meaning": "act of inviting",
+      "easy": "invitement",
+      "example": "Farewell to Jackass, the finest catalogue of male idiocy – it could only go on for so long | Tom Usher When I was 12, the antics of Johnny Knoxville, Steve-O and co were an invitation to jump out of trees.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Irrigation",
+      "pos": "noun",
+      "meaning": "act or process of irrigating, or the state of being irrigated",
+      "easy": "",
+      "example": "40 years ago, July 9, 1986: PM Rajiv Gandhi criticises irrigation planning",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Underestimate",
+      "pos": "noun",
+      "meaning": "estimate that is too low",
+      "easy": "underestimation",
+      "example": "It would be foolish to underestimate him.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Unpredictable",
+      "pos": "noun",
+      "meaning": "unpredictable thing",
+      "easy": "",
+      "example": "The consequences are alarmingly unpredictable Back in 2013, when a Socialist minister was accused (and eventually convicted) of tax fraud, the righteous fury of Marine Le Pen knew no bounds.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Electronically",
+      "pos": "adverb",
+      "meaning": "By means of electronics, or of electronic technology",
+      "easy": "",
+      "example": "It handed her a fine of €100,000 (£85,000) and a commuted prison sentence, the remaining year of which would be served by Le Pen being electronically tagged.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Geopolitical",
+      "pos": "adjective",
+      "meaning": "Of, or relating to geopolitics",
+      "easy": "",
+      "example": "How India withstood the crisis in West Asia India had quietly built an insurance policy against geopolitical shocks by diversifying its supplier base",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Imprisonment",
+      "pos": "noun",
+      "meaning": "confinement in a place, especially a prison or a jail, as punishment for a crime",
+      "easy": "incarceration, jaildom",
+      "example": "German doctor jailed for murder of 15 patients and suspected of more The German palliative care doctor has been sentenced to life imprisonment for killing 15 of his patients.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Performative",
+      "pos": "noun",
+      "meaning": "performative utterance",
+      "easy": "",
+      "example": "According to Molly Jong-Fast, there’s value to performative politics.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Professional",
+      "pos": "noun",
+      "meaning": "person who belongs to a profession",
+      "easy": "",
+      "example": "I was already obsessed with professional wrestling.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Representatives",
+      "pos": "noun",
+      "meaning": "delegate",
+      "easy": "rep",
+      "example": "Lessons From the Graham Platner Disaster Many Democrats want representatives as furious as they are.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Unaffordable",
+      "pos": "adjective",
+      "meaning": "Too expensive to be afforded",
+      "easy": "",
+      "example": "But unaffordable house prices and rents are a continent-wide issue.",
+      "added": "2026-07-09"
+    },
+    {
+      "word": "Participation",
+      "pos": "noun",
+      "meaning": "act of participating, of taking part in something",
+      "easy": "",
+      "example": "Best of Both Sides: Beyond childcare, four barriers to female participation in cities",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Horrendously",
+      "pos": "adverb",
+      "meaning": "In a horrendous manner",
+      "easy": "",
+      "example": "But it also highlights continuing shortcomings in how the criminal justice system deals with women who commit crimes after being treated horrendously by their partners.",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Affirmation",
+      "pos": "noun",
+      "meaning": "That which is affirmed",
+      "easy": "assertion",
+      "example": "This was less an affirmation of the BJP’s grand ideological project than a fierce indictment of her regime",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Combination",
+      "pos": "noun",
+      "meaning": "act of combining, the state of being combined or the result of combining",
+      "easy": "fusion, merger",
+      "example": "A perfect storm: On the Wayanad debris slip A combination of natural calamity and human failure laid Wayanad low",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Convergence",
+      "pos": "noun",
+      "meaning": "act of moving toward union or uniformity",
+      "easy": "convergency",
+      "example": "Building a durable India-Australia partnership Beyond warm optics and deepening convergence, India-Australia ties face the challenge of converting trust into alignment",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Recognition",
+      "pos": "noun",
+      "meaning": "act of recognizing or the condition of being recognized",
+      "easy": "",
+      "example": "How a city’s working class is driven to the margins and made invisible The workers who collect garbage and keep our cities clean, and the workers who commute via cycles deserve recognition and respect",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Allegation",
+      "pos": "noun",
+      "meaning": "assertion, especially an accusation, not necessarily based on facts",
+      "easy": "accusation, assertion, censure",
+      "example": "Democrat Graham Platner suspends campaign for key US Senate race after assault allegation The decision came days after a woman accused him of sexual assault, an accusation he says is \"categorically false\".",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Appearance",
+      "pos": "noun",
+      "meaning": "act of appearing or coming into sight",
+      "easy": "apparition, phenomenon, presence",
+      "example": "Her appearance worked against her, with her own lawyer worrying that her dyed blond hair and heavy makeup would prejudice the jury.",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Memorandum",
+      "pos": "noun",
+      "meaning": "short note serving as a reminder",
+      "easy": "",
+      "example": "Speaking at the Nato summit in Ankara this week, Donald Trump said he believed the US-Iran memorandum of understanding was “over”.",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Obligation",
+      "pos": "noun",
+      "meaning": "act of binding oneself by a social, legal, or moral tie to someone",
+      "easy": "duty, commitment",
+      "example": "That is a warning about how an authoritarian nationalist party that aspires to govern treats accountability: not as a democratic obligation, but as an attack.",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Occurrence",
+      "pos": "noun",
+      "meaning": "actual instance when a situation occurs",
+      "easy": "",
+      "example": "Euphemism Won’t Save Young Black Men’s Lives The term ‘gun violence’ makes murder seem abstract, not a tragic daily occurrence.",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Announcement",
+      "pos": "noun",
+      "meaning": "act of announcing, or giving notice",
+      "easy": "proclamation, publication",
+      "example": "The announcement of a posthumous conditional pardon is a tribute to the tireless campaigning of her family, including her granddaughter, Laura Enston.",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Conservative",
+      "pos": "noun",
+      "meaning": "person who favors maintenance of the status quo",
+      "easy": "reactionary, right-winger, traditionalist",
+      "example": "This doesn’t bode well for Andy Burnham In an old, often anxious and conservative country, the perception of risk is a potent political weapon.",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Introduction",
+      "pos": "noun",
+      "meaning": "act or process of introducing",
+      "easy": "isagoge, lead, lead-in",
+      "example": "the introduction of a new product into the market",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Development",
+      "pos": "noun",
+      "meaning": "process of developing",
+      "easy": "",
+      "example": "Grand ambitions: On India’s cooperative sector India’s cooperative sector can serve as a worker-centric model of development",
+      "added": "2026-07-10"
+    },
+    {
+      "word": "Alternative",
+      "pos": "noun",
+      "meaning": "situation which allows a mutually exclusive choice between two or more possibilities",
+      "easy": "",
+      "example": "On curbing young adults on social media Given the limited efficacy of bans, the alternative is to focus on the governance of social media platforms.",
+      "added": "2026-07-10"
     }
   ],
   "days": [
@@ -8197,6 +8789,10 @@
     "2026-07-02",
     "2026-07-04",
     "2026-07-05",
-    "2026-07-06"
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08",
+    "2026-07-09",
+    "2026-07-10"
   ]
 }
