@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" rx="24" fill="#eef8ff"/>
+  <path d="M140 380 C220 320 280 280 340 260 C390 245 460 220 520 180 C600 125 670 120 770 90" stroke="#1e88e5" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M160 410 C250 360 300 330 360 315 C420 300 495 295 550 260 C620 220 690 180 760 165" stroke="#4fc3f7" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M250 320 C320 300 370 300 420 290 C470 280 520 255 560 230" stroke="#0d47a1" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M320 160 C360 150 420 150 470 170 C510 185 560 205 620 230" stroke="#1976d2" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M220 170 C260 120 315 110 360 110 C420 110 465 135 500 155 C550 185 590 190 640 170" stroke="#4fc3f7" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M220 170 L200 140 L250 125 L270 150 Z" fill="#6abf69"/>
+  <path d="M680 200 L700 180 L760 188 L740 228 Z" fill="#7cb342"/>
+  <path d="M180 370 L160 340 L220 315 L250 345 Z" fill="#7cb342"/>
+  <text x="450" y="85" text-anchor="middle" font-size="30" font-family="Segoe UI, Arial" font-weight="700" fill="#0d47a1">River Systems of India</text>
+  <text x="450" y="455" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#1565c0">Ganga • Brahmaputra • Indus • Godavari • Krishna • Kaveri</text>
+</svg>

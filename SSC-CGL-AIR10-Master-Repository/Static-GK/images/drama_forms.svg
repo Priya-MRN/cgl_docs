@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <rect width="900" height="500" rx="24" fill="#f9f3ff"/>
+  <rect x="60" y="70" width="780" height="360" rx="20" fill="#fff" stroke="#8b5cf6" stroke-width="3"/>
+  <rect x="110" y="120" width="680" height="220" rx="16" fill="#f3e8ff"/>
+  <rect x="140" y="140" width="620" height="160" rx="12" fill="#ffffff" stroke="#c4b5fd" stroke-width="3"/>
+  <rect x="200" y="180" width="140" height="90" rx="8" fill="#4c1d95"/>
+  <circle cx="270" cy="210" r="28" fill="#f8fafc"/>
+  <path d="M230 255 Q270 225 310 255" stroke="#f8fafc" stroke-width="6" fill="none"/>
+  <rect x="560" y="180" width="140" height="90" rx="8" fill="#7c3aed"/>
+  <circle cx="630" cy="210" r="28" fill="#f8fafc"/>
+  <path d="M590 255 Q630 225 670 255" stroke="#f8fafc" stroke-width="6" fill="none"/>
+  <rect x="280" y="310" width="340" height="26" rx="13" fill="#a78bfa"/>
+  <text x="450" y="420" text-anchor="middle" font-size="26" font-family="Segoe UI, Arial" font-weight="700" fill="#6d28d9">Theatre and Drama: Ramlila, Jatra, Yakshagana, Tamasha</text>
+</svg>

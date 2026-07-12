@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" rx="24" fill="#f8fbff"/>
+  <rect x="60" y="70" width="780" height="380" rx="20" fill="#ffffff" stroke="#6b7280" stroke-width="3"/>
+  <path d="M120 370 L260 180 L340 300 L420 150 L520 370 Z" fill="#93c5fd"/>
+  <path d="M430 370 L560 180 L650 300 L720 160 L810 370 Z" fill="#60a5fa"/>
+  <path d="M185 370 L250 250 L300 320 L260 370 Z" fill="#4b5563"/>
+  <path d="M508 370 L582 240 L640 320 L602 370 Z" fill="#374151"/>
+  <circle cx="720" cy="190" r="42" fill="#f59e0b"/>
+  <path d="M690 250 C710 220 735 220 755 250" stroke="#f59e0b" stroke-width="8" fill="none"/>
+  <ellipse cx="720" cy="258" rx="22" ry="18" fill="#f59e0b"/>
+  <path d="M690 270 L705 290 L735 290 L750 270" stroke="#92400e" stroke-width="8" fill="none"/>
+  <path d="M290 370 C318 335 340 332 360 370" stroke="#7c3f00" stroke-width="10" fill="none"/>
+  <circle cx="340" cy="365" r="30" fill="#6b4f1d"/>
+  <path d="M312 367 C320 350 360 350 370 367" stroke="#6b4f1d" stroke-width="8" fill="none"/>
+  <text x="450" y="445" text-anchor="middle" font-size="24" font-family="Segoe UI, Arial" font-weight="700" fill="#0f766e">Himalayas • Snow Leopard • Tiger • Elephant</text>
+</svg>

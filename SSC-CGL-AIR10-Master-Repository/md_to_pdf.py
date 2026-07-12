@@ -18,6 +18,7 @@ from html_to_pdf import html_to_pdf
 
 def inline(t):
     t = html.escape(t, quote=False)
+    t = re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', lambda m: f'<img src="{m.group(2)}" alt="{html.escape(m.group(1), quote=False)}" />', t)
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"`(.+?)`", r"<code>\1</code>", t)
     t = re.sub(r"\*(?!\s)(.+?)(?<!\s)\*", r"<em>\1</em>", t)
@@ -111,6 +112,7 @@ pre { background: #f7f9fc; border: 1px solid #cfe2f3; border-left: 4px solid #6f
       line-height: 1.35; white-space: pre; overflow-x: auto; color: #0b3a5c; page-break-inside: avoid; }
 .figure { text-align: center; margin: 10px 0; page-break-inside: avoid; }
 .figure svg { max-width: 100%; height: auto; }
+img { max-width: 100%; height: auto; display: block; margin: 10px auto; page-break-inside: avoid; }
 code { background: #eef; padding: 1px 4px; border-radius: 3px; font-family: Consolas, monospace; font-size: 11px; }
 a { color: #1155cc; text-decoration: none; }
 ul, ol { margin: 6px 0 6px 4px; padding-left: 20px; }
