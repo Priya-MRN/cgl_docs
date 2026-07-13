@@ -9008,6 +9008,94 @@
       "easy": "",
       "example": "The existential crisis of the Trinamool The prevailing need to be on the winning side has led to mutiny within the party",
       "added": "2026-07-12"
+    },
+    {
+      "word": "Representation",
+      "pos": "noun",
+      "meaning": "That which represents something else",
+      "easy": "likeness",
+      "example": "The Venus of Willendorf was an early representation of the female body.",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Optimization",
+      "pos": "noun",
+      "meaning": "design and operation of a system or process to make it as good as possible in some defined sense",
+      "easy": "",
+      "example": "Health requires looking at life as a whole, not as an exercise in “optimization.”",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Registration",
+      "pos": "noun",
+      "meaning": "act of signing up or registering for something",
+      "easy": "",
+      "example": "It bundles up a multitude of measures, including an extension of the franchise to 16- and 17-year-olds and welcome changes to voter registration.",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Acquisition",
+      "pos": "noun",
+      "meaning": "act or process of acquiring",
+      "easy": "accession, acquirement, accession",
+      "example": "The acquisition of sports equipment can be fun in itself.",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Difference",
+      "pos": "noun",
+      "meaning": "quality of being different",
+      "easy": "departure, deviation, disparity",
+      "example": "In republic of many faiths, living with difference, without panic",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Anticipatory",
+      "pos": "adjective",
+      "meaning": "Characterized by anticipation",
+      "easy": "",
+      "example": "Bring anticipatory statecraft, not reactive diplomacy",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Connectivity",
+      "pos": "noun",
+      "meaning": "state of being connected",
+      "easy": "",
+      "example": "Multilingualism, it is thought, promotes brain connectivity and slows its decline with age.",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Correspondents",
+      "pos": "noun",
+      "meaning": "Someone who or something which corresponds",
+      "easy": "",
+      "example": "David Willey, esteemed BBC Vatican correspondent, dies aged 93 One of the BBC's longest-serving foreign correspondents, he reported on five popes during his career.",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Legislative",
+      "pos": "noun",
+      "meaning": "That branch of government which is responsible for making, or having the power to make, a law or laws",
+      "easy": "legislature",
+      "example": "A legislative tangle in Maharashtra The grey areas in the Tenth Schedule of the Constitution needs urgent revisiting",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Masculinity",
+      "pos": "noun",
+      "meaning": "degree or property of being masculine or manly",
+      "easy": "",
+      "example": "Toxic teenage masculinity is also the subject of a debut play, Physical Education , that opened in Swansea last week.",
+      "added": "2026-07-13"
+    },
+    {
+      "word": "Parliamentary",
+      "pos": "noun",
+      "meaning": "parliamentary train",
+      "easy": "",
+      "example": "Benefits can enable independence, work and growth Sir Stephen Timms, Labour’s minister for social security and disability, is widely acknowledged to be a parliamentary expert on welfare.",
+      "added": "2026-07-13"
     }
   ],
   "days": [
@@ -9027,6 +9115,7 @@
     "2026-07-09",
     "2026-07-10",
     "2026-07-11",
-    "2026-07-12"
+    "2026-07-12",
+    "2026-07-13"
   ]
 }
