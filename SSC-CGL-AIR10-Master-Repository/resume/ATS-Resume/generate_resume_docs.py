@@ -22,6 +22,7 @@ from reportlab.lib.units import inch
 from reportlab.lib.colors import HexColor
 from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Flowable,
+    KeepTogether,
 )
 from pathlib import Path
 
@@ -127,7 +128,7 @@ EDUCATION = ('B.Tech, Biomedical Engineering',
 # ============================================================================
 # DOCX BUILDER
 # ============================================================================
-def _set_margins(doc, inches=0.55):
+def _set_margins(doc, inches=0.7):
     for section in doc.sections:
         section.top_margin = Inches(inches)
         section.bottom_margin = Inches(inches)
@@ -135,7 +136,7 @@ def _set_margins(doc, inches=0.55):
         section.right_margin = Inches(inches + 0.05)
 
 
-def _no_space(paragraph, before=0, after=0, line=1.08):
+def _no_space(paragraph, before=0, after=0, line=1.2):
     pf = paragraph.paragraph_format
     pf.space_before = Pt(before)
     pf.space_after = Pt(after)
@@ -158,10 +159,10 @@ def _bottom_border(paragraph, color=RULE, size=6):
 
 def _heading(doc, text):
     p = doc.add_paragraph()
-    _no_space(p, before=9, after=3)
+    _no_space(p, before=14, after=5)
     run = p.add_run(text)
     run.bold = True
-    run.font.size = Pt(11)
+    run.font.size = Pt(11.5)
     run.font.name = 'Calibri'
     run.font.color.rgb = RGBColor.from_string(ACCENT)
     # letter spacing for headings
@@ -175,7 +176,7 @@ def build_docx(path):
 
     normal = doc.styles['Normal']
     normal.font.name = 'Calibri'
-    normal.font.size = Pt(10)
+    normal.font.size = Pt(10.5)
     normal.font.color.rgb = RGBColor.from_string(INK)
 
     # --- Header: name ---
@@ -190,111 +191,111 @@ def build_docx(path):
     # tagline
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    _no_space(p, after=2)
+    _no_space(p, after=3)
     run = p.add_run(TAGLINE)
-    run.font.size = Pt(9.5)
+    run.font.size = Pt(10)
     run.font.color.rgb = RGBColor.from_string(MUTED)
 
     # contact line
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    _no_space(p, after=4)
+    _no_space(p, after=6)
     contact = f'{LOCATION}   |   {PHONE}   |   {EMAIL}   |   {LINKEDIN}'
     run = p.add_run(contact)
-    run.font.size = Pt(9)
+    run.font.size = Pt(9.5)
     run.font.color.rgb = RGBColor.from_string(MUTED)
 
     # --- Summary ---
     _heading(doc, 'PROFESSIONAL SUMMARY')
     p = doc.add_paragraph()
-    _no_space(p, after=2, line=1.1)
+    _no_space(p, after=3, line=1.3)
     run = p.add_run(SUMMARY)
-    run.font.size = Pt(10)
+    run.font.size = Pt(10.5)
 
     # --- Skills ---
     _heading(doc, 'TECHNICAL SKILLS')
     for label, items in SKILLS:
         p = doc.add_paragraph()
-        _no_space(p, after=1, line=1.06)
+        _no_space(p, after=3, line=1.2)
         r1 = p.add_run(f'{label}:  ')
         r1.bold = True
-        r1.font.size = Pt(10)
+        r1.font.size = Pt(10.5)
         r2 = p.add_run(items)
-        r2.font.size = Pt(10)
+        r2.font.size = Pt(10.5)
 
     # --- Experience ---
     _heading(doc, 'PROFESSIONAL EXPERIENCE')
     for company, role, dates, bullets in EXPERIENCE:
         p = doc.add_paragraph()
-        _no_space(p, before=5, after=0)
+        _no_space(p, before=9, after=0)
         r = p.add_run(company)
         r.bold = True
-        r.font.size = Pt(10.5)
+        r.font.size = Pt(11)
         r.font.color.rgb = RGBColor.from_string(INK)
         tab = p.add_run(f'\t{dates}')
-        tab.font.size = Pt(9)
+        tab.font.size = Pt(9.5)
         tab.font.color.rgb = RGBColor.from_string(MUTED)
         # right-align the dates via a tab stop
-        p.paragraph_format.tab_stops.add_tab_stop(Inches(7.3), 2)  # 2 = RIGHT
+        p.paragraph_format.tab_stops.add_tab_stop(Inches(7.15), 2)  # 2 = RIGHT
 
         pr = doc.add_paragraph()
-        _no_space(pr, after=2)
+        _no_space(pr, after=4)
         rr = pr.add_run(role)
         rr.italic = True
-        rr.font.size = Pt(9.5)
+        rr.font.size = Pt(10)
         rr.font.color.rgb = RGBColor.from_string(MUTED)
 
         for b in bullets:
             pb = doc.add_paragraph(style='List Bullet')
-            _no_space(pb, after=1, line=1.06)
-            pb.paragraph_format.left_indent = Inches(0.22)
+            _no_space(pb, after=4, line=1.2)
+            pb.paragraph_format.left_indent = Inches(0.25)
             pb.paragraph_format.first_line_indent = Inches(-0.15)
             rb = pb.add_run(b)
-            rb.font.size = Pt(9.5)
+            rb.font.size = Pt(10.5)
 
     # --- Internship ---
     _heading(doc, 'REMOTE INTERNSHIP')
     for company, role, dates, bullets in INTERNSHIP:
         p = doc.add_paragraph()
-        _no_space(p, before=3, after=0)
+        _no_space(p, before=6, after=0)
         r = p.add_run(company)
         r.bold = True
-        r.font.size = Pt(10.5)
+        r.font.size = Pt(11)
         tab = p.add_run(f'\t{dates}')
-        tab.font.size = Pt(9)
+        tab.font.size = Pt(9.5)
         tab.font.color.rgb = RGBColor.from_string(MUTED)
-        p.paragraph_format.tab_stops.add_tab_stop(Inches(7.3), 2)
+        p.paragraph_format.tab_stops.add_tab_stop(Inches(7.15), 2)
 
         pr = doc.add_paragraph()
-        _no_space(pr, after=2)
+        _no_space(pr, after=4)
         rr = pr.add_run(role)
         rr.italic = True
-        rr.font.size = Pt(9.5)
+        rr.font.size = Pt(10)
         rr.font.color.rgb = RGBColor.from_string(MUTED)
 
         for b in bullets:
             pb = doc.add_paragraph(style='List Bullet')
-            _no_space(pb, after=1, line=1.06)
-            pb.paragraph_format.left_indent = Inches(0.22)
+            _no_space(pb, after=4, line=1.2)
+            pb.paragraph_format.left_indent = Inches(0.25)
             pb.paragraph_format.first_line_indent = Inches(-0.15)
             rb = pb.add_run(b)
-            rb.font.size = Pt(9.5)
+            rb.font.size = Pt(10.5)
 
     # --- Education ---
     _heading(doc, 'EDUCATION')
     p = doc.add_paragraph()
-    _no_space(p, after=1)
+    _no_space(p, after=2)
     r = p.add_run(EDUCATION[0])
     r.bold = True
-    r.font.size = Pt(10)
+    r.font.size = Pt(10.5)
     tab = p.add_run(f'\t{EDUCATION[2]}')
-    tab.font.size = Pt(9)
+    tab.font.size = Pt(9.5)
     tab.font.color.rgb = RGBColor.from_string(MUTED)
-    p.paragraph_format.tab_stops.add_tab_stop(Inches(7.3), 2)
+    p.paragraph_format.tab_stops.add_tab_stop(Inches(7.15), 2)
     p2 = doc.add_paragraph()
     _no_space(p2, after=2)
     r2 = p2.add_run(EDUCATION[1])
-    r2.font.size = Pt(9.5)
+    r2.font.size = Pt(10)
     r2.font.color.rgb = RGBColor.from_string(MUTED)
 
     doc.save(path)
@@ -319,41 +320,41 @@ class HRule(Flowable):
 
 def build_pdf(path):
     page_w, _ = letter
-    left = right = 0.55 * inch
+    left = right = 0.7 * inch
     content_w = page_w - left - right
 
     styles = {
         'name': ParagraphStyle(
-            'name', fontName='Helvetica-Bold', fontSize=21, leading=24,
-            alignment=TA_CENTER, textColor=HexColor('#' + ACCENT), spaceAfter=3),
+            'name', fontName='Helvetica-Bold', fontSize=23, leading=27,
+            alignment=TA_CENTER, textColor=HexColor('#' + ACCENT), spaceAfter=5),
         'tagline': ParagraphStyle(
-            'tagline', fontName='Helvetica', fontSize=9, leading=12,
-            alignment=TA_CENTER, textColor=HexColor('#' + MUTED), spaceAfter=3),
+            'tagline', fontName='Helvetica', fontSize=9.5, leading=13,
+            alignment=TA_CENTER, textColor=HexColor('#' + MUTED), spaceAfter=5),
         'contact': ParagraphStyle(
-            'contact', fontName='Helvetica', fontSize=8.5, leading=11,
-            alignment=TA_CENTER, textColor=HexColor('#' + MUTED), spaceAfter=2),
+            'contact', fontName='Helvetica', fontSize=9, leading=12,
+            alignment=TA_CENTER, textColor=HexColor('#' + MUTED), spaceAfter=3),
         'heading': ParagraphStyle(
-            'heading', fontName='Helvetica-Bold', fontSize=10.5, leading=12,
-            textColor=HexColor('#' + ACCENT), spaceBefore=2.5, spaceAfter=1),
+            'heading', fontName='Helvetica-Bold', fontSize=11.5, leading=14,
+            textColor=HexColor('#' + ACCENT), spaceBefore=13, spaceAfter=3),
         'summary': ParagraphStyle(
-            'summary', fontName='Helvetica', fontSize=9.3, leading=12.3,
-            textColor=HexColor('#' + INK), alignment=TA_LEFT, spaceAfter=1),
+            'summary', fontName='Helvetica', fontSize=10, leading=14.5,
+            textColor=HexColor('#' + INK), alignment=TA_LEFT, spaceAfter=2),
         'skill': ParagraphStyle(
-            'skill', fontName='Helvetica', fontSize=9.3, leading=11.8,
-            textColor=HexColor('#' + INK), spaceAfter=0.5),
+            'skill', fontName='Helvetica', fontSize=10, leading=14,
+            textColor=HexColor('#' + INK), spaceAfter=3),
         'company': ParagraphStyle(
-            'company', fontName='Helvetica-Bold', fontSize=10.5, leading=12,
+            'company', fontName='Helvetica-Bold', fontSize=11, leading=14,
             textColor=HexColor('#' + INK)),
         'dates': ParagraphStyle(
-            'dates', fontName='Helvetica', fontSize=9, leading=12,
+            'dates', fontName='Helvetica', fontSize=9.5, leading=14,
             textColor=HexColor('#' + MUTED), alignment=2),  # right
         'role': ParagraphStyle(
-            'role', fontName='Helvetica-Oblique', fontSize=9.3, leading=11.5,
-            textColor=HexColor('#' + MUTED), spaceAfter=1),
+            'role', fontName='Helvetica-Oblique', fontSize=10, leading=13,
+            textColor=HexColor('#' + MUTED), spaceAfter=3),
         'bullet': ParagraphStyle(
-            'bullet', fontName='Helvetica', fontSize=9.3, leading=11.2,
-            textColor=HexColor('#' + INK), leftIndent=13, firstLineIndent=-11,
-            spaceAfter=1, bulletIndent=2),
+            'bullet', fontName='Helvetica', fontSize=10, leading=13.5,
+            textColor=HexColor('#' + INK), leftIndent=15, firstLineIndent=-12,
+            spaceAfter=4, bulletIndent=3),
     }
 
     def company_row(company, dates):
@@ -365,19 +366,19 @@ def build_pdf(path):
         t.setStyle(TableStyle([
             ('LEFTPADDING', (0, 0), (-1, -1), 0),
             ('RIGHTPADDING', (0, 0), (-1, -1), 0),
-            ('TOPPADDING', (0, 0), (-1, -1), 1),
+            ('TOPPADDING', (0, 0), (-1, -1), 7),
             ('BOTTOMPADDING', (0, 0), (-1, -1), 0),
             ('VALIGN', (0, 0), (-1, -1), 'BOTTOM'),
         ]))
         return t
 
     def heading(text):
-        return [Paragraph(text, styles['heading']), HRule(content_w)]
+        return [Paragraph(text, styles['heading']), HRule(content_w), Spacer(1, 5)]
 
     doc = SimpleDocTemplate(
         str(path), pagesize=letter,
         leftMargin=left, rightMargin=right,
-        topMargin=0.4 * inch, bottomMargin=0.35 * inch,
+        topMargin=0.55 * inch, bottomMargin=0.55 * inch,
         title='Priyadharshini Arumugam — Resume',
         author='Priyadharshini Arumugam')
 
@@ -395,19 +396,24 @@ def build_pdf(path):
     for label, items in SKILLS:
         F.append(Paragraph(f'<b>{label}:</b>&nbsp; {items}', styles['skill']))
 
+    def entry(company, role, dates, bullets):
+        """Keep the company header + role + first bullet together across a page break."""
+        head = [
+            company_row(company, dates),
+            Paragraph(role, styles['role']),
+            Paragraph(f'<bullet>&bull;</bullet>{bullets[0]}', styles['bullet']),
+        ]
+        F.append(KeepTogether(head))
+        for b in bullets[1:]:
+            F.append(Paragraph(f'<bullet>&bull;</bullet>{b}', styles['bullet']))
+
     F += heading('PROFESSIONAL EXPERIENCE')
     for company, role, dates, bullets in EXPERIENCE:
-        F.append(company_row(company, dates))
-        F.append(Paragraph(role, styles['role']))
-        for b in bullets:
-            F.append(Paragraph(f'<bullet>&bull;</bullet>{b}', styles['bullet']))
+        entry(company, role, dates, bullets)
 
     F += heading('REMOTE INTERNSHIP')
     for company, role, dates, bullets in INTERNSHIP:
-        F.append(company_row(company, dates))
-        F.append(Paragraph(role, styles['role']))
-        for b in bullets:
-            F.append(Paragraph(f'<bullet>&bull;</bullet>{b}', styles['bullet']))
+        entry(company, role, dates, bullets)
 
     edu_inst = EDUCATION[1].replace('&', '&amp;')
     edu_style = ParagraphStyle(
