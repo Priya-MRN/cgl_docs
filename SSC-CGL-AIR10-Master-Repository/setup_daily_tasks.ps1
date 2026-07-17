@@ -5,6 +5,9 @@
    1. DailyEditorialVocabulary   07:00  -> Daily-Editorial-Vocabulary\run_daily_vocab.bat
    2. DailyOneWordSubstitution   07:05  -> One-Word-Substitution\run_ows.bat
    3. DailyGKCurrentAffairs      07:10  -> GK-Now-Content\run_gk.bat
+   4. DailyBookReleases          07:15  -> Static-GK\run_books.bat
+   5. DailyCurrentAffairsDigest  07:20  -> GK-Now-Content\run_ca_digest.bat
+   6. DailySummitsEvents         07:25  -> Static-GK\run_summits_events.bat
 
  Times are staggered so they don't all fire at once. Each task:
    - runs once a day, only when the PC is on,
@@ -36,7 +39,8 @@ $Tasks = @(
     @{ Name = "DailyOneWordSubstitution"; Bat = "One-Word-Substitution\run_ows.bat";              Offset = 5;  Desc = "Daily One-Word Substitution builder (HTML, highlights today's words)." },
     @{ Name = "DailyGKCurrentAffairs";    Bat = "GK-Now-Content\run_gk.bat";                      Offset = 10; Desc = "Daily GK / Current Affairs mined from GKToday (HTML, highlights today's)." },
     @{ Name = "DailyBookReleases";        Bat = "Static-GK\run_books.bat";                       Offset = 15; Desc = "Daily book-release headlines from GKToday into Books-and-Authors.html." },
-    @{ Name = "DailyCurrentAffairsDigest"; Bat = "GK-Now-Content\run_ca_digest.bat";             Offset = 20; Desc = "Daily Current Affairs digest (Sports/Days/Summits/Agreements/Awards, dated PDF) - auto commits & pushes to git." }
+    @{ Name = "DailyCurrentAffairsDigest"; Bat = "GK-Now-Content\run_ca_digest.bat";             Offset = 20; Desc = "Daily Current Affairs digest (Sports/Days/Summits/Agreements/Awards, dated PDF) - auto commits & pushes to git." },
+    @{ Name = "DailySummitsEvents";        Bat = "Static-GK\run_summits_events.bat";            Offset = 25; Desc = "2-year Summits/Events/Sports/IR/Inventions capsule + daily in-scope headlines (dated PDF) - auto commits & pushes to git." }
 )
 
 function Remove-Task($name) {
