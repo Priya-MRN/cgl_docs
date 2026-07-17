@@ -405,73 +405,284 @@
         "bucket": "🏅 Awards & Honours",
         "scope": "International"
       }
+    ],
+    "2026-07-14": [
+      {
+        "title": "Delhi unveils Mayur mascot for Commonwealth Table Tennis Championships",
+        "url": "https://www.gktoday.in/delhi-unveils-mayur-mascot-for-commonwealth-table-tennis-championships/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      },
+      {
+        "title": "Ladakh Begins Premium Apricot Exports to UAE",
+        "url": "https://www.gktoday.in/ladakh-begins-premium-apricot-exports-to-uae/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Tamil Nadu Launches Nalam TN Public Service Portal",
+        "url": "https://www.gktoday.in/tamil-nadu-launches-nalam-tn-public-service-portal/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "India"
+      },
+      {
+        "title": "Indigenous Surveillance Airships to Strengthen India’s Border Monitoring",
+        "url": "https://www.gktoday.in/indigenous-surveillance-airships-to-strengthen-indias-border-monitoring/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "CSIR celebrates women researchers through ASPIRE-SHAKTI initiative",
+        "url": "https://www.gktoday.in/csir-celebrates-women-researchers-through-aspire-shakti-initiative/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "All India Water Secretaries’ Conference Held in New Delhi",
+        "url": "https://www.gktoday.in/all-india-water-secretaries-conference-held-in-new-delhi/",
+        "bucket": "🌐 Summits & Meetings",
+        "scope": "India"
+      },
+      {
+        "title": "Grey Hornbill returns to Gujarat’s Gir forests after six decades",
+        "url": "https://www.gktoday.in/grey-hornbill-returns-to-gujarats-gir-forests-after-six-decades/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Karnataka Announces India’s First Government-Driven AI University",
+        "url": "https://www.gktoday.in/karnataka-announces-indias-first-government-driven-ai-university/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "India Launches SHANTI Campaign for UNSC Bid",
+        "url": "https://www.gktoday.in/india-launches-shanti-campaign-for-unsc-bid/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "India"
+      },
+      {
+        "title": "Two New Solitary Bee Species Discovered in Arunachal Pradesh",
+        "url": "https://www.gktoday.in/two-new-solitary-bee-species-discovered-in-arunachal-pradesh/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      }
+    ],
+    "2026-07-15": [
+      {
+        "title": "Nine European Countries and Ukraine Form Missile Defence Coalition",
+        "url": "https://www.gktoday.in/nine-european-countries-and-ukraine-form-missile-defence-coalition/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      }
+    ],
+    "2026-07-16": [
+      {
+        "title": "Index of Services Production",
+        "url": "https://www.gktoday.in/index-of-services-production/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Draft National Health Research Policy 2026",
+        "url": "https://www.gktoday.in/draft-national-health-research-policy-2026/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "India Announces Seafarer-First Maritime Safety Plan",
+        "url": "https://www.gktoday.in/india-announces-seafarer-first-maritime-safety-plan/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Delhi Approves Time-Bound Public Service Delivery Bill",
+        "url": "https://www.gktoday.in/delhi-approves-time-bound-public-service-delivery-bill/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "India"
+      },
+      {
+        "title": "Navi Mumbai International Airport Starts International Operations",
+        "url": "https://www.gktoday.in/navi-mumbai-international-airport-starts-international-operations/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Wearable Ammonia Gas Sensor Developed by Indian Scientists",
+        "url": "https://www.gktoday.in/wearable-ammonia-gas-sensor-developed-by-indian-scientists/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "CAC49 Adopts Seven Codex Standards Under India’s Leadership",
+        "url": "https://www.gktoday.in/cac49-adopts-seven-codex-standards-under-indias-leadership/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Indian Railways launches Reform Express freight reforms",
+        "url": "https://www.gktoday.in/indian-railways-launches-reform-express-freight-reforms/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "India"
+      },
+      {
+        "title": "31st Divya Kala Mela Inaugurated in Kolkata",
+        "url": "https://www.gktoday.in/31st-divya-kala-mela-inaugurated-in-kolkata/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      }
+    ],
+    "2026-07-17": [
+      {
+        "title": "Cyclospora Outbreak Sickens Thousands Across United States",
+        "url": "https://www.gktoday.in/cyclospora-outbreak-sickens-thousands-across-united-states/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Uttar Pradesh Launches Kaushal Setu and Kaushal Sarathi Portals",
+        "url": "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "India"
+      },
+      {
+        "title": "New Monkey Species Discovered in Congo Rainforest",
+        "url": "https://www.gktoday.in/new-monkey-species-discovered-in-congo-rainforest/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Government issues draft CAFE III norms",
+        "url": "https://www.gktoday.in/government-issues-draft-cafe-iii-norms/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "New damselfly species found in Kerala’s Western Ghats",
+        "url": "https://www.gktoday.in/new-damselfly-species-found-in-keralas-western-ghats/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Centre Tightens ISRO Scientist Exit Rules",
+        "url": "https://www.gktoday.in/centre-tightens-isro-scientist-exit-rules/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Project INROAD Expands Natural Rubber Plantations in North-East",
+        "url": "https://www.gktoday.in/project-inroad-expands-natural-rubber-plantations-in-north-east/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Agnikul to Attempt Rocket Stage Recovery",
+        "url": "https://www.gktoday.in/agnikul-to-attempt-rocket-stage-recovery/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "S. Somanath Joins Agnikul Cosmos Board",
+        "url": "https://www.gktoday.in/s-somanath-joins-agnikul-cosmos-board/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
+    "https://www.gktoday.in/31st-divya-kala-mela-inaugurated-in-kolkata/",
+    "https://www.gktoday.in/agnikul-to-attempt-rocket-stage-recovery/",
+    "https://www.gktoday.in/all-india-water-secretaries-conference-held-in-new-delhi/",
     "https://www.gktoday.in/army-to-induct-450-carl-gustaf-m4-rocket-launchers/",
     "https://www.gktoday.in/arunachal-pradesh-launches-emergency-helicopter-flood-relief/",
     "https://www.gktoday.in/assam-begins-commercial-matcha-tea-production/",
     "https://www.gktoday.in/bihar-banyan-tree-named-worlds-oldest-accurately-dated/",
+    "https://www.gktoday.in/cac49-adopts-seven-codex-standards-under-indias-leadership/",
     "https://www.gktoday.in/ccras-launches-three-research-initiatives/",
     "https://www.gktoday.in/centre-appoints-new-chiefs-of-bprd-ncrb-and-svpnpa/",
+    "https://www.gktoday.in/centre-tightens-isro-scientist-exit-rules/",
     "https://www.gktoday.in/chandannagar-jalbhara-sweet-gets-gi-tag/",
     "https://www.gktoday.in/china-conducts-submarine-launched-ballistic-missile-test/",
+    "https://www.gktoday.in/csir-celebrates-women-researchers-through-aspire-shakti-initiative/",
     "https://www.gktoday.in/cwgc-recognises-9909-indian-world-war-i-soldiers/",
+    "https://www.gktoday.in/cyclospora-outbreak-sickens-thousands-across-united-states/",
     "https://www.gktoday.in/daily-current-affairs-quiz-july-4-2026/",
     "https://www.gktoday.in/deepseek-develops-custom-ai-chip/",
+    "https://www.gktoday.in/delhi-approves-time-bound-public-service-delivery-bill/",
     "https://www.gktoday.in/delhi-government-signs-mou-for-rainwater-harvesting-in-75-schools/",
+    "https://www.gktoday.in/delhi-unveils-mayur-mascot-for-commonwealth-table-tennis-championships/",
+    "https://www.gktoday.in/draft-national-health-research-policy-2026/",
     "https://www.gktoday.in/fssai-issues-nine-notices-to-swiggy-instamart/",
     "https://www.gktoday.in/fssai-issues-notices-over-misleading-paneer-and-labelling-claims/",
     "https://www.gktoday.in/girish-bharadwaj-bridge-man-of-india-dies-at-76/",
     "https://www.gktoday.in/global-biofuel-alliance-selects-15-researcher-fellows/",
     "https://www.gktoday.in/government-adds-navi-mumbai-airport-for-medicine-imports/",
+    "https://www.gktoday.in/government-issues-draft-cafe-iii-norms/",
     "https://www.gktoday.in/government-waives-customs-duty-on-electronics-components/",
+    "https://www.gktoday.in/grey-hornbill-returns-to-gujarats-gir-forests-after-six-decades/",
     "https://www.gktoday.in/gujarat-builds-first-air-filled-rubber-dams/",
     "https://www.gktoday.in/gujarat-revises-land-compensation-policy/",
     "https://www.gktoday.in/gujarat-unveils-data-centre-policy-2026-29/",
     "https://www.gktoday.in/higher-education-enrolment-reaches-4-5-crore/",
     "https://www.gktoday.in/iim-bangalore-to-open-first-overseas-campus-in-indonesia/",
     "https://www.gktoday.in/iit-madras-c-dac-to-manage-national-bridge-health-monitoring-software/",
+    "https://www.gktoday.in/index-of-services-production/",
+    "https://www.gktoday.in/india-announces-seafarer-first-maritime-safety-plan/",
     "https://www.gktoday.in/india-australia-and-canada-launch-aciti-partnership/",
     "https://www.gktoday.in/india-designates-23-jem-and-let-operatives-as-terrorists/",
     "https://www.gktoday.in/india-indonesia-sign-defence-and-strategic-agreements/",
     "https://www.gktoday.in/india-joins-un-global-dialogue-on-ai-governance/",
     "https://www.gktoday.in/india-kyrgyzstan-launch-manas-mahabharata-studies-centre/",
     "https://www.gktoday.in/india-launches-first-greenfield-refinery-cum-petrochemical-complex/",
+    "https://www.gktoday.in/india-launches-shanti-campaign-for-unsc-bid/",
     "https://www.gktoday.in/india-launches-worlds-first-once-weekly-insulin-awiqli/",
     "https://www.gktoday.in/india-leads-retail-and-fmcg-gcc-hub/",
     "https://www.gktoday.in/india-rwanda-expand-bilateral-defence-partnership/",
     "https://www.gktoday.in/india-unveils-first-made-in-india-exim-shipping-container/",
     "https://www.gktoday.in/india-withdraws-2017-yemen-travel-restriction/",
+    "https://www.gktoday.in/indian-railways-launches-reform-express-freight-reforms/",
     "https://www.gktoday.in/indian-scientists-develop-placenta-on-chip-platform/",
     "https://www.gktoday.in/indias-energy-storage-requirement-may-reach-888-gwh-by-2035-36/",
+    "https://www.gktoday.in/indigenous-surveillance-airships-to-strengthen-indias-border-monitoring/",
     "https://www.gktoday.in/japan-tests-experimental-reusable-rocket-rv-x/",
     "https://www.gktoday.in/jaxa-launches-and-lands-reusable-rocket/",
     "https://www.gktoday.in/jayaprakash-narayan-public-library-inaugurated-in-delhi/",
     "https://www.gktoday.in/joint-parliamentary-committee-backs-one-nation-one-election-framework/",
+    "https://www.gktoday.in/karnataka-announces-indias-first-government-driven-ai-university/",
+    "https://www.gktoday.in/ladakh-begins-premium-apricot-exports-to-uae/",
     "https://www.gktoday.in/madhya-pradesh-missile-manufacturing-plant-launched-in-shivpuri/",
     "https://www.gktoday.in/maharashtra-bans-energy-drinks-near-schools/",
     "https://www.gktoday.in/ministry-issues-notice-to-telegram-over-pirated-content/",
     "https://www.gktoday.in/modified-udan-scheme-expands-regional-air-connectivity/",
+    "https://www.gktoday.in/navi-mumbai-international-airport-starts-international-operations/",
     "https://www.gktoday.in/new-cancer-drug-vepdegestrant-gets-fda-approval/",
+    "https://www.gktoday.in/new-damselfly-species-found-in-keralas-western-ghats/",
+    "https://www.gktoday.in/new-monkey-species-discovered-in-congo-rainforest/",
+    "https://www.gktoday.in/nine-european-countries-and-ukraine-form-missile-defence-coalition/",
     "https://www.gktoday.in/nppa-fixes-retail-prices-for-39-drug-formulations/",
     "https://www.gktoday.in/nse-launches-nifty500-ahimsa-index/",
     "https://www.gktoday.in/odisha-signs-japan-backed-investment-cooperation/",
     "https://www.gktoday.in/odisha-transfers-rs-20648-crore-under-subhadra-yojana/",
     "https://www.gktoday.in/pm-modi-receives-indonesias-bintang-adipurna/",
     "https://www.gktoday.in/pm-modi-visits-prambanan-temple-in-indonesia/",
+    "https://www.gktoday.in/project-inroad-expands-natural-rubber-plantations-in-north-east/",
     "https://www.gktoday.in/punjab-launches-post-matric-scholarship-for-sc-students/",
     "https://www.gktoday.in/railway-minister-flags-off-new-express-train-services/",
+    "https://www.gktoday.in/s-somanath-joins-agnikul-cosmos-board/",
     "https://www.gktoday.in/scientists-create-new-exotic-quantum-state/",
     "https://www.gktoday.in/south-china-sea-arbitral-award-marks-10-years/",
     "https://www.gktoday.in/srikakulam-to-get-airport-under-udan-scheme/",
+    "https://www.gktoday.in/tamil-nadu-launches-nalam-tn-public-service-portal/",
     "https://www.gktoday.in/tripura-makes-vande-mataram-and-jana-gana-mana-mandatory/",
+    "https://www.gktoday.in/two-new-solitary-bee-species-discovered-in-arunachal-pradesh/",
     "https://www.gktoday.in/ugram-indigenous-assault-rifle-clears-army-trials/",
     "https://www.gktoday.in/uidai-enables-aadhaar-email-update-through-app/",
     "https://www.gktoday.in/union-home-minister-launches-cooperative-insurance-initiative/",
     "https://www.gktoday.in/ustad-bismillah-khan-yuva-puraskar-recognises-haveli-sangeet/",
     "https://www.gktoday.in/uttar-pradesh-cabinet-approves-renaming-of-jalalabad-to-parshurampuri/",
+    "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
     "https://www.gktoday.in/vice-president-launches-high-seas-fisheries-authorisation/",
+    "https://www.gktoday.in/wearable-ammonia-gas-sensor-developed-by-indian-scientists/",
     "https://www.gktoday.in/west-bengal-implements-pmcspy-for-tea-garden-workers/"
   ]
 }

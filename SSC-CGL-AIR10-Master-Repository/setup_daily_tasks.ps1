@@ -8,6 +8,7 @@
    4. DailyBookReleases          07:15  -> Static-GK\run_books.bat
    5. DailyCurrentAffairsDigest  07:20  -> GK-Now-Content\run_ca_digest.bat
    6. DailySummitsEvents         07:25  -> Static-GK\run_summits_events.bat
+   7. DailyCommitPush            07:45  -> run_commit_push.bat  (end-of-day sweep: commit ALL + push)
 
  Times are staggered so they don't all fire at once. Each task:
    - runs once a day, only when the PC is on,
@@ -40,7 +41,8 @@ $Tasks = @(
     @{ Name = "DailyGKCurrentAffairs";    Bat = "GK-Now-Content\run_gk.bat";                      Offset = 10; Desc = "Daily GK / Current Affairs mined from GKToday (HTML, highlights today's)." },
     @{ Name = "DailyBookReleases";        Bat = "Static-GK\run_books.bat";                       Offset = 15; Desc = "Daily book-release headlines from GKToday into Books-and-Authors.html." },
     @{ Name = "DailyCurrentAffairsDigest"; Bat = "GK-Now-Content\run_ca_digest.bat";             Offset = 20; Desc = "Daily Current Affairs digest (Sports/Days/Summits/Agreements/Awards, dated PDF) - auto commits & pushes to git." },
-    @{ Name = "DailySummitsEvents";        Bat = "Static-GK\run_summits_events.bat";            Offset = 25; Desc = "2-year Summits/Events/Sports/IR/Inventions capsule + daily in-scope headlines (dated PDF) - auto commits & pushes to git." }
+    @{ Name = "DailySummitsEvents";        Bat = "Static-GK\run_summits_events.bat";            Offset = 25; Desc = "2-year Summits/Events/Sports/IR/Inventions capsule + daily in-scope headlines (dated PDF) - auto commits & pushes to git." },
+    @{ Name = "DailyCommitPush";           Bat = "run_commit_push.bat";                          Offset = 45; Desc = "End-of-day sweep: stages ALL daily-generated changes, commits with a dated message, and pushes to origin/main (unattended)." }
 )
 
 function Remove-Task($name) {
