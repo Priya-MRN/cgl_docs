@@ -13,10 +13,26 @@
         "bucket": "🔬 Inventions, Discoveries & Science",
         "scope": "India"
       }
+    ],
+    "2026-07-19": [
+      {
+        "title": "World Listening Day",
+        "url": "https://www.gktoday.in/world-listening-day/",
+        "bucket": "📅 Important Days, Events & Celebrations",
+        "scope": "International"
+      },
+      {
+        "title": "Vikram-1 Launches India’s First Private Orbital Rocket",
+        "url": "https://www.gktoday.in/vikram-1-launches-indias-first-private-orbital-rocket/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
-    "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/"
+    "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
+    "https://www.gktoday.in/vikram-1-launches-indias-first-private-orbital-rocket/",
+    "https://www.gktoday.in/world-listening-day/"
   ]
 }
