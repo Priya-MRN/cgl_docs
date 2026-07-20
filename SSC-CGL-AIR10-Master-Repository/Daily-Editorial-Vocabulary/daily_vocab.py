@@ -1003,12 +1003,18 @@ def main():
     # grows a WORD in an existing row rather than a whole new row.
     families = load_json(FAMILIES_STORE, [])
     if families:
+        # Only place words that are not in a family YET. Keying off "added ==
+        # today" alone would re-place today's words on every --force re-run,
+        # silently duplicating them into new families.
+        already = {w.lower() for f in families for w in f["words"]}
         placed_new = 0
         for e in master_words:
-            if e.get("added") == today_str:
-                fam = place_in_family(e, families)
-                if len(fam["words"]) == 1:
-                    placed_new += 1
+            if e["word"].lower() in already:
+                continue
+            fam = place_in_family(e, families)
+            already.add(e["word"].lower())
+            if len(fam["words"]) == 1:
+                placed_new += 1
         save_json(FAMILIES_STORE, families)
         fname = write_master_families(families, master_words, days, today_str)
         log(f"Families: {len(families)} total "
