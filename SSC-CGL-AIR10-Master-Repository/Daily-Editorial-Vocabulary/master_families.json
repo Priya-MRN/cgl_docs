@@ -1,0 +1,4199 @@
+[
+ {
+  "group": "🧬 Word Roots, Prefixes & Latin Phrases",
+  "words": [
+   "bio",
+   "vita/viv",
+   "nat",
+   "gen",
+   "carn",
+   "anthrop",
+   "mort",
+   "geo",
+   "hydro",
+   "therm",
+   "photo",
+   "path"
+  ],
+  "pos": "root",
+  "meaning": "Greek/Latin roots about living things and the natural world: bio & vita/viv = life, nat = born, gen = birth or race, carn = flesh, anthrop = human, mort = death, geo = earth, hydro = water, therm = heat, photo = light, path = feeling or disease.",
+  "example": "Roots unlock new words: (bio) gives biology, (geo) gives geography, (mort) gives mortality."
+ },
+ {
+  "group": "🧬 Word Roots, Prefixes & Latin Phrases",
+  "words": [
+   "psych",
+   "cogn",
+   "sci",
+   "fid",
+   "sens/sent",
+   "aud",
+   "vid/vis",
+   "phon",
+   "doc",
+   "phil",
+   "am/amor",
+   "chron",
+   "chrono",
+   "ann/enn",
+   "auto"
+  ],
+  "pos": "root",
+  "meaning": "Roots about the mind, knowing, trusting and the senses: psych = mind, cogn & sci = know, fid = faith or trust, sens/sent = feel, aud = hear, vid/vis = see, phon = sound, doc = teach, phil & am/amor = love, chron/chrono = time, ann/enn = year, auto = self.",
+  "example": "The root (psych / cogn / vid-vis) appears in psychology, recognise and vision; (fid) gives fidelity, and (ann/enn) gives annual."
+ },
+ {
+  "group": "🧬 Word Roots, Prefixes & Latin Phrases",
+  "words": [
+   "port",
+   "fer",
+   "tract",
+   "mit/miss",
+   "vert/vers",
+   "pos/pon",
+   "rupt",
+   "scrib/script",
+   "graph/gram"
+  ],
+  "pos": "root",
+  "meaning": "Roots about carrying, moving, writing and breaking: port, fer and tract = carry or pull, mit/miss = send, vert/vers = turn, pos/pon = place or put, rupt = break, scrib/script and graph/gram = write or draw.",
+  "example": "The root (port / fer / tract) gives transport, transfer and tractor."
+ },
+ {
+  "group": "🧬 Word Roots, Prefixes & Latin Phrases",
+  "words": [
+   "mono",
+   "bi",
+   "tri",
+   "semi-",
+   "multi",
+   "poly",
+   "omni",
+   "max",
+   "min",
+   "over-",
+   "under-",
+   "equ"
+  ],
+  "pos": "prefix",
+  "meaning": "Prefixes showing how many or how much: mono = one, bi = two, tri = three, semi- = half, multi/poly = many, omni = all, max = greatest, min = small or less, over- = too much, under- = too little, equ = equal.",
+  "example": "Add the prefix (mono / bi / tri) to get monorail, bicycle and triangle."
+ },
+ {
+  "group": "🧬 Word Roots, Prefixes & Latin Phrases",
+  "words": [
+   "un-",
+   "non-",
+   "in-/im-/il-/ir-",
+   "anti-"
+  ],
+  "pos": "prefix",
+  "meaning": "Prefixes that reverse or oppose a meaning: un-, non- and in-/im-/il-/ir- all mean 'not'; anti- means 'against'.",
+  "example": "Put (un- / non- / in-im-il-ir-) before a word to negate it: unhappy, non-stop, impossible."
+ },
+ {
+  "group": "🧬 Word Roots, Prefixes & Latin Phrases",
+  "words": [
+   "pre-",
+   "fore-",
+   "post-",
+   "ex-",
+   "sub-",
+   "inter-",
+   "intra-",
+   "trans-",
+   "tele"
+  ],
+  "pos": "prefix",
+  "meaning": "Prefixes showing position or time: pre- and fore- = before or front, post- = after, ex- = out or former, sub- = under or below, inter- = between, intra- = within, trans- = across, tele = far.",
+  "example": "The prefix (pre- / post- / trans-) fixes time or direction: preview, postwar, transport."
+ },
+ {
+  "group": "🧬 Word Roots, Prefixes & Latin Phrases",
+  "words": [
+   "bene",
+   "bene-"
+  ],
+  "pos": "prefix",
+  "meaning": "bene and bene- mean 'good' or 'well'.",
+  "example": "The root (bene / bene-) gives benefit, benefactor and benevolent."
+ },
+ {
+  "group": "🧬 Word Roots, Prefixes & Latin Phrases",
+  "words": [
+   "a priori",
+   "de facto",
+   "per capita",
+   "inter alia",
+   "nota bene",
+   "prima facie",
+   "pro rata",
+   "status quo",
+   "vice versa",
+   "vis-a-vis",
+   "ad hoc"
+  ],
+  "pos": "phrase",
+  "meaning": "Set Latin and formal expressions common in editorial, legal and economic writing.",
+  "example": "A priori reasoning needs no data; a de facto ruler holds power without the title; income is compared per capita; the report lists, inter alia, three reforms; nota bene, the deadline is fixed; funds are shared pro rata; prima facie the case stands; the status quo remains; vis-a-vis last year growth is slower, and vice versa applies too; the panel was set up on an ad hoc basis."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Albeit",
+   "Whereby",
+   "Insofar",
+   "insofar as",
+   "Henceforth",
+   "Hitherto",
+   "Previously",
+   "Conceivably",
+   "Presumably",
+   "Ostensibly",
+   "Fundamentally",
+   "Electronically",
+   "Erstwhile"
+  ],
+  "pos": "conjunction/adverb",
+  "meaning": "Connectors, hedges and time markers that join, limit or soften a statement.",
+  "example": "The scheme works, (albeit / insofar as / whereby) only in part; henceforth the rule applies, hitherto it did not, and previously it was optional; (conceivably / presumably / ostensibly) it will change; fundamentally the idea is sound; forms may be filed electronically; the erstwhile chairman said nothing."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Venerate",
+   "Reverence",
+   "Reverent",
+   "Venerable",
+   "Pious",
+   "Sacrosanct",
+   "Inviolable"
+  ],
+  "pos": "noun/adjective/verb",
+  "meaning": "deep respect, or showing it. Venerate = to revere deeply (verb); venerable = respected because of age or wisdom; pious = religiously devoted; sacrosanct and inviolable = too sacred or important to be touched or broken.",
+  "example": "Students (venerate / revere) the venerable teacher; he spoke with (reverence / a reverent tone); the pious crowd treated the shrine as (sacrosanct / inviolable)."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Affable",
+   "Amiable",
+   "Cordial",
+   "Gregarious",
+   "Suave",
+   "Urbane",
+   "Amity"
+  ],
+  "pos": "adjective",
+  "meaning": "pleasant, warm and easy to get on with. Suave and urbane add smooth social polish; gregarious = fond of company.",
+  "example": "The host was (affable / amiable / cordial / gregarious); his (suave / urbane) manner put everyone at ease."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Magnanimous",
+   "Magnanimity",
+   "Munificent",
+   "Munificence",
+   "Benevolent",
+   "Benign",
+   "Altruistic",
+   "Lavish"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "kind, well-meaning and generous in giving. Magnanimity and munificence are the noun forms; altruistic = selflessly caring for others; benign = gentle and harmless; lavish = giving very freely.",
+  "example": "A (magnanimous / munificent / benevolent / altruistic / lavish) donor funded the school; her (magnanimity / munificence) was widely praised, and the gesture was entirely benign."
+ },
+ {
+  "group": "⭐ Certainty, Importance & Authority",
+  "words": [
+   "Impeccable",
+   "Inimitable",
+   "Irresistible",
+   "Epitome",
+   "Quintessential",
+   "Pristine"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "so good that it cannot be faulted or copied. Epitome and quintessential = the perfect example of a type; pristine = spotless or untouched.",
+  "example": "Her record is (impeccable / inimitable / irresistible); she is the (epitome / quintessential example) of a public servant, and the site remains pristine."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Strengthening",
+   "Emulate",
+   "Therapeutic",
+   "Salubrious",
+   "Innocuous",
+   "Tractable"
+  ],
+  "pos": "verb/adjective",
+  "meaning": "to build up, back or make stronger; also to copy someone you admire.",
+  "example": "The reform is (strengthening / emulating) the best global practice; the therapeutic and salubrious effects were clear, and the innocuous change met no resistance."
+ },
+ {
+  "group": "🗯️ Criticism & Condemnation",
+  "words": [
+   "Castigate",
+   "Excoriate",
+   "Deride",
+   "Disparage",
+   "Vituperate"
+  ],
+  "pos": "verb",
+  "meaning": "to attack someone with harsh words. Castigate, excoriate and vituperate are severe; deride and disparage are mocking or belittling.",
+  "example": "The court (castigated / excoriated / derided / disparaged / vituperated) the officials for the delay."
+ },
+ {
+  "group": "🗯️ Criticism & Condemnation",
+  "words": [
+   "Ignominy",
+   "Humiliation",
+   "Affront",
+   "Accusation",
+   "Allegation",
+   "Defamation"
+  ],
+  "pos": "noun",
+  "meaning": "public disgrace, or an act or charge that wounds pride and reputation.",
+  "example": "He suffered the (ignominy / humiliation / affront) of public dismissal; an (accusation / allegation) followed, and he sued for defamation."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Haughty",
+   "Supercilious",
+   "Imperious",
+   "Pompous",
+   "Pretentious",
+   "Insolent",
+   "Churlish",
+   "Obstreperous",
+   "Gauche"
+  ],
+  "pos": "adjective",
+  "meaning": "behaving as if better than everyone else, or plainly ill-mannered.",
+  "example": "The minister's (haughty / supercilious / imperious / pompous / pretentious) reply angered the house; his (insolent / churlish / obstreperous) aide was worse, and the new recruit was merely gauche."
+ },
+ {
+  "group": "🎭 Lies, Trickery & Deception",
+  "words": [
+   "Sycophant",
+   "Sycophancy",
+   "Unctuous",
+   "Glib",
+   "Facile",
+   "Servile"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "excessive false praise given to win favour, or smooth but hollow speech.",
+  "example": "The court is full of (sycophants / sycophancy); his (glib / unctuous / facile) praise fooled nobody, and the servile staff never disagreed."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Deteriorating",
+   "Stagnant",
+   "Downturn",
+   "Recession",
+   "Plateau",
+   "Diminishing returns",
+   "Devaluation",
+   "Deindustrialisation"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "getting worse, shrinking or losing momentum, especially in an economy.",
+  "example": "Output is (deteriorating / stagnant); the (downturn / recession) deepened, growth hit a plateau, and diminishing returns set in after the devaluation and deindustrialisation."
+ },
+ {
+  "group": "💥 Harm, Damage & Worsen",
+  "words": [
+   "Annihilate",
+   "Demolish",
+   "Eradicate",
+   "Destruction",
+   "Elimination",
+   "Discard",
+   "Truncate"
+  ],
+  "pos": "verb/noun",
+  "meaning": "to get rid of something completely, or cut it down.",
+  "example": "The blast (annihilated / demolished / eradicated) the block; the (destruction / elimination) was total, the debris was discarded, and the report was truncated."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Cataclysm",
+   "Fiasco",
+   "Turbulence",
+   "Reel",
+   "Brunt",
+   "Knell",
+   "Nemesis",
+   "Pyrrhic"
+  ],
+  "pos": "noun/verb",
+  "meaning": "a violent disturbance, a total failure, or the shock that follows one.",
+  "example": "The policy ended in a (cataclysm / fiasco); the turbulence made markets reel, the poor bore the brunt, and it sounded the knell for the party's old nemesis."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Insurgency",
+   "Belligerence",
+   "Brinkmanship",
+   "Fraught",
+   "Precarious",
+   "Resistance",
+   "Dissent",
+   "Dissident",
+   "Disobedience",
+   "Interference"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "hostility, armed opposition, open disagreement, or a dangerously tense situation.",
+  "example": "The (insurgency / belligerence / brinkmanship) put the region on edge; (dissent / disobedience / resistance) spread, dissidents were arrested, and the situation grew (fraught / precarious) amid foreign interference."
+ },
+ {
+  "group": "🌑 Bad, Harmful & Unpleasant",
+  "words": [
+   "Squalid",
+   "Putrid",
+   "Macabre",
+   "Brittle",
+   "Desiccation",
+   "Malnutrition"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "filthy, rotting, brittle or grimly unpleasant.",
+  "example": "Families live in (squalid / putrid) conditions; the macabre scene shocked inspectors; the brittle pipes and desiccation of the soil worsened malnutrition."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Suppression",
+   "Prohibition",
+   "Nullify",
+   "Ostracise",
+   "Sanctioned",
+   "Deportation",
+   "Extradition",
+   "Imprisonment",
+   "Protectionism"
+  ],
+  "pos": "noun/verb",
+  "meaning": "to stop, forbid, cancel or push something down by force of authority. Note: *sanctioned* is a contronym — it usually means hit with official penalties, but can also mean officially approved; read the context.",
+  "example": "The order brought (suppression / prohibition) of the protest; the ruling nullified the licence, activists were ostracised and sanctioned, and deportation, extradition and imprisonment followed under a wall of protectionism."
+ },
+ {
+  "group": "✊ Reject, Revenge & Force",
+  "words": [
+   "Insurmountable",
+   "Indomitable",
+   "Impervious",
+   "Indefatigable",
+   "Tenacious",
+   "Incessant",
+   "Insatiable",
+   "Sustained"
+  ],
+  "pos": "adjective",
+  "meaning": "so strong, fixed or persistent that nothing can overcome, affect or exhaust it.",
+  "example": "The lead looked (insurmountable / indomitable); he was impervious to criticism, (indefatigable / tenacious) in his work, and the incessant, insatiable demand was sustained for years."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Surreptitious",
+   "Inscrutable",
+   "Enigmatic",
+   "Abscond",
+   "Aloof",
+   "Insular",
+   "Dormant",
+   "Liminal",
+   "Ineffable"
+  ],
+  "pos": "adjective/verb",
+  "meaning": "kept out of sight, held back, or impossible to read or interpret.",
+  "example": "His (surreptitious / inscrutable / enigmatic) conduct raised doubts; he absconded before the inquiry, staying (aloof / insular) from colleagues, while the case sat dormant at a liminal stage."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "Misconception",
+   "Misnomer",
+   "Misinformation",
+   "Misrepresented",
+   "Misunderstood",
+   "Perplex",
+   "Anomaly",
+   "Aberration"
+  ],
+  "pos": "noun/verb/adjective",
+  "meaning": "a wrong idea, or the act of getting something wrong or being wrongly named.",
+  "example": "The claim rests on a (misconception / misnomer / piece of misinformation); the data was (misrepresented / misunderstood), which perplexed readers, and the anomaly proved to be a mere aberration."
+ },
+ {
+  "group": "⭐ Certainty, Importance & Authority",
+  "words": [
+   "Conspicuous",
+   "Palpable",
+   "Pronounced",
+   "Discernible",
+   "Salient",
+   "Explicit",
+   "Notable",
+   "Notifiable",
+   "Distinctive",
+   "Characteristic",
+   "Facet"
+  ],
+  "pos": "adjective",
+  "meaning": "easy to see, notice or single out.",
+  "example": "The shift was (conspicuous / palpable / pronounced / discernible / salient); the wording was explicit, the finding (notable / distinctive), and each characteristic facet was set out."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Elucidate",
+   "Delineate",
+   "Demonstrate",
+   "Indicate",
+   "Manifest",
+   "Underscore",
+   "Promulgate",
+   "Emanate",
+   "Analyse",
+   "Observe"
+  ],
+  "pos": "verb",
+  "meaning": "to make something clear, visible, known or pointed out.",
+  "example": "The chart (elucidates / delineates / demonstrates / indicates / manifests) the trend; the study underscored the risk, the ministry promulgated the rule, and the warning emanated from the data they analysed and observed."
+ },
+ {
+  "group": "🧠 Thinking, Reasoning & Memory",
+  "words": [
+   "Surmise",
+   "Postulate",
+   "Extrapolate",
+   "Speculation",
+   "Speculative",
+   "Hypothesis",
+   "Projection",
+   "Derive",
+   "Dwell",
+   "Synthesis",
+   "Reminiscent",
+   "Epistemic",
+   "Consciousness",
+   "Intelligence"
+  ],
+  "pos": "verb/noun",
+  "meaning": "to work something out, guess it from clues, or turn it over in the mind.",
+  "example": "Analysts (surmise / postulate / extrapolate) from thin data; the (hypothesis / projection / speculation) is speculative at best, though it derives from real evidence; he dwelt on it for weeks before offering a synthesis."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Assiduous",
+   "Erudite",
+   "Versatile",
+   "Discernment",
+   "Arduous",
+   "Equanimity",
+   "Sangfroid"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "showing careful effort, sound judgement, wide learning or calm control.",
+  "example": "She is (assiduous / erudite / versatile) and known for her discernment; the arduous negotiation demanded (equanimity / sangfroid)."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Fastidious",
+   "Pedantic",
+   "Pernickety"
+  ],
+  "pos": "adjective",
+  "meaning": "overly concerned with small details, rules or standards.",
+  "example": "His (fastidious / pedantic / pernickety) checking slowed the whole process."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Credible",
+   "Tenable",
+   "Evidence",
+   "Fidelity",
+   "Exculpate",
+   "Exoneration",
+   "Unanimous"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "believable, defensible or backed by proof; also being cleared of blame.",
+  "example": "The claim is (credible / tenable) and the evidence supports it; his fidelity to the facts was total, the inquiry exculpated him, and the exoneration was unanimous."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "Untenable",
+   "Purported",
+   "Incredulous",
+   "Credulous",
+   "Cynical",
+   "Perfidious",
+   "Perfidy",
+   "Complicit",
+   "Ambivalent",
+   "Prejudicial"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "not believable, refusing to believe, or breaking trust.",
+  "example": "The defence is (untenable / purported at best); she was incredulous while a credulous public accepted it; his cynical view proved right when the (perfidious / complicit) aide's perfidy came out."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Cogent",
+   "Grandstanding",
+   "Performative",
+   "Affirmation",
+   "Announcement",
+   "Insistence",
+   "Memorandum",
+   "Interrogation",
+   "Caveat",
+   "Litany",
+   "Querulous"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "convincing argument, formal statements, or speaking mainly to be seen.",
+  "example": "His case was cogent, the rest pure (grandstanding / performative) talk; the (affirmation / announcement / memorandum) was read out, his insistence grew, and the interrogation produced a litany of querulous complaints despite one important caveat."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Levy",
+   "Default",
+   "Commodity",
+   "Volatility",
+   "Overheating",
+   "Insolvent",
+   "Sovereign",
+   "Macroeconomic",
+   "Globalisation",
+   "Affordable",
+   "Unaffordable",
+   "Subscription",
+   "Transactional",
+   "Misappropriation",
+   "Optimization"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "terms about money, markets, trade and the wider economy.",
+  "example": "A new (levy / default / commodity) shock triggered volatility; overheating followed, firms turned insolvent, and sovereign debt strained the macroeconomic outlook amid globalisation."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Indigent",
+   "Penurious",
+   "Penury",
+   "Parsimonious",
+   "Prodigal",
+   "Rapacious",
+   "Scarce",
+   "Negligible"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "extremely poor, or unwilling to spend. Prodigal is the opposite — wastefully extravagant; rapacious = aggressively greedy.",
+  "example": "The (indigent / penurious / parsimonious) household had nothing to spare; penury forced the sale, while his prodigal brother squandered a fortune and a rapacious lender took the rest."
+ },
+ {
+  "group": "🏛️ Polity, Government & Civics",
+  "words": [
+   "Franchise",
+   "Suffrage",
+   "Electorate",
+   "Constituency",
+   "Plebiscite",
+   "Gerrymander",
+   "Delimitation",
+   "Registration",
+   "Representation",
+   "Representatives",
+   "Participation",
+   "Grassroots",
+   "Mobilisation"
+  ],
+  "pos": "noun/verb",
+  "meaning": "the right to vote and the machinery of elections and representation.",
+  "example": "Every adult has the (franchise / suffrage); the electorate of each constituency voted in a plebiscite, though delimitation was gerrymandered; registration, participation and grassroots mobilisation decide who the representatives are and how good the representation is."
+ },
+ {
+  "group": "🏛️ Polity, Government & Civics",
+  "words": [
+   "Governance",
+   "Legislation",
+   "Regulation",
+   "Constitution",
+   "Constitutional",
+   "Unconstitutional",
+   "Parliament",
+   "Parliamentary",
+   "Polity",
+   "Jurisprudence",
+   "Impeachment",
+   "Prosecution",
+   "Enforcement",
+   "Administrative",
+   "Institutional",
+   "Institutionalised",
+   "Establishment",
+   "Inspectorate",
+   "Presidential",
+   "Tenet"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "the bodies, rules, offices and processes by which a state is run.",
+  "example": "Good (governance / legislation / regulation) rests on the constitution; parliament debates it, the polity accepts it, and jurisprudence interprets it; impeachment, prosecution and enforcement follow when constitutional limits are broken."
+ },
+ {
+  "group": "🏛️ Polity, Government & Civics",
+  "words": [
+   "Nationalism",
+   "Xenophobia",
+   "Antisemitism",
+   "Diaspora",
+   "Asylum",
+   "Immigration",
+   "Indigenous",
+   "Civilisation",
+   "Radicalization",
+   "Partisanship",
+   "Ideological"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "ideas about who belongs to a nation, who is kept out, and who leads it.",
+  "example": "Rising (nationalism / xenophobia / antisemitism) hardened attitudes; the diaspora sought asylum, immigration dominated debate, and indigenous claims were ignored as radicalization and partisanship grew."
+ },
+ {
+  "group": "🏛️ Polity, Government & Civics",
+  "words": [
+   "Conservative",
+   "Progressive",
+   "Revolutionary",
+   "Maverick",
+   "Iconoclast",
+   "Hegemon",
+   "Gerontocracy",
+   "Envoy",
+   "Geopolitical",
+   "International",
+   "Pariah"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "people and powers defined by their political stance or dominance.",
+  "example": "A (conservative / progressive / revolutionary) wing formed; the maverick iconoclast defied the hegemon, the gerontocracy sent an envoy, and the pariah state was frozen out of geopolitical talks."
+ },
+ {
+  "group": "🤝 Agreement, Unity & Cooperation",
+  "words": [
+   "Rapprochement",
+   "Reconciliation",
+   "Collaboration",
+   "Cooperation",
+   "Cooperative",
+   "Collective",
+   "Acquiesce",
+   "Accommodate",
+   "Concede",
+   "Inclusive",
+   "Relationships",
+   "Hospitality",
+   "Invitation"
+  ],
+  "pos": "noun/verb",
+  "meaning": "working together, giving way, or restoring good relations after trouble.",
+  "example": "The talks produced (rapprochement / reconciliation); (collaboration / cooperation) replaced hostility, both sides acquiesced and conceded ground, and the new cooperative accommodated every stakeholder."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Accelerate",
+   "Facilitate",
+   "Facilitation",
+   "Encroach",
+   "Encroachment",
+   "Inundate",
+   "Contagious",
+   "Pandemic"
+  ],
+  "pos": "verb/noun",
+  "meaning": "to grow, speed up, spread out or push into new ground.",
+  "example": "Reforms (accelerated / facilitated) growth; the (encroachment / spread) was rapid, cheap credit inundated the market, and the contagious optimism went pandemic."
+ },
+ {
+  "group": "🔧 Science, Work & Industry",
+  "words": [
+   "Construction",
+   "Development",
+   "Innovation",
+   "Installations",
+   "Automation",
+   "Connectivity",
+   "Shipbuilding",
+   "Reindustrialised",
+   "Foundation",
+   "Infrastructure",
+   "Acquisition",
+   "Deploy",
+   "Recruitment",
+   "Transformation",
+   "Transformative",
+   "Framework",
+   "Semiconductor",
+   "Cybersecurity",
+   "Irrigation",
+   "Agricultural"
+  ],
+  "pos": "noun/verb",
+  "meaning": "creating, installing or expanding physical and industrial capacity.",
+  "example": "The (construction / development / innovation) drive rebuilt the region; new installations and automation improved connectivity, the yard resumed shipbuilding, and the area was reindustrialised on a firm foundation of infrastructure."
+ },
+ {
+  "group": "⏳ Time, Lateness & Approach",
+  "words": [
+   "Juncture",
+   "Preliminary",
+   "Prevailing",
+   "Prospective",
+   "Trajectory",
+   "Unprecedented",
+   "Anticipatory",
+   "Precedence",
+   "Preparation",
+   "Preservation"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "words marking when something happens or where it falls in an order.",
+  "example": "At this (juncture) the preliminary stage ended; the prevailing view is that the prospective trajectory is upward, which would be unprecedented; anticipatory planning took precedence over preparation."
+ },
+ {
+  "group": "⏳ Time, Lateness & Approach",
+  "words": [
+   "Sporadic",
+   "Peripatetic",
+   "Sedentary",
+   "Occurrence",
+   "Appearance",
+   "Disappearance",
+   "Destination",
+   "Introduction",
+   "Inveterate",
+   "Capricious",
+   "Unpredictable"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "how often or how much something moves or happens.",
+  "example": "Attacks were (sporadic / occasional); the peripatetic inspector kept moving while the sedentary staff stayed put; each occurrence, appearance and disappearance was logged."
+ },
+ {
+  "group": "⭐ Certainty, Importance & Authority",
+  "words": [
+   "Inherent",
+   "Intrinsic",
+   "Innate",
+   "Indispensable",
+   "Requisite",
+   "Cardinal"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "belonging to something by its very nature, or absolutely required.",
+  "example": "Risk is (inherent / intrinsic / innate) in the job; trust is (indispensable / requisite) for progress, and openness is a cardinal principle."
+ },
+ {
+  "group": "📌 Cause, Effect & Consequence",
+  "words": [
+   "Adjacent",
+   "Contiguous",
+   "Contingent",
+   "Dependence",
+   "Implication",
+   "Comprise",
+   "Factor in",
+   "Correspondents",
+   "Alternative",
+   "Circumstances",
+   "Considerations",
+   "Considerable",
+   "Stakeholder",
+   "Manifold"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "lying next to, linked with, or relying on something else.",
+  "example": "The two plots are (adjacent / contiguous); the payout is contingent on audit, the dependence on imports is total, and every implication must be factored in."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Contribution",
+   "Contributions",
+   "Contributing"
+  ],
+  "pos": "noun/verb",
+  "meaning": "something given that becomes part of a larger whole.",
+  "example": "Each member's (contribution / contributions) mattered; every donor contributing to the fund was named."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Apathetic",
+   "Apathy",
+   "Jaded",
+   "Catharsis",
+   "Frustration",
+   "Sentimental",
+   "Empathy"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "feeling nothing, worn out by too much of something, or the release of pent-up emotion.",
+  "example": "Voters have grown (apathetic / jaded); the apathy runs deep, and the verdict brought a strange catharsis after months of frustration."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Enthusiastic",
+   "Confidence",
+   "Aspiration",
+   "Motivation",
+   "Fascination",
+   "Attainable"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "eagerness, self-belief and the drive to achieve something.",
+  "example": "Her (enthusiasm / confidence / aspiration / motivation) carried the team; the fascination with the goal never faded, and the target proved attainable."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Pulchritude",
+   "Mellifluous",
+   "Euphony",
+   "Embellish",
+   "Entertainment",
+   "Performance"
+  ],
+  "pos": "noun/adjective/verb",
+  "meaning": "physically beautiful, sweet to the ear, or made more attractive.",
+  "example": "Her (pulchritude / mellifluous voice) drew crowds; the euphony of the hall was perfect, the stage was embellished, and the entertainment and performance were flawless."
+ },
+ {
+  "group": "🌑 Bad, Harmful & Unpleasant",
+  "words": [
+   "Negligence",
+   "Impunity",
+   "Contaminate",
+   "Inadvertent",
+   "Inappropriate",
+   "Unacceptable",
+   "Unacknowledged",
+   "Profane"
+  ],
+  "pos": "noun/adjective/verb",
+  "meaning": "failing in a duty, or acting in a way that damages, pollutes or offends.",
+  "example": "The (negligence / impunity) was inexcusable; officials contaminated the site, acted (inadvertently / inappropriately), and used profane, unacceptable language that went unacknowledged."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Flounder",
+   "Underprepared",
+   "Underestimate",
+   "Lopsided",
+   "Inequality",
+   "Inexperience",
+   "Maladroit",
+   "Unpopularity",
+   "Unfriendliest",
+   "Nominal",
+   "Disability"
+  ],
+  "pos": "noun/adjective/verb",
+  "meaning": "falling short, being unfairly small, or failing to cope.",
+  "example": "The team (floundered / was underprepared); we (underestimate / undervalue) the gap; the lopsided deal deepened inequality, and his inexperience, maladroit handling and the resulting unpopularity made him the unfriendliest figure in the room, with only nominal support."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Resignation",
+   "Abdication"
+  ],
+  "pos": "noun",
+  "meaning": "formally stepping down from a position or right.",
+  "example": "His (resignation / abdication) ended the crisis."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Vie",
+   "Bid",
+   "Competition",
+   "Competitive"
+  ],
+  "pos": "verb/noun",
+  "meaning": "to try hard to win or obtain something against others.",
+  "example": "Firms (vie / compete) for the contract; the bid was strong, and the competition remained fiercely competitive."
+ },
+ {
+  "group": "🔍 Examination, Judgement & Standards",
+  "words": [
+   "Survey",
+   "Sample",
+   "Data",
+   "Ratio",
+   "Demographic",
+   "Traceability",
+   "Examination",
+   "Linear",
+   "Surveillance"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "gathering, counting, tracking and studying information.",
+  "example": "The (survey / sample / data / ratio) showed a clear pattern; the demographic breakdown, traceability of each figure and the examination method were all checked."
+ },
+ {
+  "group": "🔧 Science, Work & Industry",
+  "words": [
+   "Scientific",
+   "Computational",
+   "Algorithmic",
+   "Technological",
+   "Neuroscience",
+   "Anthropology",
+   "University",
+   "Mythological",
+   "Testosterone",
+   "Masculinity",
+   "Breastfeeding",
+   "Environmental",
+   "Environmentalist"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "branches of study and the language of science and technology.",
+  "example": "The (scientific / computational / algorithmic / technological) work spanned neuroscience, anthropology and mythological studies at the university."
+ },
+ {
+  "group": "🔧 Science, Work & Industry",
+  "words": [
+   "Professional",
+   "Professionals",
+   "Occupation",
+   "Occupational",
+   "Apprenticeship",
+   "Apprenticeships",
+   "Manufacturers",
+   "Attendance",
+   "Reputation",
+   "Conventional",
+   "Individual",
+   "Adolescent",
+   "Responsibility",
+   "Responsible",
+   "Recognition"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "jobs, the people who do them, and the training that leads to them.",
+  "example": "The (professional / professionals) in each occupation trained through an (apprenticeship / apprenticeships); manufacturers reported strong attendance, and the occupational standard protected their reputation."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Extraordinary",
+   "Existential",
+   "Evacuation",
+   "Ammunition"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "how far something reaches, or how far outside the ordinary it falls.",
+  "example": "The response was (extraordinary / existential) in scale; the evacuation used all the ammunition and manpower available."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Abate",
+   "Ebb",
+   "Recede",
+   "Wane",
+   "Dwindle",
+   "Diminish"
+  ],
+  "pos": "verb",
+  "meaning": "to gradually become less, smaller or weaker",
+  "example": "As the crisis passed, public anger began to (abate / ebb / recede / wane / dwindle / diminish)."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Curb",
+   "Curtail",
+   "Whittle",
+   "Attenuate"
+  ],
+  "pos": "verb",
+  "meaning": "to deliberately cut back, limit or reduce something",
+  "example": "New rules were framed to (curb / curtail / attenuate) wasteful spending; the panel will whittle the list down to five names."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Allay",
+   "Alleviate",
+   "Mitigate",
+   "Ease",
+   "Dampen"
+  ],
+  "pos": "verb",
+  "meaning": "to make a fear, pain or problem less severe",
+  "example": "The package was meant to (allay / alleviate / mitigate / ease / dampen) public anxiety."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Deteriorate",
+   "Languish",
+   "Wither",
+   "Unravel"
+  ],
+  "pos": "verb",
+  "meaning": "to get steadily worse or fall apart",
+  "example": "Without funding the scheme began to (deteriorate / wither / unravel); thousands languish in overcrowded jails."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Erode",
+   "Undermine",
+   "Subvert",
+   "Cripple",
+   "Debilitate",
+   "Enervate"
+  ],
+  "pos": "verb",
+  "meaning": "to weaken or damage something, often gradually or secretly",
+  "example": "Corruption has (eroded / undermined / subverted / crippled / debilitated / enervated) public trust in the institution. Note: subvert = weaken secretly to overthrow; cripple = damage severely."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Plummet",
+   "Plunge",
+   "Slump",
+   "Lag"
+  ],
+  "pos": "verb",
+  "meaning": "to fall fast, steeply or behind",
+  "example": "Exports (plummeted / plunged / slumped) after the ban; India continues to lag behind its neighbours on this index."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Decline"
+  ],
+  "pos": "verb",
+  "meaning": "sense 1: to go down or decrease",
+  "example": "Enrolment has declined for the third year running."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Decline"
+  ],
+  "pos": "verb",
+  "meaning": "sense 2: to politely refuse",
+  "example": "The minister declined to comment on the report."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Contraction",
+   "Deflation",
+   "Depreciation",
+   "Depression",
+   "Stagnation"
+  ],
+  "pos": "noun",
+  "meaning": "an economic shrinking, fall or standstill",
+  "example": "Contraction = output shrinking; deflation = a general fall in prices; depreciation = a fall in the value of a currency or asset; depression = a very deep, long collapse; stagnation = a long period with no growth at all."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Feeble",
+   "Fragile",
+   "Tenuous",
+   "Vulnerable"
+  ],
+  "pos": "adjective",
+  "meaning": "weak, easily broken or easily harmed",
+  "example": "The ceasefire rests on a (feeble / fragile / tenuous) understanding; poor households are the most vulnerable to price shocks."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Moribund",
+   "Inert",
+   "Languid",
+   "Lethargic",
+   "Tepid",
+   "Halfhearted",
+   "Perfunctory"
+  ],
+  "pos": "adjective",
+  "meaning": "lacking energy, effort or life",
+  "example": "The response was (inert / languid / lethargic / tepid / halfhearted / perfunctory); the once-great mill is now moribund. Note: moribund = about to die out completely."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Lethargy",
+   "Lassitude",
+   "Inertia",
+   "Malaise"
+  ],
+  "pos": "noun",
+  "meaning": "a state of tiredness, sluggishness or unwillingness to act",
+  "example": "A deep (lethargy / lassitude / inertia / malaise) has settled over the bureaucracy. Note: inertia = resistance to change; malaise = a vague sense that something is unwell."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Mar",
+   "Dent",
+   "Flaw"
+  ],
+  "pos": "noun/verb",
+  "meaning": "a fault that spoils something, or to spoil it",
+  "example": "The riots (marred / dented) the state's image; a single flaw in the design brought the bridge down."
+ },
+ {
+  "group": "📉 Decline, Fall & Weaken",
+  "words": [
+   "Detachment"
+  ],
+  "pos": "noun",
+  "meaning": "being emotionally distant; also a small group of troops sent on a separate task",
+  "example": "He described the tragedy with clinical detachment; a detachment of soldiers was sent to the border."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Affluent",
+   "Opulent",
+   "Lucrative"
+  ],
+  "pos": "adjective",
+  "meaning": "rich, or producing wealth",
+  "example": "They live in an (affluent / opulent) neighbourhood; software turned out to be a lucrative business. Note: opulent stresses visible luxury; lucrative = profit-making."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Prosperity"
+  ],
+  "pos": "noun",
+  "meaning": "the state of being rich and doing well",
+  "example": "Two decades of reform brought unprecedented prosperity."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Magnate",
+   "Billionaires",
+   "Plutocracy"
+  ],
+  "pos": "noun",
+  "meaning": "the very rich, and rule by them",
+  "example": "A steel magnate and two billionaires bankrolled the campaign; critics call the system a plutocracy."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Destitute"
+  ],
+  "pos": "adjective",
+  "meaning": "extremely poor, lacking even food and shelter",
+  "example": "The floods left thousands destitute."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Frugal",
+   "Husbandry"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "careful, non-wasteful management of money and resources",
+  "example": "A frugal household saves where it can; careful husbandry of water made the district drought-proof."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Squander",
+   "Fritter",
+   "Profligate",
+   "Cupidity",
+   "Venal",
+   "Embezzle"
+  ],
+  "pos": "verb/adjective",
+  "meaning": "to waste money, or greed and corruption over money",
+  "example": "The board (squandered / frittered away) a decade of profits; profligate spending emptied the treasury; cupidity and venal officials let one clerk embezzle the pension fund. Note: embezzle = steal money you were trusted with."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Largesse",
+   "Subsidy",
+   "Bailout",
+   "Redistribution",
+   "Remittance",
+   "Reparations",
+   "Allocate"
+  ],
+  "pos": "noun/verb",
+  "meaning": "money handed out, transferred or set aside",
+  "example": "Allocate = to set money aside for a purpose; subsidy = government money to lower a cost; bailout = emergency rescue money for a failing firm or bank; largesse = generous giving by the powerful; redistribution = sharing wealth more evenly through tax and welfare; remittance = money sent home by workers abroad; reparations = money paid for war damage."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Arrears",
+   "Indebtedness",
+   "Creditor",
+   "Leverage",
+   "Liquidity",
+   "Coffer"
+  ],
+  "pos": "noun",
+  "meaning": "debt, what is owed, and available money",
+  "example": "Arrears = overdue payments; indebtedness = the burden of owing a lot; a creditor is the one owed; leverage = borrowed money used to chase bigger profits; liquidity = how easily assets turn into spendable cash; the state's coffers are its store of funds."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Fiscal",
+   "Monetary",
+   "Neoliberalism",
+   "Industrialisation"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "terms describing economic policy and economic change",
+  "example": "Fiscal policy covers government spending and taxes, while monetary policy covers money supply and interest rates; neoliberalism favours free markets and trade liberalisation; industrialisation is the shift from a pre-industrial to an industrial economy."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Recovery",
+   "Resurgence"
+  ],
+  "pos": "noun",
+  "meaning": "a rise or return to health after a fall",
+  "example": "The data point to a (recovery / resurgence) in rural demand."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Livelihood"
+  ],
+  "pos": "noun",
+  "meaning": "the way a person earns a living",
+  "example": "The ban destroyed the livelihood of thousands of weavers."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Ostentatious"
+  ],
+  "pos": "adjective",
+  "meaning": "showing off wealth to impress others",
+  "example": "His ostentatious wedding drew sharp criticism."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Generous"
+  ],
+  "pos": "adjective",
+  "meaning": "willing to give freely (opposite: stingy)",
+  "example": "A generous donor funded the entire wing."
+ },
+ {
+  "group": "💰 Wealth, Money & Economy",
+  "words": [
+   "Voracious"
+  ],
+  "pos": "adjective",
+  "meaning": "wanting a very large amount; greedy or intensely eager",
+  "example": "The country has a voracious appetite for imported oil."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Nascent",
+   "Fledgling",
+   "Outset"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "at the very beginning; new and inexperienced",
+  "example": "The (nascent / fledgling) industry needs protection; the flaw was obvious from the outset."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Usher",
+   "Kindle",
+   "Spark",
+   "Prompt",
+   "Galvanise",
+   "Mobilise",
+   "Catalyst"
+  ],
+  "pos": "verb/noun",
+  "meaning": "to set something off or stir people into action",
+  "example": "The verdict (sparked / prompted / kindled) protests and (galvanised / mobilised) the opposition; it ushered in a new era and became the catalyst for reform."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Watershed",
+   "Paradigm",
+   "Transition",
+   "Trend",
+   "Baseline"
+  ],
+  "pos": "noun",
+  "meaning": "a turning point, model or direction of change",
+  "example": "1991 was a watershed year that marked a paradigm shift; the transition to renewables is the clear trend, measured against a 2005 baseline."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Amend",
+   "Adaptation",
+   "Overhaul",
+   "Intervention"
+  ],
+  "pos": "noun/verb",
+  "meaning": "a change made to fix or improve something",
+  "example": "Parliament may amend the Act; the tax system needs a complete overhaul; adaptation to a warmer climate now requires state intervention."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Volatile",
+   "Mercurial",
+   "Instability",
+   "Vicissitude"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "changing suddenly and unpredictably",
+  "example": "Oil prices remain (volatile / unstable); his mercurial temper unsettled the cabinet; instability and the vicissitudes of politics stalled the project."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Entrench",
+   "Hidebound",
+   "Persist",
+   "Obdurate",
+   "Obstinate",
+   "Intransigent",
+   "Adamant"
+  ],
+  "pos": "adjective/verb",
+  "meaning": "refusing to change, or fixed so firmly it cannot be changed",
+  "example": "Caste privilege is deeply entrenched; a hidebound bureaucracy resists reform and old habits persist; the union stayed (obdurate / obstinate / intransigent / adamant) through eight rounds of talks."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Heterodox"
+  ],
+  "pos": "adjective",
+  "meaning": "not following accepted or usual beliefs",
+  "example": "She defended a heterodox view of growth."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Procrastinate"
+  ],
+  "pos": "verb",
+  "meaning": "to keep putting off what must be done",
+  "example": "The ministry procrastinated for years before acting."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Tentative"
+  ],
+  "pos": "adjective",
+  "meaning": "not final or certain; a first attempt that may change",
+  "example": "The two sides reached a tentative agreement."
+ },
+ {
+  "group": "🌱 Beginnings, Change & Turning Points",
+  "words": [
+   "Opportunities",
+   "Possibility",
+   "Feasibility",
+   "Feasible",
+   "Viable"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "a chance, or whether something can practically be done",
+  "example": "Reform opened up new opportunities and raised the possibility of growth; a feasibility study found the plan (feasible / viable)."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Belligerent",
+   "Pugnacious",
+   "Truculent"
+  ],
+  "pos": "adjective",
+  "meaning": "aggressive and eager to fight or argue",
+  "example": "He turned (belligerent / pugnacious / truculent) when questioned."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Hostilities",
+   "Discord",
+   "Opposition",
+   "Grievance"
+  ],
+  "pos": "noun",
+  "meaning": "open fighting, disagreement or complaint",
+  "example": "Hostilities resumed along the border; discord within the party grew as the opposition seized on a long-standing grievance."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Turmoil",
+   "Upheaval",
+   "Tumultuous",
+   "Turbulent"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "great disorder, confusion or violent change",
+  "example": "The country passed through (turmoil / upheaval) in a (tumultuous / turbulent) decade."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Debacle",
+   "Travesty"
+  ],
+  "pos": "noun",
+  "meaning": "a humiliating failure or a mockery of the real thing",
+  "example": "The rollout was a debacle; the inquiry was a travesty of justice."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Impasse",
+   "Stalemate"
+  ],
+  "pos": "noun",
+  "meaning": "a situation where neither side can move forward",
+  "example": "Talks reached an (impasse / stalemate)."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Diplomacy",
+   "Neutrality",
+   "Proxy",
+   "Compromise"
+  ],
+  "pos": "noun",
+  "meaning": "managing conflict without direct war",
+  "example": "Diplomacy = managing relations between states through talks; neutrality = refusing to take sides; a proxy is a group fighting on another's behalf; a compromise is a deal where each side gives something up (compromise can also mean to weaken or expose something)."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Factional",
+   "Polarise",
+   "Polarisation",
+   "Schism",
+   "Partition",
+   "Secession",
+   "Cleave"
+  ],
+  "pos": "verb/noun/adjective",
+  "meaning": "splitting into rival or separate parts",
+  "example": "Factional fighting (polarised / cleaved) the party; the polarisation deepened into an open schism, echoing the partition of 1947 and later demands for secession."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Kowtow",
+   "Obsequious"
+  ],
+  "pos": "verb/adjective",
+  "meaning": "behaving in a weak, servile way to please the powerful",
+  "example": "Officials kowtow to the minister; his obsequious praise embarrassed everyone."
+ },
+ {
+  "group": "⚔️ Conflict, Crisis & Disorder",
+  "words": [
+   "Schadenfreude"
+  ],
+  "pos": "noun",
+  "meaning": "pleasure taken in another person's misfortune",
+  "example": "There was open schadenfreude at the rival firm's collapse."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Adept",
+   "Adroit",
+   "Deft",
+   "Nimble"
+  ],
+  "pos": "adjective",
+  "meaning": "skilful, clever and quick",
+  "example": "She is (adept / adroit / deft / nimble) at handling hostile questions."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Acumen"
+  ],
+  "pos": "noun",
+  "meaning": "the ability to think and judge quickly and well",
+  "example": "Her business acumen saved the firm."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Sagacious",
+   "Sage",
+   "Prudent",
+   "Nuanced"
+  ],
+  "pos": "adjective",
+  "meaning": "wise and showing good judgement",
+  "example": "It was a (sagacious / sage / prudent) decision; his nuanced reading of the data impressed the panel. Note: nuanced = alive to fine distinctions."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Meticulous",
+   "Painstaking",
+   "Diligent",
+   "Systematic",
+   "Scrutiny"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "careful, thorough and methodical",
+  "example": "The audit was (meticulous / painstaking / systematic) and the team diligent; every claim was put under close scrutiny."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Systematically"
+  ],
+  "pos": "adverb",
+  "meaning": "in an organised, methodical way",
+  "example": "Records were systematically destroyed."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Cautious",
+   "Wary"
+  ],
+  "pos": "adjective",
+  "meaning": "careful about possible danger",
+  "example": "Investors remain (cautious / wary) about the new rules."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Inept"
+  ],
+  "pos": "adjective",
+  "meaning": "lacking skill; clumsy and incompetent",
+  "example": "The rescue effort was hopelessly inept."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Heuristic",
+   "Estimate",
+   "Variable",
+   "Control",
+   "Empirical",
+   "Correlate",
+   "Correlation",
+   "Consistent"
+  ],
+  "pos": "noun/verb/adjective",
+  "meaning": "the vocabulary of testing, measuring and reasoning from evidence",
+  "example": "A heuristic is a rough rule of thumb; an estimate is a careful guess; a variable is a factor that changes and is measured; a control group gets no treatment and is used for comparison; empirical claims rest on observation rather than theory; two things correlate when they move together, and that link is a correlation; results are consistent when they hold from test to test."
+ },
+ {
+  "group": "🎯 Skill, Care & Wisdom",
+  "words": [
+   "Ontological"
+  ],
+  "pos": "adjective",
+  "meaning": "concerning the nature of being and what really exists",
+  "example": "The debate turned on an ontological question about what a nation is."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Ardent",
+   "Zealous",
+   "Vociferous"
+  ],
+  "pos": "adjective",
+  "meaning": "passionate and forceful in support of something",
+  "example": "He is an (ardent / zealous / vociferous) defender of press freedom. Note: vociferous stresses loudness."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Zeal"
+  ],
+  "pos": "noun",
+  "meaning": "great energy and enthusiasm for a cause",
+  "example": "She campaigned with missionary zeal."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Vibrant",
+   "Kinetic",
+   "Robust"
+  ],
+  "pos": "adjective",
+  "meaning": "full of energy, movement and strength",
+  "example": "A (vibrant / kinetic) start-up scene and robust demand lifted the city."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Invigorate"
+  ],
+  "pos": "verb",
+  "meaning": "to give fresh energy to",
+  "example": "The new coach invigorated a tired side."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Captivate"
+  ],
+  "pos": "verb",
+  "meaning": "to attract and hold someone's attention completely",
+  "example": "Her speech captivated the audience."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Sanguine",
+   "Halcyon"
+  ],
+  "pos": "adjective",
+  "meaning": "hopeful, or calm and happy",
+  "example": "He stayed sanguine about the outcome; they look back on the halcyon days of the 1990s."
+ },
+ {
+  "group": "⚡ Strong Feeling, Energy & Zeal",
+  "words": [
+   "Daunt",
+   "Vex",
+   "Hubris"
+  ],
+  "pos": "verb/noun",
+  "meaning": "to discourage or trouble someone, or the pride that invites a fall",
+  "example": "The scale of the task did not daunt her, though delays continued to vex the team; the collapse was a classic case of hubris."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Authentic",
+   "bona fide"
+  ],
+  "pos": "adjective",
+  "meaning": "genuine and real, not fake",
+  "example": "The manuscript is (authentic / bona fide)."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Immaculate",
+   "Exemplary",
+   "Paragon",
+   "Incomparable"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "faultless; a perfect model of excellence",
+  "example": "His record is (immaculate / exemplary); she is a paragon of public service and, in her field, incomparable."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Legitimacy",
+   "de jure"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "rightful and lawful standing",
+  "example": "The government's legitimacy was questioned; de jure the office is elected, in practice it is not."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Coherent",
+   "Comprehensive",
+   "Germane",
+   "Pertinent"
+  ],
+  "pos": "adjective",
+  "meaning": "clear, complete and to the point",
+  "example": "We need a (coherent / comprehensive) policy; only (germane / pertinent) evidence was admitted."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Illusory",
+   "Ostensible",
+   "Elusive"
+  ],
+  "pos": "adjective",
+  "meaning": "not what it appears to be, or hard to pin down",
+  "example": "The gains proved (illusory / ostensible); a lasting settlement remains elusive."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Brusque"
+  ],
+  "pos": "adjective",
+  "meaning": "abrupt and rude in manner",
+  "example": "His brusque reply ended the meeting."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Pusillanimous"
+  ],
+  "pos": "adjective",
+  "meaning": "cowardly and lacking courage",
+  "example": "The pusillanimous response emboldened the attackers."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Irresponsibility"
+  ],
+  "pos": "noun",
+  "meaning": "the state of not being answerable for one's actions",
+  "example": "The report blamed official irresponsibility for the lapse."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Importance",
+   "Endorsement"
+  ],
+  "pos": "noun",
+  "meaning": "worth or note, and public backing",
+  "example": "The court stressed the importance of the right; the campaign won a celebrity endorsement."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Accidentally",
+   "Unintentionally"
+  ],
+  "pos": "adverb",
+  "meaning": "without meaning to",
+  "example": "The file was (accidentally / unintentionally) deleted."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Controversially",
+   "Horrendously",
+   "Excruciatingly",
+   "Architecturally"
+  ],
+  "pos": "adverb",
+  "meaning": "adverbs of manner formed from common editorial adjectives",
+  "example": "Controversially, the bench went further; the scheme was horrendously mismanaged; progress was excruciatingly slow; architecturally, the building is a landmark."
+ },
+ {
+  "group": "🌟 Quality, Character & Behaviour",
+  "words": [
+   "Sanitation",
+   "Eligibility"
+  ],
+  "pos": "noun",
+  "meaning": "public-service terms: waste management, and the right to qualify",
+  "example": "Sanitation coverage rose sharply; eligibility for the scheme was widened."
+ },
+ {
+  "group": "🧗 Problems, Obstacles & Setbacks",
+  "words": [
+   "Hurdle",
+   "Setback"
+  ],
+  "pos": "noun",
+  "meaning": "a problem that blocks or delays progress",
+  "example": "The verdict is a major (hurdle / setback) for the project."
+ },
+ {
+  "group": "🧗 Problems, Obstacles & Setbacks",
+  "words": [
+   "Adversity",
+   "Plight",
+   "Predicament",
+   "Quagmire",
+   "Morass",
+   "Imbroglio",
+   "Conundrum"
+  ],
+  "pos": "noun",
+  "meaning": "a difficult, messy or confusing situation",
+  "example": "The migrants' plight worsened; the government is stuck in a (quagmire / morass / imbroglio / predicament) of its own making and faces the conundrum of how to exit; she rose despite great adversity."
+ },
+ {
+  "group": "🧗 Problems, Obstacles & Setbacks",
+  "words": [
+   "Grapple",
+   "Tackle",
+   "Extricate"
+  ],
+  "pos": "verb",
+  "meaning": "to struggle with and deal with a difficulty",
+  "example": "The state must (grapple with / tackle) rising debt and extricate itself from bad contracts."
+ },
+ {
+  "group": "🧗 Problems, Obstacles & Setbacks",
+  "words": [
+   "Bane",
+   "Disadvantages"
+  ],
+  "pos": "noun",
+  "meaning": "a cause of trouble; a drawback",
+  "example": "Corruption is the bane of the system; the disadvantages of the scheme soon became clear."
+ },
+ {
+  "group": "🧗 Problems, Obstacles & Setbacks",
+  "words": [
+   "Reprieve",
+   "Respite"
+  ],
+  "pos": "noun",
+  "meaning": "a short break or relief from trouble",
+  "example": "The rain brought a brief (reprieve / respite) from the heat."
+ },
+ {
+  "group": "🧗 Problems, Obstacles & Setbacks",
+  "words": [
+   "Jettison"
+  ],
+  "pos": "verb",
+  "meaning": "to throw away or abandon something",
+  "example": "The party jettisoned the proposal after the backlash."
+ },
+ {
+  "group": "🧗 Problems, Obstacles & Setbacks",
+  "words": [
+   "Demarcate"
+  ],
+  "pos": "verb",
+  "meaning": "to mark out boundaries or limits",
+  "example": "The order demarcates the forest area."
+ },
+ {
+  "group": "🪢 Unity, Sameness & Division",
+  "words": [
+   "Homogeneous",
+   "Concurrent",
+   "Discrete"
+  ],
+  "pos": "adjective",
+  "meaning": "alike, simultaneous, or separately distinct",
+  "example": "The sample was homogeneous; the two trials were concurrent; the syllabus is split into discrete units."
+ },
+ {
+  "group": "🪢 Unity, Sameness & Division",
+  "words": [
+   "Juxtapose"
+  ],
+  "pos": "verb",
+  "meaning": "to place things side by side for comparison",
+  "example": "The film juxtaposes rural poverty with urban excess."
+ },
+ {
+  "group": "🧱 Real, Concrete & Practical",
+  "words": [
+   "Tangible",
+   "Pragmatic"
+  ],
+  "pos": "adjective",
+  "meaning": "real and practical rather than theoretical",
+  "example": "Voters want tangible results and a pragmatic approach."
+ },
+ {
+  "group": "🪞 Difference, Comparison & Opposite",
+  "words": [
+   "Antithesis",
+   "Converse"
+  ],
+  "pos": "noun",
+  "meaning": "the exact opposite of something",
+  "example": "His conduct is the (antithesis / converse) of everything the office stands for."
+ },
+ {
+  "group": "🪞 Difference, Comparison & Opposite",
+  "words": [
+   "Difference"
+  ],
+  "pos": "noun",
+  "meaning": "the quality of being unlike; a disparity",
+  "example": "The difference between the two states is stark."
+ },
+ {
+  "group": "🪞 Difference, Comparison & Opposite",
+  "words": [
+   "Dwarf"
+  ],
+  "pos": "verb",
+  "meaning": "to make something else look small by comparison",
+  "example": "The new plant dwarfs every rival in the region."
+ },
+ {
+  "group": "🗨️ Talkative, Loud & Wordy",
+  "words": [
+   "Garrulous",
+   "Loquacious"
+  ],
+  "pos": "adjective",
+  "meaning": "talking far too much",
+  "example": "A (garrulous / loquacious) witness held up the hearing."
+ },
+ {
+  "group": "🗨️ Talkative, Loud & Wordy",
+  "words": [
+   "Bombastic",
+   "Grandiloquent",
+   "Turgid",
+   "Florid"
+  ],
+  "pos": "adjective",
+  "meaning": "high-sounding, inflated and empty in language",
+  "example": "The speech was (bombastic / grandiloquent / turgid / florid) but said nothing new."
+ },
+ {
+  "group": "🗃️ Catch, Hold & Seize",
+  "words": [
+   "Nab"
+  ],
+  "pos": "verb",
+  "meaning": "to catch or arrest someone",
+  "example": "Police nabbed the suspect at the airport."
+ },
+ {
+  "group": "🗃️ Catch, Hold & Seize",
+  "words": [
+   "cap/cept",
+   "ten/tain",
+   "duc/duct",
+   "fract/frag",
+   "de-",
+   "vac"
+  ],
+  "pos": "root",
+  "meaning": "word roots and prefixes that build many editorial words",
+  "example": "cap/cept = take (capture, accept); ten/tain = hold (retain, contain); duc/duct = lead (conduct, induce); fract/frag = break (fracture, fragment); de- = down or remove (decrease, devalue); vac = empty (vacant, evacuate)."
+ },
+ {
+  "group": "🔺 Highest & Lowest Points",
+  "words": [
+   "Zenith",
+   "Heyday",
+   "Culminate"
+  ],
+  "pos": "noun/verb",
+  "meaning": "the highest or most successful point",
+  "example": "The party was at its (zenith / heyday) in 1984; the protests culminated in a march on the capital."
+ },
+ {
+  "group": "🔺 Highest & Lowest Points",
+  "words": [
+   "Nadir"
+  ],
+  "pos": "noun",
+  "meaning": "the lowest or worst point",
+  "example": "Relations between the two countries hit their nadir that year."
+ },
+ {
+  "group": "🌑 Bad, Harmful & Unpleasant",
+  "words": [
+   "Futile"
+  ],
+  "pos": "adjective",
+  "meaning": "useless because it cannot work",
+  "example": "Further talks would be futile."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Hamper",
+   "Hinder",
+   "Impede",
+   "Stymie",
+   "Thwart",
+   "Derail",
+   "Disrupt"
+  ],
+  "pos": "verb",
+  "meaning": "to block, slow down or spoil something so it cannot go forward",
+  "example": "Bad roads (hamper / hinder / impede / stymie / thwart) relief work; protesters tried to (derail / disrupt) the talks."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Avert",
+   "Forestall",
+   "Preclude",
+   "Obviate",
+   "Deter"
+  ],
+  "pos": "verb",
+  "meaning": "to act in time so that something bad never happens; *deter* = to put someone off by fear of consequences, *obviate* = to remove the need for something",
+  "example": "Early warning helped (avert / forestall / preclude) a famine; heavy fines (deter) offenders; a good design (obviates) the need for repairs."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Halt",
+   "Stall",
+   "Stem",
+   "Throttle",
+   "Quell",
+   "Subdue"
+  ],
+  "pos": "verb",
+  "meaning": "to stop, hold back or bring under control, sometimes by force; *quell / subdue* = put down resistance",
+  "example": "Troops moved to (halt / stem / quell / subdue) the riot; red tape (stalls / throttles) new projects."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Blockade",
+   "Embargo",
+   "Moratorium",
+   "Interdict"
+  ],
+  "pos": "noun",
+  "meaning": "an official ban, sealing-off or temporary stop on trade, movement or an activity; *interdict* is also used as a verb = to stop officially",
+  "example": "The council imposed a (blockade / embargo / moratorium) on new mining; patrols (interdict) smuggled goods."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Repression",
+   "Subjugate",
+   "Yoke",
+   "Authoritarianism",
+   "Totalitarianism",
+   "Authoritarian",
+   "Regime"
+  ],
+  "pos": "noun",
+  "meaning": "harsh control that crushes people's freedom; *authoritarian* = a ruler demanding total obedience, *regime* = the ruling government itself",
+  "example": "Under the (regime), (repression) and the (yoke) of censorship grew; (authoritarianism / totalitarianism) leaves no room for dissent; the army moved to (subjugate) the region."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Docile",
+   "Mollycoddle",
+   "Complacent",
+   "Indolent"
+  ],
+  "pos": "adjective",
+  "meaning": "easily controlled, over-protected or too relaxed to act; *mollycoddle* is a verb = to pamper",
+  "example": "A (docile) workforce asks no questions; parents who (mollycoddle) children raise (complacent / indolent) adults."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Obfuscate",
+   "Obscure",
+   "Opaque",
+   "Nebulous",
+   "Vague",
+   "Ambiguous",
+   "Equivocal"
+  ],
+  "pos": "adjective",
+  "meaning": "unclear, hazy or hard to see through; *obfuscate* is a verb = to make unclear on purpose, *equivocal* = deliberately vague to avoid commitment",
+  "example": "The reply was (vague / ambiguous / nebulous / equivocal); the accounts stay (opaque / obscure) because officials (obfuscate) the figures."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Cumbersome",
+   "Intractable",
+   "Wayward",
+   "Fractious",
+   "Relentless"
+  ],
+  "pos": "adjective",
+  "meaning": "hard to handle, hard to solve or impossible to stop",
+  "example": "The (cumbersome) rulebook makes an (intractable) problem worse; a (wayward / fractious) coalition faced (relentless) pressure."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Deplete",
+   "Forfeit",
+   "Cede",
+   "Capitulate",
+   "Abandon"
+  ],
+  "pos": "verb",
+  "meaning": "to use up, give up or surrender something; *deplete* = to drain a stock, *forfeit* = to lose as a penalty",
+  "example": "Drought (depletes) reserves; the club had to (forfeit) the match; rebels chose to (cede / capitulate) rather than fight on, and (abandon) their posts."
+ },
+ {
+  "group": "🚧 Block, Hinder & Suppress",
+  "words": [
+   "Interregnum",
+   "Hiatus",
+   "Ceasefire",
+   "Cancellation"
+  ],
+  "pos": "noun",
+  "meaning": "a pause, gap or break in an ongoing activity or rule",
+  "example": "A three-month (hiatus / interregnum) followed the (cancellation) of the session; both sides agreed to a (ceasefire)."
+ },
+ {
+  "group": "🗯️ Criticism & Condemnation",
+  "words": [
+   "Admonish",
+   "Berate",
+   "Lambast",
+   "Lambaste",
+   "Harangue",
+   "Slam",
+   "Censure",
+   "Condemn",
+   "Deplore"
+  ],
+  "pos": "verb",
+  "meaning": "to scold, attack or officially blame someone strongly; *censure* is the most formal, *admonish* the mildest",
+  "example": "The court (admonished / berated / lambasted / lambaste / slammed / censured / condemned / deplored) the delay; he (harangued) the crowd for an hour."
+ },
+ {
+  "group": "🗯️ Criticism & Condemnation",
+  "words": [
+   "Denigrate",
+   "Vilify",
+   "Malign",
+   "Calumny",
+   "Invective",
+   "Obloquy",
+   "Opprobrium",
+   "Tirade"
+  ],
+  "pos": "noun",
+  "meaning": "abusive speech, or the public disgrace it brings; *denigrate / vilify / malign* are verbs = to run down unfairly, *calumny* = a false damaging statement, *obloquy / opprobrium* = harsh public shaming",
+  "example": "The campaign was pure (calumny / invective / obloquy / opprobrium), a (tirade) meant to (denigrate / vilify / malign) a rival."
+ },
+ {
+  "group": "🗯️ Criticism & Condemnation",
+  "words": [
+   "Scathing",
+   "Vitriolic",
+   "Acrimonious",
+   "Indictment"
+  ],
+  "pos": "adjective",
+  "meaning": "bitterly harsh in criticism; *indictment* is a noun = a formal charge or a damning verdict on something",
+  "example": "The (scathing / vitriolic) report followed an (acrimonious) debate and reads as an (indictment) of the whole scheme."
+ },
+ {
+  "group": "🗯️ Criticism & Condemnation",
+  "words": [
+   "Notorious",
+   "Reprehensible",
+   "Egregious",
+   "Flagrant",
+   "Glaring",
+   "Heinous",
+   "Iniquity"
+  ],
+  "pos": "adjective",
+  "meaning": "openly and shockingly bad, deserving blame; *iniquity* is a noun = great wickedness or injustice",
+  "example": "A (notorious / reprehensible / egregious / flagrant / glaring / heinous) breach of duty exposed the (iniquity) of the system."
+ },
+ {
+  "group": "🗯️ Criticism & Condemnation",
+  "words": [
+   "Culpable",
+   "Accountability",
+   "Onus",
+   "Obligation",
+   "Absolve",
+   "Exonerate",
+   "Vindicate"
+  ],
+  "pos": "adjective",
+  "meaning": "to do with being blamed or cleared of blame; *culpable* = at fault, *absolve / exonerate / vindicate* are verbs = to clear someone",
+  "example": "Officials were found (culpable) and (accountability) followed; the (onus) and (obligation) lay with the ministry, but the inquiry later (absolved / exonerated / vindicated) the staff."
+ },
+ {
+  "group": "🗯️ Criticism & Condemnation",
+  "words": [
+   "Impudent",
+   "Brazen",
+   "Boorish",
+   "Surly",
+   "Petulant",
+   "Obtuse",
+   "Voluble"
+  ],
+  "pos": "adjective",
+  "meaning": "rude, ill-mannered or unpleasant in manner; *voluble* = talking non-stop, *obtuse* = slow to understand",
+  "example": "His (impudent / brazen / boorish / surly / petulant) reply showed him to be (obtuse); a (voluble) speaker filled the rest of the hour."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "Disparity",
+   "Discrepancy",
+   "Deviation",
+   "Inconsistencies",
+   "Gulf",
+   "Fissure",
+   "Lacuna",
+   "Margin",
+   "Margin of error",
+   "Outlier"
+  ],
+  "pos": "noun",
+  "meaning": "a gap, mismatch or difference between things that should match; *lacuna* = a missing part in a law or argument, *outlier* = a value far from the rest",
+  "example": "The (disparity / discrepancy / gulf / fissure) between the two figures was clear; auditors flagged (deviation), (inconsistencies), a (lacuna) in the rules, a wide (margin) / (margin of error), and one (outlier)."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "Disparate",
+   "Discordant",
+   "Contentious",
+   "Tussle"
+  ],
+  "pos": "adjective",
+  "meaning": "clashing or likely to cause conflict; *tussle* is a noun = a struggle for control",
+  "example": "A (disparate / discordant) alliance took up the (contentious) bill, and a long (tussle) followed."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "Defy",
+   "Flout",
+   "Spurn",
+   "Repudiate",
+   "Disenfranchise"
+  ],
+  "pos": "verb",
+  "meaning": "to openly refuse, reject or strip away; *flout* = to break a rule openly, *disenfranchise* = to take away someone's rights",
+  "example": "Traders (defy / flout) the ban and (spurn / repudiate) the deal; the new list (disenfranchises) thousands of voters."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "Uncertainty",
+   "Vacillate",
+   "Inconclusive"
+  ],
+  "pos": "noun",
+  "meaning": "doubt or the inability to settle on an answer; *vacillate* is a verb = to keep changing your mind",
+  "example": "(Uncertainty) grew as the tests stayed (inconclusive) and the board continued to (vacillate)."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "Nuance",
+   "Threshold",
+   "Benchmark",
+   "Yardstick"
+  ],
+  "pos": "noun",
+  "meaning": "a fine distinction or a fixed point used for comparison; *nuance* = a small but important shade of meaning",
+  "example": "Every (nuance) matters once a score crosses the (threshold); the scheme became the (benchmark / yardstick) for others."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "Disappointment",
+   "Deficit"
+  ],
+  "pos": "noun",
+  "meaning": "a shortfall — of expectation or of money",
+  "example": "The result was a (disappointment); the budget showed a widening (deficit)."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "dis-",
+   "mis-"
+  ],
+  "pos": "prefix",
+  "meaning": "prefixes meaning 'opposite / away' (dis-) and 'wrong / badly' (mis-)",
+  "example": "(dis-) gives disagree, dishonest, disappear; (mis-) gives misunderstand, misguide, misuse."
+ },
+ {
+  "group": "🤝 Agreement, Unity & Cooperation",
+  "words": [
+   "Accord",
+   "Consensus",
+   "Coalition",
+   "Cohesion",
+   "Combination",
+   "Convergence",
+   "Negotiation",
+   "Conference",
+   "Parley",
+   "Ratification"
+  ],
+  "pos": "noun",
+  "meaning": "a coming-together, a deal, or the process of reaching one; *ratification* = the formal approval that makes a deal binding",
+  "example": "After long (negotiation / parley) at the (conference), the (coalition) reached an (accord) by (consensus); the (combination / convergence / cohesion) of views survived (ratification)."
+ },
+ {
+  "group": "🤝 Agreement, Unity & Cooperation",
+  "words": [
+   "Coalesce",
+   "Converge",
+   "Reconcile",
+   "Mediate",
+   "Arbitrate",
+   "Convene"
+  ],
+  "pos": "verb",
+  "meaning": "to bring or come together, or to settle differences; *mediate* = help two sides agree, *arbitrate* = decide as a neutral judge",
+  "example": "The factions (coalesce / converge) once talks (reconcile) their demands; the panel was (convened) to (mediate / arbitrate) the dispute."
+ },
+ {
+  "group": "🤝 Agreement, Unity & Cooperation",
+  "words": [
+   "Abide",
+   "Adhere",
+   "Compliance",
+   "Accede",
+   "Persuade",
+   "Co-opt",
+   "Stipulate"
+  ],
+  "pos": "verb",
+  "meaning": "to follow, agree to, or bring someone round; *compliance* is a noun = the act of obeying, *stipulate* = to set a condition",
+  "example": "Firms must (abide) by and (adhere) to the code, and (compliance) is checked; the state (acceded) to the demand after leaders (persuaded / co-opted) the rebels, and the pact (stipulates) an annual review."
+ },
+ {
+  "group": "🤝 Agreement, Unity & Cooperation",
+  "words": [
+   "Cohesive",
+   "Compatible",
+   "Multilateral",
+   "Unilateral",
+   "Aggregate",
+   "Cumulative",
+   "Incremental"
+  ],
+  "pos": "adjective",
+  "meaning": "united, matching, or added together; *unilateral* = done alone, *multilateral* = by many together",
+  "example": "A (cohesive / compatible) team took the (multilateral) route rather than a (unilateral) one; the (aggregate / cumulative) effect of (incremental) steps was large."
+ },
+ {
+  "group": "🤝 Agreement, Unity & Cooperation",
+  "words": [
+   "co-/con-",
+   "co/con",
+   "uni"
+  ],
+  "pos": "prefix",
+  "meaning": "prefixes meaning 'with / together' (co-, con-) and 'one' (uni-)",
+  "example": "(co-/con-) gives cooperate, connect, coexist; (co/con) gives collaborate, contract; (uni) gives unite, unique, universe."
+ },
+ {
+  "group": "🌑 Bad, Harmful & Unpleasant",
+  "words": [
+   "Adverse",
+   "Detrimental",
+   "Deleterious",
+   "Noxious",
+   "Baleful",
+   "Ominous",
+   "Grim",
+   "Harrowing",
+   "Lachrymose"
+  ],
+  "pos": "adjective",
+  "meaning": "harmful, threatening or deeply unpleasant; *noxious* = poisonous, *ominous / baleful* = warning of coming evil, *lachrymose* = tearful",
+  "example": "(Adverse / detrimental / deleterious / noxious) fumes filled the street; the (baleful / ominous / grim) forecast made for a (harrowing), (lachrymose) night."
+ },
+ {
+  "group": "🌑 Bad, Harmful & Unpleasant",
+  "words": [
+   "Insidious",
+   "Insidiously",
+   "Pernicious",
+   "Malignant",
+   "Malevolent",
+   "Vindictive",
+   "Machinations"
+  ],
+  "pos": "adjective",
+  "meaning": "harmful in a hidden, spiteful or scheming way; *insidiously* is the adverb, *machinations* a noun = secret harmful plotting",
+  "example": "(Insidious / pernicious / malignant) rumours spread (insidiously); (malevolent / vindictive) rivals and their (machinations) did the rest."
+ },
+ {
+  "group": "🌑 Bad, Harmful & Unpleasant",
+  "words": [
+   "Draconian",
+   "Stark",
+   "Incendiary",
+   "Wanton",
+   "Galvanic"
+  ],
+  "pos": "adjective",
+  "meaning": "extremely harsh, blunt or inflaming",
+  "example": "The (draconian) order and its (stark) wording were (incendiary); (wanton) destruction followed, with a (galvanic) effect on protesters."
+ },
+ {
+  "group": "🌑 Bad, Harmful & Unpleasant",
+  "words": [
+   "Endemic",
+   "Subprime",
+   "Ineffective"
+  ],
+  "pos": "adjective",
+  "meaning": "a settled or low-grade bad condition; *endemic* = always present in a place or group, *subprime* = high-risk and poor quality",
+  "example": "Corruption is (endemic) here; (subprime) lending and (ineffective) oversight caused the crash."
+ },
+ {
+  "group": "🌑 Bad, Harmful & Unpleasant",
+  "words": [
+   "Cacophony",
+   "Embarrassments"
+  ],
+  "pos": "noun",
+  "meaning": "an unpleasant clash of sound, or acute discomfort",
+  "example": "A (cacophony) of horns drowned the speech, adding to the government's (embarrassments)."
+ },
+ {
+  "group": "🌑 Bad, Harmful & Unpleasant",
+  "words": [
+   "mal-"
+  ],
+  "pos": "prefix",
+  "meaning": "prefix meaning 'bad' or 'badly'",
+  "example": "(mal-) gives malfunction, malnutrition, maltreat."
+ },
+ {
+  "group": "⭐ Certainty, Importance & Authority",
+  "words": [
+   "Inevitable",
+   "Ineluctable",
+   "Inexorable",
+   "Indubitable",
+   "Unequivocal"
+  ],
+  "pos": "adjective",
+  "meaning": "certain, unstoppable or beyond doubt; *inexorable* stresses that nothing can halt it",
+  "example": "Defeat looked (inevitable / ineluctable / inexorable); the evidence was (indubitable / unequivocal)."
+ },
+ {
+  "group": "⭐ Certainty, Importance & Authority",
+  "words": [
+   "Unequivocally",
+   "Ergo",
+   "Hence",
+   "Thereby",
+   "Thus"
+  ],
+  "pos": "adverb",
+  "meaning": "words that link a conclusion to its reason, or state it without doubt",
+  "example": "The data is clear; (ergo / hence / thus / thereby) the policy fails, and the panel (unequivocally) rejected it."
+ },
+ {
+  "group": "⭐ Certainty, Importance & Authority",
+  "words": [
+   "Paramount",
+   "Predominant",
+   "Incumbent",
+   "Mandate",
+   "Remit",
+   "Legislative",
+   "Democracy",
+   "Sovereignty",
+   "Autonomy",
+   "Privatisation"
+  ],
+  "pos": "noun",
+  "meaning": "authority, its scope, or its source; *paramount / predominant* are adjectives = above all others, *incumbent* = the current office-holder or a binding duty",
+  "example": "Safety is (paramount) and the (predominant) concern; the (incumbent) claims a (mandate) within the (remit) of the (legislative) branch, which in a (democracy) rests on (sovereignty) and regional (autonomy); (privatisation) was approved."
+ },
+ {
+  "group": "📌 Cause, Effect & Consequence",
+  "words": [
+   "Engender",
+   "Breed",
+   "Inflict",
+   "Wreak",
+   "Attribute",
+   "Causation",
+   "Factor"
+  ],
+  "pos": "verb",
+  "meaning": "to cause or produce something, or to name the cause; *causation / factor* are nouns = the causal link and a contributing cause",
+  "example": "Delay (engenders / breeds) anger and (inflicts / wreaks) real damage; analysts (attribute) this to one (factor), though (causation) is unproven."
+ },
+ {
+  "group": "📌 Cause, Effect & Consequence",
+  "words": [
+   "Aftermath",
+   "Fallout",
+   "Outcome",
+   "Ramification",
+   "Repercussion",
+   "Corollary"
+  ],
+  "pos": "noun",
+  "meaning": "what follows from an event; *corollary* = something that logically follows, *repercussion / fallout* = the indirect bad after-effects",
+  "example": "In the (aftermath), the (fallout / repercussions / ramifications) were severe; the (outcome) was a natural (corollary) of the decision."
+ },
+ {
+  "group": "📌 Cause, Effect & Consequence",
+  "words": [
+   "Hinge",
+   "Entail",
+   "Offset"
+  ],
+  "pos": "verb",
+  "meaning": "to depend on, require, or balance out",
+  "example": "Success (hinges) on funding, which (entails) new taxes; savings elsewhere (offset) the cost."
+ },
+ {
+  "group": "✊ Reject, Revenge & Force",
+  "words": [
+   "Depose",
+   "Oust",
+   "Usurp",
+   "Wrest",
+   "Annex",
+   "Annexation",
+   "Coup",
+   "Insurrection"
+  ],
+  "pos": "verb",
+  "meaning": "to seize power or territory by force, or to throw someone out of it; *annexation / coup / insurrection* are nouns naming such acts",
+  "example": "Generals (deposed / ousted) the president and (usurped / wrested) control in a (coup); the (insurrection) let them (annex) the border district, an (annexation) no one recognised."
+ },
+ {
+  "group": "✊ Reject, Revenge & Force",
+  "words": [
+   "Reprisal",
+   "Retaliation",
+   "Jeopardise",
+   "Abrogate",
+   "Annul"
+  ],
+  "pos": "noun",
+  "meaning": "revenge, or the cancelling / risking of something; *jeopardise* = to put at risk, *abrogate / annul* = to cancel officially",
+  "example": "Fear of (reprisal / retaliation) grew; the strike would (jeopardise) the truce, and parliament moved to (abrogate / annul) the treaty."
+ },
+ {
+  "group": "💥 Harm, Damage & Worsen",
+  "words": [
+   "Aggravate",
+   "Exacerbate"
+  ],
+  "pos": "verb",
+  "meaning": "to make a bad situation worse",
+  "example": "Fresh curbs only (aggravate / exacerbate) the shortage."
+ },
+ {
+  "group": "💥 Harm, Damage & Worsen",
+  "words": [
+   "Hapless",
+   "Fortuitous",
+   "Random"
+  ],
+  "pos": "adjective",
+  "meaning": "governed by chance rather than plan; *hapless* = unlucky and helpless, *fortuitous* = luckily unplanned",
+  "example": "The (hapless) crew survived by a (fortuitous), (random) turn of the tide."
+ },
+ {
+  "group": "👑 Power, Control & Influence",
+  "words": [
+   "Clout",
+   "Hegemony",
+   "Wield",
+   "Capacity",
+   "Propensity"
+  ],
+  "pos": "noun",
+  "meaning": "power or influence and the ability to use it; *wield* is a verb = to hold and use power, *propensity* = a natural tendency",
+  "example": "A bloc with real (clout) exercises (hegemony) and (wields) it freely, given the (capacity) to act and a (propensity) to intervene."
+ },
+ {
+  "group": "👑 Power, Control & Influence",
+  "words": [
+   "Interlocutor",
+   "Palliative",
+   "Tariff"
+  ],
+  "pos": "noun",
+  "meaning": "instruments or roles used to manage a situation; *palliative* = a stop-gap that relieves but does not cure",
+  "example": "An (interlocutor) was appointed; the relief package was a mere (palliative), and the (tariff) stayed in place."
+ },
+ {
+  "group": "🧠 Thinking, Reasoning & Memory",
+  "words": [
+   "Mull",
+   "Deliberate",
+   "Reckon",
+   "Infer",
+   "Discern",
+   "Anticipation",
+   "Experience"
+  ],
+  "pos": "verb",
+  "meaning": "to think, work out or perceive; *deliberate* also = done on purpose (adj.), *anticipation / experience* are nouns for expecting and for what you have lived through",
+  "example": "The board will (mull / deliberate) the plan and (reckon) the cost; from the data you can (infer / discern) a trend; (anticipation) ran high, and (experience) shaped the verdict."
+ },
+ {
+  "group": "🧠 Thinking, Reasoning & Memory",
+  "words": [
+   "Cite",
+   "Warrant",
+   "Simulation"
+  ],
+  "pos": "verb",
+  "meaning": "to give as a reason or justify it; *simulation* is a noun = a modelled run used to predict behaviour",
+  "example": "Officials (cite) new data that (warrants) a review, backed by a computer (simulation)."
+ },
+ {
+  "group": "🧠 Thinking, Reasoning & Memory",
+  "words": [
+   "flect/flex",
+   "flu/flux",
+   "ject",
+   "spec/spect"
+  ],
+  "pos": "root",
+  "meaning": "Latin roots: flect/flex = bend, flu/flux = flow, ject = throw, spec/spect = see or look",
+  "example": "(flect/flex) gives reflect, flexible; (flu/flux) gives fluent, influx; (ject) gives reject, eject; (spec/spect) gives inspect, spectator."
+ },
+ {
+  "group": "🔍 Examination, Judgement & Standards",
+  "words": [
+   "Scrutinise",
+   "Investigate",
+   "Probe",
+   "Assess",
+   "Gauge",
+   "Ascertain",
+   "Quantify"
+  ],
+  "pos": "verb",
+  "meaning": "to examine, measure or establish something; *probe* is also a noun = an investigation",
+  "example": "Auditors (scrutinise / investigate / probe) the accounts to (assess / gauge / ascertain) the loss and (quantify) it."
+ },
+ {
+  "group": "🗯️ Criticism & Condemnation",
+  "words": [
+   "Lament",
+   "Bemoan",
+   "Contrite",
+   "Penitent"
+  ],
+  "pos": "verb",
+  "meaning": "to express sorrow or regret; *contrite / penitent* are adjectives = feeling deep remorse for a wrong",
+  "example": "Leaders (lament / bemoan) the loss; the (contrite / penitent) official offered to resign."
+ },
+ {
+  "group": "🧱 Real, Concrete & Practical",
+  "words": [
+   "Vaccination"
+  ],
+  "pos": "noun",
+  "meaning": "giving a vaccine to protect against a disease",
+  "example": "A mass (vaccination) drive covered every district."
+ },
+ {
+  "group": "❓ Difference, Disagreement & Doubt",
+  "words": [
+   "Tantamount"
+  ],
+  "pos": "adjective",
+  "meaning": "equal to or the same as something (usually something bad)",
+  "example": "Silence here is (tantamount) to consent."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Laud",
+   "Hail",
+   "Eulogise",
+   "Acclaim"
+  ],
+  "pos": "verb",
+  "meaning": "to praise someone or something publicly",
+  "example": "Critics (lauded / hailed / eulogised / acclaimed) the new welfare scheme."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Acclaim",
+   "Approbation"
+  ],
+  "pos": "noun",
+  "meaning": "strong public praise and approval",
+  "example": "The reform won wide (acclaim / approbation) from economists."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Laudable",
+   "Warranted"
+  ],
+  "pos": "adjective",
+  "meaning": "deserving praise, or justified by the facts",
+  "example": "The effort was (laudable / warranted) given the scale of the crisis."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Endorse",
+   "Espouse",
+   "Advocate",
+   "Ratify"
+  ],
+  "pos": "verb",
+  "meaning": "to publicly support, approve or adopt a cause or agreement; *ratify* = formal approval of a treaty",
+  "example": "The party (endorsed / espoused / advocated) the new labour code; Parliament finally ratified the treaty."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Advocate",
+   "Stalwart"
+  ],
+  "pos": "noun",
+  "meaning": "a loyal, reliable supporter of a cause",
+  "example": "She has been a lifelong (advocate / stalwart) of press freedom."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Bolster",
+   "Boost",
+   "Underpin",
+   "Augment",
+   "Foster",
+   "Embolden"
+  ],
+  "pos": "verb",
+  "meaning": "to support, strengthen or encourage the growth of something; *underpin* = form the base of; *embolden* = give courage",
+  "example": "The subsidy (bolstered / boosted / augmented / fostered) rural demand; strong institutions underpin democracy; the win emboldened the protesters."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Boost",
+   "Impetus",
+   "Stimulus",
+   "Incentive"
+  ],
+  "pos": "noun",
+  "meaning": "something that pushes an activity forward or encourages action",
+  "example": "The tax cut gave a much-needed (boost / impetus / stimulus / incentive) to manufacturing."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Backbone",
+   "Keystone",
+   "Collateral"
+  ],
+  "pos": "noun",
+  "meaning": "the main supporting part on which something rests; *collateral* = the asset pledged to back a loan",
+  "example": "Small farms are the (backbone / keystone) of the rural economy; the loan required land as collateral."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Staunch",
+   "Steadfast",
+   "Stalwart",
+   "Resilient"
+  ],
+  "pos": "adjective",
+  "meaning": "firmly loyal, unwavering and able to withstand difficulty",
+  "example": "He remained a (staunch / steadfast / stalwart) defender of the constitution; the economy proved resilient."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Resilience"
+  ],
+  "pos": "noun",
+  "meaning": "the ability to recover quickly after a shock or disaster",
+  "example": "The community showed remarkable resilience after the floods."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Thrive"
+  ],
+  "pos": "verb",
+  "meaning": "to grow well and become very successful",
+  "example": "Start-ups thrive where regulation is light."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Woo",
+   "Garner"
+  ],
+  "pos": "verb",
+  "meaning": "to win over or gather support, votes or attention",
+  "example": "The party (wooed / garnered) young voters ahead of the polls."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Pledge",
+   "Vow",
+   "Covenant"
+  ],
+  "pos": "verb/noun",
+  "meaning": "a serious, formal promise; to promise firmly",
+  "example": "The government (pledged / vowed) to double spending on health; the two states signed a covenant on water sharing."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Endeavour"
+  ],
+  "pos": "noun",
+  "meaning": "a serious effort to achieve something",
+  "example": "The mission was a bold scientific endeavour."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Restoration"
+  ],
+  "pos": "noun",
+  "meaning": "the process of bringing something back to its original state",
+  "example": "The restoration of the old fort took five years."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Recoup"
+  ],
+  "pos": "verb",
+  "meaning": "to get back money or losses",
+  "example": "Airlines struggled to recoup pandemic losses."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Corroborate",
+   "Substantiate",
+   "Verify"
+  ],
+  "pos": "verb",
+  "meaning": "to prove or back up a claim with evidence",
+  "example": "Independent data (corroborated / substantiated / verified) the whistleblower's account."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Abet"
+  ],
+  "pos": "verb",
+  "meaning": "to help someone do something wrong",
+  "example": "Officials were accused of aiding and abetting illegal sand mining."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Enfranchise"
+  ],
+  "pos": "verb",
+  "meaning": "to give someone the right to vote or full citizenship rights",
+  "example": "The amendment enfranchised millions of young voters."
+ },
+ {
+  "group": "👏 Praise, Support & Strengthen",
+  "words": [
+   "Egalitarian",
+   "Meritocracy"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "based on equal treatment or on rising by talent rather than birth",
+  "example": "He pushed an egalitarian tax policy; the exam system is meant to be a meritocracy."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Dire",
+   "Acute",
+   "Drastic",
+   "Stringent",
+   "Onerous",
+   "Gruelling"
+  ],
+  "pos": "adjective",
+  "meaning": "extremely serious, severe or hard to bear; *stringent* = strict; *onerous/gruelling* = heavy and exhausting",
+  "example": "The report warned of a (dire / acute) water shortage; the government took drastic steps and imposed stringent rules; the onerous, gruelling paperwork deterred applicants."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Daunting",
+   "Imminent",
+   "Looming"
+  ],
+  "pos": "adjective",
+  "meaning": "frighteningly difficult, or about to happen very soon",
+  "example": "The task was daunting, with an (imminent / looming) deadline."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Loom"
+  ],
+  "pos": "verb",
+  "meaning": "to appear close and threatening; to be about to happen",
+  "example": "A fresh crisis looms over the sector."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Compound",
+   "Fester",
+   "Escalate"
+  ],
+  "pos": "verb",
+  "meaning": "to make a bad situation worse or grow more serious over time",
+  "example": "Delays (compounded / escalated) the crisis; the grievance was left to fester."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Escalation"
+  ],
+  "pos": "noun",
+  "meaning": "a rise in the intensity of a conflict or dispute",
+  "example": "Both sides warned against further escalation along the border."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Fervent",
+   "Vehement",
+   "Emphatic",
+   "Trenchant",
+   "Compelling"
+  ],
+  "pos": "adjective",
+  "meaning": "expressed with strong, forceful feeling or conviction; *trenchant* = sharp and cutting; *compelling* = very convincing",
+  "example": "She made a (fervent / vehement / emphatic) appeal for calm; his trenchant, compelling critique changed the debate."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Zealot",
+   "Hardliner",
+   "Demagogue"
+  ],
+  "pos": "noun",
+  "meaning": "a person holding extreme, uncompromising views; *demagogue* = a leader who stirs emotion rather than facts",
+  "example": "The party was captured by (zealots / hardliners); the campaign was led by a demagogue."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Jingoism",
+   "Populism",
+   "Autocracy",
+   "Clientelism"
+  ],
+  "pos": "noun",
+  "meaning": "political styles based on aggressive nationalism, mass appeal, one-man rule, or favour-trading",
+  "example": "The speech slid into jingoism; critics saw populism, clientelism and creeping autocracy in the new order."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Austerity"
+  ],
+  "pos": "noun",
+  "meaning": "strict economic policy with sharply reduced public spending",
+  "example": "Years of austerity hollowed out public services."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Famine",
+   "Starvation"
+  ],
+  "pos": "noun",
+  "meaning": "severe, widespread lack of food causing hunger and death",
+  "example": "Drought pushed the region towards (famine / starvation)."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Backlash"
+  ],
+  "pos": "noun",
+  "meaning": "a strong, angry public reaction against something",
+  "example": "The order triggered a fierce backlash from farmers."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Sanction"
+  ],
+  "pos": "noun/verb",
+  "meaning": "a penalty imposed on a country; or, oppositely, official permission",
+  "example": "The council imposed sanctions on the regime; the ministry sanctioned the new post."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Indict",
+   "Allege",
+   "Blame"
+  ],
+  "pos": "verb",
+  "meaning": "to accuse someone of wrongdoing; *indict* = formally charge",
+  "example": "The agency (indicted / blamed) the contractor and alleged large-scale fraud."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Breach"
+  ],
+  "pos": "noun",
+  "meaning": "the breaking of a rule, law or promise",
+  "example": "The order was a clear breach of privacy law."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Corruption"
+  ],
+  "pos": "noun",
+  "meaning": "the act of impairing integrity or moral principle; dishonest use of power",
+  "example": "Corruption in procurement drained the budget."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Comeuppance"
+  ],
+  "pos": "noun",
+  "meaning": "a punishment or fate that is justly deserved",
+  "example": "The scam's masterminds finally got their comeuppance."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Coerce",
+   "Compel",
+   "Goad",
+   "Provoke"
+  ],
+  "pos": "verb",
+  "meaning": "to force, push or deliberately drive someone into acting; *goad/provoke* = to needle into a reaction",
+  "example": "Officials (coerced / compelled) traders to comply; the remarks (goaded / provoked) the crowd."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Implore",
+   "Urge"
+  ],
+  "pos": "verb",
+  "meaning": "to request strongly and earnestly",
+  "example": "Doctors (implored / urged) the public to stay indoors."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Plea"
+  ],
+  "pos": "noun",
+  "meaning": "an urgent and emotional request",
+  "example": "The court heard a plea for immediate relief."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Systemic"
+  ],
+  "pos": "adjective",
+  "meaning": "affecting a whole system, not just one part; built into how things work",
+  "example": "The audit exposed systemic failures in the supply chain."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Significant"
+  ],
+  "pos": "adjective",
+  "meaning": "large or important enough to matter, especially in results",
+  "example": "The trial showed a significant drop in infections."
+ },
+ {
+  "group": "🔥 Severity, Seriousness & Urgency",
+  "words": [
+   "Levity",
+   "Frivolous"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "lack of seriousness; treating a serious matter lightly",
+  "example": "There is no room for levity in a public health crisis; the court dismissed the frivolous petition."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Escalate",
+   "Soar",
+   "Surge",
+   "Proliferate",
+   "Wax"
+  ],
+  "pos": "verb",
+  "meaning": "to rise, grow or spread quickly; *wax* = to increase gradually",
+  "example": "Prices (escalated / soared / surged) after the ban; misinformation proliferated online while the party's influence waxed."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Surge",
+   "Hike",
+   "Expansion",
+   "Ascendancy"
+  ],
+  "pos": "noun",
+  "meaning": "a sudden or sustained increase in level, price or power",
+  "example": "A (surge / hike) in fuel rates followed; the decade saw rapid expansion and the ascendancy of a new elite."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Hike"
+  ],
+  "pos": "verb",
+  "meaning": "to raise a price or rate",
+  "example": "The bank hiked interest rates again."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Inflation"
+  ],
+  "pos": "noun",
+  "meaning": "the general rise in prices over time",
+  "example": "Food inflation stayed above eight per cent."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Disseminate",
+   "Diffuse"
+  ],
+  "pos": "verb",
+  "meaning": "to spread something widely; *diffuse* also = to calm a tense situation",
+  "example": "The app (disseminated / diffused) weather alerts to millions; talks helped diffuse the tension."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Rampant",
+   "Rife",
+   "Ubiquitous"
+  ],
+  "pos": "adjective",
+  "meaning": "very common and spreading everywhere, usually of something bad; *ubiquitous* = present everywhere",
+  "example": "Corruption was (rampant / rife) in the department; smartphones are now ubiquitous."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Prevalence"
+  ],
+  "pos": "noun",
+  "meaning": "how common or widespread something is",
+  "example": "The survey measured the prevalence of anaemia among children."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Increasingly"
+  ],
+  "pos": "adverb",
+  "meaning": "more and more over time",
+  "example": "Cities are increasingly reliant on tanker water."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Germinate",
+   "Germinal"
+  ],
+  "pos": "verb/adjective",
+  "meaning": "to begin to grow or develop, like a seed or an idea; *germinal* = at the earliest stage",
+  "example": "The idea germinated in a college seminar; the paper is the germinal work in the field."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Yield"
+  ],
+  "pos": "verb",
+  "meaning": "to produce or give a result or amount",
+  "example": "The new seed yields twice as much per hectare."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Exodus"
+  ],
+  "pos": "noun",
+  "meaning": "a large number of people leaving a place",
+  "example": "The lockdown triggered an exodus of migrant workers."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Marginalise"
+  ],
+  "pos": "verb",
+  "meaning": "to push a group to the edges of society and ignore their needs",
+  "example": "The policy further marginalised landless labourers."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Magnitude",
+   "Measure"
+  ],
+  "pos": "noun/verb",
+  "meaning": "the size or scale of something; to find out that size",
+  "example": "No one grasped the magnitude of the loss; the study measured its true cost."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "magn"
+  ],
+  "pos": "root",
+  "meaning": "root MAGN = great, large",
+  "example": "magnify, magnificent, magnitude, magnate."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "super-/sur-"
+  ],
+  "pos": "prefix",
+  "meaning": "prefix SUPER-/SUR- = above, over",
+  "example": "superman, supervise, surplus, surface."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "re-"
+  ],
+  "pos": "prefix",
+  "meaning": "prefix RE- = again, back",
+  "example": "rewrite, return, rebuild, revise."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "circum"
+  ],
+  "pos": "root",
+  "meaning": "root CIRCUM = around",
+  "example": "circumference, circumnavigate, circumspect."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "dict"
+  ],
+  "pos": "root",
+  "meaning": "root DICT = say, speak",
+  "example": "dictate, predict, contradict, verdict."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "cred"
+  ],
+  "pos": "root",
+  "meaning": "root CRED = believe",
+  "example": "credit, credible, incredible, credentials."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "mal"
+  ],
+  "pos": "root",
+  "meaning": "root MAL = bad",
+  "example": "malice, malevolent, malfunction, malign."
+ },
+ {
+  "group": "📈 Increase, Rise & Spread",
+  "words": [
+   "Sustainable",
+   "Holistic"
+  ],
+  "pos": "adjective",
+  "meaning": "able to continue long-term; taking the whole into account rather than parts",
+  "example": "The plan is neither (sustainable / holistic) nor affordable."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Abundant",
+   "Ample",
+   "Copious",
+   "Profuse"
+  ],
+  "pos": "adjective",
+  "meaning": "existing in large, more-than-enough quantities",
+  "example": "The region has (abundant / ample / copious / profuse) rainfall."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Abound"
+  ],
+  "pos": "verb",
+  "meaning": "to exist in large numbers; to be plentiful",
+  "example": "Rumours abound about a cabinet reshuffle."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Plethora",
+   "Surfeit",
+   "Myriad"
+  ],
+  "pos": "noun",
+  "meaning": "a very large number or an excess of something",
+  "example": "The scheme drew a (plethora / surfeit / myriad) of complaints."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Superfluous",
+   "Redundant"
+  ],
+  "pos": "adjective",
+  "meaning": "more than is needed; unnecessary",
+  "example": "The clause was (superfluous / redundant) and was dropped."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Surplus"
+  ],
+  "pos": "noun",
+  "meaning": "the extra amount left when income is more than spending",
+  "example": "The state recorded a revenue surplus this year."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Exorbitant",
+   "Hefty"
+  ],
+  "pos": "adjective",
+  "meaning": "far too high or large in price, amount or weight",
+  "example": "Patients were charged (exorbitant / hefty) fees."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Substantial"
+  ],
+  "pos": "adjective",
+  "meaning": "large in size or amount",
+  "example": "A substantial share of the budget went unspent."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Dearth",
+   "Paucity"
+  ],
+  "pos": "noun",
+  "meaning": "a serious shortage or very small amount of something",
+  "example": "There is a (dearth / paucity) of reliable district-level data."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Deficient",
+   "Meagre",
+   "Marginal"
+  ],
+  "pos": "adjective",
+  "meaning": "not enough; very small in amount",
+  "example": "The diet was (deficient / meagre); the gains were marginal."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Average",
+   "Approximate"
+  ],
+  "pos": "noun/adjective",
+  "meaning": "the typical middle value; close to but not exactly correct",
+  "example": "The average yield was about four tonnes, an approximate figure at best."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Concise",
+   "Laconic"
+  ],
+  "pos": "adjective",
+  "meaning": "using very few words; short and clear",
+  "example": "His reply was (concise / laconic)."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Avarice"
+  ],
+  "pos": "noun",
+  "meaning": "extreme greed for wealth",
+  "example": "Corporate avarice drove the collapse."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Decimate"
+  ],
+  "pos": "verb",
+  "meaning": "to destroy a large part of something; stronger than *reduce*",
+  "example": "The drought decimated the cattle herd."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Unbridled",
+   "Unfettered"
+  ],
+  "pos": "adjective",
+  "meaning": "not controlled or held back; without limits",
+  "example": "(Unbridled / Unfettered) construction choked the wetland."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Stifle"
+  ],
+  "pos": "verb",
+  "meaning": "to stop something from developing or being expressed",
+  "example": "The law stifles dissent."
+ },
+ {
+  "group": "📦 Amount, Size & Plenty",
+  "words": [
+   "Panacea"
+  ],
+  "pos": "noun",
+  "meaning": "a supposed cure for all problems (usually said it is NOT one)",
+  "example": "Technology is no panacea for rural poverty."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Contend",
+   "Posit"
+  ],
+  "pos": "verb",
+  "meaning": "to put forward a claim or idea as true so it can be debated or tested",
+  "example": "The authors (contend / posit) that growth alone will not cut inequality."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Reiterate"
+  ],
+  "pos": "verb",
+  "meaning": "to say something again for emphasis",
+  "example": "The minister reiterated that no tax would rise."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Eloquent",
+   "Lucid",
+   "Limpid",
+   "Pellucid"
+  ],
+  "pos": "adjective",
+  "meaning": "clear, fluent and easy to follow; *eloquent* stresses persuasive skill",
+  "example": "Her (eloquent / lucid / limpid / pellucid) explanation won the house over."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Rhetoric",
+   "Discourse",
+   "Dialectic"
+  ],
+  "pos": "noun",
+  "meaning": "public argument and discussion on a topic; *rhetoric* often implies empty persuasive language",
+  "example": "The campaign was heavy on rhetoric; the public discourse and its dialectic of opposing views produced little."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Plausible"
+  ],
+  "pos": "adjective",
+  "meaning": "believable and reasonable enough to be true",
+  "example": "The explanation is plausible but unproven."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Arguably",
+   "Purportedly"
+  ],
+  "pos": "adverb",
+  "meaning": "as can reasonably be claimed, or as claimed by others without proof",
+  "example": "It is arguably the biggest reform in a decade; the funds were purportedly spent on training."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Notwithstanding",
+   "per se"
+  ],
+  "pos": "preposition/phrase",
+  "meaning": "in spite of; and *per se* = in itself, taken on its own",
+  "example": "Notwithstanding the delays, work continued; the rule is not unfair per se."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Qualified",
+   "Provisional",
+   "Stopgap"
+  ],
+  "pos": "adjective",
+  "meaning": "limited, temporary or not final; *qualified* support = support with conditions",
+  "example": "The party gave (qualified / provisional) backing; the ordinance is only a stopgap."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Methodology"
+  ],
+  "pos": "noun",
+  "meaning": "the set of methods used to carry out research",
+  "example": "The paper's methodology was criticised by statisticians."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Replicate"
+  ],
+  "pos": "verb",
+  "meaning": "to repeat a study or test to check the result holds",
+  "example": "No team could replicate the original finding."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Normative"
+  ],
+  "pos": "adjective",
+  "meaning": "about how things should be, based on rules or values, not just how they are",
+  "example": "The report makes a normative case for free school meals."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Confound"
+  ],
+  "pos": "verb",
+  "meaning": "to confuse a result by mixing in a hidden cause",
+  "example": "Income differences confounded the study's conclusions."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Paradox",
+   "Dichotomy"
+  ],
+  "pos": "noun",
+  "meaning": "a self-contradictory statement, or a sharp split into two opposed parts",
+  "example": "It is a paradox that food-surplus states report hunger; the growth-versus-environment dichotomy dominates the debate."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Quandary"
+  ],
+  "pos": "noun",
+  "meaning": "a difficult situation where it is hard to decide what to do",
+  "example": "The board faced a quandary over the merger."
+ },
+ {
+  "group": "🗣️ Speech, Persuasion & Claims",
+  "words": [
+   "Gambit",
+   "Machination"
+  ],
+  "pos": "noun",
+  "meaning": "a calculated move or secret scheme made to gain advantage",
+  "example": "The walkout was a political gambit; the machinations of the lobby were later exposed."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Candid",
+   "Forthright",
+   "Veracious"
+  ],
+  "pos": "adjective",
+  "meaning": "honest, direct and truthful in what one says",
+  "example": "She gave a (candid / forthright / veracious) account of the failures."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Veracity"
+  ],
+  "pos": "noun",
+  "meaning": "truthfulness; accuracy (root VER = truth)",
+  "example": "The court questioned the veracity of the affidavit."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Equitable"
+  ],
+  "pos": "adjective",
+  "meaning": "fair and just to all",
+  "example": "The panel urged a more equitable sharing of river water."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Devout"
+  ],
+  "pos": "adjective",
+  "meaning": "deeply religious or sincerely committed",
+  "example": "He was a devout follower of the movement."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Redress",
+   "Rectify"
+  ],
+  "pos": "verb/noun",
+  "meaning": "to correct or set right a wrong",
+  "example": "The tribunal exists to (redress / rectify) such grievances."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Rescind"
+  ],
+  "pos": "verb",
+  "meaning": "to cancel or take back an order or decision",
+  "example": "The ministry rescinded the circular within a week."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Repatriate"
+  ],
+  "pos": "verb",
+  "meaning": "to send someone back to their own country",
+  "example": "Hundreds of workers were repatriated after the war."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Lenient",
+   "Forbearance"
+  ],
+  "pos": "adjective/noun",
+  "meaning": "not strict; patient and self-controlled in the face of provocation",
+  "example": "The judge was lenient; the state showed unusual forbearance."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Mitigation"
+  ],
+  "pos": "noun",
+  "meaning": "action taken to make a problem less serious",
+  "example": "Flood mitigation works were funded this year."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Partisan",
+   "Divisive"
+  ],
+  "pos": "adjective",
+  "meaning": "one-sided and splitting people into hostile camps",
+  "example": "The bill was (partisan / divisive) from the start."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Sanctimonious",
+   "Histrionic",
+   "Grandiose"
+  ],
+  "pos": "adjective",
+  "meaning": "putting on a false show - of moral superiority, of emotion, or of grandeur",
+  "example": "The speech was (sanctimonious / histrionic / grandiose) and short on detail."
+ },
+ {
+  "group": "⚖️ Fairness, Honesty & Truth",
+  "words": [
+   "Hindsight"
+  ],
+  "pos": "noun",
+  "meaning": "understanding a situation only after it has happened",
+  "example": "In hindsight, the warning signs were obvious."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Clandestine",
+   "Furtive"
+  ],
+  "pos": "adjective",
+  "meaning": "done secretly to avoid notice, often something illicit",
+  "example": "The (clandestine / furtive) meetings were caught on camera."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Arcane",
+   "Cryptic",
+   "Esoteric",
+   "Recondite",
+   "Abstruse"
+  ],
+  "pos": "adjective",
+  "meaning": "mysterious, obscure and understood by only a few",
+  "example": "The rules are (arcane / cryptic / esoteric / recondite / abstruse) even to lawyers."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Latent",
+   "Underlying"
+  ],
+  "pos": "adjective",
+  "meaning": "existing but not yet visible or active; lying beneath the surface",
+  "example": "The (latent / underlying) causes of the unrest went unaddressed."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Tacit",
+   "Implicit"
+  ],
+  "pos": "adjective",
+  "meaning": "understood or implied without being said directly",
+  "example": "There was (tacit / implicit) approval from the top."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Divulge"
+  ],
+  "pos": "verb",
+  "meaning": "to reveal secret information",
+  "example": "The officer refused to divulge the source."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Obfuscation"
+  ],
+  "pos": "noun",
+  "meaning": "deliberately making something confusing to hide the truth",
+  "example": "The reply was pure obfuscation."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Gloss over",
+   "Belie"
+  ],
+  "pos": "verb",
+  "meaning": "to hide or play down something bad so it seems less serious",
+  "example": "The report (glossed over / belied) the true scale of the losses."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Veneer"
+  ],
+  "pos": "noun",
+  "meaning": "a thin, often false, outer appearance",
+  "example": "Beneath the veneer of order lay deep dysfunction."
+ },
+ {
+  "group": "🌫️ Hidden, Unclear & Secret",
+  "words": [
+   "Transparent"
+  ],
+  "pos": "adjective",
+  "meaning": "letting light through; open and easy to see into (opposite of opaque)",
+  "example": "The process must be transparent and auditable."
+ },
+ {
+  "group": "🌀 Hostility, Bitterness & Stubbornness",
+  "words": [
+   "Animosity",
+   "Acrimony",
+   "Rancour"
+  ],
+  "pos": "noun",
+  "meaning": "strong bitter hostility and resentment between people",
+  "example": "The talks collapsed amid (animosity / acrimony / rancour)."
+ },
+ {
+  "group": "🌀 Hostility, Bitterness & Stubbornness",
+  "words": [
+   "Hostile",
+   "Inimical",
+   "Virulent",
+   "Vituperative"
+  ],
+  "pos": "adjective",
+  "meaning": "showing strong enmity or doing active harm; *vituperative* = bitterly abusive in words",
+  "example": "The climate was (hostile / inimical) to investment; his (virulent / vituperative) attacks drew censure."
+ },
+ {
+  "group": "🌀 Hostility, Bitterness & Stubbornness",
+  "words": [
+   "Recalcitrant",
+   "Implacable"
+  ],
+  "pos": "adjective",
+  "meaning": "stubbornly refusing to obey or to be calmed",
+  "example": "The (recalcitrant / implacable) faction blocked every compromise."
+ },
+ {
+  "group": "🌀 Hostility, Bitterness & Stubbornness",
+  "words": [
+   "Dissolute",
+   "Licentious"
+  ],
+  "pos": "adjective",
+  "meaning": "behaving without moral restraint",
+  "example": "The court described his (dissolute / licentious) conduct."
+ },
+ {
+  "group": "🌀 Hostility, Bitterness & Stubbornness",
+  "words": [
+   "Indelible"
+  ],
+  "pos": "adjective",
+  "meaning": "impossible to remove or erase",
+  "example": "The riots left an indelible mark on the city."
+ },
+ {
+  "group": "🌀 Hostility, Bitterness & Stubbornness",
+  "words": [
+   "Labyrinthine"
+  ],
+  "pos": "adjective",
+  "meaning": "extremely complicated and confusing, like a maze",
+  "example": "The subsidy rules are labyrinthine."
+ },
+ {
+  "group": "🌀 Hostility, Bitterness & Stubbornness",
+  "words": [
+   "Forge"
+  ],
+  "pos": "verb",
+  "meaning": "to build or create a bond; or, in the other sense, to fake a document",
+  "example": "The two states forged a water-sharing pact; he was jailed for forging signatures."
+ },
+ {
+  "group": "⏳ Time, Lateness & Approach",
+  "words": [
+   "Ephemeral",
+   "Transient"
+  ],
+  "pos": "adjective",
+  "meaning": "lasting only a very short time",
+  "example": "The gains proved (ephemeral / transient)."
+ },
+ {
+  "group": "⏳ Time, Lateness & Approach",
+  "words": [
+   "Belated"
+  ],
+  "pos": "adjective",
+  "meaning": "coming later than it should",
+  "example": "A belated apology was issued."
+ },
+ {
+  "group": "⏳ Time, Lateness & Approach",
+  "words": [
+   "Abrupt"
+  ],
+  "pos": "adjective",
+  "meaning": "sudden and unexpected",
+  "example": "The scheme came to an abrupt end."
+ },
+ {
+  "group": "⏳ Time, Lateness & Approach",
+  "words": [
+   "Harbinger"
+  ],
+  "pos": "noun",
+  "meaning": "a sign of something to come",
+  "example": "The rains were a harbinger of a good harvest."
+ },
+ {
+  "group": "⏳ Time, Lateness & Approach",
+  "words": [
+   "Lull"
+  ],
+  "pos": "noun/verb",
+  "meaning": "a quiet or calm period",
+  "example": "There was a brief lull in the fighting."
+ },
+ {
+  "group": "⏳ Time, Lateness & Approach",
+  "words": [
+   "Bleak",
+   "Dismal",
+   "Despondent",
+   "Lugubrious"
+  ],
+  "pos": "adjective",
+  "meaning": "gloomy and without hope; *despondent* describes a person's low mood",
+  "example": "The outlook was (bleak / dismal); relatives looked (despondent / lugubrious) outside the hospital."
+ },
+ {
+  "group": "⏳ Time, Lateness & Approach",
+  "words": [
+   "Disenchant"
+  ],
+  "pos": "verb",
+  "meaning": "to make someone lose hope or trust",
+  "example": "Voters were disenchanted by the broken promises."
+ },
+ {
+  "group": "😀 Hope, Calm & Positivity",
+  "words": [
+   "Buoyant",
+   "Jubilant",
+   "Jovial",
+   "Genial"
+  ],
+  "pos": "adjective",
+  "meaning": "cheerful and in high spirits; *buoyant* also = economically strong",
+  "example": "The crowd was (jubilant / jovial); the host was genial and markets stayed buoyant."
+ },
+ {
+  "group": "😀 Hope, Calm & Positivity",
+  "words": [
+   "Assuage",
+   "Mollify",
+   "Placate"
+  ],
+  "pos": "verb",
+  "meaning": "to calm or soothe someone who is angry or upset",
+  "example": "The package was meant to (assuage / mollify / placate) the protesters."
+ },
+ {
+  "group": "😀 Hope, Calm & Positivity",
+  "words": [
+   "Phlegmatic",
+   "Nonchalant"
+  ],
+  "pos": "adjective",
+  "meaning": "calm and unbothered, showing little emotion or concern",
+  "example": "He remained (phlegmatic / nonchalant) through the crisis."
+ },
+ {
+  "group": "😀 Hope, Calm & Positivity",
+  "words": [
+   "Quixotic"
+  ],
+  "pos": "adjective",
+  "meaning": "unrealistic and impractical in a hopeful, idealistic way",
+  "example": "It was a quixotic bid for the presidency."
+ },
+ {
+  "group": "😀 Hope, Calm & Positivity",
+  "words": [
+   "Ameliorate"
+  ],
+  "pos": "verb",
+  "meaning": "to make a bad situation better",
+  "example": "The grant helped ameliorate rural distress."
+ },
+ {
+  "group": "🎭 Lies, Trickery & Deception",
+  "words": [
+   "Deceive",
+   "Dissemble",
+   "Beguile",
+   "Prevaricate"
+  ],
+  "pos": "verb",
+  "meaning": "to mislead by hiding the truth; *beguile* also = to charm; *prevaricate* = to dodge rather than lie outright",
+  "example": "He set out to (deceive / dissemble / beguile) investors; the witness prevaricated for an hour."
+ },
+ {
+  "group": "🎭 Lies, Trickery & Deception",
+  "words": [
+   "Fabricate"
+  ],
+  "pos": "verb",
+  "meaning": "to make up something false",
+  "example": "The dossier was entirely fabricated."
+ },
+ {
+  "group": "🎭 Lies, Trickery & Deception",
+  "words": [
+   "Mendacious",
+   "Duplicitous",
+   "Spurious",
+   "Specious"
+  ],
+  "pos": "adjective",
+  "meaning": "false or dishonest; *specious* = looks correct but is actually false; *duplicitous* = two-faced",
+  "example": "The (mendacious / duplicitous) testimony rested on (spurious / specious) claims."
+ },
+ {
+  "group": "🎭 Lies, Trickery & Deception",
+  "words": [
+   "Dubious"
+  ],
+  "pos": "adjective",
+  "meaning": "doubtful and possibly not honest or true",
+  "example": "The firm has a dubious record on safety."
+ },
+ {
+  "group": "🎭 Lies, Trickery & Deception",
+  "words": [
+   "Chicanery"
+  ],
+  "pos": "noun",
+  "meaning": "clever trickery used to deceive",
+  "example": "The deal was pushed through by legal chicanery."
+ },
+ {
+  "group": "😨 Shyness, Caution & Restraint",
+  "words": [
+   "Diffident",
+   "Reticent",
+   "Reluctant",
+   "Circumspect"
+  ],
+  "pos": "adjective",
+  "meaning": "holding back - through shyness, unwillingness, or careful caution",
+  "example": "He was (diffident / reticent / reluctant) about speaking; the ministry stayed circumspect on the figures."
+ },
+ {
+  "group": "😨 Shyness, Caution & Restraint",
+  "words": [
+   "Taciturn"
+  ],
+  "pos": "adjective",
+  "meaning": "habitually saying very little",
+  "example": "The taciturn official gave one-word answers."
+ },
+ {
+  "group": "😨 Shyness, Caution & Restraint",
+  "words": [
+   "Keen"
+  ],
+  "pos": "adjective",
+  "meaning": "eager, or sharply aware and perceptive",
+  "example": "She was keen to start, and had a keen eye for detail."
+ },
+ {
+  "group": "😨 Shyness, Caution & Restraint",
+  "words": [
+   "Astute",
+   "Perspicacious"
+  ],
+  "pos": "adjective",
+  "meaning": "clever and shrewd, with sharp insight",
+  "example": "It was an (astute / perspicacious) reading of the market."
+ },
+ {
+  "group": "🦅 Boldness, Recklessness & Daring",
+  "words": [
+   "Audacious",
+   "Intrepid"
+  ],
+  "pos": "adjective",
+  "meaning": "very bold and fearless, sometimes shockingly so",
+  "example": "It was an (audacious / intrepid) rescue attempt."
+ },
+ {
+  "group": "🦅 Boldness, Recklessness & Daring",
+  "words": [
+   "Impetuous",
+   "Headlong"
+  ],
+  "pos": "adjective/adverb",
+  "meaning": "acting fast without thinking; rushing in recklessly",
+  "example": "The impetuous decision was made headlong, without consulting anyone."
+ }
+]

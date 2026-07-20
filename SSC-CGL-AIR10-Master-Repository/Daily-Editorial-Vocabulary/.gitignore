@@ -1,3 +1,10 @@
 # Runtime / generated artifacts
 run.log
 used_words.json
+
+# Rendered HTML source for the master vocabulary file - the committed,
+# mobile-friendly artifact is the sibling PDF (PDF-only policy for study docs).
+Daily-Words/Editorial_Vocabulary.html
+
+# Byte-compiled cache
+__pycache__/

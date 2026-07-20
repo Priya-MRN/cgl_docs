@@ -53,6 +53,11 @@ OUTPUT_DIR = BASE_DIR / "Daily-Words"
 MASTER_FILE = OUTPUT_DIR / "Editorial_Vocabulary.html"
 # Canonical store backing the master file (the words + which days they came in).
 MASTER_STORE = BASE_DIR / "master_words.json"
+# Consolidated meaning-families: near-synonyms collapsed into ONE row each, so
+# the master file stays readable as the word list grows. master_words.json stays
+# the source of truth for WORDS; this file is the source of truth for HOW THEY
+# ARE GROUPED. Each new daily word is placed into a family (see place_in_family).
+FAMILIES_STORE = BASE_DIR / "master_families.json"
 LOG_FILE = BASE_DIR / "run.log"
 
 # National (Indian) + international editorial RSS feeds.
@@ -677,9 +682,191 @@ def _esc(s):
     return _html.escape(s or "", quote=False)
 
 
+# ---------------------------------------------------------------------------
+# Meaning-families: collapse near-synonyms into one row
+# ---------------------------------------------------------------------------
+# A family is:
+#   {"group": "<emoji> Title", "words": [...], "pos": "", "meaning": "",
+#    "example": "... (curb / curtail) ...", "added": "YYYY-MM-DD" | None}
+# The bulk consolidation was done once, offline, over the whole word list. From
+# then on each daily word is slotted into the closest existing family, and only
+# starts a new one when nothing matches — so the file stops growing a row a word.
+
+# How close a new word's meaning must be to a family's before it joins it.
+# Tuned so obvious synonyms merge but unrelated words still start a new family.
+_FAMILY_MATCH_MIN = 0.34
+
+_STOP = {
+    "to", "a", "an", "the", "of", "or", "and", "in", "on", "for", "with", "that",
+    "is", "be", "being", "someone", "something", "very", "make", "makes", "made",
+    "not", "so", "as", "it", "its", "by", "from", "at", "into", "who", "which",
+}
+
+
+def _tokens(text):
+    """Content words of a meaning string, for overlap scoring."""
+    return {w for w in re.findall(r"[a-z]+", (text or "").lower())
+            if len(w) > 2 and w not in _STOP}
+
+
+def _similarity(a, b):
+    """Jaccard overlap of two meaning strings. 0.0 = unrelated, 1.0 = identical."""
+    ta, tb = _tokens(a), _tokens(b)
+    if not ta or not tb:
+        return 0.0
+    return len(ta & tb) / len(ta | tb)
+
+
+def _family_score(entry, fam):
+    """How well a word fits a family: meaning overlap, plus credit for shared
+    'easy synonym' words.
+
+    Meaning text alone is too brittle — 'to reduce or cut short' (curtail) and
+    'to control or reduce something' (curb) are the same idea but share one
+    token. The easy-synonym lists are the stronger signal, because two true
+    synonyms are usually glossed with the SAME simple words, so a synonym hit
+    counts for more than a meaning hit.
+    """
+    meaning = _similarity(entry.get("meaning", ""), fam.get("meaning", ""))
+    ea, eb = _tokens(entry.get("easy", "")), _tokens(fam.get("easy", ""))
+    # Overlap coefficient, not Jaccard: a 2-word list matching 2 of a 5-word
+    # list is a strong signal, and Jaccard would punish it for being short.
+    easy = len(ea & eb) / min(len(ea), len(eb)) if ea and eb else 0.0
+    # Either signal alone can carry the merge; the synonym list is weighted up.
+    return max(meaning, easy * 0.9)
+
+
+def place_in_family(entry, families):
+    """Slot ONE new word into the best-matching family, or start a new one.
+
+    Matching is deliberately conservative: a word only joins a family when its
+    meaning genuinely overlaps AND the group the regex rules picked for it
+    agrees. A wrong merge is worse than a singleton family, because it hides a
+    word under a row whose meaning does not actually cover it.
+
+    Returns the family the word landed in.
+    """
+    group = group_for(entry)
+    meaning = entry.get("meaning", "")
+    best, best_score = None, 0.0
+    for fam in families:
+        if fam["group"] != group:
+            continue
+        score = _family_score(entry, fam)
+        if score > best_score:
+            best, best_score = fam, score
+
+    if best is not None and best_score >= _FAMILY_MATCH_MIN:
+        if entry["word"] not in best["words"]:
+            best["words"].append(entry["word"])
+            # Fold the new word's synonyms in, so the family keeps getting
+            # easier to match against as it grows.
+            merged = _tokens(best.get("easy", "")) | _tokens(entry.get("easy", ""))
+            if merged:
+                best["easy"] = ", ".join(sorted(merged))
+        return best
+
+    fam = {
+        "group": group,
+        "words": [entry["word"]],
+        "pos": entry.get("pos", ""),
+        "meaning": meaning,
+        "easy": entry.get("easy", ""),
+        "example": entry.get("example", ""),
+    }
+    families.append(fam)
+    return fam
+
+
+def write_master_families(families, words, days, today_str=None):
+    """Render the consolidated meaning-families into ONE self-contained HTML
+    page: one row per family, all its words comma-separated in column 1.
+
+    Families touched today are highlighted, and the words added today are
+    listed under the Contents so the day's additions are still easy to find.
+    """
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    from collections import defaultdict
+
+    buckets = defaultdict(list)
+    for f in families:
+        buckets[f["group"]].append(f)
+    used_groups = ([g for g in GROUP_ORDER if buckets.get(g)]
+                   + [g for g in buckets if g not in GROUP_ORDER])
+
+    new_today = ([e["word"] for e in words if e.get("added") == today_str]
+                 if today_str else [])
+    n_words = sum(len(f["words"]) for f in families)
+
+    p = []
+    p.append("<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'>")
+    p.append("<meta name='viewport' content='width=device-width, initial-scale=1'>")
+    p.append("<title>Daily Editorial Vocabulary — Master List</title>")
+    p.append(f"<style>{_PAGE_CSS}</style></head><body>")
+    p.append("<h1>📚 Daily Editorial Vocabulary — Master List</h1>")
+    badge = (f"<span class='newbadge'>{len(new_today)} new today</span>"
+             if new_today else "")
+    p.append(
+        f"<blockquote><strong>{n_words} words in {len(families)} meaning-families"
+        f"</strong>{badge}. Near-synonyms share ONE row — the whole family, one "
+        "meaning, one example, with the interchangeable words in (brackets) at "
+        "the swap point.<br><br><strong>How to use:</strong> read the example "
+        "aloud swapping in each word of the family, then cover the meaning and "
+        "recall it.</blockquote>")
+
+    if new_today:
+        p.append("<blockquote>🆕 <strong>Added today:</strong> "
+                 f"{_esc(', '.join(sorted(new_today)))}</blockquote>")
+
+    p.append("<h2 id='contents'>🧭 Contents</h2>")
+    p.append("<table class='toc'><thead><tr><th>#</th><th>Group</th>"
+             "<th>Families</th><th>Words</th></tr></thead><tbody>")
+    for i, g in enumerate(used_groups, 1):
+        slug = _anchor(_split_emoji(g)[1])
+        nw = sum(len(f["words"]) for f in buckets[g])
+        p.append(f"<tr><td class='count'>{i}</td>"
+                 f"<td><a href='#{slug}'>{_esc(g)}</a></td>"
+                 f"<td class='count'>{len(buckets[g])}</td>"
+                 f"<td class='count'>{nw}</td></tr>")
+    p.append("</tbody></table>")
+
+    today_set = {w.lower() for w in new_today}
+    for g in used_groups:
+        slug = _anchor(_split_emoji(g)[1])
+        p.append(f"<h2 id='{slug}'>{_esc(g)} "
+                 "<a class='backtop' href='#contents'>↑ top</a></h2>")
+        p.append("<table><thead><tr><th>Words</th><th>Part of Speech</th>"
+                 "<th>Meaning</th><th>Example</th></tr></thead><tbody>")
+        for f in sorted(buckets[g], key=lambda x: x["words"][0].lower()):
+            # Bold just the words that arrived today, so a family that grew is
+            # visible without lighting up the whole (mostly old) row.
+            cells = ", ".join(
+                f"<u>{_esc(w)}</u>" if w.lower() in today_set else _esc(w)
+                for w in f["words"])
+            cls = " class='today'" if any(w.lower() in today_set
+                                         for w in f["words"]) else ""
+            ex = f"<em>{_esc(f.get('example',''))}</em>" if f.get("example") else ""
+            p.append(f"<tr{cls}><td><strong>{cells}</strong></td>"
+                     f"<td>{_esc(f.get('pos',''))}</td>"
+                     f"<td>{_esc(f.get('meaning',''))}</td>"
+                     f"<td>{ex}</td></tr>")
+        p.append("</tbody></table>")
+
+    p.append("<hr>")
+    p.append(f"<p><strong>Days merged:</strong> {len(days)} "
+             f"({_esc(', '.join(days))})<br>"
+             "<strong>Sources:</strong> Curated word bank + mined editorial "
+             "words, consolidated into meaning-families.</p>")
+    p.append("</body></html>")
+
+    with open(MASTER_FILE, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(p))
+    return MASTER_FILE
+
+
 def write_master(words, days, today_str=None):
-    """Render every unique word into ONE self-contained, grouped HTML page.
-    Words whose 'added' == today_str are highlighted as TODAY's new words."""
+    """LEGACY one-row-per-word renderer. Superseded by write_master_families()
+    (kept as a fallback for when master_families.json is missing)."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     from collections import defaultdict
     buckets = defaultdict(list)
@@ -812,7 +999,25 @@ def main():
 
     save_json(MASTER_STORE, {"words": master_words, "days": days})
 
-    fname = write_master(master_words, days, today_str)
+    # Place each of today's new words into a meaning-family, so the master file
+    # grows a WORD in an existing row rather than a whole new row.
+    families = load_json(FAMILIES_STORE, [])
+    if families:
+        placed_new = 0
+        for e in master_words:
+            if e.get("added") == today_str:
+                fam = place_in_family(e, families)
+                if len(fam["words"]) == 1:
+                    placed_new += 1
+        save_json(FAMILIES_STORE, families)
+        fname = write_master_families(families, master_words, days, today_str)
+        log(f"Families: {len(families)} total "
+            f"({placed_new} new family/families started today)")
+    else:
+        # No consolidated families yet -> fall back to one row per word.
+        log("WARNING: master_families.json missing; using legacy per-word layout.")
+        fname = write_master(master_words, days, today_str)
+
     html_to_pdf(fname, delete_html=True, log=log)  # mobile-friendly PDF; drop HTML
     log(f"Merged {added} new words ({len(master_words)} total) -> {fname.name}")
 
