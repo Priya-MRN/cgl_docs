@@ -4195,5 +4195,135 @@
     "pos": "adjective/adverb",
     "meaning": "acting fast without thinking; rushing in recklessly",
     "example": "The impetuous decision was made headlong, without consulting anyone."
+  },
+  {
+    "group": "📦 Amount, Size & Plenty",
+    "words": [
+      "Affordability"
+    ],
+    "pos": "noun",
+    "meaning": "extent to which something is affordable, as measured by its cost relative to the amount that the purchaser is able to pay",
+    "easy": "",
+    "example": "First-time home buyers are feeling the squeeze of higher interest rates with mortgage affordability at its worst level for 16 years."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Installation"
+    ],
+    "pos": "noun",
+    "meaning": "act of installing",
+    "easy": "",
+    "example": "My street now resembles an art installation, with varying colours and patterns of bed sheets taped to windows in the battle against the heat."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Inspiration"
+    ],
+    "pos": "noun",
+    "meaning": "drawing of air into the lungs, accomplished in mammals by elevation of the chest walls and flattening of the diaphragm, as part of the act o",
+    "easy": "inhalation, eureka, flash",
+    "example": "Fast fashion and mall brands used to look to the runways for inspiration."
+  },
+  {
+    "group": "📌 Cause, Effect & Consequence",
+    "words": [
+      "Allegiance"
+    ],
+    "pos": "noun",
+    "meaning": "Loyalty to some cause, nation or ruler",
+    "easy": "adherence, fidelity, loyalty",
+    "example": "Now it shows how flimsy that allegiance is It’s the World Cup final , so you pick a side."
+  },
+  {
+    "group": "📌 Cause, Effect & Consequence",
+    "words": [
+      "Consequential"
+    ],
+    "pos": "adjective",
+    "meaning": "Following as a result",
+    "easy": "considerable, important",
+    "example": "The most consequential fixture in international sport was, as it turned out, little more than a grand cosplay for the New Jersey leisure market."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Preference"
+    ],
+    "pos": "noun",
+    "meaning": "selection of one thing or person over others",
+    "easy": "forechoice",
+    "example": "Yet Burnham’s support for the government’s suffocating fiscal rules – and his preference for the vaguer language of “public control” over public ownership – had already raised doubts about how far he was prepared to go."
+  },
+  {
+    "group": "🚧 Block, Hinder & Suppress",
+    "words": [
+      "Pedestrianised"
+    ],
+    "pos": "verb",
+    "meaning": "restrict access to  to pedestrians only, disallowing motor vehicles",
+    "easy": "",
+    "example": "In the big pedestrianised square Plaza de Olavide, fans had gathered around screens, some sitting on the ground while children and dogs ran around."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Questionable"
+    ],
+    "pos": "adjective",
+    "meaning": "Problematic",
+    "easy": "",
+    "example": "That was always a questionable assertion, given the defining postwar role of Labour in shaping a fairer social settlement."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Accountable"
+    ],
+    "pos": "adjective",
+    "meaning": "Obliged, when called upon, to answer",
+    "easy": "amenable, answerable, liable",
+    "example": "The Grim Lessons of Israel’s War in Gaza Israel has not been held accountable for its actions in Gaza."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Apocalyptic"
+    ],
+    "pos": "noun",
+    "meaning": "One who predicts apocalypse",
+    "easy": "apocalypticist, doomsayer",
+    "example": "Given the somewhat apocalyptic conditions, getting dressed to go to the office is the last thing anyone wants to think about, mainly because it feels wrong to be working."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Incongruities"
+    ],
+    "pos": "noun",
+    "meaning": "state of being incongruous, or lacking congruence",
+    "easy": "discrepancy, dissimilarity, inconsistency",
+    "example": "The MetLife Stadium on Sunday night was a melting pot of colliding incongruities and temporary identities."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Photographing"
+    ],
+    "pos": "verb",
+    "meaning": "take a photograph of",
+    "easy": "",
+    "example": "On a crowded train of people mostly staring obliviously at our own phones, a stranger had been covertly photographing that little girl over and over again."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Journalist"
+    ],
+    "pos": "noun",
+    "meaning": "keeper of a personal journal, who writes in it regularly",
+    "easy": "",
+    "example": "María Ramírez is a journalist and deputy managing editor of elDiario.es, a news outlet in Spain Do you have an opinion on the issues raised in this article?"
   }
 ]
