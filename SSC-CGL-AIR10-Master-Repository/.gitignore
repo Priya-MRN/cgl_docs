@@ -46,3 +46,13 @@ Static-GK/Political-Reforms-Leaders.html
 # Python build artifacts
 __pycache__/
 *.pyc
+
+# RRB JE Electronics book — markdown sources kept local (PDF-only policy);
+# only the rendered PDFs (+ the combined master book) are committed.
+RRB/JE-Electronics-Book/README.md
+RRB/JE-Electronics-Book/00_Blueprint_and_Weightage.md
+RRB/JE-Electronics-Book/chapters/*.md
+RRB/JE-Electronics-Book/general-abilities/*.md
+RRB/JE-Electronics-Book/pyq-research/*.md
+RRB/JE-Electronics-Book/*.html
+RRB/Rrb/*.txt
