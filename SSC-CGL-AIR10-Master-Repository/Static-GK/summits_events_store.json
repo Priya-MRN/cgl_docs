@@ -27,12 +27,22 @@
         "bucket": "🔬 Inventions, Discoveries & Science",
         "scope": "India"
       }
-    ]
-  },
-  "seen_urls": [
-    "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
-    "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
-    "https://www.gktoday.in/vikram-1-launches-indias-first-private-orbital-rocket/",
-    "https://www.gktoday.in/world-listening-day/"
-  ]
-}
+    ],
+    "2026-07-22": [
+      {
+        "title": "Mission Golden Spice for Lakadong Turmeric",
+        "url": "https://www.gktoday.in/mission-golden-spice-for-lakadong-turmeric/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      }
+    ],
+    "2026-07-23": [
+      {
+        "title": "India Launches Campus Biodiversity Register Initiative",
+        "url": "https://www.gktoday.in/india-launches-campus-biodiversity-register-initiative/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "EnKash Launches India’s First UPI-Enabled Meal Card",
+        "url": "https://www.gktoday.in/e

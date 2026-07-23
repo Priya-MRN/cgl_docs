@@ -4325,5 +4325,175 @@
     "meaning": "keeper of a personal journal, who writes in it regularly",
     "easy": "",
     "example": "María Ramírez is a journalist and deputy managing editor of elDiario.es, a news outlet in Spain Do you have an opinion on the issues raised in this article?"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Significance"
+    ],
+    "pos": "noun",
+    "meaning": "extent to which something matters",
+    "easy": "",
+    "example": "Social care has personal significance for Mr Burnham."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Improvisational"
+    ],
+    "pos": "adjective",
+    "meaning": "Having the nature of an improvisation",
+    "easy": "",
+    "example": "A Soviet-schooled military officer deeply embedded within institutions tussled with a young civilian disruptor taking a more agile, improvisational approach."
+  },
+  {
+    "group": "⭐ Certainty, Importance & Authority",
+    "words": [
+      "Conscription"
+    ],
+    "pos": "noun",
+    "meaning": "Involuntary labor, especially military service, demanded by some established authority",
+    "easy": "draft",
+    "example": "The pair also butted heads over Mr Fedorov’s plans to improve recruitment and training to reduce the deep anger created by the conscription system ."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Distribution"
+    ],
+    "pos": "noun",
+    "meaning": "act of distributing or state of being distributed",
+    "easy": "",
+    "example": "Lists of folly: On the Supreme Court, the SIR and benefits A flawed SIR should not be the basis for distribution of benefits"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Independent"
+    ],
+    "pos": "noun",
+    "meaning": "candidate or voter not affiliated with any political party, a freethinker, free of a party platform",
+    "easy": "",
+    "example": "Diana Berg is a Ukrainian artist, writer and cultural manager from Mariupol, and the founder of Platform TU, an independent cultural initiative now operating in exile after Russia’s full-scale invasion."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Announcements"
+    ],
+    "pos": "noun",
+    "meaning": "act of announcing, or giving notice",
+    "easy": "proclamation, publication",
+    "example": "If Mr Burnham agrees, he will have to wait before making any big announcements."
+  },
+  {
+    "group": "🪢 Unity, Sameness & Division",
+    "words": [
+      "Consecutive"
+    ],
+    "pos": "noun",
+    "meaning": "sequence of notes or chords that results from repeated shifts in pitch of the same interval",
+    "easy": "",
+    "example": "US renews strikes on Iran as Trump threatens to attack underground nuclear site The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks."
+  },
+  {
+    "group": "❓ Difference, Disagreement & Doubt",
+    "words": [
+      "Demonstrators"
+    ],
+    "pos": "noun",
+    "meaning": "One who demonstrates anything, or proves beyond doubt",
+    "easy": "",
+    "example": "On Tuesday night, demonstrators’ calls were answered as the Ukrainian president fired the general and offered Mr Fedorov a “prominent” role and promised an overhaul of the army command."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Commercial"
+    ],
+    "pos": "noun",
+    "meaning": "advertisement in a common media format, usually radio or television",
+    "easy": "",
+    "example": "The last time America hosted, the problem wasn’t commercial overkill so much as sheer shrugging apathy."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Impossible"
+    ],
+    "pos": "noun",
+    "meaning": "impossibility",
+    "easy": "",
+    "example": "An article in the Observer concluded that Vienna shows “decent homes for all” is not an impossible dream."
+  },
+  {
+    "group": "😀 Hope, Calm & Positivity",
+    "words": [
+      "Impressive"
+    ],
+    "pos": "adjective",
+    "meaning": "Making, or tending to make, a positive impression",
+    "easy": "",
+    "example": "On the Grand Road of Puri The Jagannatha temple in the city in Odisha is an impressive place of worship, and the grand festival of the deity is incomparable"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Initiative"
+    ],
+    "pos": "noun",
+    "meaning": "beginning",
+    "easy": "direct initiative",
+    "example": "​Battling drug abuse: On Kerala’s Operation Toofan Kerala has shown initiative in coordinated action against cartels"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Institutions"
+    ],
+    "pos": "noun",
+    "meaning": "custom or practice of a society or community",
+    "easy": "establishment",
+    "example": "A Soviet-schooled military officer deeply embedded within institutions tussled with a young civilian disruptor taking a more agile, improvisational approach."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Investment"
+    ],
+    "pos": "noun",
+    "meaning": "act of investing, or state of being invested",
+    "easy": "",
+    "example": "The CETA can reshape trade and investment flows, create quality jobs and growth, and transition India to a more competitive and innovation-driven economy"
+  },
+  {
+    "group": "📈 Increase, Rise & Spread",
+    "words": [
+      "Overwhelming"
+    ],
+    "pos": "verb",
+    "meaning": "engulf, surge over and submerge",
+    "easy": "swamp",
+    "example": "India's 'cockroach' protest continues a day after police crackdown Delhi witnessed overwhelming violence on Monday, with at least 60 protesters wounded."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Progressives"
+    ],
+    "pos": "noun",
+    "meaning": "person who actively favors or strives for progress towards improved conditions, as in society or government",
+    "easy": "",
+    "example": "That a self-described leftwing party could have such success by fixing on Mexico’s chasmic inequality has drawn attention from hopeful progressives worldwide."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Punishment"
+    ],
+    "pos": "noun",
+    "meaning": "act or process of punishing, imposing and/or applying a sanction",
+    "easy": "beating, castigation, punition",
+    "example": "Voters reserve the greatest punishment for the politicians they think acted too little, or too late, to prevent them getting poorer."
   }
 ]

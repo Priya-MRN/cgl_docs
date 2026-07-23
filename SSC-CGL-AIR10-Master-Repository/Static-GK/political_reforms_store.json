@@ -15,10 +15,20 @@
         "state": "Centre",
         "action": false
       }
+    ],
+    "2026-07-22": [
+      {
+        "title": "Centre Announces 50% Quota for Ex-Agniveers in CAPFs",
+        "url": "https://www.gktoday.in/centre-announces-50-quota-for-ex-agniveers-in-capfs/",
+        "bucket": "🏛️ Reforms, Bills & Laws",
+        "state": "Centre",
+        "action": false
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/bill-on-vande-mataram-scheduled-for-lok-sabha/",
+    "https://www.gktoday.in/centre-announces-50-quota-for-ex-agniveers-in-capfs/",
     "https://www.gktoday.in/centre-launches-global-trade-guidebook-for-msmes/"
   ]
 }
