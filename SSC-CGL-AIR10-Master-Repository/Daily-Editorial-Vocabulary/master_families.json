@@ -4495,5 +4495,135 @@
     "meaning": "act or process of punishing, imposing and/or applying a sanction",
     "easy": "beating, castigation, punition",
     "example": "Voters reserve the greatest punishment for the politicians they think acted too little, or too late, to prevent them getting poorer."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Decentralisation"
+    ],
+    "pos": "noun",
+    "meaning": "action of decentralizing, or the state of being decentralized",
+    "easy": "",
+    "example": "The apparent contradiction – fortifying the centre to pursue an agenda of decentralisation – arises from a perversity in the way the British state works or, rather, fails to work ."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Civilization"
+    ],
+    "pos": "noun",
+    "meaning": "organized culture encompassing many communities, often on the scale of a nation or a people",
+    "easy": "acculturation, education, sphere",
+    "example": "Three speeches on a single day signaled a dying American democracy | Robert Shpiner Stephen Miller warned of a leftwing ‘cancer’ threatening civilization."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Contradiction"
+    ],
+    "pos": "noun",
+    "meaning": "act of contradicting",
+    "easy": "※, ↮, ↯",
+    "example": "The apparent contradiction – fortifying the centre to pursue an agenda of decentralisation – arises from a perversity in the way the British state works or, rather, fails to work ."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Prominence"
+    ],
+    "pos": "noun",
+    "meaning": "state of being prominent",
+    "easy": "",
+    "example": "Reforms in recent years have created institutions with varying degrees of local autonomy – elected mayoralties like the one in Manchester that afforded Mr Burnham a platform for national prominence."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Administrations"
+    ],
+    "pos": "noun",
+    "meaning": "act of administering",
+    "easy": "conduct, governing, management",
+    "example": "Heads of devolved administrations are also adept at claiming credit when things go well and, when they go badly, diverting the blame on to national government."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Environmentally"
+    ],
+    "pos": "adverb",
+    "meaning": "In a manner affecting the environment",
+    "easy": "",
+    "example": "Buried questions: On the Sikkim tunnel accident The costs of projects in environmentally fragile zones are many"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Intellectuals"
+    ],
+    "pos": "noun",
+    "meaning": "intelligent, learned person, especially one who discourses about learned matters",
+    "easy": "highbrow",
+    "example": "In the early 20th century, Chinese intellectuals sought to capture the harsh realities of working-class lives."
+  },
+  {
+    "group": "⭐ Certainty, Importance & Authority",
+    "words": [
+      "Investigating"
+    ],
+    "pos": "verb",
+    "meaning": "inquire into or study in order to ascertain facts or information",
+    "easy": "underseek",
+    "example": "Fire kills 10 members of same family in Peru, police say Authorities are investigating the cause of the blaze in Lima as local media report it may have been arson."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Presumption"
+    ],
+    "pos": "noun",
+    "meaning": "act of presuming, or something presumed",
+    "easy": "overhope",
+    "example": "As a critical care doctor, I have a response to his diagnosis The presumption that US elections are legitimate died last week in Washington."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Traditional"
+    ],
+    "pos": "noun",
+    "meaning": "person with traditional beliefs",
+    "easy": "",
+    "example": "“I wasn’t making what you would call a traditional target,” the mayor said."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Devolution"
+    ],
+    "pos": "noun",
+    "meaning": "rolling down",
+    "easy": "",
+    "example": "But genuine control, especially when it comes to fiscal policy, has not matched the rhetoric of devolution."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Homelessness"
+    ],
+    "pos": "noun",
+    "meaning": "state of being homeless",
+    "easy": "",
+    "example": "But I wasn’t in the space of wanting to play semantics with it.” Daniel Lavelle writes on mental health, homelessness and social care."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Improbable"
+    ],
+    "pos": "adjective",
+    "meaning": "Not likely to be true",
+    "easy": "",
+    "example": "The garish half-time show curated by Chris Martin of Coldplay seemed to reinforce that – but then came a moment of improbable genius."
   }
 ]
