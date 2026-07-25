@@ -55,12 +55,35 @@
         "bucket": "🔬 Inventions, Discoveries & Science",
         "scope": "International"
       }
+    ],
+    "2026-07-24": [
+      {
+        "title": "China Launches Gravity-1 Rocket with Nine Satellites",
+        "url": "https://www.gktoday.in/china-launches-gravity-1-rocket-with-nine-satellites/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "Lovlina Borgohain Assures India’s First CWG 2026 Medal",
+        "url": "https://www.gktoday.in/lovlina-borgohain-assures-indias-first-cwg-2026-medal/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      },
+      {
+        "title": "Gujarat Launches Samras Vidyasetu Dropout Campaign",
+        "url": "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
+    "https://www.gktoday.in/china-launches-gravity-1-rocket-with-nine-satellites/",
     "https://www.gktoday.in/enkash-launches-indias-first-upi-enabled-meal-card/",
+    "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
     "https://www.gktoday.in/india-launches-campus-biodiversity-register-initiative/",
+    "https://www.gktoday.in/lovlina-borgohain-assures-indias-first-cwg-2026-medal/",
     "https://www.gktoday.in/mission-golden-spice-for-lakadong-turmeric/",
     "https://www.gktoday.in/paras-defence-to-set-up-644-million-semiconductor-packaging-facility/",
     "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",

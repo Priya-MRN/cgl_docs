@@ -24,11 +24,37 @@
         "state": "Centre",
         "action": false
       }
+    ],
+    "2026-07-24": [
+      {
+        "title": "What is Rule 267 in Rajya Sabha?",
+        "url": "https://www.gktoday.in/what-is-rule-267-in-rajya-sabha/",
+        "bucket": "🗳️ Elections, Assemblies & Parties",
+        "state": "Centre",
+        "action": false
+      },
+      {
+        "title": "Tamil Nadu Renames CM Breakfast Scheme as Perunthalaivar Kamarajar Breakfast Scheme",
+        "url": "https://www.gktoday.in/tamil-nadu-renames-cm-breakfast-scheme-as-perunthalaivar-kamarajar-breakfast-scheme/",
+        "bucket": "👤 Appointments, Oaths & Office",
+        "state": "Tamil Nadu",
+        "action": false
+      },
+      {
+        "title": "Gujarat Launches Samras Vidyasetu Dropout Campaign",
+        "url": "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
+        "bucket": "💰 Schemes & Welfare Programmes",
+        "state": "Gujarat",
+        "action": false
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/bill-on-vande-mataram-scheduled-for-lok-sabha/",
     "https://www.gktoday.in/centre-announces-50-quota-for-ex-agniveers-in-capfs/",
-    "https://www.gktoday.in/centre-launches-global-trade-guidebook-for-msmes/"
+    "https://www.gktoday.in/centre-launches-global-trade-guidebook-for-msmes/",
+    "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
+    "https://www.gktoday.in/tamil-nadu-renames-cm-breakfast-scheme-as-perunthalaivar-kamarajar-breakfast-scheme/",
+    "https://www.gktoday.in/what-is-rule-267-in-rajya-sabha/"
   ]
 }
