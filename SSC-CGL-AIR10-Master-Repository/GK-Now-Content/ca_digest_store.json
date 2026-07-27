@@ -817,10 +817,61 @@
         "bucket": "🗂️ Other Notable",
         "scope": "India"
       }
+    ],
+    "2026-07-25": [
+      {
+        "title": "AAROH Report on Scientific Mine Closure Released",
+        "url": "https://www.gktoday.in/aaroh-report-on-scientific-mine-closure-released/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Wildfires Force Mass Evacuations in France and Spain",
+        "url": "https://www.gktoday.in/wildfires-force-mass-evacuations-in-france-and-spain/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Ballari-Guntakal Rail Project Gets Cabinet Nod",
+        "url": "https://www.gktoday.in/ballari-guntakal-rail-project-gets-cabinet-nod/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Cabinet Approves BHAVYA Rasayan Scheme",
+        "url": "https://www.gktoday.in/cabinet-approves-bhavya-rasayan-scheme/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "India"
+      },
+      {
+        "title": "Indian scientists develop low-cost zinc-air battery technology",
+        "url": "https://www.gktoday.in/indian-scientists-develop-low-cost-zinc-air-battery-technology/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "India, Romania Sign Three Agreements in Bucharest",
+        "url": "https://www.gktoday.in/india-romania-sign-three-agreements-in-bucharest/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "India"
+      },
+      {
+        "title": "Government Bars Telecom Data Sharing Abroad",
+        "url": "https://www.gktoday.in/government-bars-telecom-data-sharing-abroad/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Karnataka’s Semiconductor Park to Become Operational by December 2026",
+        "url": "https://www.gktoday.in/karnatakas-semiconductor-park-to-become-operational-by-december-2026/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/31st-divya-kala-mela-inaugurated-in-kolkata/",
+    "https://www.gktoday.in/aaroh-report-on-scientific-mine-closure-released/",
     "https://www.gktoday.in/agnikul-to-attempt-rocket-stage-recovery/",
     "https://www.gktoday.in/all-india-water-secretaries-conference-held-in-new-delhi/",
     "https://www.gktoday.in/amish-shah-wins-arizona-democratic-congressional-primary/",
@@ -829,8 +880,10 @@
     "https://www.gktoday.in/army-to-induct-450-carl-gustaf-m4-rocket-launchers/",
     "https://www.gktoday.in/arunachal-pradesh-launches-emergency-helicopter-flood-relief/",
     "https://www.gktoday.in/assam-begins-commercial-matcha-tea-production/",
+    "https://www.gktoday.in/ballari-guntakal-rail-project-gets-cabinet-nod/",
     "https://www.gktoday.in/bar-council-of-india-issues-social-media-rules-for-advocates/",
     "https://www.gktoday.in/bihar-banyan-tree-named-worlds-oldest-accurately-dated/",
+    "https://www.gktoday.in/cabinet-approves-bhavya-rasayan-scheme/",
     "https://www.gktoday.in/cac49-adopts-seven-codex-standards-under-indias-leadership/",
     "https://www.gktoday.in/ccras-launches-three-research-initiatives/",
     "https://www.gktoday.in/centre-announces-50-quota-for-ex-agniveers-in-capfs/",
@@ -860,6 +913,7 @@
     "https://www.gktoday.in/girish-bharadwaj-bridge-man-of-india-dies-at-76/",
     "https://www.gktoday.in/global-biofuel-alliance-selects-15-researcher-fellows/",
     "https://www.gktoday.in/government-adds-navi-mumbai-airport-for-medicine-imports/",
+    "https://www.gktoday.in/government-bars-telecom-data-sharing-abroad/",
     "https://www.gktoday.in/government-issues-draft-cafe-iii-norms/",
     "https://www.gktoday.in/government-waives-customs-duty-on-electronics-components/",
     "https://www.gktoday.in/grey-hornbill-returns-to-gujarats-gir-forests-after-six-decades/",
@@ -887,11 +941,13 @@
     "https://www.gktoday.in/india-launches-worlds-first-once-weekly-insulin-awiqli/",
     "https://www.gktoday.in/india-leads-retail-and-fmcg-gcc-hub/",
     "https://www.gktoday.in/india-north-macedonia-expand-trade-technology-ties/",
+    "https://www.gktoday.in/india-romania-sign-three-agreements-in-bucharest/",
     "https://www.gktoday.in/india-rwanda-expand-bilateral-defence-partnership/",
     "https://www.gktoday.in/india-unveils-first-made-in-india-exim-shipping-container/",
     "https://www.gktoday.in/india-withdraws-2017-yemen-travel-restriction/",
     "https://www.gktoday.in/indian-railways-becomes-worlds-second-most-electrified-network/",
     "https://www.gktoday.in/indian-railways-launches-reform-express-freight-reforms/",
+    "https://www.gktoday.in/indian-scientists-develop-low-cost-zinc-air-battery-technology/",
     "https://www.gktoday.in/indian-scientists-develop-placenta-on-chip-platform/",
     "https://www.gktoday.in/indias-energy-storage-requirement-may-reach-888-gwh-by-2035-36/",
     "https://www.gktoday.in/indias-first-night-safari-gets-supreme-court-nod/",
@@ -901,6 +957,7 @@
     "https://www.gktoday.in/jayaprakash-narayan-public-library-inaugurated-in-delhi/",
     "https://www.gktoday.in/joint-parliamentary-committee-backs-one-nation-one-election-framework/",
     "https://www.gktoday.in/karnataka-announces-indias-first-government-driven-ai-university/",
+    "https://www.gktoday.in/karnatakas-semiconductor-park-to-become-operational-by-december-2026/",
     "https://www.gktoday.in/kerala-targets-150-global-capability-centres-by-2031/",
     "https://www.gktoday.in/ladakh-begins-premium-apricot-exports-to-uae/",
     "https://www.gktoday.in/lets-fix-our-food-consortium-releases-nutrition-policy/",
@@ -950,6 +1007,7 @@
     "https://www.gktoday.in/west-bengal-implements-pmcspy-for-tea-garden-workers/",
     "https://www.gktoday.in/what-are-ethanol-atms/",
     "https://www.gktoday.in/what-is-rule-267-in-rajya-sabha/",
+    "https://www.gktoday.in/wildfires-force-mass-evacuations-in-france-and-spain/",
     "https://www.gktoday.in/world-listening-day/"
   ]
 }

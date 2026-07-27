@@ -10328,6 +10328,94 @@
       "easy": "",
       "example": "We need to find an acceptable present for Jeff.",
       "added": "2026-07-24"
+    },
+    {
+      "word": "Exhibition",
+      "pos": "noun",
+      "meaning": "instance of exhibiting, or something exhibited",
+      "easy": "",
+      "example": "Ten killed in Russian attack on drone exhibition near Kyiv The event, attended by prominent members of the Ukrainian defence industry, was hit by ballistic missiles in the middle of the day.",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Acknowledgments",
+      "pos": "noun",
+      "meaning": "act of acknowledging",
+      "easy": "ACK, admission, avowal",
+      "example": "Conservatives who critique land acknowledgments aren’t acting in good faith, but they do have a point.",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Demonstrations",
+      "pos": "noun",
+      "meaning": "act of demonstrating",
+      "easy": "",
+      "example": "Students and others have continued their demonstrations despite allegations of state excesses.",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Distraction",
+      "pos": "noun",
+      "meaning": "Something that distracts",
+      "easy": "",
+      "example": "Poking one's eye is a good distraction from a hurting toe.",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Educational",
+      "pos": "noun",
+      "meaning": "free  trip for travel consultants, provided by a travel operator or airline as a means of promoting their service",
+      "easy": "",
+      "example": "India cockroach protests: Videos show officers firing 'pellet guns' Thousands of people have taken to the streets in Delhi as part of the cockroach protests, calling for educational reforms.",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Electricity",
+      "pos": "noun",
+      "meaning": "Originally, a property of amber and certain other nonconducting substances to attract lightweight material when rubbed, or the cause of this",
+      "easy": "",
+      "example": "A £2 cap on bus fares, a cut in VAT on electricity, and some business rates relief for pubs, clubs and smaller music venues were all modest moves.",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Jurisdictions",
+      "pos": "noun",
+      "meaning": "power, right, or authority to interpret and apply the law",
+      "easy": "oyer and terminer, soc and sac, power",
+      "example": "India’s foreign policy must look seaward Indian seafarers need protection beyond borders, flags, and jurisdictions",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Pessimistic",
+      "pos": "adjective",
+      "meaning": "Marked by pessimism and little hopefulness",
+      "easy": "",
+      "example": "So many British people have it better than they think – it’s up to Burnham to make them see that | Polly Toynbee A new survey suggests voters are becoming more cynical and pessimistic.",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Strategist",
+      "pos": "noun",
+      "meaning": "Someone who devises strategies",
+      "easy": "",
+      "example": "Katz, the political strategist behind candidates like Zohran Mamdani, John Fetterman and Graham Platner, makes the case for the party to embrace a more populist platform on “The Ezra Klein Show.”",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Administered",
+      "pos": "verb",
+      "meaning": "cause to ingest , either by openly offering or through deceit",
+      "easy": "",
+      "example": "The other half is provided and administered by limited-profit housing associations – an Austrian version of social housing providers that are permitted to make a small profit to finance their operations.",
+      "added": "2026-07-25"
+    },
+    {
+      "word": "Artificial",
+      "pos": "adjective",
+      "meaning": "Man-made",
+      "easy": "artificious",
+      "example": "Race Open-weight models have been the underlying strength of Chinese artificial intelligence strategy.",
+      "added": "2026-07-25"
     }
   ],
   "days": [
@@ -10358,6 +10446,7 @@
     "2026-07-21",
     "2026-07-22",
     "2026-07-23",
-    "2026-07-24"
+    "2026-07-24",
+    "2026-07-25"
   ]
 }
