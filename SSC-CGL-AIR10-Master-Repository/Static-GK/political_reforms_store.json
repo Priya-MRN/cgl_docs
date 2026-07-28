@@ -47,14 +47,26 @@
         "state": "Gujarat",
         "action": false
       }
-    ]
-  },
-  "seen_urls": [
-    "https://www.gktoday.in/bill-on-vande-mataram-scheduled-for-lok-sabha/",
-    "https://www.gktoday.in/centre-announces-50-quota-for-ex-agniveers-in-capfs/",
-    "https://www.gktoday.in/centre-launches-global-trade-guidebook-for-msmes/",
-    "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
-    "https://www.gktoday.in/tamil-nadu-renames-cm-breakfast-scheme-as-perunthalaivar-kamarajar-breakfast-scheme/",
-    "https://www.gktoday.in/what-is-rule-267-in-rajya-sabha/"
-  ]
-}
+    ],
+    "2026-07-27": [
+      {
+        "title": "Kerala Launches Digital Square Education Initiative",
+        "url": "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",
+        "bucket": "💰 Schemes & Welfare Programmes",
+        "state": "Kerala",
+        "action": false
+      }
+    ],
+    "2026-07-28": [
+      {
+        "title": "Anti-Paper Leak Bill with Stricter Punishment Introduced in Lok Sabha",
+        "url": "https://www.gktoday.in/anti-paper-leak-bill-with-stricter-punishment-introduced-in-lok-sabha/",
+        "bucket": "🏛️ Reforms, Bills & Laws",
+        "state": "Centre",
+        "action": false
+      },
+      {
+        "title": "Gujarat Launches Cyber Financial Fraud e-Zero FIR System",
+        "url": "https://www.gktoday.in/gujarat-launches-cyber-financial-fraud-e-zero-fir-system/",
+        "bucket": "💰 Schemes & Welfare Programmes",
+        "state": "Gujarat"

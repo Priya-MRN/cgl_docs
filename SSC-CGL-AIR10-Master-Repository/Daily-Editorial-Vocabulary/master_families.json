@@ -4449,7 +4449,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Institutions"
+      "Institutions",
+      "Institution"
     ],
     "pos": "noun",
     "meaning": "custom or practice of a society or community",
@@ -4519,7 +4520,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Contradiction"
+      "Contradiction",
+      "Contradictions"
     ],
     "pos": "noun",
     "meaning": "act of contradicting",
@@ -4739,7 +4741,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Complications"
+      "Complications",
+      "Renovation"
     ],
     "pos": "noun",
     "meaning": "act or process of complicating",
@@ -4945,5 +4948,75 @@
     "meaning": "Man-made",
     "easy": "artificious",
     "example": "Race Open-weight models have been the underlying strength of Chinese artificial intelligence strategy."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Improvisation"
+    ],
+    "pos": "noun",
+    "meaning": "act or art of composing and making music, poetry, and the like, extemporaneously",
+    "easy": "",
+    "example": "Since the Odyssey is the result of decades, maybe centuries, of non-literate oral poets working with memory and improvisation, there’s no precise “original” place or time to return to, anyway."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Availability"
+    ],
+    "pos": "noun",
+    "meaning": "quality of being available",
+    "easy": "accessibility, availableness",
+    "example": "Salad for breakfast is “not normal in a northern European climate”, according to one agitated typer in a response to my post about its availability at breakfasts there."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Encouragement"
+    ],
+    "pos": "noun",
+    "meaning": "act of encouraging",
+    "easy": "",
+    "example": "The reputation for infighting in lefty spaces – where policy disagreements harden into personal tests of morality – needs neither introduction nor encouragement."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Excellence"
+    ],
+    "pos": "noun",
+    "meaning": "quality of being excellent",
+    "easy": "goodness, greatness, perfection",
+    "example": "Indian Monsoon: a democratic tipping point Our future depends upon combining technological excellence with constitutional values, scientific temper, ethical leadership, and respect for humanity"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Psychological"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or pertaining to psychology",
+    "easy": "",
+    "example": "Obsessing About Our Mental Health Is Part of Our Mental Health Problem We need to support psychological well-being without fixating on it."
+  },
+  {
+    "group": "😀 Hope, Calm & Positivity",
+    "words": [
+      "Geographical"
+    ],
+    "pos": "noun",
+    "meaning": "move to another place in the hope of curing an addiction etc",
+    "easy": "",
+    "example": "Iran now understands the powerful leverage of the strait and its geographical, and therefore military, advantage in controlling it."
+  },
+  {
+    "group": "👑 Power, Control & Influence",
+    "words": [
+      "Appointment"
+    ],
+    "pos": "noun",
+    "meaning": "act of appointing a person to hold an office or to have a position of trust",
+    "easy": "command, designation, direction",
+    "example": "One of Sir Keir Starmer’s last acts as prime minister was to approve the appointment of her successor, Jessica Morgan , a former curator at Tate and head of the Dia Art Foundation in New York."
   }
 ]
