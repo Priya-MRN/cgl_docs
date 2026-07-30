@@ -149,6 +149,32 @@
         "bucket": "🏆 Sports",
         "scope": "International"
       }
+    ],
+    "2026-07-30": [
+      {
+        "title": "Nasha Mukta Yuva for Viksit Bharat Sankalp Abhiyaan to Launch on 2 August",
+        "url": "https://www.gktoday.in/nasha-mukta-yuva-for-viksit-bharat-sankalp-abhiyaan-to-launch-on-2-august/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "IIT Roorkee Advances Solid-State Battery Research",
+        "url": "https://www.gktoday.in/iit-roorkee-advances-solid-state-battery-research/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "Harjinder, Gulveer Win Silver at Commonwealth Games 2026",
+        "url": "https://www.gktoday.in/harjinder-gulveer-win-silver-at-commonwealth-games-2026/",
+        "bucket": "🏆 Sports",
+        "scope": "International"
+      },
+      {
+        "title": "Iran to Receive Chinese Shoulder-Launched Missile Systems",
+        "url": "https://www.gktoday.in/iran-to-receive-chinese-shoulder-launched-missile-systems/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
@@ -161,8 +187,22 @@
     "https://www.gktoday.in/esha-singh-wins-gold-in-25m-pistol/",
     "https://www.gktoday.in/gujarat-launches-cyber-financial-fraud-e-zero-fir-system/",
     "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
+    "https://www.gktoday.in/harjinder-gulveer-win-silver-at-commonwealth-games-2026/",
+    "https://www.gktoday.in/iit-roorkee-advances-solid-state-battery-research/",
     "https://www.gktoday.in/india-launches-campus-biodiversity-register-initiative/",
     "https://www.gktoday.in/indian-scientists-develop-low-cost-zinc-air-battery-technology/",
+    "https://www.gktoday.in/iran-to-receive-chinese-shoulder-launched-missile-systems/",
     "https://www.gktoday.in/karnatakas-semiconductor-park-to-become-operational-by-december-2026/",
     "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",
-    "https://www
+    "https://www.gktoday.in/lovlina-borgohain-assures-indias-first-cwg-2026-medal/",
+    "https://www.gktoday.in/mission-golden-spice-for-lakadong-turmeric/",
+    "https://www.gktoday.in/nasa-praxis-mission-to-study-planetary-rings/",
+    "https://www.gktoday.in/nasha-mukta-yuva-for-viksit-bharat-sankalp-abhiyaan-to-launch-on-2-august/",
+    "https://www.gktoday.in/paras-defence-to-set-up-644-million-semiconductor-packaging-facility/",
+    "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
+    "https://www.gktoday.in/unesco-adds-mount-olympus-d-day-beaches-to-world-heritage-list/",
+    "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
+    "https://www.gktoday.in/vikram-1-launches-indias-first-private-orbital-rocket/",
+    "https://www.gktoday.in/world-listening-day/"
+  ]
+}

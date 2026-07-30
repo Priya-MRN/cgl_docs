@@ -5112,7 +5112,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Disagreements"
+      "Disagreements",
+      "Disagreement"
     ],
     "pos": "noun",
     "meaning": "argument or debate",
@@ -5198,5 +5199,335 @@
     "meaning": "Pertaining to democracy",
     "easy": "",
     "example": "Indian Monsoon: a democratic tipping point Our future depends upon combining technological excellence with constitutional values, scientific temper, ethical leadership, and respect for humanity"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Deterioration"
+    ],
+    "pos": "noun",
+    "meaning": "process of making or growing worse, or the state of having grown worse",
+    "easy": "retrogression",
+    "example": "With the level of this targeting linked to the deterioration of Hong Kong politics, many have utilised the humanitarian pathway enabled by the previous government to relocate."
+  },
+  {
+    "group": "⚔️ Conflict, Crisis & Disorder",
+    "words": [
+      "Inconvenience"
+    ],
+    "pos": "noun",
+    "meaning": "quality of being inconvenient",
+    "easy": "annoyance, nuisance, trouble",
+    "example": "Protecting protest: On mass protests Protests that inconvenience people must not be confused with violence"
+  },
+  {
+    "group": "⏳ Time, Lateness & Approach",
+    "words": [
+      "Expectation"
+    ],
+    "pos": "noun",
+    "meaning": "act or state of expecting or looking forward to an event as about to happen",
+    "easy": "arithmetic mean, average",
+    "example": "Cue the annual expectation that parents will conjure up six weeks of affordable, memory-making fun while holding down a job and hanging on to their sanity."
+  },
+  {
+    "group": "😨 Shyness, Caution & Restraint",
+    "words": [
+      "Cautiously"
+    ],
+    "pos": "adverb",
+    "meaning": "In a cautious manner",
+    "easy": "",
+    "example": "Justice may proceed slowly, and cautiously, but it does proceed."
+  },
+  {
+    "group": "🚧 Block, Hinder & Suppress",
+    "words": [
+      "Contraception"
+    ],
+    "pos": "noun",
+    "meaning": "use of a device or procedure to prevent conception as a result of sexual activity",
+    "easy": "",
+    "example": "Outdated contraception, early conception: Counting the babies that India didn’t plan for"
+  },
+  {
+    "group": "📈 Increase, Rise & Spread",
+    "words": [
+      "Evaluation"
+    ],
+    "pos": "noun",
+    "meaning": "assessment, such as an annual personnel performance review used as the basis for a salary increase or bonus, or a summary of a particular si",
+    "easy": "",
+    "example": "India must use the AYUSH opportunity For Ayurveda and other AYUSH systems to enter the global mainstream credibly, they must submit to rigorous, independent, and transparent scientific evaluation"
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Moderation"
+    ],
+    "pos": "noun",
+    "meaning": "state or quality of being moderate",
+    "easy": "",
+    "example": "Need for moderation in public speech Tamil Nadu’s political arena has become a theatre of vitriolic discourse"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Bureaucratic"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or pertaining to bureaucracy or the actions of bureaucrats",
+    "easy": "",
+    "example": "the European Union is legalistic, bureaucratic and runs by precedent."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Conservationists"
+    ],
+    "pos": "noun",
+    "meaning": "person who maintains natural areas or protects threatened species",
+    "easy": "",
+    "example": "Zoo staff rescue near-extinct snails from remote rock Just 21 Madeiran land snails were found clinging to a rock on Portugal's Bugio Island, say conservationists."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Degenerative"
+    ],
+    "pos": "adjective",
+    "meaning": "Characterized by or causing degeneration",
+    "easy": "",
+    "example": "The research, which followed more than 3 million Danish participants, found a modest but consistent effect: for every 11.5dB rise in noise level, the risk of the degenerative disorder rose by 3% over the 18-year study."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Interdisciplinary"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or pertaining to multiple distinct academic disciplines or fields of study",
+    "easy": "",
+    "example": "In the AI era, capabilities that machines struggle to replicate such as ethical judgment, creativity, interdisciplinary reasoning, and the ability to frame entirely new problems will become valuable"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Resurrection"
+    ],
+    "pos": "noun",
+    "meaning": "act of arising from the dead and becoming alive again",
+    "easy": "gainrising",
+    "example": "Street protest is resurrection of democratic politics, not insurrection against it"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Classification"
+    ],
+    "pos": "noun",
+    "meaning": "act of forming into a class or classes",
+    "easy": "",
+    "example": "193 extends a floor of rights to platform workers regardless of classification, even if a company calls them ‘employees’ or ‘independent partners’"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Implementation"
+    ],
+    "pos": "noun",
+    "meaning": "process of moving an idea from concept to reality",
+    "easy": "",
+    "example": "David Cameron accepted the recommendations of the 2011 Dilnot commission , which proposed a cap on the amount any individual would pay for care, but the cost to the exchequer thwarted implementation."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Circulation"
+    ],
+    "pos": "noun",
+    "meaning": "act of moving in a circle, or in a course which brings the moving body to the place where its motion began",
+    "easy": "",
+    "example": "On Monday, Mr Infantino published a 15-page Instagram rant in which he bemoaned the “hate and false rumours” in circulation during the recent men’s World Cup."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Incantation"
+    ],
+    "pos": "noun",
+    "meaning": "act or process of using formulas and/or usually rhyming words, sung or spoken, with occult ceremonies, for the purpose of raising spirits, p",
+    "easy": "",
+    "example": "This is more incantation than argument, a ritual fondling of beads on the Tory rosary."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Inheritance"
+    ],
+    "pos": "noun",
+    "meaning": "passing of title to an estate upon death",
+    "easy": "",
+    "example": "As health secretary in 2010, he proposed reforms to be funded by a 10% inheritance levy."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Imposition"
+    ],
+    "pos": "noun",
+    "meaning": "act of imposing, laying on, affixing, enjoining, inflicting, obtruding, and the like",
+    "easy": "imposure, infliction, obtrusion",
+    "example": "Burnham has done nothing to support the claim that his government is a 70s tribute act, unless you count the appointment of a man named Healey as chancellor and the imposition of price controls on buses."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Diplomatically"
+    ],
+    "pos": "adverb",
+    "meaning": "In a diplomatic manner",
+    "easy": "",
+    "example": "He dealt with the problem very diplomatically"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Productivity"
+    ],
+    "pos": "noun",
+    "meaning": "state of being productive, fertile or efficient",
+    "easy": "productiveness",
+    "example": "The Chinese robot army transforming the UK's retail industry Britain's weak productivity growth and labour shortages are creating an opportunity for China's robotics firms."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Recommendations"
+    ],
+    "pos": "noun",
+    "meaning": "act of recommending",
+    "easy": "",
+    "example": "David Cameron accepted the recommendations of the 2011 Dilnot commission , which proposed a cap on the amount any individual would pay for care, but the cost to the exchequer thwarted implementation."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Renegotiations"
+    ],
+    "pos": "noun",
+    "meaning": "act of negotiating again",
+    "easy": "",
+    "example": "It’s now subject to annual renegotiations."
+  },
+  {
+    "group": "🎚️ Use, Need & Involve",
+    "words": [
+      "Satisfaction"
+    ],
+    "pos": "noun",
+    "meaning": "fulfilment of a need or desire",
+    "easy": "",
+    "example": "NSE’s Ahimsa Index is not for investors looking solely for financial alpha They seek returns and moral satisfaction, a choice that should not be judged by the same yardstick used for conventional investing"
+  },
+  {
+    "group": "💰 Wealth, Money & Economy",
+    "words": [
+      "Opportunity"
+    ],
+    "pos": "noun",
+    "meaning": "chance for advancement, progress or profit",
+    "easy": "",
+    "example": "India must use the AYUSH opportunity For Ayurveda and other AYUSH systems to enter the global mainstream credibly, they must submit to rigorous, independent, and transparent scientific evaluation"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Indifferent"
+    ],
+    "pos": "noun",
+    "meaning": "person who is indifferent or apathetic",
+    "easy": "",
+    "example": "The Good News and the Bad News About the New Housing Law What happens when a good law meets a seemingly indifferent administration?"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Operational"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or relating to operations, especially military operations",
+    "easy": "",
+    "example": "The investors would buy into a new $20bn company , Fifa Forward Enterprise, which would sell all of Fifa’s commercial rights, including ticketing, and take charge of “operational delivery” of World Cups."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Prohibitive"
+    ],
+    "pos": "noun",
+    "meaning": "Negative imperative",
+    "easy": "",
+    "example": "White House interference over a crucial refereeing decision, prohibitive ticket prices , unnecessary but lucrative hydration breaks ; it was all, as his best friend in politics, Donald Trump, would say, “fake news”."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Psychiatrists"
+    ],
+    "pos": "noun",
+    "meaning": "medical doctor specializing in psychiatry",
+    "easy": "",
+    "example": "Also: Two psychiatrists, on the need to mourn."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Rediscovering"
+    ],
+    "pos": "verb",
+    "meaning": "discover again",
+    "easy": "",
+    "example": "Also: Canceling grants based on politics; no politics in uniform; rediscovering resilience."
+  },
+  {
+    "group": "📌 Cause, Effect & Consequence",
+    "words": [
+      "Repercussions"
+    ],
+    "pos": "noun",
+    "meaning": "consequence or ensuing result of some action",
+    "easy": "aftereffect, consequence",
+    "example": "You realize this little stunt of yours is going to have some pretty serious repercussions."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Developments"
+    ],
+    "pos": "noun",
+    "meaning": "process of developing",
+    "easy": "",
+    "example": "They are surrounded by modern-looking housing developments – architecturally smart, medium-rise, expensive-looking in their design."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Disciplinary"
+    ],
+    "pos": "noun",
+    "meaning": "disciplinary action",
+    "easy": "",
+    "example": "Fifa opens disciplinary proceedings against Argentina Fifa opens disciplinary proceedings against Argentina over their behaviour after their World Cup final loss to Spain and throughout the tournament."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Firefighters"
+    ],
+    "pos": "noun",
+    "meaning": "person who puts out fires",
+    "easy": "smoke eater",
+    "example": "'It's our home, it's our forest': BBC speaks to locals fighting France wildfire Firefighters are battling flare-ups in 40C heat in the Gironde region, as some locals have refused to heed evacuations."
   }
 ]
