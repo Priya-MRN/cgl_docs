@@ -56,3 +56,9 @@ RRB/JE-Electronics-Book/general-abilities/*.md
 RRB/JE-Electronics-Book/pyq-research/*.md
 RRB/JE-Electronics-Book/*.html
 RRB/Rrb/*.txt
+
+# Third-party copyrighted eBook (Exam Warriors99) - personal use only, its licence
+# forbids uploading/redistribution, so keep it and its derivatives OUT of git
+# (the DailyCommitPush task pushes to GitHub, which would count as an upload).
+Aptitude-Tables/Secret PDF SSC CGL 2026.pdf
+Aptitude-Tables/Secret PDF SSC CGL 2026 - QA Side-by-Side.pdf
