@@ -81,6 +81,15 @@
         "state": "Kerala",
         "action": false
       }
+    ],
+    "2026-08-01": [
+      {
+        "title": "Sainik Welfare, Assam Contributes Rs 25 Lakh to CM’s Relief Fund",
+        "url": "https://www.gktoday.in/sainik-welfare-assam-contributes-rs-25-lakh-to-cms-relief-fund/",
+        "bucket": "💰 Schemes & Welfare Programmes",
+        "state": "Assam",
+        "action": false
+      }
     ]
   },
   "seen_urls": [
@@ -92,6 +101,7 @@
     "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
     "https://www.gktoday.in/kerala-cabinet-clears-five-governance-reforms/",
     "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",
+    "https://www.gktoday.in/sainik-welfare-assam-contributes-rs-25-lakh-to-cms-relief-fund/",
     "https://www.gktoday.in/tamil-nadu-renames-cm-breakfast-scheme-as-perunthalaivar-kamarajar-breakfast-scheme/",
     "https://www.gktoday.in/what-is-rule-267-in-rajya-sabha/"
   ]
