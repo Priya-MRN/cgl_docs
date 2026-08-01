@@ -5263,11 +5263,12 @@
   {
     "group": "🌟 Quality, Character & Behaviour",
     "words": [
-      "Moderation"
+      "Moderation",
+      "Abnormalities"
     ],
     "pos": "noun",
     "meaning": "state or quality of being moderate",
-    "easy": "",
+    "easy": "aberrant, deviant, outlier",
     "example": "Need for moderation in public speech Tamil Nadu’s political arena has become a theatre of vitriolic discourse"
   },
   {
@@ -5529,5 +5530,295 @@
     "meaning": "person who puts out fires",
     "easy": "smoke eater",
     "example": "'It's our home, it's our forest': BBC speaks to locals fighting France wildfire Firefighters are battling flare-ups in 40C heat in the Gironde region, as some locals have refused to heed evacuations."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Accommodation"
+    ],
+    "pos": "noun",
+    "meaning": "Lodging in a dwelling or similar living quarters afforded to travellers in hotels or on cruise ships, or prisoners, etc",
+    "easy": "",
+    "example": "Dalits face hurdles in becoming mainstream leaders Dipke is an exception to the trend of community leaders forced to work in caste-based political outfits or accept token accommodation within parties"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Assassination"
+    ],
+    "pos": "noun",
+    "meaning": "murder of a person, especially for political reasons or for personal gain",
+    "easy": "",
+    "example": "One writer on The Athletic bathetically likened the interrogation of the video to the decoding of the Zapruder film of President John F Kennedy’s assassination."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Proliferation"
+    ],
+    "pos": "noun",
+    "meaning": "process by which an organism produces others of its kind",
+    "easy": "",
+    "example": "Best of Both Sides: Saudi-US deal is a recipe for nuclear proliferation"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Consultation"
+    ],
+    "pos": "noun",
+    "meaning": "act of consulting",
+    "easy": "",
+    "example": "Fifa says 'nobody selling football' as it presses ahead with investment plan Football's governing body plans to continue the consultation process after Uefa threatens to boycott World Cups."
+  },
+  {
+    "group": "🤝 Agreement, Unity & Cooperation",
+    "words": [
+      "Composition"
+    ],
+    "pos": "noun",
+    "meaning": "act of putting together",
+    "easy": "configuration, constitution, blend",
+    "example": "As the IFS notes , the changing age, educational, ethnic or migrant composition of the population might have been expected to reduce rates of co-residence."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Credibility"
+    ],
+    "pos": "noun",
+    "meaning": "Reputation impacting one's ability to be believed",
+    "easy": "believability, personal capital",
+    "example": "One year after Operation Sindoor: The threat landscape has not disappeared India’s long-term credibility, both domestically and internationally, will depend not merely on asserting the existence of cross-border terrorism"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Graduation"
+    ],
+    "pos": "noun",
+    "meaning": "action or process of graduating and receiving a diploma for completing a course of study",
+    "easy": "scale, 🎓",
+    "example": "I’m torn by the hard hat v graduation cap debate."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Controversial"
+    ],
+    "pos": "adjective",
+    "meaning": "Arousing controversy—a debate or discussion of opposing opinions",
+    "easy": "contentious, contested",
+    "example": "Officers used teargas to enforce a controversial appeal court decision that reinstated the CHP’s 77-year-old former leader Kemal Kılıçdaroğlu – seen as less of a threat to the ruling Justice and Development party (AKP)."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Uncomfortable"
+    ],
+    "pos": "adjective",
+    "meaning": "Not comfortable",
+    "easy": "",
+    "example": "pose means coming to terms with an uncomfortable truth: A.I."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Aspirational"
+    ],
+    "pos": "noun",
+    "meaning": "person with aspirations",
+    "easy": "",
+    "example": "Andy Burnham’s announcement this week that university shouldn’t be the single, aspirational goal of all young people is perfectly timed and sensibly presented and shouldn’t sound as radical as it does."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Internationally"
+    ],
+    "pos": "adverb",
+    "meaning": "In an international manner",
+    "easy": "",
+    "example": "One year after Operation Sindoor: The threat landscape has not disappeared India’s long-term credibility, both domestically and internationally, will depend not merely on asserting the existence of cross-border terrorism"
+  },
+  {
+    "group": "⭐ Certainty, Importance & Authority",
+    "words": [
+      "Administrator"
+    ],
+    "pos": "noun",
+    "meaning": "One who administers affairs",
+    "easy": "chief, comptroller, controller",
+    "example": "In the Gironde region around Bordeaux, tens of thousands of hectares have burned, creating an unpredictable “ thunderstorm of fire ” as the region’s chief administrator called it."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Arrangement"
+    ],
+    "pos": "noun",
+    "meaning": "act of arranging",
+    "easy": "configuration, constitution",
+    "example": "In short, young adults are not just opting for a cheaper domestic arrangement to save money."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Autobiography"
+    ],
+    "pos": "noun",
+    "meaning": "self-written biography",
+    "easy": "life story, memoir",
+    "example": "Studying at secondary school near Liverpool in the 1980s, he writes in his autobiography and manifesto, Head North , “involved me walking something of a tightrope."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Determinant"
+    ],
+    "pos": "noun",
+    "meaning": "determining factor",
+    "easy": "",
+    "example": "It is, of course, a correction to existing norms that university-for-all is a proper national goal and the only personal determinant of ambition and success."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Conservation"
+    ],
+    "pos": "noun",
+    "meaning": "act of preserving, guarding, or protecting",
+    "easy": "",
+    "example": "Western Ghats conservation with science and dialogue The Ecologically Sensitive Area debate highlights the need for balanced, inclusive conservation approaches"
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Unanimously"
+    ],
+    "pos": "adverb",
+    "meaning": "In a unanimous manner",
+    "easy": "",
+    "example": "More historically, perhaps, the 55 nations that make up Uefa have reacted to this horror show by voting unanimously to boycott Fifa tournaments , including World Cups, if Infantino presses ahead."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Definitional"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or relating to a definition",
+    "easy": "",
+    "example": "A campaign that has become definitional for the second Trump presidency."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Organisations"
+    ],
+    "pos": "noun",
+    "meaning": "quality of being organized",
+    "easy": "",
+    "example": "Anthropic's Claude AI escapes to hack into three organisations It comes just days after rival OpenAI said rogue AI agents had breached other firms' networks."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Replacement"
+    ],
+    "pos": "noun",
+    "meaning": "person or thing that takes the place of another",
+    "easy": "",
+    "example": "Centralisation did not close every factory or pit, but left regions without the powers, finance or institutions to cushion the shock or build a resilient, replacement economy."
+  },
+  {
+    "group": "👑 Power, Control & Influence",
+    "words": [
+      "Suggestible"
+    ],
+    "pos": "adjective",
+    "meaning": "Susceptible to influence by suggestion",
+    "easy": "",
+    "example": "If we fail to resist, if our new prime minister is as weak and suggestible as the last one, this is what we will get."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Industrial"
+    ],
+    "pos": "noun",
+    "meaning": "employee in industry",
+    "easy": "",
+    "example": "Temporary respite: On the June 2026 data for the Index of Industrial Production June’s strong industrial performance is not a sign of things to come"
+  },
+  {
+    "group": "🌱 Beginnings, Change & Turning Points",
+    "words": [
+      "Revolution"
+    ],
+    "pos": "noun",
+    "meaning": "political upheaval in a government or nation state characterized by great change",
+    "easy": "",
+    "example": "But every technological revolution brings challenges as well as opportunities."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Associations"
+    ],
+    "pos": "noun",
+    "meaning": "act of associating",
+    "easy": "connection",
+    "example": "The other half is provided and administered by limited-profit housing associations – an Austrian version of social housing providers that are permitted to make a small profit to finance their operations."
+  },
+  {
+    "group": "🪞 Difference, Comparison & Opposite",
+    "words": [
+      "Comparable"
+    ],
+    "pos": "noun",
+    "meaning": "Something suitable for comparison",
+    "easy": "",
+    "example": "This is despite Americans earning some of the highest salaries per capita in the world and spending twice as much as comparable countries on healthcare."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Abolition"
+    ],
+    "pos": "noun",
+    "meaning": "act of abolishing",
+    "easy": "",
+    "example": "Fifty years after abolition in India, bonded labour endures"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Attraction"
+    ],
+    "pos": "noun",
+    "meaning": "tendency to attract",
+    "easy": "charm, pull",
+    "example": "A considerable part of the attraction of Vienna relates to its large social-housing stock."
+  },
+  {
+    "group": "👑 Power, Control & Influence",
+    "words": [
+      "Capabilities"
+    ],
+    "pos": "noun",
+    "meaning": "power or ability to generate an outcome",
+    "easy": "",
+    "example": "In the AI era, capabilities that machines struggle to replicate such as ethical judgment, creativity, interdisciplinary reasoning, and the ability to frame entirely new problems will become valuable"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Commissioned"
+    ],
+    "pos": "verb",
+    "meaning": "send or officially charge someone or some group to do something",
+    "easy": "",
+    "example": "Analysis by the Institute for Fiscal Studies (IFS), commissioned partly for the BBC , finds that the proportion of 25-year-olds living with their parents has risen from 25% in the 1990s to 42% today."
   }
 ]

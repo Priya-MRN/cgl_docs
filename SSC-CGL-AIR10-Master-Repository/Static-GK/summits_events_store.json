@@ -175,11 +175,72 @@
         "bucket": "🔬 Inventions, Discoveries & Science",
         "scope": "International"
       }
+    ],
+    "2026-07-31": [
+      {
+        "title": "India Launches Sovereign-Backed Maritime Liability Insurance",
+        "url": "https://www.gktoday.in/india-launches-sovereign-backed-maritime-liability-insurance/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "Brookfield Launches $600 Million Renewable Energy Platform in India",
+        "url": "https://www.gktoday.in/brookfield-launches-600-million-renewable-energy-platform-in-india/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "Sarvam AI Launches Epoch Builder Edition",
+        "url": "https://www.gktoday.in/sarvam-ai-launches-epoch-builder-edition/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      }
+    ],
+    "2026-08-01": [
+      {
+        "title": "Mission Shakti App",
+        "url": "https://www.gktoday.in/mission-shakti-app/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "IndiaAI and Ayush Ministry Sign AI Integration MoU",
+        "url": "https://www.gktoday.in/indiaai-and-ayush-ministry-sign-ai-integration-mou/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "India"
+      },
+      {
+        "title": "Army Chief Launches Indigenous Xtreme Weather Grade Diesel",
+        "url": "https://www.gktoday.in/army-chief-launches-indigenous-xtreme-weather-grade-diesel/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "India Sweep Commonwealth Table Tennis Team Titles",
+        "url": "https://www.gktoday.in/india-sweep-commonwealth-table-tennis-team-titles/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      },
+      {
+        "title": "Lovepreet Singh Wins Silver in Commonwealth Games Weightlifting",
+        "url": "https://www.gktoday.in/lovepreet-singh-wins-silver-in-commonwealth-games-weightlifting/",
+        "bucket": "🏆 Sports",
+        "scope": "International"
+      },
+      {
+        "title": "11th All India Police Judo Cluster Championship concludes",
+        "url": "https://www.gktoday.in/11th-all-india-police-judo-cluster-championship-concludes/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
+    "https://www.gktoday.in/11th-all-india-police-judo-cluster-championship-concludes/",
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
+    "https://www.gktoday.in/army-chief-launches-indigenous-xtreme-weather-grade-diesel/",
+    "https://www.gktoday.in/brookfield-launches-600-million-renewable-energy-platform-in-india/",
     "https://www.gktoday.in/china-launches-gravity-1-rocket-with-nine-satellites/",
     "https://www.gktoday.in/crpf-raising-day-2026/",
     "https://www.gktoday.in/cwg-2026-valluri-ajaya-babu-wins-silver-in-mens-79kg-weightlifting/",
@@ -190,15 +251,21 @@
     "https://www.gktoday.in/harjinder-gulveer-win-silver-at-commonwealth-games-2026/",
     "https://www.gktoday.in/iit-roorkee-advances-solid-state-battery-research/",
     "https://www.gktoday.in/india-launches-campus-biodiversity-register-initiative/",
+    "https://www.gktoday.in/india-launches-sovereign-backed-maritime-liability-insurance/",
+    "https://www.gktoday.in/india-sweep-commonwealth-table-tennis-team-titles/",
+    "https://www.gktoday.in/indiaai-and-ayush-ministry-sign-ai-integration-mou/",
     "https://www.gktoday.in/indian-scientists-develop-low-cost-zinc-air-battery-technology/",
     "https://www.gktoday.in/iran-to-receive-chinese-shoulder-launched-missile-systems/",
     "https://www.gktoday.in/karnatakas-semiconductor-park-to-become-operational-by-december-2026/",
     "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",
+    "https://www.gktoday.in/lovepreet-singh-wins-silver-in-commonwealth-games-weightlifting/",
     "https://www.gktoday.in/lovlina-borgohain-assures-indias-first-cwg-2026-medal/",
     "https://www.gktoday.in/mission-golden-spice-for-lakadong-turmeric/",
+    "https://www.gktoday.in/mission-shakti-app/",
     "https://www.gktoday.in/nasa-praxis-mission-to-study-planetary-rings/",
     "https://www.gktoday.in/nasha-mukta-yuva-for-viksit-bharat-sankalp-abhiyaan-to-launch-on-2-august/",
     "https://www.gktoday.in/paras-defence-to-set-up-644-million-semiconductor-packaging-facility/",
+    "https://www.gktoday.in/sarvam-ai-launches-epoch-builder-edition/",
     "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
     "https://www.gktoday.in/unesco-adds-mount-olympus-d-day-beaches-to-world-heritage-list/",
     "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
