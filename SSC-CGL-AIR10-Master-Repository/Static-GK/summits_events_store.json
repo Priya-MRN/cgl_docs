@@ -233,6 +233,40 @@
         "bucket": "🏆 Sports",
         "scope": "India"
       }
+    ],
+    "2026-08-03": [
+      {
+        "title": "NSA Ajit Doval Receives Lokmanya Tilak National Award",
+        "url": "https://www.gktoday.in/nsa-ajit-doval-receives-lokmanya-tilak-national-award/",
+        "bucket": "🏅 Awards & Honours",
+        "scope": "International"
+      },
+      {
+        "title": "Cabinet Approves Rs 36,441-Crore Sports Push Under Khelo India",
+        "url": "https://www.gktoday.in/cabinet-approves-rs-36441-crore-sports-push-under-khelo-india/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      }
+    ],
+    "2026-08-04": [
+      {
+        "title": "Russia Launches Ulyanovsk Project 885M Yasen-M Submarine",
+        "url": "https://www.gktoday.in/russia-launches-ulyanovsk-project-885m-yasen-m-submarine/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "Hyderabad to Host BRICS Anti-Corruption Meetings on 4-5 August",
+        "url": "https://www.gktoday.in/hyderabad-to-host-brics-anti-corruption-meetings-on-4-5-august/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "International"
+      },
+      {
+        "title": "India Launches Fifth Diving Support Craft DSC A24",
+        "url": "https://www.gktoday.in/india-launches-fifth-diving-support-craft-dsc-a24/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
@@ -241,6 +275,7 @@
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
     "https://www.gktoday.in/army-chief-launches-indigenous-xtreme-weather-grade-diesel/",
     "https://www.gktoday.in/brookfield-launches-600-million-renewable-energy-platform-in-india/",
+    "https://www.gktoday.in/cabinet-approves-rs-36441-crore-sports-push-under-khelo-india/",
     "https://www.gktoday.in/china-launches-gravity-1-rocket-with-nine-satellites/",
     "https://www.gktoday.in/crpf-raising-day-2026/",
     "https://www.gktoday.in/cwg-2026-valluri-ajaya-babu-wins-silver-in-mens-79kg-weightlifting/",
@@ -249,8 +284,10 @@
     "https://www.gktoday.in/gujarat-launches-cyber-financial-fraud-e-zero-fir-system/",
     "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
     "https://www.gktoday.in/harjinder-gulveer-win-silver-at-commonwealth-games-2026/",
+    "https://www.gktoday.in/hyderabad-to-host-brics-anti-corruption-meetings-on-4-5-august/",
     "https://www.gktoday.in/iit-roorkee-advances-solid-state-battery-research/",
     "https://www.gktoday.in/india-launches-campus-biodiversity-register-initiative/",
+    "https://www.gktoday.in/india-launches-fifth-diving-support-craft-dsc-a24/",
     "https://www.gktoday.in/india-launches-sovereign-backed-maritime-liability-insurance/",
     "https://www.gktoday.in/india-sweep-commonwealth-table-tennis-team-titles/",
     "https://www.gktoday.in/indiaai-and-ayush-ministry-sign-ai-integration-mou/",
@@ -264,7 +301,9 @@
     "https://www.gktoday.in/mission-shakti-app/",
     "https://www.gktoday.in/nasa-praxis-mission-to-study-planetary-rings/",
     "https://www.gktoday.in/nasha-mukta-yuva-for-viksit-bharat-sankalp-abhiyaan-to-launch-on-2-august/",
+    "https://www.gktoday.in/nsa-ajit-doval-receives-lokmanya-tilak-national-award/",
     "https://www.gktoday.in/paras-defence-to-set-up-644-million-semiconductor-packaging-facility/",
+    "https://www.gktoday.in/russia-launches-ulyanovsk-project-885m-yasen-m-submarine/",
     "https://www.gktoday.in/sarvam-ai-launches-epoch-builder-edition/",
     "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
     "https://www.gktoday.in/unesco-adds-mount-olympus-d-day-beaches-to-world-heritage-list/",
