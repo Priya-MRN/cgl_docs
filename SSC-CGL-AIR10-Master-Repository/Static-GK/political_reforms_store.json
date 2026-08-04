@@ -90,6 +90,15 @@
         "state": "Assam",
         "action": false
       }
+    ],
+    "2026-08-04": [
+      {
+        "title": "Lok Sabha Passes Supreme Court Judge Strength Bill",
+        "url": "https://www.gktoday.in/lok-sabha-passes-supreme-court-judge-strength-bill/",
+        "bucket": "🏛️ Reforms, Bills & Laws",
+        "state": "Centre",
+        "action": false
+      }
     ]
   },
   "seen_urls": [
@@ -101,6 +110,7 @@
     "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
     "https://www.gktoday.in/kerala-cabinet-clears-five-governance-reforms/",
     "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",
+    "https://www.gktoday.in/lok-sabha-passes-supreme-court-judge-strength-bill/",
     "https://www.gktoday.in/sainik-welfare-assam-contributes-rs-25-lakh-to-cms-relief-fund/",
     "https://www.gktoday.in/tamil-nadu-renames-cm-breakfast-scheme-as-perunthalaivar-kamarajar-breakfast-scheme/",
     "https://www.gktoday.in/what-is-rule-267-in-rajya-sabha/"
