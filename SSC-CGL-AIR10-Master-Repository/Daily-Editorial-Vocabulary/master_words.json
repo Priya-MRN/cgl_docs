@@ -11384,6 +11384,94 @@
       "easy": "archetypic, archetypical",
       "example": "It was the archetypal “forever war”, a phrase first coined during Vietnam .",
       "added": "2026-08-04"
+    },
+    {
+      "word": "Determination",
+      "pos": "noun",
+      "meaning": "act of determining, or the state of being determined",
+      "easy": "",
+      "example": "It represents India’s determination to build strategic aerospace capability through indigenous design, engineering, and manufacturing",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Acceptance",
+      "pos": "noun",
+      "meaning": "act of accepting",
+      "easy": "accepting, approval, receiving",
+      "example": "Unlike Lisa, Lily* never got to acceptance.",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Capability",
+      "pos": "noun",
+      "meaning": "power or ability to generate an outcome",
+      "easy": "",
+      "example": "It represents India’s determination to build strategic aerospace capability through indigenous design, engineering, and manufacturing",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Medication",
+      "pos": "noun",
+      "meaning": "medicine, or all the medicines regularly taken by a patient",
+      "easy": "",
+      "example": "He thinks the people who visit twice a day are nurses, legally required to dispense his dementia medication.",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Mutilation",
+      "pos": "noun",
+      "meaning": "act of mutilating or the state of being mutilated",
+      "easy": "",
+      "example": "'My grandmother subjected my baby to female genital mutilation behind my back' In Colombia, where FGM is still practised by some members of an indigenous group, a landmark bill banning the practice has been enacted.",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Mountaineering",
+      "pos": "noun",
+      "meaning": "sport of climbing mountains",
+      "easy": "alpinism, mountain climbing",
+      "example": "The avalanche that killed a climbing legend - and a generation of record-setting guides Their fellow guides say their deaths in Pakistan dealt a devastating blow to Nepal's mountaineering community.",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Continental",
+      "pos": "noun",
+      "meaning": "Someone from the continent",
+      "easy": "",
+      "example": "How did it manage to pique the interest of Donald Trump and Elon Musk , to feature on NBC’s Nightly News, not – shall we say – a programme massively predisposed to spotlighting news stories from continental Africa?",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Impersonate",
+      "pos": "verb",
+      "meaning": "pretend to be",
+      "easy": "embody, personate",
+      "example": "Arrests in Egypt after people allegedly impersonate judges Egyptian authorities say the alleged scam involved fabricated scenes in court as part of a plot to defraud people.",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Manufacturing",
+      "pos": "verb",
+      "meaning": "make things, usually on a large scale, with tools and either physical labor or machinery",
+      "easy": "",
+      "example": "It represents India’s determination to build strategic aerospace capability through indigenous design, engineering, and manufacturing",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Participant",
+      "pos": "noun",
+      "meaning": "One who participates",
+      "easy": "entrant, partaker, participator",
+      "example": "When I met Lisa, who was a participant in a research project I ran, her mother had finally accepted help, but it had taken years of frustration and smashed glass.",
+      "added": "2026-08-05"
+    },
+    {
+      "word": "Infidelity",
+      "pos": "noun",
+      "meaning": "Unfaithfulness in a marriage or an intimate relationship",
+      "easy": "adultery, betrayal, faithlessness",
+      "example": "Why should a song about jealousy, paranoia and infidelity pump through the speakers on your special day?",
+      "added": "2026-08-05"
     }
   ],
   "days": [
@@ -11423,6 +11511,7 @@
     "2026-07-31",
     "2026-08-01",
     "2026-08-03",
-    "2026-08-04"
+    "2026-08-04",
+    "2026-08-05"
   ]
 }
