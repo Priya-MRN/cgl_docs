@@ -11472,6 +11472,62 @@
       "easy": "adultery, betrayal, faithlessness",
       "example": "Why should a song about jealousy, paranoia and infidelity pump through the speakers on your special day?",
       "added": "2026-08-05"
+    },
+    {
+      "word": "Intimidation",
+      "pos": "noun",
+      "meaning": "act of making timid or fearful or of deterring by threats",
+      "easy": "",
+      "example": "Survivors of domestic abuse, including women who have suffered years of physical violence and intimidation, are now preparing for the moment in October when 5,000 prisoners begin to be released early .",
+      "added": "2026-08-06"
+    },
+    {
+      "word": "Concentrating",
+      "pos": "verb",
+      "meaning": "bring to, or direct toward, a common center",
+      "easy": "",
+      "example": "A two-part biopic of General Charles de Gaulle, concentrating on his struggles to liberate France during the second world war, has been the word-of-mouth box office hit of the French summer.",
+      "added": "2026-08-06"
+    },
+    {
+      "word": "Controversies",
+      "pos": "noun",
+      "meaning": "debate or discussion of opposing opinions",
+      "easy": "",
+      "example": "NEET and the state’s duty to minimise harm If the state’s response is confined to resolving individual controversies without undertaking structural reform, the same crises will continue to recur",
+      "added": "2026-08-06"
+    },
+    {
+      "word": "Intelligent",
+      "pos": "adjective",
+      "meaning": "Of high or especially quick cognitive capacity, bright",
+      "easy": "",
+      "example": "Democracy is at stake when foolish humans bet on machines being intelligent | Rafael Behr We need an enlightened US president to make the case for global AI regulation.",
+      "added": "2026-08-06"
+    },
+    {
+      "word": "Participating",
+      "pos": "verb",
+      "meaning": "join in, to take part, to involve oneself",
+      "easy": "",
+      "example": "'I was slut-shamed' - Indian women 'cockroach' protesters doxxed and abused Women tell the BBC how they were harassed for participating in the CJP protest and posting about it online.",
+      "added": "2026-08-06"
+    },
+    {
+      "word": "Predominantly",
+      "pos": "adverb",
+      "meaning": "In a predominant manner",
+      "easy": "primarily, principally",
+      "example": "India’s cancer focus must shift to early detection Cancer in India is still diagnosed predominantly after symptoms become severe enough to disrupt daily life.",
+      "added": "2026-08-06"
+    },
+    {
+      "word": "Production",
+      "pos": "noun",
+      "meaning": "act of producing, making or creating something",
+      "easy": "",
+      "example": "Highs and lows: On GST metrics GST must be fuelled by domestic production, not inflation or imports",
+      "added": "2026-08-06"
     }
   ],
   "days": [
@@ -11512,6 +11568,7 @@
     "2026-08-01",
     "2026-08-03",
     "2026-08-04",
-    "2026-08-05"
+    "2026-08-05",
+    "2026-08-06"
   ]
 }

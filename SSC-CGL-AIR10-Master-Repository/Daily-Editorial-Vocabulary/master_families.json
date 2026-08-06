@@ -5604,7 +5604,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Controversial"
+      "Controversial",
+      "Controversies"
     ],
     "pos": "adjective",
     "meaning": "Arousing controversy—a debate or discussion of opposing opinions",
@@ -6211,5 +6212,65 @@
     "meaning": "Unfaithfulness in a marriage or an intimate relationship",
     "easy": "adultery, betrayal, faithlessness",
     "example": "Why should a song about jealousy, paranoia and infidelity pump through the speakers on your special day?"
+  },
+  {
+    "group": "😨 Shyness, Caution & Restraint",
+    "words": [
+      "Intimidation"
+    ],
+    "pos": "noun",
+    "meaning": "act of making timid or fearful or of deterring by threats",
+    "easy": "",
+    "example": "Survivors of domestic abuse, including women who have suffered years of physical violence and intimidation, are now preparing for the moment in October when 5,000 prisoners begin to be released early ."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Concentrating"
+    ],
+    "pos": "verb",
+    "meaning": "bring to, or direct toward, a common center",
+    "easy": "",
+    "example": "A two-part biopic of General Charles de Gaulle, concentrating on his struggles to liberate France during the second world war, has been the word-of-mouth box office hit of the French summer."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Intelligent"
+    ],
+    "pos": "adjective",
+    "meaning": "Of high or especially quick cognitive capacity, bright",
+    "easy": "",
+    "example": "Democracy is at stake when foolish humans bet on machines being intelligent | Rafael Behr We need an enlightened US president to make the case for global AI regulation."
+  },
+  {
+    "group": "🎚️ Use, Need & Involve",
+    "words": [
+      "Participating"
+    ],
+    "pos": "verb",
+    "meaning": "join in, to take part, to involve oneself",
+    "easy": "",
+    "example": "'I was slut-shamed' - Indian women 'cockroach' protesters doxxed and abused Women tell the BBC how they were harassed for participating in the CJP protest and posting about it online."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Predominantly"
+    ],
+    "pos": "adverb",
+    "meaning": "In a predominant manner",
+    "easy": "primarily, principally",
+    "example": "India’s cancer focus must shift to early detection Cancer in India is still diagnosed predominantly after symptoms become severe enough to disrupt daily life."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Production"
+    ],
+    "pos": "noun",
+    "meaning": "act of producing, making or creating something",
+    "easy": "",
+    "example": "Highs and lows: On GST metrics GST must be fuelled by domestic production, not inflation or imports"
   }
 ]
