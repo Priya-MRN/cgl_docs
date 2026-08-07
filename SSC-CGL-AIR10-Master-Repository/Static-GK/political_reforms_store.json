@@ -108,6 +108,29 @@
         "state": "Centre",
         "action": false
       }
+    ],
+    "2026-08-07": [
+      {
+        "title": "Tamil Nadu Launches Vetri Vaanmagal Drone Training Scheme",
+        "url": "https://www.gktoday.in/tamil-nadu-launches-vetri-vaanmagal-drone-training-scheme/",
+        "bucket": "💰 Schemes & Welfare Programmes",
+        "state": "Tamil Nadu",
+        "action": false
+      },
+      {
+        "title": "Lok Sabha Passes Taxation and Other Laws Amendment Bill,2026",
+        "url": "https://www.gktoday.in/lok-sabha-passes-taxation-and-other-laws-amendment-bill2026/",
+        "bucket": "🏛️ Reforms, Bills & Laws",
+        "state": "Centre",
+        "action": false
+      },
+      {
+        "title": "Telangana CM To Launch Distribution Of 1.05 Cr New PDS Ration Cards On Aug 15",
+        "url": "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
+        "bucket": "👤 Appointments, Oaths & Office",
+        "state": "Telangana",
+        "action": false
+      }
     ]
   },
   "seen_urls": [
@@ -121,8 +144,11 @@
     "https://www.gktoday.in/kerala-cabinet-clears-five-governance-reforms/",
     "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",
     "https://www.gktoday.in/lok-sabha-passes-supreme-court-judge-strength-bill/",
+    "https://www.gktoday.in/lok-sabha-passes-taxation-and-other-laws-amendment-bill2026/",
     "https://www.gktoday.in/sainik-welfare-assam-contributes-rs-25-lakh-to-cms-relief-fund/",
+    "https://www.gktoday.in/tamil-nadu-launches-vetri-vaanmagal-drone-training-scheme/",
     "https://www.gktoday.in/tamil-nadu-renames-cm-breakfast-scheme-as-perunthalaivar-kamarajar-breakfast-scheme/",
+    "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
     "https://www.gktoday.in/what-is-rule-267-in-rajya-sabha/"
   ]
 }
