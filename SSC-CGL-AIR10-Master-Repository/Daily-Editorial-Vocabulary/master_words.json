@@ -11528,6 +11528,70 @@
       "easy": "",
       "example": "Highs and lows: On GST metrics GST must be fuelled by domestic production, not inflation or imports",
       "added": "2026-08-06"
+    },
+    {
+      "word": "Sustainability",
+      "pos": "noun",
+      "meaning": "ability to sustain something",
+      "easy": "",
+      "example": "India’s ethanol policy must count water, sustainability costs",
+      "added": "2026-08-07"
+    },
+    {
+      "word": "Neurodiversity",
+      "pos": "noun",
+      "meaning": "variety of configurations of the brain, especially with regard to autism",
+      "easy": "",
+      "example": "Recent years have seen steep rises in emotionally based school avoidance , as well as in autism and neurodiversity.",
+      "added": "2026-08-07"
+    },
+    {
+      "word": "Unremarkable",
+      "pos": "adjective",
+      "meaning": "Not remarkable",
+      "easy": "commonplace, jejune, mundane",
+      "example": "Scott Galloway: America Abandoned Its ‘Unremarkable’ Young Men And what society can do to help a struggling generation.",
+      "added": "2026-08-07"
+    },
+    {
+      "word": "Hallucinations",
+      "pos": "noun",
+      "meaning": "sensory perception of something that does not exist, often arising from disorder of the nervous system, as in delirium tremens",
+      "easy": "",
+      "example": "A&E departments have recorded an increase in difficult-to-manage symptoms including aggression and hallucinations.",
+      "added": "2026-08-07"
+    },
+    {
+      "word": "Involuntarily",
+      "pos": "adverb",
+      "meaning": "In an involuntary manner",
+      "easy": "",
+      "example": "“For 99 percent of history, 99 percent of men have been involuntarily celibate for 99 percent of the time,” he says on “Interesting Times,” urging young men to fight for what they want — including sex.",
+      "added": "2026-08-07"
+    },
+    {
+      "word": "Precautionary",
+      "pos": "noun",
+      "meaning": "precaution",
+      "easy": "",
+      "example": "DR Congo river boat under quarantine for Ebola after five deaths The health minister says all the passengers are being screened as a precautionary measure.",
+      "added": "2026-08-07"
+    },
+    {
+      "word": "Particularly",
+      "pos": "adverb",
+      "meaning": "Especially, extremely",
+      "easy": "above all, first and foremost, primarily",
+      "example": "This delicacy was particularly noticeable in a segment on Radio 4’s Today programme, of which Liddle was editor in the 90s, between Justin Webb and Amol Rajan .",
+      "added": "2026-08-07"
+    },
+    {
+      "word": "Plagiarism",
+      "pos": "noun",
+      "meaning": "Copying of another person's ideas, text or other creative work, and presenting it as one's own, especially without permission",
+      "easy": "",
+      "example": "The defence of Arday had rested on the fact that an investigation had already been conducted, and cleared him of plagiarism.",
+      "added": "2026-08-07"
     }
   ],
   "days": [
@@ -11569,6 +11633,7 @@
     "2026-08-03",
     "2026-08-04",
     "2026-08-05",
-    "2026-08-06"
+    "2026-08-06",
+    "2026-08-07"
   ]
 }

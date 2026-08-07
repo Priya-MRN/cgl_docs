@@ -289,6 +289,38 @@
         "bucket": "🔬 Inventions, Discoveries & Science",
         "scope": "International"
       }
+    ],
+    "2026-08-07": [
+      {
+        "title": "Tamil Nadu Launches Vetri Vaanmagal Drone Training Scheme",
+        "url": "https://www.gktoday.in/tamil-nadu-launches-vetri-vaanmagal-drone-training-scheme/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "IIT Bombay Professor Karthikeyan Lanka Selected for NASI Young Scientist Award 2026",
+        "url": "https://www.gktoday.in/iit-bombay-professor-karthikeyan-lanka-selected-for-nasi-young-scientist-award-2026/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "Telangana CM To Launch Distribution Of 1.05 Cr New PDS Ration Cards On Aug 15",
+        "url": "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "Bharat International Rice Conference to Be Held in October",
+        "url": "https://www.gktoday.in/bharat-international-rice-conference-to-be-held-in-october/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "India"
+      },
+      {
+        "title": "Hiroshima Marks 81st Anniversary of Atomic Bombing",
+        "url": "https://www.gktoday.in/hiroshima-marks-81st-anniversary-of-atomic-bombing/",
+        "bucket": "📅 Important Days, Events & Celebrations",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
@@ -296,6 +328,7 @@
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
     "https://www.gktoday.in/army-chief-launches-indigenous-xtreme-weather-grade-diesel/",
+    "https://www.gktoday.in/bharat-international-rice-conference-to-be-held-in-october/",
     "https://www.gktoday.in/brics-education-ministers-meeting-to-be-held-in-bhubaneswar/",
     "https://www.gktoday.in/brookfield-launches-600-million-renewable-energy-platform-in-india/",
     "https://www.gktoday.in/cabinet-approves-rs-36441-crore-sports-push-under-khelo-india/",
@@ -307,7 +340,9 @@
     "https://www.gktoday.in/gujarat-launches-cyber-financial-fraud-e-zero-fir-system/",
     "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
     "https://www.gktoday.in/harjinder-gulveer-win-silver-at-commonwealth-games-2026/",
+    "https://www.gktoday.in/hiroshima-marks-81st-anniversary-of-atomic-bombing/",
     "https://www.gktoday.in/hyderabad-to-host-brics-anti-corruption-meetings-on-4-5-august/",
+    "https://www.gktoday.in/iit-bombay-professor-karthikeyan-lanka-selected-for-nasi-young-scientist-award-2026/",
     "https://www.gktoday.in/iit-roorkee-advances-solid-state-battery-research/",
     "https://www.gktoday.in/india-launches-campus-biodiversity-register-initiative/",
     "https://www.gktoday.in/india-launches-clouded-leopard-conservation-action-plan/",
@@ -331,6 +366,8 @@
     "https://www.gktoday.in/sarvam-ai-launches-epoch-builder-edition/",
     "https://www.gktoday.in/scientists-validate-darwins-theory-in-saxifraga-candelabrum/",
     "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
+    "https://www.gktoday.in/tamil-nadu-launches-vetri-vaanmagal-drone-training-scheme/",
+    "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
     "https://www.gktoday.in/unesco-adds-mount-olympus-d-day-beaches-to-world-heritage-list/",
     "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
     "https://www.gktoday.in/vikram-1-launches-indias-first-private-orbital-rocket/",
