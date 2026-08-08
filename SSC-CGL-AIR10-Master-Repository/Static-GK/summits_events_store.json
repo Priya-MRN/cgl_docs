@@ -321,6 +321,32 @@
         "bucket": "📅 Important Days, Events & Celebrations",
         "scope": "International"
       }
+    ],
+    "2026-08-08": [
+      {
+        "title": "HAL Airport Operationalises Satellite-Guided Helicopter Approach",
+        "url": "https://www.gktoday.in/hal-airport-operationalises-satellite-guided-helicopter-approach/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "Astrobase Unveils India’s First Private 800 kN Rocket Engine",
+        "url": "https://www.gktoday.in/astrobase-unveils-indias-first-private-800-kn-rocket-engine/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "Ashish Yadav Wins India’s Second World U20 Javelin Medal",
+        "url": "https://www.gktoday.in/ashish-yadav-wins-indias-second-world-u20-javelin-medal/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      },
+      {
+        "title": "India’s Ariha Wins Historic Gold at Aerobic Gymnastics Asian Championships",
+        "url": "https://www.gktoday.in/indias-ariha-wins-historic-gold-at-aerobic-gymnastics-asian-championships/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
@@ -328,6 +354,8 @@
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
     "https://www.gktoday.in/army-chief-launches-indigenous-xtreme-weather-grade-diesel/",
+    "https://www.gktoday.in/ashish-yadav-wins-indias-second-world-u20-javelin-medal/",
+    "https://www.gktoday.in/astrobase-unveils-indias-first-private-800-kn-rocket-engine/",
     "https://www.gktoday.in/bharat-international-rice-conference-to-be-held-in-october/",
     "https://www.gktoday.in/brics-education-ministers-meeting-to-be-held-in-bhubaneswar/",
     "https://www.gktoday.in/brookfield-launches-600-million-renewable-energy-platform-in-india/",
@@ -339,6 +367,7 @@
     "https://www.gktoday.in/esha-singh-wins-gold-in-25m-pistol/",
     "https://www.gktoday.in/gujarat-launches-cyber-financial-fraud-e-zero-fir-system/",
     "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
+    "https://www.gktoday.in/hal-airport-operationalises-satellite-guided-helicopter-approach/",
     "https://www.gktoday.in/harjinder-gulveer-win-silver-at-commonwealth-games-2026/",
     "https://www.gktoday.in/hiroshima-marks-81st-anniversary-of-atomic-bombing/",
     "https://www.gktoday.in/hyderabad-to-host-brics-anti-corruption-meetings-on-4-5-august/",
@@ -351,6 +380,7 @@
     "https://www.gktoday.in/india-sweep-commonwealth-table-tennis-team-titles/",
     "https://www.gktoday.in/indiaai-and-ayush-ministry-sign-ai-integration-mou/",
     "https://www.gktoday.in/indian-scientists-develop-low-cost-zinc-air-battery-technology/",
+    "https://www.gktoday.in/indias-ariha-wins-historic-gold-at-aerobic-gymnastics-asian-championships/",
     "https://www.gktoday.in/iran-to-receive-chinese-shoulder-launched-missile-systems/",
     "https://www.gktoday.in/karnatakas-semiconductor-park-to-become-operational-by-december-2026/",
     "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",

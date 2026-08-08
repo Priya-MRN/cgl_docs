@@ -4721,7 +4721,8 @@
   {
     "group": "🌟 Quality, Character & Behaviour",
     "words": [
-      "Neighbourhood"
+      "Neighbourhood",
+      "Neighbourhoods"
     ],
     "pos": "noun",
     "meaning": "quality of being a neighbor, of living nearby, next to each-other",
@@ -6352,5 +6353,115 @@
     "meaning": "Copying of another person's ideas, text or other creative work, and presenting it as one's own, especially without permission",
     "easy": "",
     "example": "The defence of Arday had rested on the fact that an investigation had already been conducted, and cleared him of plagiarism."
+  },
+  {
+    "group": "📌 Cause, Effect & Consequence",
+    "words": [
+      "Diversification"
+    ],
+    "pos": "noun",
+    "meaning": "act, or the result, of diversifying",
+    "easy": "",
+    "example": "India’s trade policy proves that diversification doesn’t mean safety"
+  },
+  {
+    "group": "👏 Praise, Support & Strengthen",
+    "words": [
+      "Justification"
+    ],
+    "pos": "noun",
+    "meaning": "reason, explanation, or excuse which provides convincing, morally acceptable support for behavior or for a belief or occurrence",
+    "easy": "",
+    "example": "Academic colleagues have demanded, with justification, that an investigation into his appointment to the faculty of education in 2023, and the subsequent fallout, should include people from outside the university."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Integration"
+    ],
+    "pos": "noun",
+    "meaning": "act or process of making whole or entire",
+    "easy": "",
+    "example": "Xi claims his sinicisation policy, embodied in a new “ethnic unity” law, will boost national identity and integration and, by expanding compulsory use of the Mandarin language, improve life and work prospects."
+  },
+  {
+    "group": "🌱 Beginnings, Change & Turning Points",
+    "words": [
+      "Renaissance"
+    ],
+    "pos": "noun",
+    "meaning": "rebirth or revival",
+    "easy": "",
+    "example": "Will that lead to a renaissance of meaning for young men?"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Unconscionable"
+    ],
+    "pos": "adjective",
+    "meaning": "Not conscionable",
+    "easy": "",
+    "example": "If councillors ban it, we’ll all lose out It is unbelievable: unconscionable."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Antidepressants"
+    ],
+    "pos": "noun",
+    "meaning": "agent that prevents or counteracts depression",
+    "easy": "",
+    "example": "A Generation on Antidepressants Searches for the Exit Many people feel that antidepressants block their true emotions, but they don’t have guidance about how to get off these drugs."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Unbelievable"
+    ],
+    "pos": "adjective",
+    "meaning": "Not to be believed",
+    "easy": "improbable, infeasible, unlikely",
+    "example": "If councillors ban it, we’ll all lose out It is unbelievable: unconscionable."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Underrepresented"
+    ],
+    "pos": "verb",
+    "meaning": "represent something as being lower or smaller than is the case",
+    "easy": "",
+    "example": "It has also set back the efforts of all the people and groups who have worked in good faith, over many years, to boost the presence of underrepresented groups in influential positions."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Homeopathic"
+    ],
+    "pos": "noun",
+    "meaning": "Any of the diluted remedies used in homeopathy",
+    "easy": "",
+    "example": "Maharashtra is allowing homeopathic doctors to prescribe allopathic medicines."
+  },
+  {
+    "group": "👑 Power, Control & Influence",
+    "words": [
+      "Influential"
+    ],
+    "pos": "noun",
+    "meaning": "person who has influence",
+    "easy": "",
+    "example": "It has also set back the efforts of all the people and groups who have worked in good faith, over many years, to boost the presence of underrepresented groups in influential positions."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Pomegranate"
+    ],
+    "pos": "noun",
+    "meaning": "fruit-bearing shrub or small tree, Punica granatum",
+    "easy": "",
+    "example": "Minorities should “hug tightly like pomegranate seeds” to build a strong, united China, he says."
   }
 ]

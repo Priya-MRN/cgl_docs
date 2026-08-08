@@ -1585,12 +1585,75 @@
         "bucket": "📅 Important Days & Events",
         "scope": "International"
       }
+    ],
+    "2026-08-08": [
+      {
+        "title": "Abelardo de la Espriella Sworn In as Colombia President",
+        "url": "https://www.gktoday.in/abelardo-de-la-espriella-sworn-in-as-colombia-president/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "India Bans New Renewable Projects Near Borders",
+        "url": "https://www.gktoday.in/india-bans-new-renewable-projects-near-borders/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "PM Modi Inaugurates Param Pragya Supercomputing Facility at IIT Delhi",
+        "url": "https://www.gktoday.in/pm-modi-inaugurates-param-pragya-supercomputing-facility-at-iit-delhi/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "HAL Airport Operationalises Satellite-Guided Helicopter Approach",
+        "url": "https://www.gktoday.in/hal-airport-operationalises-satellite-guided-helicopter-approach/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Astrobase Unveils India’s First Private 800 kN Rocket Engine",
+        "url": "https://www.gktoday.in/astrobase-unveils-indias-first-private-800-kn-rocket-engine/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Ashish Yadav Wins India’s Second World U20 Javelin Medal",
+        "url": "https://www.gktoday.in/ashish-yadav-wins-indias-second-world-u20-javelin-medal/",
+        "bucket": "🏅 Awards & Honours",
+        "scope": "India"
+      },
+      {
+        "title": "Important Railway Sector Institutions and Bodies",
+        "url": "https://www.gktoday.in/important-railway-sector-institutions-and-bodies/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Major Technical Textiles and Their Applications",
+        "url": "https://www.gktoday.in/major-technical-textiles-and-their-applications/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "India’s Ariha Wins Historic Gold at Aerobic Gymnastics Asian Championships",
+        "url": "https://www.gktoday.in/indias-ariha-wins-historic-gold-at-aerobic-gymnastics-asian-championships/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      },
+      {
+        "title": "India International Footwear Fair 2026 Opens in New Delhi",
+        "url": "https://www.gktoday.in/india-international-footwear-fair-2026-opens-in-new-delhi/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/11th-all-india-police-judo-cluster-championship-concludes/",
     "https://www.gktoday.in/31st-divya-kala-mela-inaugurated-in-kolkata/",
     "https://www.gktoday.in/aaroh-report-on-scientific-mine-closure-released/",
+    "https://www.gktoday.in/abelardo-de-la-espriella-sworn-in-as-colombia-president/",
     "https://www.gktoday.in/agnikul-to-attempt-rocket-stage-recovery/",
     "https://www.gktoday.in/ai-holobox-of-atal-bihari-vajpayee/",
     "https://www.gktoday.in/all-india-water-secretaries-conference-held-in-new-delhi/",
@@ -1605,9 +1668,11 @@
     "https://www.gktoday.in/army-to-induct-450-carl-gustaf-m4-rocket-launchers/",
     "https://www.gktoday.in/arunachal-pradesh-launches-emergency-helicopter-flood-relief/",
     "https://www.gktoday.in/arunachals-boleng-to-host-asian-rafting-championships-2026/",
+    "https://www.gktoday.in/ashish-yadav-wins-indias-second-world-u20-javelin-medal/",
     "https://www.gktoday.in/assam-begins-commercial-matcha-tea-production/",
     "https://www.gktoday.in/assam-exports-first-purabi-ice-cream-consignment-to-bhutan/",
     "https://www.gktoday.in/astrazeneca-india-to-sets-up-genomic-solutions-centre-in-amaravati/",
+    "https://www.gktoday.in/astrobase-unveils-indias-first-private-800-kn-rocket-engine/",
     "https://www.gktoday.in/ballari-guntakal-rail-project-gets-cabinet-nod/",
     "https://www.gktoday.in/bar-council-of-india-issues-social-media-rules-for-advocates/",
     "https://www.gktoday.in/bharat-international-rice-conference-to-be-held-in-october/",
@@ -1672,6 +1737,7 @@
     "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
     "https://www.gktoday.in/gujarat-revises-land-compensation-policy/",
     "https://www.gktoday.in/gujarat-unveils-data-centre-policy-2026-29/",
+    "https://www.gktoday.in/hal-airport-operationalises-satellite-guided-helicopter-approach/",
     "https://www.gktoday.in/hal-safran-sign-leap-engine-components-agreement/",
     "https://www.gktoday.in/harjinder-gulveer-win-silver-at-commonwealth-games-2026/",
     "https://www.gktoday.in/heatwaves-and-lightning-added-to-ndrf-protocol/",
@@ -1687,14 +1753,17 @@
     "https://www.gktoday.in/iit-bombay-professor-karthikeyan-lanka-selected-for-nasi-young-scientist-award-2026/",
     "https://www.gktoday.in/iit-madras-c-dac-to-manage-national-bridge-health-monitoring-software/",
     "https://www.gktoday.in/iit-roorkee-advances-solid-state-battery-research/",
+    "https://www.gktoday.in/important-railway-sector-institutions-and-bodies/",
     "https://www.gktoday.in/index-of-services-production/",
     "https://www.gktoday.in/india-allows-anhydrous-ammonia-use-in-agriculture/",
     "https://www.gktoday.in/india-announces-seafarer-first-maritime-safety-plan/",
     "https://www.gktoday.in/india-australia-and-canada-launch-aciti-partnership/",
+    "https://www.gktoday.in/india-bans-new-renewable-projects-near-borders/",
     "https://www.gktoday.in/india-commissions-first-geothermal-wells-in-puga-valley-of-ladakh/",
     "https://www.gktoday.in/india-designates-23-jem-and-let-operatives-as-terrorists/",
     "https://www.gktoday.in/india-exports-bihar-makhana-to-canada/",
     "https://www.gktoday.in/india-indonesia-sign-defence-and-strategic-agreements/",
+    "https://www.gktoday.in/india-international-footwear-fair-2026-opens-in-new-delhi/",
     "https://www.gktoday.in/india-joins-un-global-dialogue-on-ai-governance/",
     "https://www.gktoday.in/india-kyrgyzstan-launch-manas-mahabharata-studies-centre/",
     "https://www.gktoday.in/india-launches-campus-biodiversity-register-initiative/",
@@ -1720,6 +1789,7 @@
     "https://www.gktoday.in/indian-scientists-develop-low-cost-zinc-air-battery-technology/",
     "https://www.gktoday.in/indian-scientists-develop-placenta-on-chip-platform/",
     "https://www.gktoday.in/indian-statistical-institute-bill-introduced-in-lok-sabha/",
+    "https://www.gktoday.in/indias-ariha-wins-historic-gold-at-aerobic-gymnastics-asian-championships/",
     "https://www.gktoday.in/indias-energy-storage-requirement-may-reach-888-gwh-by-2035-36/",
     "https://www.gktoday.in/indias-first-night-safari-gets-supreme-court-nod/",
     "https://www.gktoday.in/indigenous-diving-support-vessel-nipun-delivered-to-indian-navy/",
@@ -1752,6 +1822,7 @@
     "https://www.gktoday.in/madhya-pradesh-missile-manufacturing-plant-launched-in-shivpuri/",
     "https://www.gktoday.in/madurai-marks-conservation-of-107-year-old-banyan-tree/",
     "https://www.gktoday.in/maharashtra-bans-energy-drinks-near-schools/",
+    "https://www.gktoday.in/major-technical-textiles-and-their-applications/",
     "https://www.gktoday.in/maldives-india-favara-upi-transfers-begin/",
     "https://www.gktoday.in/malvi-camel-faces-extinction-threat/",
     "https://www.gktoday.in/ministry-issues-notice-to-telegram-over-pirated-content/",
@@ -1785,6 +1856,7 @@
     "https://www.gktoday.in/operation-trishul-brings-back-274-fugitives/",
     "https://www.gktoday.in/pacific-typhoon-threatens-indian-monsoon/",
     "https://www.gktoday.in/paras-defence-to-set-up-644-million-semiconductor-packaging-facility/",
+    "https://www.gktoday.in/pm-modi-inaugurates-param-pragya-supercomputing-facility-at-iit-delhi/",
     "https://www.gktoday.in/pm-modi-receives-indonesias-bintang-adipurna/",
     "https://www.gktoday.in/pm-modi-visits-prambanan-temple-in-indonesia/",
     "https://www.gktoday.in/pralhad-joshi-takes-charge-as-education-minister/",
