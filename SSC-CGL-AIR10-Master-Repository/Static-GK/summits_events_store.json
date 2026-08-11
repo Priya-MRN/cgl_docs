@@ -347,6 +347,26 @@
         "bucket": "🏆 Sports",
         "scope": "India"
       }
+    ],
+    "2026-08-10": [
+      {
+        "title": "Indian Physicist Deepak Dhar Wins 2026 Dirac Medal",
+        "url": "https://www.gktoday.in/indian-physicist-deepak-dhar-wins-2026-dirac-medal/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      },
+      {
+        "title": "E-Samudra Launched for Maritime Governance Digitisation",
+        "url": "https://www.gktoday.in/e-samudra-launched-for-maritime-governance-digitisation/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "CCI Hosts BRICS Competition Authorities Meeting",
+        "url": "https://www.gktoday.in/cci-hosts-brics-competition-authorities-meeting/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
@@ -360,9 +380,11 @@
     "https://www.gktoday.in/brics-education-ministers-meeting-to-be-held-in-bhubaneswar/",
     "https://www.gktoday.in/brookfield-launches-600-million-renewable-energy-platform-in-india/",
     "https://www.gktoday.in/cabinet-approves-rs-36441-crore-sports-push-under-khelo-india/",
+    "https://www.gktoday.in/cci-hosts-brics-competition-authorities-meeting/",
     "https://www.gktoday.in/china-launches-gravity-1-rocket-with-nine-satellites/",
     "https://www.gktoday.in/crpf-raising-day-2026/",
     "https://www.gktoday.in/cwg-2026-valluri-ajaya-babu-wins-silver-in-mens-79kg-weightlifting/",
+    "https://www.gktoday.in/e-samudra-launched-for-maritime-governance-digitisation/",
     "https://www.gktoday.in/enkash-launches-indias-first-upi-enabled-meal-card/",
     "https://www.gktoday.in/esha-singh-wins-gold-in-25m-pistol/",
     "https://www.gktoday.in/gujarat-launches-cyber-financial-fraud-e-zero-fir-system/",
@@ -379,6 +401,7 @@
     "https://www.gktoday.in/india-launches-sovereign-backed-maritime-liability-insurance/",
     "https://www.gktoday.in/india-sweep-commonwealth-table-tennis-team-titles/",
     "https://www.gktoday.in/indiaai-and-ayush-ministry-sign-ai-integration-mou/",
+    "https://www.gktoday.in/indian-physicist-deepak-dhar-wins-2026-dirac-medal/",
     "https://www.gktoday.in/indian-scientists-develop-low-cost-zinc-air-battery-technology/",
     "https://www.gktoday.in/indias-ariha-wins-historic-gold-at-aerobic-gymnastics-asian-championships/",
     "https://www.gktoday.in/iran-to-receive-chinese-shoulder-launched-missile-systems/",
