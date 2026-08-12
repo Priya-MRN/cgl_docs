@@ -4439,11 +4439,12 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Initiative"
+      "Initiative",
+      "Enterprise"
     ],
     "pos": "noun",
     "meaning": "beginning",
-    "easy": "direct initiative",
+    "easy": "direct, initiative",
     "example": "​Battling drug abuse: On Kerala’s Operation Toofan Kerala has shown initiative in coordinated action against cartels"
   },
   {
@@ -5405,7 +5406,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Recommendations"
+      "Recommendations",
+      "Recommendation"
     ],
     "pos": "noun",
     "meaning": "act of recommending",
@@ -6603,5 +6605,95 @@
     "meaning": "logical clause or phrase that a conditional statement uses",
     "easy": "fettle",
     "example": "Perez Hilton faces long recovery after reports he self-harmed during livestream The US blogger is in a \"serious but stable\" condition in hospital, according to his family."
+  },
+  {
+    "group": "😀 Hope, Calm & Positivity",
+    "words": [
+      "Admiration"
+    ],
+    "pos": "noun",
+    "meaning": "positive emotion including wonder and approbation",
+    "easy": "adoration, appreciation, approval",
+    "example": "How personality cults derail democracy The tragedy of personality cults is that they encourage us to outsource our judgment and to mistake admiration for patriotism"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Domination"
+    ],
+    "pos": "noun",
+    "meaning": "lid",
+    "easy": "",
+    "example": "We need that spirit now more than ever Recently I found myself thinking about slug-like aliens that crawl through people’s ears and into their brains, with the ultimate purpose of global domination."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Personality"
+    ],
+    "pos": "noun",
+    "meaning": "set of non-physical psychological and social qualities that make a person  distinct from another",
+    "easy": "selfness",
+    "example": "How personality cults derail democracy The tragedy of personality cults is that they encourage us to outsource our judgment and to mistake admiration for patriotism"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Decarbonising"
+    ],
+    "pos": "verb",
+    "meaning": "remove carbon from something, especially from an engine",
+    "easy": "decoke",
+    "example": "Korea, Japan and Europe became wealthy by industrialising before decarbonising."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Procurement"
+    ],
+    "pos": "noun",
+    "meaning": "purchasing department of a company",
+    "easy": "",
+    "example": "For transparent, inclusive public procurement, Government e Marketplace"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Retroactively"
+    ],
+    "pos": "adverb",
+    "meaning": "Done after the fact",
+    "easy": "",
+    "example": "The problem is, it didn’t apply retroactively."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Excitement"
+    ],
+    "pos": "noun",
+    "meaning": "state of being excited",
+    "easy": "",
+    "example": "The long death rattle of the Starmer government against a backdrop of relentless excitement from the White House has left everyone suffering a severe case of overwhelm."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Protection"
+    ],
+    "pos": "noun",
+    "meaning": "process of keeping  safe",
+    "easy": "",
+    "example": "Nicol had been given an imprisonment for public protection (IPP) sentence six years earlier for stealing a car from a garage and injuring the owner."
+  },
+  {
+    "group": "🗃️ Catch, Hold & Seize",
+    "words": [
+      "Appreciate"
+    ],
+    "pos": "verb",
+    "meaning": "be grateful or thankful for",
+    "easy": "esteem, esteem, grasp",
+    "example": "But many who grumble about them don’t appreciate their own privilege The night belongs to Lime bikes in the capital this summer."
   }
 ]

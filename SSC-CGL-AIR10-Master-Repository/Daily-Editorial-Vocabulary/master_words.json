@@ -11800,6 +11800,94 @@
       "easy": "fettle",
       "example": "Perez Hilton faces long recovery after reports he self-harmed during livestream The US blogger is in a \"serious but stable\" condition in hospital, according to his family.",
       "added": "2026-08-10"
+    },
+    {
+      "word": "Recommendation",
+      "pos": "noun",
+      "meaning": "act of recommending",
+      "easy": "",
+      "example": "Trump signs order to limit childhood vaccines and split MMR shots The American Academy of Pediatrics calls the recommendation on measles, mumps and rubella shots \"dangerous\".",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Admiration",
+      "pos": "noun",
+      "meaning": "positive emotion including wonder and approbation",
+      "easy": "adoration, appreciation, approval",
+      "example": "How personality cults derail democracy The tragedy of personality cults is that they encourage us to outsource our judgment and to mistake admiration for patriotism",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Domination",
+      "pos": "noun",
+      "meaning": "lid",
+      "easy": "",
+      "example": "We need that spirit now more than ever Recently I found myself thinking about slug-like aliens that crawl through people’s ears and into their brains, with the ultimate purpose of global domination.",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Personality",
+      "pos": "noun",
+      "meaning": "set of non-physical psychological and social qualities that make a person  distinct from another",
+      "easy": "selfness",
+      "example": "How personality cults derail democracy The tragedy of personality cults is that they encourage us to outsource our judgment and to mistake admiration for patriotism",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Decarbonising",
+      "pos": "verb",
+      "meaning": "remove carbon from something, especially from an engine",
+      "easy": "decoke",
+      "example": "Korea, Japan and Europe became wealthy by industrialising before decarbonising.",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Procurement",
+      "pos": "noun",
+      "meaning": "purchasing department of a company",
+      "easy": "",
+      "example": "For transparent, inclusive public procurement, Government e Marketplace",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Retroactively",
+      "pos": "adverb",
+      "meaning": "Done after the fact",
+      "easy": "",
+      "example": "The problem is, it didn’t apply retroactively.",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Enterprise",
+      "pos": "noun",
+      "meaning": "company, business, organization, or other purposeful endeavor",
+      "easy": "initiative",
+      "example": "​FIFA foul: On the shelved FIFA Forward Enterprise Football’s governing body must embrace fairness, not chase profit",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Excitement",
+      "pos": "noun",
+      "meaning": "state of being excited",
+      "easy": "",
+      "example": "The long death rattle of the Starmer government against a backdrop of relentless excitement from the White House has left everyone suffering a severe case of overwhelm.",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Protection",
+      "pos": "noun",
+      "meaning": "process of keeping  safe",
+      "easy": "",
+      "example": "Nicol had been given an imprisonment for public protection (IPP) sentence six years earlier for stealing a car from a garage and injuring the owner.",
+      "added": "2026-08-11"
+    },
+    {
+      "word": "Appreciate",
+      "pos": "verb",
+      "meaning": "be grateful or thankful for",
+      "easy": "esteem, esteem, grasp",
+      "example": "But many who grumble about them don’t appreciate their own privilege The night belongs to Lime bikes in the capital this summer.",
+      "added": "2026-08-11"
     }
   ],
   "days": [
@@ -11844,6 +11932,7 @@
     "2026-08-06",
     "2026-08-07",
     "2026-08-08",
-    "2026-08-10"
+    "2026-08-10",
+    "2026-08-11"
   ]
 }

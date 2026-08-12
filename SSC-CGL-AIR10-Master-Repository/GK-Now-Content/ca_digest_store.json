@@ -1715,6 +1715,74 @@
         "bucket": "🗂️ Other Notable",
         "scope": "International"
       }
+    ],
+    "2026-08-11": [
+      {
+        "title": "Important Fighter Aircraft of the Indian Air Force",
+        "url": "https://www.gktoday.in/important-fighter-aircraft-of-the-indian-air-force/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Important DNA Markers Used in Species Identification",
+        "url": "https://www.gktoday.in/important-dna-markers-used-in-species-identification/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Major Chess Terms and Competition Formats",
+        "url": "https://www.gktoday.in/major-chess-terms-and-competition-formats/",
+        "bucket": "🏆 Sports",
+        "scope": "International"
+      },
+      {
+        "title": "Major Emerging Aviation Technologies",
+        "url": "https://www.gktoday.in/major-emerging-aviation-technologies/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Russula griseopurpurata: New Mushroom Species Found in Meghalaya",
+        "url": "https://www.gktoday.in/russula-griseopurpurata-new-mushroom-species-found-in-meghalaya/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Indian-Origin Bodhana Sivanandan, Shreyas Royal Make British Chess History",
+        "url": "https://www.gktoday.in/indian-origin-bodhana-sivanandan-shreyas-royal-make-british-chess-history/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      },
+      {
+        "title": "HAL Revives Su-30MKI Production at Nashik",
+        "url": "https://www.gktoday.in/hal-revives-su-30mki-production-at-nashik/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Sarla Aviation Gets DGCA Design Approval",
+        "url": "https://www.gktoday.in/sarla-aviation-gets-dgca-design-approval/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Tribunals Reforms Bill Passed in Lok Sabha",
+        "url": "https://www.gktoday.in/tribunals-reforms-bill-passed-in-lok-sabha/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "India’s Asiatic Lion Population Reaches 891",
+        "url": "https://www.gktoday.in/indias-asiatic-lion-population-reaches-891/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Tamil Nadu Raises Paddy and Sugarcane Procurement Incentives",
+        "url": "https://www.gktoday.in/tamil-nadu-raises-paddy-and-sugarcane-procurement-incentives/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
@@ -1810,6 +1878,7 @@
     "https://www.gktoday.in/gujarat-revises-land-compensation-policy/",
     "https://www.gktoday.in/gujarat-unveils-data-centre-policy-2026-29/",
     "https://www.gktoday.in/hal-airport-operationalises-satellite-guided-helicopter-approach/",
+    "https://www.gktoday.in/hal-revives-su-30mki-production-at-nashik/",
     "https://www.gktoday.in/hal-safran-sign-leap-engine-components-agreement/",
     "https://www.gktoday.in/harjinder-gulveer-win-silver-at-commonwealth-games-2026/",
     "https://www.gktoday.in/heatwaves-and-lightning-added-to-ndrf-protocol/",
@@ -1825,6 +1894,8 @@
     "https://www.gktoday.in/iit-bombay-professor-karthikeyan-lanka-selected-for-nasi-young-scientist-award-2026/",
     "https://www.gktoday.in/iit-madras-c-dac-to-manage-national-bridge-health-monitoring-software/",
     "https://www.gktoday.in/iit-roorkee-advances-solid-state-battery-research/",
+    "https://www.gktoday.in/important-dna-markers-used-in-species-identification/",
+    "https://www.gktoday.in/important-fighter-aircraft-of-the-indian-air-force/",
     "https://www.gktoday.in/important-railway-sector-institutions-and-bodies/",
     "https://www.gktoday.in/index-of-services-production/",
     "https://www.gktoday.in/india-allows-anhydrous-ammonia-use-in-agriculture/",
@@ -1856,6 +1927,7 @@
     "https://www.gktoday.in/india-withdraws-2017-yemen-travel-restriction/",
     "https://www.gktoday.in/indiaai-and-ayush-ministry-sign-ai-integration-mou/",
     "https://www.gktoday.in/indian-navy-us-navy-eod-exercise-2026-begins-in-kochi/",
+    "https://www.gktoday.in/indian-origin-bodhana-sivanandan-shreyas-royal-make-british-chess-history/",
     "https://www.gktoday.in/indian-physicist-deepak-dhar-wins-2026-dirac-medal/",
     "https://www.gktoday.in/indian-railways-approves-danapur-fatuha-multitracking-project/",
     "https://www.gktoday.in/indian-railways-becomes-worlds-second-most-electrified-network/",
@@ -1864,6 +1936,7 @@
     "https://www.gktoday.in/indian-scientists-develop-placenta-on-chip-platform/",
     "https://www.gktoday.in/indian-statistical-institute-bill-introduced-in-lok-sabha/",
     "https://www.gktoday.in/indias-ariha-wins-historic-gold-at-aerobic-gymnastics-asian-championships/",
+    "https://www.gktoday.in/indias-asiatic-lion-population-reaches-891/",
     "https://www.gktoday.in/indias-energy-storage-requirement-may-reach-888-gwh-by-2035-36/",
     "https://www.gktoday.in/indias-first-night-safari-gets-supreme-court-nod/",
     "https://www.gktoday.in/indigenous-diving-support-vessel-nipun-delivered-to-indian-navy/",
@@ -1896,6 +1969,8 @@
     "https://www.gktoday.in/madhya-pradesh-missile-manufacturing-plant-launched-in-shivpuri/",
     "https://www.gktoday.in/madurai-marks-conservation-of-107-year-old-banyan-tree/",
     "https://www.gktoday.in/maharashtra-bans-energy-drinks-near-schools/",
+    "https://www.gktoday.in/major-chess-terms-and-competition-formats/",
+    "https://www.gktoday.in/major-emerging-aviation-technologies/",
     "https://www.gktoday.in/major-sports-injuries-and-rehabilitation-in-athletes/",
     "https://www.gktoday.in/major-technical-textiles-and-their-applications/",
     "https://www.gktoday.in/maldives-india-favara-upi-transfers-begin/",
@@ -1948,8 +2023,10 @@
     "https://www.gktoday.in/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism/",
     "https://www.gktoday.in/russia-launches-ulyanovsk-project-885m-yasen-m-submarine/",
     "https://www.gktoday.in/russias-s8000-banderol-cruise-missile/",
+    "https://www.gktoday.in/russula-griseopurpurata-new-mushroom-species-found-in-meghalaya/",
     "https://www.gktoday.in/s-somanath-joins-agnikul-cosmos-board/",
     "https://www.gktoday.in/sainik-welfare-assam-contributes-rs-25-lakh-to-cms-relief-fund/",
+    "https://www.gktoday.in/sarla-aviation-gets-dgca-design-approval/",
     "https://www.gktoday.in/sarnath-gets-unesco-world-heritage-tag/",
     "https://www.gktoday.in/sarvam-ai-launches-epoch-builder-edition/",
     "https://www.gktoday.in/scientists-create-new-exotic-quantum-state/",
@@ -1964,11 +2041,13 @@
     "https://www.gktoday.in/supreme-court-tightens-rules-on-digital-arrest-scams/",
     "https://www.gktoday.in/tamil-nadu-launches-nalam-tn-public-service-portal/",
     "https://www.gktoday.in/tamil-nadu-launches-vetri-vaanmagal-drone-training-scheme/",
+    "https://www.gktoday.in/tamil-nadu-raises-paddy-and-sugarcane-procurement-incentives/",
     "https://www.gktoday.in/tamil-nadu-renames-cm-breakfast-scheme-as-perunthalaivar-kamarajar-breakfast-scheme/",
     "https://www.gktoday.in/tamil-thai-vazhthu-made-mandatory-at-tamil-nadu-events/",
     "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
     "https://www.gktoday.in/telangana-seeks-higher-tummidihatti-barrage/",
     "https://www.gktoday.in/trai-revamps-mycall-app-for-call-quality-assessment/",
+    "https://www.gktoday.in/tribunals-reforms-bill-passed-in-lok-sabha/",
     "https://www.gktoday.in/tripura-makes-vande-mataram-and-jana-gana-mana-mandatory/",
     "https://www.gktoday.in/two-new-solitary-bee-species-discovered-in-arunachal-pradesh/",
     "https://www.gktoday.in/ugram-indigenous-assault-rifle-clears-army-trials/",

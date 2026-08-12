@@ -131,6 +131,15 @@
         "state": "Telangana",
         "action": false
       }
+    ],
+    "2026-08-11": [
+      {
+        "title": "Tribunals Reforms Bill Passed in Lok Sabha",
+        "url": "https://www.gktoday.in/tribunals-reforms-bill-passed-in-lok-sabha/",
+        "bucket": "🏛️ Reforms, Bills & Laws",
+        "state": "Centre",
+        "action": false
+      }
     ]
   },
   "seen_urls": [
@@ -149,6 +158,7 @@
     "https://www.gktoday.in/tamil-nadu-launches-vetri-vaanmagal-drone-training-scheme/",
     "https://www.gktoday.in/tamil-nadu-renames-cm-breakfast-scheme-as-perunthalaivar-kamarajar-breakfast-scheme/",
     "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
+    "https://www.gktoday.in/tribunals-reforms-bill-passed-in-lok-sabha/",
     "https://www.gktoday.in/what-is-rule-267-in-rajya-sabha/"
   ]
 }
