@@ -381,6 +381,38 @@
         "bucket": "🏆 Sports",
         "scope": "India"
       }
+    ],
+    "2026-08-12": [
+      {
+        "title": "Skyroot Signs Multi-Launch Deal After Vikram-1 Success",
+        "url": "https://www.gktoday.in/skyroot-signs-multi-launch-deal-after-vikram-1-success/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "NASA Invites ISRO for Moon Base Programme",
+        "url": "https://www.gktoday.in/nasa-invites-isro-for-moon-base-programme/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "China’s Long March 7A Rocket Explodes After Launch",
+        "url": "https://www.gktoday.in/chinas-long-march-7a-rocket-explodes-after-launch/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "VinSpace Signs SpaceX Launch Deal for 2027",
+        "url": "https://www.gktoday.in/vinspace-signs-spacex-launch-deal-for-2027/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "MSME Ministry, DPIIT Sign MoU for GI Product Market Access",
+        "url": "https://www.gktoday.in/msme-ministry-dpiit-sign-mou-for-gi-product-market-access/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
@@ -396,6 +428,7 @@
     "https://www.gktoday.in/cabinet-approves-rs-36441-crore-sports-push-under-khelo-india/",
     "https://www.gktoday.in/cci-hosts-brics-competition-authorities-meeting/",
     "https://www.gktoday.in/china-launches-gravity-1-rocket-with-nine-satellites/",
+    "https://www.gktoday.in/chinas-long-march-7a-rocket-explodes-after-launch/",
     "https://www.gktoday.in/crpf-raising-day-2026/",
     "https://www.gktoday.in/cwg-2026-valluri-ajaya-babu-wins-silver-in-mens-79kg-weightlifting/",
     "https://www.gktoday.in/e-samudra-launched-for-maritime-governance-digitisation/",
@@ -427,6 +460,8 @@
     "https://www.gktoday.in/major-chess-terms-and-competition-formats/",
     "https://www.gktoday.in/mission-golden-spice-for-lakadong-turmeric/",
     "https://www.gktoday.in/mission-shakti-app/",
+    "https://www.gktoday.in/msme-ministry-dpiit-sign-mou-for-gi-product-market-access/",
+    "https://www.gktoday.in/nasa-invites-isro-for-moon-base-programme/",
     "https://www.gktoday.in/nasa-praxis-mission-to-study-planetary-rings/",
     "https://www.gktoday.in/nasha-mukta-yuva-for-viksit-bharat-sankalp-abhiyaan-to-launch-on-2-august/",
     "https://www.gktoday.in/nsa-ajit-doval-receives-lokmanya-tilak-national-award/",
@@ -435,11 +470,13 @@
     "https://www.gktoday.in/sarvam-ai-launches-epoch-builder-edition/",
     "https://www.gktoday.in/scientists-validate-darwins-theory-in-saxifraga-candelabrum/",
     "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
+    "https://www.gktoday.in/skyroot-signs-multi-launch-deal-after-vikram-1-success/",
     "https://www.gktoday.in/tamil-nadu-launches-vetri-vaanmagal-drone-training-scheme/",
     "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
     "https://www.gktoday.in/unesco-adds-mount-olympus-d-day-beaches-to-world-heritage-list/",
     "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
     "https://www.gktoday.in/vikram-1-launches-indias-first-private-orbital-rocket/",
+    "https://www.gktoday.in/vinspace-signs-spacex-launch-deal-for-2027/",
     "https://www.gktoday.in/world-listening-day/"
   ]
 }

@@ -11888,6 +11888,86 @@
       "easy": "esteem, esteem, grasp",
       "example": "But many who grumble about them don’t appreciate their own privilege The night belongs to Lime bikes in the capital this summer.",
       "added": "2026-08-11"
+    },
+    {
+      "word": "Regeneration",
+      "pos": "noun",
+      "meaning": "Rebuilding or restructuring",
+      "easy": "rebirth, regen",
+      "example": "The conversion of so many old industrial buildings into living quarters was a major factor in the regeneration.",
+      "added": "2026-08-12"
+    },
+    {
+      "word": "Vegetation",
+      "pos": "noun",
+      "meaning": "Plants, taken collectively",
+      "easy": "",
+      "example": "Its vegetation and rare bird populations are expected to take decades to recover.",
+      "added": "2026-08-12"
+    },
+    {
+      "word": "Recriminations",
+      "pos": "noun",
+      "meaning": "act of recriminating",
+      "easy": "",
+      "example": "Ceuta showed just how easily Europe can be divided The migrant influx prompted recriminations and a tit-for-tat dispute between Italy and Spain.",
+      "added": "2026-08-12"
+    },
+    {
+      "word": "Responsibilities",
+      "pos": "noun",
+      "meaning": "state of being responsible, accountable, or answerable",
+      "easy": "responsibleness",
+      "example": "But when it comes to education, politicians are remarkably relaxed about loading wider social responsibilities on to schools.",
+      "added": "2026-08-12"
+    },
+    {
+      "word": "Unsurprisingly",
+      "pos": "adverb",
+      "meaning": "Not surprisingly, as could be expected",
+      "easy": "",
+      "example": "Worrying too much about regulation, Meta’s CEO unsurprisingly opines, could lead to the United States falling behind in the race to own the future.",
+      "added": "2026-08-12"
+    },
+    {
+      "word": "Rationality",
+      "pos": "noun",
+      "meaning": "quality or state of being rational",
+      "easy": "rationalness",
+      "example": "His sudden loss of rationality was brought on by excess drink.",
+      "added": "2026-08-12"
+    },
+    {
+      "word": "Telemarketing",
+      "pos": "noun",
+      "meaning": "business of selling products or services by making unsolicited telephone calls to potential customers",
+      "easy": "",
+      "example": "France bans unsolicited telemarketing calls Cold calling is coming to an end in France, with one consumer group calling the ban a \"small revolution\".",
+      "added": "2026-08-12"
+    },
+    {
+      "word": "Unadulterated",
+      "pos": "adjective",
+      "meaning": "Pure",
+      "easy": "",
+      "example": "Much of his essay – which airily envisions “invention superpowers” for every entrepreneur and “an abundance of jobs in the future” – reads like unadulterated tech-utopianism.",
+      "added": "2026-08-12"
+    },
+    {
+      "word": "Constituents",
+      "pos": "noun",
+      "meaning": "part, or component of a whole",
+      "easy": "",
+      "example": "Neither should their staff – but here’s what we deal with every day | Estelle Warhurst Some constituents are traumatised, others violent.",
+      "added": "2026-08-12"
+    },
+    {
+      "word": "Entrepreneur",
+      "pos": "noun",
+      "meaning": "person who organizes and operates a business venture and assumes much of the associated risk",
+      "easy": "",
+      "example": "Much of his essay – which airily envisions “invention superpowers” for every entrepreneur and “an abundance of jobs in the future” – reads like unadulterated tech-utopianism.",
+      "added": "2026-08-12"
     }
   ],
   "days": [
@@ -11933,6 +12013,7 @@
     "2026-08-07",
     "2026-08-08",
     "2026-08-10",
-    "2026-08-11"
+    "2026-08-11",
+    "2026-08-12"
   ]
 }

@@ -5266,11 +5266,12 @@
     "group": "🌟 Quality, Character & Behaviour",
     "words": [
       "Moderation",
-      "Abnormalities"
+      "Abnormalities",
+      "Rationality"
     ],
     "pos": "noun",
     "meaning": "state or quality of being moderate",
-    "easy": "aberrant, deviant, outlier",
+    "easy": "aberrant, deviant, outlier, rationalness",
     "example": "Need for moderation in public speech Tamil Nadu’s political arena has become a theatre of vitriolic discourse"
   },
   {
@@ -6695,5 +6696,95 @@
     "meaning": "be grateful or thankful for",
     "easy": "esteem, esteem, grasp",
     "example": "But many who grumble about them don’t appreciate their own privilege The night belongs to Lime bikes in the capital this summer."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Regeneration"
+    ],
+    "pos": "noun",
+    "meaning": "Rebuilding or restructuring",
+    "easy": "rebirth, regen",
+    "example": "The conversion of so many old industrial buildings into living quarters was a major factor in the regeneration."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Vegetation"
+    ],
+    "pos": "noun",
+    "meaning": "Plants, taken collectively",
+    "easy": "",
+    "example": "Its vegetation and rare bird populations are expected to take decades to recover."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Recriminations"
+    ],
+    "pos": "noun",
+    "meaning": "act of recriminating",
+    "easy": "",
+    "example": "Ceuta showed just how easily Europe can be divided The migrant influx prompted recriminations and a tit-for-tat dispute between Italy and Spain."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Responsibilities"
+    ],
+    "pos": "noun",
+    "meaning": "state of being responsible, accountable, or answerable",
+    "easy": "responsibleness",
+    "example": "But when it comes to education, politicians are remarkably relaxed about loading wider social responsibilities on to schools."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Unsurprisingly"
+    ],
+    "pos": "adverb",
+    "meaning": "Not surprisingly, as could be expected",
+    "easy": "",
+    "example": "Worrying too much about regulation, Meta’s CEO unsurprisingly opines, could lead to the United States falling behind in the race to own the future."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Telemarketing"
+    ],
+    "pos": "noun",
+    "meaning": "business of selling products or services by making unsolicited telephone calls to potential customers",
+    "easy": "",
+    "example": "France bans unsolicited telemarketing calls Cold calling is coming to an end in France, with one consumer group calling the ban a \"small revolution\"."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Unadulterated"
+    ],
+    "pos": "adjective",
+    "meaning": "Pure",
+    "easy": "",
+    "example": "Much of his essay – which airily envisions “invention superpowers” for every entrepreneur and “an abundance of jobs in the future” – reads like unadulterated tech-utopianism."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Constituents"
+    ],
+    "pos": "noun",
+    "meaning": "part, or component of a whole",
+    "easy": "",
+    "example": "Neither should their staff – but here’s what we deal with every day | Estelle Warhurst Some constituents are traumatised, others violent."
+  },
+  {
+    "group": "💥 Harm, Damage & Worsen",
+    "words": [
+      "Entrepreneur"
+    ],
+    "pos": "noun",
+    "meaning": "person who organizes and operates a business venture and assumes much of the associated risk",
+    "easy": "",
+    "example": "Much of his essay – which airily envisions “invention superpowers” for every entrepreneur and “an abundance of jobs in the future” – reads like unadulterated tech-utopianism."
   }
 ]
