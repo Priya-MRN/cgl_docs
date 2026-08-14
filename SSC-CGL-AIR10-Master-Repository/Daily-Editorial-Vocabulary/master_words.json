@@ -11968,6 +11968,70 @@
       "easy": "",
       "example": "Much of his essay – which airily envisions “invention superpowers” for every entrepreneur and “an abundance of jobs in the future” – reads like unadulterated tech-utopianism.",
       "added": "2026-08-12"
+    },
+    {
+      "word": "Identification",
+      "pos": "noun",
+      "meaning": "act of identifying, or proving to be the same",
+      "easy": "",
+      "example": "Danube river's low water levels reveal remains of WWII soldiers and motorcycle A remarkably well-preserved motorcycle and identification tags were found alongside the bodies.",
+      "added": "2026-08-13"
+    },
+    {
+      "word": "Convenience",
+      "pos": "noun",
+      "meaning": "quality of being convenient",
+      "easy": "amenity",
+      "example": "Fast food is popular because of its cost and convenience.",
+      "added": "2026-08-13"
+    },
+    {
+      "word": "Intellectual",
+      "pos": "noun",
+      "meaning": "intelligent, learned person, especially one who discourses about learned matters",
+      "easy": "highbrow",
+      "example": "Military transformation, intellectual leadership India’s military reform must be driven by deeper intellectual engagement",
+      "added": "2026-08-13"
+    },
+    {
+      "word": "Beneficiaries",
+      "pos": "noun",
+      "meaning": "One who benefits or receives an advantage",
+      "easy": "",
+      "example": "Most people can think of more deserving beneficiaries of public money than prisoners.",
+      "added": "2026-08-13"
+    },
+    {
+      "word": "Promotional",
+      "pos": "noun",
+      "meaning": "advertising promotion",
+      "easy": "",
+      "example": "We can credit the weather, but no doubt press coverage and Count Binface’s promotional videos have got us on radars too.",
+      "added": "2026-08-13"
+    },
+    {
+      "word": "Whistleblower",
+      "pos": "noun",
+      "meaning": "One who reports a problem or violation to the authorities",
+      "easy": "",
+      "example": "Australian army whistleblower released on parole after more than two years in jail David McBride was jailed after pleading guilty to leaking military secrets about Afghanistan.",
+      "added": "2026-08-13"
+    },
+    {
+      "word": "Byelection",
+      "pos": "noun",
+      "meaning": "election held to fill a political office that has become vacant between regularly-scheduled elections",
+      "easy": "",
+      "example": "The refusal of major parties to contest this week’s byelection sets the bar low.",
+      "added": "2026-08-13"
+    },
+    {
+      "word": "Experiencing",
+      "pos": "verb",
+      "meaning": "observe certain events",
+      "easy": "undergo",
+      "example": "So, when I read the results of the latest survey by the wellness working group (WWG) I was not surprised to learn that half of us are experiencing clinical levels of psychological distress.",
+      "added": "2026-08-13"
     }
   ],
   "days": [
@@ -12014,6 +12078,7 @@
     "2026-08-08",
     "2026-08-10",
     "2026-08-11",
-    "2026-08-12"
+    "2026-08-12",
+    "2026-08-13"
   ]
 }
