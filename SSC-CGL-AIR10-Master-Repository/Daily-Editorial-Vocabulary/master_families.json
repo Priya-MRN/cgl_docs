@@ -5226,11 +5226,12 @@
   {
     "group": "⏳ Time, Lateness & Approach",
     "words": [
-      "Expectation"
+      "Expectation",
+      "Expectations"
     ],
     "pos": "noun",
     "meaning": "act or state of expecting or looking forward to an event as about to happen",
-    "easy": "arithmetic mean, average",
+    "easy": "arithmetic, average, mean",
     "example": "Cue the annual expectation that parents will conjure up six weeks of affordable, memory-making fun while holding down a job and hanging on to their sanity."
   },
   {
@@ -6857,5 +6858,165 @@
     "meaning": "observe certain events",
     "easy": "undergo",
     "example": "So, when I read the results of the latest survey by the wellness working group (WWG) I was not surprised to learn that half of us are experiencing clinical levels of psychological distress."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Stagflation"
+    ],
+    "pos": "noun",
+    "meaning": "Inflation accompanied by stagnant growth, unemployment or recession",
+    "easy": "",
+    "example": "The Northwestern professor Phillip Braun says the return of stagflation brings new urgency to the Fed chairman Kevin Warsh’s next moves."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Eradication"
+    ],
+    "pos": "noun",
+    "meaning": "act of plucking up by the roots",
+    "easy": "",
+    "example": "The attempted eradication of what Putin himself claims to be an intrinsic part of Russia’s own history is sickening."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Investigations"
+    ],
+    "pos": "noun",
+    "meaning": "act of investigating",
+    "easy": "",
+    "example": "French ambassador to CAR accused of misconduct at official residence faces disciplinary action The accusations against Bruno Foucher prompted investigations into a potential security breach."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Multimillionaires"
+    ],
+    "pos": "noun",
+    "meaning": "person whose net worth is two or more million dollars, pounds, euros or some other currency",
+    "easy": "",
+    "example": "| Arwa Mahdawi It’s a great betrayal: poor communities neglected while multimillionaires peddle a global Maga agenda."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Bombardment"
+    ],
+    "pos": "noun",
+    "meaning": "act of bombing, especially towns or cities",
+    "easy": "",
+    "example": "Aerial bombardment knows limited resistance and even less victory or defeat."
+  },
+  {
+    "group": "⭐ Certainty, Importance & Authority",
+    "words": [
+      "Dereliction"
+    ],
+    "pos": "noun",
+    "meaning": "Willful neglect of one's duty",
+    "easy": "",
+    "example": "Two weeks ago Unesco reported the destruction or dereliction of 545 of its historic buildings, including 156 religious sites and 43 museums."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Foreseeable"
+    ],
+    "pos": "adjective",
+    "meaning": "Able to be foreseen or anticipated",
+    "easy": "",
+    "example": "​A predictable rise: On inflation Inflation will remain high in the foreseeable future"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Improvement"
+    ],
+    "pos": "noun",
+    "meaning": "act of improving",
+    "easy": "amelioration, improval",
+    "example": "In T-levels there has been an improvement, although their newness makes this year’s results harder to assess or compare."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Predictable"
+    ],
+    "pos": "adjective",
+    "meaning": "Able to be predicted",
+    "easy": "",
+    "example": "​A predictable rise: On inflation Inflation will remain high in the foreseeable future"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Prestigious"
+    ],
+    "pos": "adjective",
+    "meaning": "Of high prestige",
+    "easy": "",
+    "example": "She has a prestigious job with an international organization."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Regulatory"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or pertaining to regulation",
+    "easy": "",
+    "example": "Making transparency the foundation of trust in medicine Transparency across regulatory bodies, hospital systems, and clinical care can strengthen public faith and trust"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Achievements"
+    ],
+    "pos": "noun",
+    "meaning": "act of achieving or performing",
+    "easy": "accomplishment, trophy",
+    "example": "The Guardian view on A-level and T-level results: a boost to the nation’s confidence | Editorial Young people should be proud of their achievements."
+  },
+  {
+    "group": "⚖️ Fairness, Honesty & Truth",
+    "words": [
+      "Transparency"
+    ],
+    "pos": "noun",
+    "meaning": "quality of being transparent",
+    "easy": "",
+    "example": "Making transparency the foundation of trust in medicine Transparency across regulatory bodies, hospital systems, and clinical care can strengthen public faith and trust"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Accumulate"
+    ],
+    "pos": "verb",
+    "meaning": "heap up in a mass",
+    "easy": "aggregate, amound, collect",
+    "example": "That he would later to go on to accumulate 20 honorary doctorates and become a professor of creative writing is only one way, and in my view not the best one, of measuring his talent."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Actionable"
+    ],
+    "pos": "adjective",
+    "meaning": "That can be acted on",
+    "easy": "",
+    "example": "Organic waste in India is a wasted opportunity The real challenge is translating regulatory framework and civic ambition into actionable outcomes"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Aggressive"
+    ],
+    "pos": "adjective",
+    "meaning": "Characterized by aggression",
+    "easy": "",
+    "example": "an aggressive policy, war, person, nation"
   }
 ]
