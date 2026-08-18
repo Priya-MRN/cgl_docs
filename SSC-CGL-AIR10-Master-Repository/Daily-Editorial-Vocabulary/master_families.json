@@ -4745,11 +4745,12 @@
     "group": "Other & Mixed",
     "words": [
       "Complications",
-      "Renovation"
+      "Renovation",
+      "Explanation"
     ],
     "pos": "noun",
     "meaning": "act or process of complicating",
-    "easy": "",
+    "easy": "clarification, elaboration, elucidation",
     "example": "Teen jailed for exam cheating in Guinea dies after sickle cell complications, father says Mamadou Djouma Bah, 17, was arrested and sentenced to prison for exam fraud earlier this month."
   },
   {
@@ -5661,7 +5662,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Arrangement"
+      "Arrangement",
+      "Arrangements"
     ],
     "pos": "noun",
     "meaning": "act of arranging",
@@ -6972,7 +6974,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Achievements"
+      "Achievements",
+      "Achievement"
     ],
     "pos": "noun",
     "meaning": "act of achieving or performing",
@@ -7018,5 +7021,215 @@
     "meaning": "Characterized by aggression",
     "easy": "",
     "example": "an aggressive policy, war, person, nation"
+  },
+  {
+    "group": "🔺 Highest & Lowest Points",
+    "words": [
+      "Culmination"
+    ],
+    "pos": "noun",
+    "meaning": "attainment of the highest point of altitude reached by a heavenly body",
+    "easy": "",
+    "example": "It was the culmination of a stunt, an exercise in politics as performance."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Declaration"
+    ],
+    "pos": "noun",
+    "meaning": "written or oral indication of a fact, opinion, or belief",
+    "easy": "notice, notice, statement",
+    "example": "Liechtenstein changes succession rule to allow women to ascend the throne The declaration was made on the national day of the central European country, which has a population of just 44,000."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Meteorological"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or pertaining to meteorology",
+    "easy": "meteorologic",
+    "example": "Whereas 1 June is when the meteorological summer begins."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Persistence"
+    ],
+    "pos": "noun",
+    "meaning": "property of being persistent",
+    "easy": "persistency",
+    "example": "It can also emerge from ordinary assumptions about flirting, persistence, seniority, alcohol, women’s accommodation of male behaviour, and men being disinclined to intervene when another man crosses a line"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Vindication"
+    ],
+    "pos": "noun",
+    "meaning": "act of vindicating or the state of being vindicated",
+    "easy": "",
+    "example": "But he's in deep trouble, and he knows it | Owen Jones The Reform leader claims vindication from the people, and it’s too early to write him off."
+  },
+  {
+    "group": "😢 Sadness, Regret & Complaint",
+    "words": [
+      "Disappointments"
+    ],
+    "pos": "noun",
+    "meaning": "feeling of sadness or frustration when a strongly held expectation is not met",
+    "easy": "let-down",
+    "example": "Collectively, we have created and maintained a national climate narrative of small disappointments and pleasures."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Gladiatorial"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or pertaining to a gladiator",
+    "easy": "",
+    "example": "House in disorder: On the monsoon session of Parliament Parliament must not turn into a gladiatorial arena of victors and vanquished"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Appropriate"
+    ],
+    "pos": "verb",
+    "meaning": "make suitable",
+    "easy": "allocate, earmark, help oneself",
+    "example": "It needs it where delays can be reduced, clinicians can make better-informed decisions, and more patients can receive appropriate care."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Department"
+    ],
+    "pos": "noun",
+    "meaning": "part, portion, or subdivision",
+    "easy": "province, specialty, ministry",
+    "example": "Andhra’s urban transformation The State’s municipal department is trying to build a sustainable urban model"
+  },
+  {
+    "group": "🌑 Bad, Harmful & Unpleasant",
+    "words": [
+      "Notoriously"
+    ],
+    "pos": "adverb",
+    "meaning": "In a notorious or notable manner",
+    "easy": "",
+    "example": "Mushroom murderer Erin Patterson is appealing - here's what you need to know The Australian, who notoriously poisoned her family members, is trying to overturn her conviction."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Aristocratic"
+    ],
+    "pos": "adjective",
+    "meaning": "Of, pertaining to, or favouring, an aristocracy",
+    "easy": "",
+    "example": "During the 20th century, however, middle- and working-class Italians made their own claim on it, transforming an aristocratic privilege into a mass ritual."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Transmission"
+    ],
+    "pos": "noun",
+    "meaning": "act of transmitting, e",
+    "easy": "gearbox, outsending",
+    "example": "It is already the second-worst Ebola outbreak in history, with the fastest community transmission we have ever seen."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Advancement"
+    ],
+    "pos": "noun",
+    "meaning": "act of advancing,",
+    "easy": "furtherance, improvement, progression",
+    "example": "In Arday’s case, alleged shortcomings in his record rapidly became weaponised by the right in an argument about diversity and black academic advancement."
+  },
+  {
+    "group": "👏 Praise, Support & Strengthen",
+    "words": [
+      "Championships"
+    ],
+    "pos": "noun",
+    "meaning": "competition to determine a champion, especially the final of a series of competitions",
+    "easy": "",
+    "example": "Ms Hunt’s record‑breaking achievement in winning the 100m, 200m, women’s relay and mixed relay at the first European championships to be held in Britain was an exhibition of world-class sprinting for the ages."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Congratulated"
+    ],
+    "pos": "verb",
+    "meaning": "express one’s sympathetic pleasure or joy to the person it is felt for",
+    "easy": "",
+    "example": "Humiliatingly, Israel this week flatly rejected his latest Gaza peace proposals, days after Trump congratulated himself on a “historic breakthrough”."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Unquestioning"
+    ],
+    "pos": "adjective",
+    "meaning": "Believing without question",
+    "easy": "doubtless, faithful",
+    "example": "On dignity in political discourse Intense display of fandom and unquestioning loyalty towards individual leaders have cordoned the ability to enter into meaningful dialogue"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Reflection"
+    ],
+    "pos": "noun",
+    "meaning": "act of reflecting or the state of being reflected",
+    "easy": "",
+    "example": "Behind McCausland’s jovial reflection on the value of different mince pies was a heartfelt plea to protect this little-known yet vital cog in our national machine."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Animation"
+    ],
+    "pos": "noun",
+    "meaning": "act of animating, or giving life or spirit",
+    "easy": "enlivenment, vitalization, vivification",
+    "example": "Movie that went viral for terrible animation becomes China box office hit Niu Lai's confusing plot and laughable animation quality has won ironic fans on the internet."
+  },
+  {
+    "group": "🚧 Block, Hinder & Suppress",
+    "words": [
+      "Influence"
+    ],
+    "pos": "noun",
+    "meaning": "power to affect, control or manipulate something or someone",
+    "easy": "",
+    "example": "India is losing West Asia, but it is not too late West Asia is changing rapidly and India must act before its influence fades"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Legitimate"
+    ],
+    "pos": "noun",
+    "meaning": "person born to a legally married couple",
+    "easy": "",
+    "example": "The Guardian view on Jason Arday: a tragedy that demands reflection | Editorial Legitimate scrutiny became entangled with a racial argument about merit and diversity."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Acknowledged"
+    ],
+    "pos": "verb",
+    "meaning": "admit the knowledge of",
+    "easy": "admit, allow, avow",
+    "example": "Andy Burnham has barely acknowledged the climate crisis."
   }
 ]
