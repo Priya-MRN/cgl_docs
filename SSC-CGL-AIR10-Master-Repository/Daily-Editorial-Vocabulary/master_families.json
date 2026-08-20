@@ -7231,5 +7231,155 @@
     "meaning": "admit the knowledge of",
     "easy": "admit, allow, avow",
     "example": "Andy Burnham has barely acknowledged the climate crisis."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Dangerously"
+    ],
+    "pos": "adverb",
+    "meaning": "In a dangerous manner",
+    "easy": "",
+    "example": "Weeks of unrelenting sun in the normally soggy Peak District, where I was visiting my mum, have bleached green valleys a dangerously dry, crispy blond."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Flexibility"
+    ],
+    "pos": "noun",
+    "meaning": "quality of being flexible",
+    "easy": "",
+    "example": "| David Milstead The official talk is of the government acting with understanding and flexibility."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Temptation"
+    ],
+    "pos": "noun",
+    "meaning": "act of tempting",
+    "easy": "fitna",
+    "example": "European integration is the insurance policy against the oldest temptation of power: that a majority, however large, decides who does not belong."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Melodramatic"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or pertaining to melodrama",
+    "easy": "",
+    "example": "When that harsh, discordant shriek blared from every mobile phone in the house, I was half-braced for an evacuation order, not what turned out to be a faintly melodramatic warning to the nation to lay off the barbecues."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Undergraduates"
+    ],
+    "pos": "noun",
+    "meaning": "student at a university who has not yet received a degree",
+    "easy": "",
+    "example": "We should instead give undergraduates the time and freedom to practise entering the unknown."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Exploratory"
+    ],
+    "pos": "noun",
+    "meaning": "exploration or investigation",
+    "easy": "",
+    "example": "Brazil's President Lula hails oil discovery near Amazon river Environmentalists have heavily criticised the exploratory drilling in the sea off the mouth of the Amazon."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Grandchildren"
+    ],
+    "pos": "noun",
+    "meaning": "child of someone's child",
+    "easy": "grandkid, grandwean, oe",
+    "example": "Her husband died there; her son, grandchildren and home are there."
+  },
+  {
+    "group": "🗃️ Catch, Hold & Seize",
+    "words": [
+      "Understanding"
+    ],
+    "pos": "verb",
+    "meaning": "grasp a concept fully and thoroughly, especially  to be aware of the meaning of and  to be aware of the intent of",
+    "easy": "believe, apprehend, comprehend",
+    "example": "| David Milstead The official talk is of the government acting with understanding and flexibility."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Commission"
+    ],
+    "pos": "noun",
+    "meaning": "sending or mission",
+    "easy": "committee, government body",
+    "example": "Directly elected by nearly 360 million citizens , it co-writes the EU’s laws, elects the president of the European Commission and can dismiss the closest thing Europe has to a government – the commission itself."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Embarrassing"
+    ],
+    "pos": "verb",
+    "meaning": "humiliate",
+    "easy": "abash, discomfit, disconcert",
+    "example": "This rush to the future away from what some perceive to be an embarrassing past groups together various disparate phenomena."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Journalism"
+    ],
+    "pos": "noun",
+    "meaning": "activity or profession of being a journalist",
+    "easy": "",
+    "example": "This does not mean suppressing difficult questions, ignoring why there remain a pitifully small number of black professors in British universities, or attacking legitimate journalism."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Celebrations"
+    ],
+    "pos": "noun",
+    "meaning": "formal performance of a solemn rite, such as Christian sacrament",
+    "easy": "",
+    "example": "Cherished authors including George Eliot don’t even have one Interest in all things Jane Austen remains high, following the celebrations of her 250th anniversary."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Consequences"
+    ],
+    "pos": "noun",
+    "meaning": "That which follows something on which it depends",
+    "easy": "aftercome, distinction, implication",
+    "example": "But this year, supplies of Patriot missiles have run out and Kyiv has suffered the consequences."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Consolidated"
+    ],
+    "pos": "verb",
+    "meaning": "combine into a single unit",
+    "easy": "",
+    "example": "He consolidated his luggage into a single large bag."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Cooperatives"
+    ],
+    "pos": "noun",
+    "meaning": "type of company that is owned partially or wholly by its employees, customers or tenants",
+    "easy": "",
+    "example": "Could Zurich’s housing cooperatives be the solution to the rest of Europe’s housing crisis?"
   }
 ]
