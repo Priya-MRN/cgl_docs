@@ -12480,6 +12480,134 @@
       "easy": "",
       "example": "Could Zurich’s housing cooperatives be the solution to the rest of Europe’s housing crisis?",
       "added": "2026-08-19"
+    },
+    {
+      "word": "Compensation",
+      "pos": "noun",
+      "meaning": "act or principle of compensating",
+      "easy": "restitution, restitution, amends",
+      "example": "The Guardian view on the Grenfell Tower fire: Britain is letting companies pass the buck | Editorial Victims received less compensation than shareholders in the company behind its flammable cladding.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Appreciation",
+      "pos": "noun",
+      "meaning": "fair valuation or estimate of merit, worth, weight, etc",
+      "easy": "",
+      "example": "​Vote of trust: On Trump’s appreciation, clean electoral rolls in India Clean electoral rolls are a must, but must not be weaponised by state",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Demonisation",
+      "pos": "noun",
+      "meaning": "act of demonizing",
+      "easy": "",
+      "example": "Politics has descended into a crusade of mutual demonisation, and Parliament has followed",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Remediation",
+      "pos": "noun",
+      "meaning": "process of remedying a situation",
+      "easy": "",
+      "example": "Such an award against Arconic could have been used to meet the costs of remediation, the report says, “at no public cost”.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Supermajority",
+      "pos": "noun",
+      "meaning": "Any qualified majority, specified in advance of a vote, required for the vote to be passed",
+      "easy": "",
+      "example": "Democrats Can’t Fix This Mess Without a Supermajority They must embrace the heterodoxy that governs how swing voters think.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Antiterrorism",
+      "pos": "noun",
+      "meaning": "Activity aiming at opposing or preventing terrorism",
+      "easy": "",
+      "example": "Anti-ICE Protesters Are Charged With a Terrorism Playbook We’ve Seen Before In Prairieland, prosecutors are using antiterrorism laws we’ve seen before.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Antagonistic",
+      "pos": "adjective",
+      "meaning": "Contending or acting against",
+      "easy": "",
+      "example": "His antagonistic way of dealing with complex problems gets me screaming at the radio far too easily.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Approximations",
+      "pos": "noun",
+      "meaning": "act, process or result of approximating",
+      "easy": "",
+      "example": "In any case the feeling lasted only a second: a flicker of unease, as though I were looking at people who had become approximations of themselves.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Displacement",
+      "pos": "noun",
+      "meaning": "act of displacing, or the state of being displaced",
+      "easy": "",
+      "example": "The worst-affected region is contested by armed groups, and a context of population displacement and chronic insecurity has made monitoring and surveillance more difficult.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Psychologist",
+      "pos": "noun",
+      "meaning": "expert in the field of psychology",
+      "easy": "",
+      "example": "Dr Katriona O’Sullivan is a psychologist, author and professor at Maynooth University.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Destructive",
+      "pos": "adjective",
+      "meaning": "Causing destruction",
+      "easy": "calamitous, catastrophic, devastating",
+      "example": "Israel opens up bids for highly-sensitive West Bank settlement project The UK's foreign secretary condemned the move as \"an unacceptable and destructive act\".",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Enhancement",
+      "pos": "noun",
+      "meaning": "Improvement",
+      "easy": "",
+      "example": "Their looks have provoked speculation about cosmetic enhancement, though never acknowledged by them.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Psychiatric",
+      "pos": "adjective",
+      "meaning": "Of, or relating to, psychiatry",
+      "easy": "",
+      "example": "Trial of mum accused of killing her three children puts postpartum psychosis on the map Postpartum psychosis is a psychiatric emergency that can involve mania, depression, hallucinations and delusions.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Toothbrushes",
+      "pos": "noun",
+      "meaning": "brush, used with toothpaste, for cleaning the teeth",
+      "easy": "",
+      "example": "Ferrari, however, latched on to the toothbrushes.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Shareholders",
+      "pos": "noun",
+      "meaning": "One who owns shares of stock in a corporation",
+      "easy": "",
+      "example": "The Guardian view on the Grenfell Tower fire: Britain is letting companies pass the buck | Editorial Victims received less compensation than shareholders in the company behind its flammable cladding.",
+      "added": "2026-08-20"
+    },
+    {
+      "word": "Benchmarking",
+      "pos": "verb",
+      "meaning": "measure the performance or quality of  relative to another similar item in an impartial scientific manner",
+      "easy": "",
+      "example": "No shortcuts to hiking health spend to 2.5% of GDP The recent report of the health standing committee that advised benchmarking of hospital rates against hotel prices reiterates the urgency in increasing public spend",
+      "added": "2026-08-20"
     }
   ],
   "days": [
@@ -12531,6 +12659,7 @@
     "2026-08-14",
     "2026-08-17",
     "2026-08-18",
-    "2026-08-19"
+    "2026-08-19",
+    "2026-08-20"
   ]
 }

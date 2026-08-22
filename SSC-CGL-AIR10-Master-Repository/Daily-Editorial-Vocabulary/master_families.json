@@ -6364,7 +6364,8 @@
   {
     "group": "📌 Cause, Effect & Consequence",
     "words": [
-      "Diversification"
+      "Diversification",
+      "Approximations"
     ],
     "pos": "noun",
     "meaning": "act, or the result, of diversifying",
@@ -7381,5 +7382,155 @@
     "meaning": "type of company that is owned partially or wholly by its employees, customers or tenants",
     "easy": "",
     "example": "Could Zurich’s housing cooperatives be the solution to the rest of Europe’s housing crisis?"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Compensation"
+    ],
+    "pos": "noun",
+    "meaning": "act or principle of compensating",
+    "easy": "restitution, restitution, amends",
+    "example": "The Guardian view on the Grenfell Tower fire: Britain is letting companies pass the buck | Editorial Victims received less compensation than shareholders in the company behind its flammable cladding."
+  },
+  {
+    "group": "⚖️ Fairness, Honesty & Truth",
+    "words": [
+      "Appreciation"
+    ],
+    "pos": "noun",
+    "meaning": "fair valuation or estimate of merit, worth, weight, etc",
+    "easy": "",
+    "example": "​Vote of trust: On Trump’s appreciation, clean electoral rolls in India Clean electoral rolls are a must, but must not be weaponised by state"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Demonisation"
+    ],
+    "pos": "noun",
+    "meaning": "act of demonizing",
+    "easy": "",
+    "example": "Politics has descended into a crusade of mutual demonisation, and Parliament has followed"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Remediation"
+    ],
+    "pos": "noun",
+    "meaning": "process of remedying a situation",
+    "easy": "",
+    "example": "Such an award against Arconic could have been used to meet the costs of remediation, the report says, “at no public cost”."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Supermajority"
+    ],
+    "pos": "noun",
+    "meaning": "Any qualified majority, specified in advance of a vote, required for the vote to be passed",
+    "easy": "",
+    "example": "Democrats Can’t Fix This Mess Without a Supermajority They must embrace the heterodoxy that governs how swing voters think."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Antiterrorism"
+    ],
+    "pos": "noun",
+    "meaning": "Activity aiming at opposing or preventing terrorism",
+    "easy": "",
+    "example": "Anti-ICE Protesters Are Charged With a Terrorism Playbook We’ve Seen Before In Prairieland, prosecutors are using antiterrorism laws we’ve seen before."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Antagonistic"
+    ],
+    "pos": "adjective",
+    "meaning": "Contending or acting against",
+    "easy": "",
+    "example": "His antagonistic way of dealing with complex problems gets me screaming at the radio far too easily."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Displacement"
+    ],
+    "pos": "noun",
+    "meaning": "act of displacing, or the state of being displaced",
+    "easy": "",
+    "example": "The worst-affected region is contested by armed groups, and a context of population displacement and chronic insecurity has made monitoring and surveillance more difficult."
+  },
+  {
+    "group": "🎯 Skill, Care & Wisdom",
+    "words": [
+      "Psychologist"
+    ],
+    "pos": "noun",
+    "meaning": "expert in the field of psychology",
+    "easy": "",
+    "example": "Dr Katriona O’Sullivan is a psychologist, author and professor at Maynooth University."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Destructive"
+    ],
+    "pos": "adjective",
+    "meaning": "Causing destruction",
+    "easy": "calamitous, catastrophic, devastating",
+    "example": "Israel opens up bids for highly-sensitive West Bank settlement project The UK's foreign secretary condemned the move as \"an unacceptable and destructive act\"."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Enhancement"
+    ],
+    "pos": "noun",
+    "meaning": "Improvement",
+    "easy": "",
+    "example": "Their looks have provoked speculation about cosmetic enhancement, though never acknowledged by them."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Psychiatric"
+    ],
+    "pos": "adjective",
+    "meaning": "Of, or relating to, psychiatry",
+    "easy": "",
+    "example": "Trial of mum accused of killing her three children puts postpartum psychosis on the map Postpartum psychosis is a psychiatric emergency that can involve mania, depression, hallucinations and delusions."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Toothbrushes"
+    ],
+    "pos": "noun",
+    "meaning": "brush, used with toothpaste, for cleaning the teeth",
+    "easy": "",
+    "example": "Ferrari, however, latched on to the toothbrushes."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Shareholders"
+    ],
+    "pos": "noun",
+    "meaning": "One who owns shares of stock in a corporation",
+    "easy": "",
+    "example": "The Guardian view on the Grenfell Tower fire: Britain is letting companies pass the buck | Editorial Victims received less compensation than shareholders in the company behind its flammable cladding."
+  },
+  {
+    "group": "🔍 Examination, Judgement & Standards",
+    "words": [
+      "Benchmarking"
+    ],
+    "pos": "verb",
+    "meaning": "measure the performance or quality of  relative to another similar item in an impartial scientific manner",
+    "easy": "",
+    "example": "No shortcuts to hiking health spend to 2.5% of GDP The recent report of the health standing committee that advised benchmarking of hospital rates against hotel prices reiterates the urgency in increasing public spend"
   }
 ]
