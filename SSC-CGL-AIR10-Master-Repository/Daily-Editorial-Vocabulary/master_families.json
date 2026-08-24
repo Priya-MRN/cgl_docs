@@ -5551,7 +5551,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Assassination"
+      "Assassination",
+      "Assassinations"
     ],
     "pos": "noun",
     "meaning": "murder of a person, especially for political reasons or for personal gain",
@@ -7532,5 +7533,105 @@
     "meaning": "measure the performance or quality of  relative to another similar item in an impartial scientific manner",
     "easy": "",
     "example": "No shortcuts to hiking health spend to 2.5% of GDP The recent report of the health standing committee that advised benchmarking of hospital rates against hotel prices reiterates the urgency in increasing public spend"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Professionalisation"
+    ],
+    "pos": "noun",
+    "meaning": "act or process of professionalizing, or becoming professional",
+    "easy": "",
+    "example": "Women’s football shouldn’t have to copy a men’s game that isn’t working – just look at Ted Lasso | Karen Dobres The rapid professionalisation of woman’s football has brought money and status."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Neurodevelopmental"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or pertaining to the development of neurological pathways in the brain",
+    "easy": "",
+    "example": "Channel 4’s press release claimed the documentary sought to determine whether attention deficit hyperactivity disorder was a “genuine neurodevelopmental disorder, or a social construct”."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Developmental"
+    ],
+    "pos": "noun",
+    "meaning": "trainee flight controller",
+    "easy": "",
+    "example": "To overturn this consensus would require robust, reproducible findings capable of explaining away decades of genetic, developmental and clinical research."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Hyperactivity"
+    ],
+    "pos": "noun",
+    "meaning": "quality of being hyperactive",
+    "easy": "",
+    "example": "Channel 4’s press release claimed the documentary sought to determine whether attention deficit hyperactivity disorder was a “genuine neurodevelopmental disorder, or a social construct”."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Inextricable"
+    ],
+    "pos": "adjective",
+    "meaning": "Impossible to untie or disentangle",
+    "easy": "",
+    "example": "American democracy and American higher education are inextricable."
+  },
+  {
+    "group": "👑 Power, Control & Influence",
+    "words": [
+      "Prescription"
+    ],
+    "pos": "noun",
+    "meaning": "act of prescribing a rule, law, etc",
+    "easy": "recipe, Rx, ℞",
+    "example": "He told the Times this week that the prescription for services such as water, housing and energy isn’t yet clear, “with the exception of buses”."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Reproducible"
+    ],
+    "pos": "adjective",
+    "meaning": "Capable of being reproduced at a different time or place and by different people",
+    "easy": "",
+    "example": "To overturn this consensus would require robust, reproducible findings capable of explaining away decades of genetic, developmental and clinical research."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Invertebrates"
+    ],
+    "pos": "noun",
+    "meaning": "animal without vertebrae, i",
+    "easy": "",
+    "example": "In their diversity and varied ecology, the million-plus invertebrates on our planet often lead far more intricate and interesting lives than large animals with spines, like us."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Assurance"
+    ],
+    "pos": "noun",
+    "meaning": "act of assuring",
+    "easy": "",
+    "example": "For decades, the vast majority of families have been taking the advice of doctors, accepting their assurance that the MMR vaccine is safe and very effective."
+  },
+  {
+    "group": "🤝 Agreement, Unity & Cooperation",
+    "words": [
+      "Collection"
+    ],
+    "pos": "noun",
+    "meaning": "set of items or amount of material procured or gathered together",
+    "easy": "",
+    "example": "These calls come after a private collection from the Jurassic Coast was sold to the Natural History Museum Abu Dhabi for a reported eight-figure sum."
   }
 ]
