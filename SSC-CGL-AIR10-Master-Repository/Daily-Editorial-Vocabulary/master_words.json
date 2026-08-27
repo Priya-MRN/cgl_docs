@@ -12792,6 +12792,118 @@
       "easy": "centrohub, monosemy",
       "example": "“Welcome to the foothills of the singularity,” as a Stanford University friend greeted me.",
       "added": "2026-08-24"
+    },
+    {
+      "word": "Incompetence",
+      "pos": "noun",
+      "meaning": "Inability to perform",
+      "easy": "",
+      "example": "With those advantages it takes a special talent for incompetence to look as thwarted and impotent as Trump does with more than two years of his second term still to run.",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Calculation",
+      "pos": "noun",
+      "meaning": "act or process of calculating",
+      "easy": "sum, computation, evaluation",
+      "example": "While markets shrugged off the immediate threat , that calculation might change were the US to target a major Chinese refinery or bank.",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Reliability",
+      "pos": "noun",
+      "meaning": "quality of being reliable, dependable or trustworthy",
+      "easy": "dependable, unreliable",
+      "example": "Escape velocity: On what India’s space sector must focus on India’s space sector must focus on reliability and regular launches",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Contradictory",
+      "pos": "noun",
+      "meaning": "Either of a pair of propositions, that cannot both be true or both be false",
+      "easy": "",
+      "example": "These are not contradictory policies but a gamble: that US economic power can be repeatedly weaponised without reducing others’ willingness to depend on it.",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Demolition",
+      "pos": "noun",
+      "meaning": "process of demolishing or destroying buildings or other structures",
+      "easy": "",
+      "example": "Trump officials threaten Kennedy Center demolition if court blocks renovations The justice department has also asked for Trump's name to be put back on the building after it was removed in June following a court order.",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Irreplaceable",
+      "pos": "adjective",
+      "meaning": "That cannot be replaced, especially because it is unique",
+      "easy": "",
+      "example": "Heart, hope and a steely determination: Dolly Parton's musical legacy BBC music correspondent Mark Savage looks back on the legacy of the \"irreplaceable\" late singer.",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Contemptuous",
+      "pos": "adjective",
+      "meaning": "Showing contempt",
+      "easy": "disdainful",
+      "example": "The current president, contemptuous of law and indulged in lawlessness by a supine Congress, enjoys even greater power than the constitution allows.",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Differential",
+      "pos": "noun",
+      "meaning": "differential gear in an automobile etc",
+      "easy": "",
+      "example": "India must reassess its differential treatment of international criminals No government, in good faith, should allow its land to become a safe haven for ‘enemies of all humankind’",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Irrespective",
+      "pos": "adjective",
+      "meaning": "Heedless, regardless",
+      "easy": "",
+      "example": "Bengaluru’s risk-averse force Police have been cautious in their approach to protests, irrespective of who is in power",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Recognizable",
+      "pos": "adjective",
+      "meaning": "Able to be recognized",
+      "easy": "",
+      "example": "What Child Actors Understand About Hayden Panettiere We might have worked on different sets, for different directors, in different eras, but every child actor bears the same recognizable wounds.",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Straightforward",
+      "pos": "adjective",
+      "meaning": "Proceeding in a straight course or manner",
+      "easy": "",
+      "example": "The Guardian view on the French left: division makes Marine Le Pen’s path to the Élysée more straightforward | Editorial Two years ago, progressive parties allied to see off the far right in a parliamentary election.",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Consolidate",
+      "pos": "verb",
+      "meaning": "combine into a single unit",
+      "easy": "",
+      "example": "Guinea's president dismisses 173 soldiers, including coup ally, for desertion It is thought to be part of efforts to consolidate the former coup leader's control.",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Intentionally",
+      "pos": "adverb",
+      "meaning": "In an intentional manner",
+      "easy": "",
+      "example": "How did it happen, and how can consumers shop more intentionally?",
+      "added": "2026-08-27"
+    },
+    {
+      "word": "Perspective",
+      "pos": "noun",
+      "meaning": "view, vista or outlook",
+      "easy": "",
+      "example": "From their perspective, the privatisation of water has been an astounding success.",
+      "added": "2026-08-27"
     }
   ],
   "days": [
@@ -12846,6 +12958,7 @@
     "2026-08-19",
     "2026-08-20",
     "2026-08-22",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-08-27"
   ]
 }
