@@ -13008,6 +13008,54 @@
       "easy": "dematerialize, vanish",
       "example": "Wasn’t the east-west divide supposed to be disappearing by now?",
       "added": "2026-08-28"
+    },
+    {
+      "word": "Reconstruction",
+      "pos": "noun",
+      "meaning": "thing that has been reconstructed or restored to an earlier state",
+      "easy": "",
+      "example": "Trump Is in Open Revolt Against the Constitution The mail-in voting fiasco is the latest proof that we have another reconstruction ahead of us.",
+      "added": "2026-09-01"
+    },
+    {
+      "word": "Hydroelectric",
+      "pos": "adjective",
+      "meaning": "That generates electricity by converting the energy of moving water, or of steam escaping under high pressure",
+      "easy": "",
+      "example": "In 2021, a similar deluge ripped through a series of mountain valleys in the Indian Himalayan state of Uttarakhand , severely damaging two hydroelectric power plants and taking about 200 lives.",
+      "added": "2026-09-01"
+    },
+    {
+      "word": "Communications",
+      "pos": "noun",
+      "meaning": "act or fact of communicating anything",
+      "easy": "",
+      "example": "The price of erbium, an element essential to communications infrastructure, has already jumped because of fears that export controls will soon be renewed.",
+      "added": "2026-09-01"
+    },
+    {
+      "word": "Unquestionably",
+      "pos": "adverb",
+      "meaning": "Without question",
+      "easy": "",
+      "example": "In principle, this is unquestionably worth celebrating.",
+      "added": "2026-09-01"
+    },
+    {
+      "word": "Geophysical",
+      "pos": "adjective",
+      "meaning": "Of or pertaining to geophysics",
+      "easy": "",
+      "example": "Bill McGuire is professor emeritus of geophysical and climate hazards at UCL.",
+      "added": "2026-09-01"
+    },
+    {
+      "word": "Diligence",
+      "pos": "noun",
+      "meaning": "Steady application",
+      "easy": "worksomeness",
+      "example": "​Due diligence: On surrogate advertising Curbs on surrogate advertising must avoid regulatory overreach",
+      "added": "2026-09-01"
     }
   ],
   "days": [
@@ -13064,6 +13112,7 @@
     "2026-08-22",
     "2026-08-24",
     "2026-08-27",
-    "2026-08-28"
+    "2026-08-28",
+    "2026-09-01"
   ]
 }

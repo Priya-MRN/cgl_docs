@@ -2531,6 +2531,74 @@
         "bucket": "🗂️ Other Notable",
         "scope": "India"
       }
+    ],
+    "2026-09-01": [
+      {
+        "title": "Wendell Berry Dies at 92",
+        "url": "https://www.gktoday.in/wendell-berry-dies-at-92/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Government Notifies Semicon 2.0 Scheme",
+        "url": "https://www.gktoday.in/government-notifies-semicon-2-0-scheme/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "India’s Coconut Exports Rise 62% in FY26",
+        "url": "https://www.gktoday.in/indias-coconut-exports-rise-62-in-fy26/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Clashes Erupt in Spain’s Ceuta After Migrant Influx",
+        "url": "https://www.gktoday.in/clashes-erupt-in-spains-ceuta-after-migrant-influx/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Bihar Plans Mahila Vishwavidyalaya for Women",
+        "url": "https://www.gktoday.in/bihar-plans-mahila-vishwavidyalaya-for-women/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Tim Cook to Step Down as Apple CEO",
+        "url": "https://www.gktoday.in/tim-cook-to-step-down-as-apple-ceo/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Sri Lanka Loses Women’s Champions Trophy Hosting Rights",
+        "url": "https://www.gktoday.in/sri-lanka-loses-womens-champions-trophy-hosting-rights/",
+        "bucket": "🏆 Sports",
+        "scope": "International"
+      },
+      {
+        "title": "Karnataka’s Greater Bengaluru Governance Act Takes Effect",
+        "url": "https://www.gktoday.in/karnatakas-greater-bengaluru-governance-act-takes-effect/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Blue-Violet Flower Blooms in Kudremukh Hills",
+        "url": "https://www.gktoday.in/blue-violet-flower-blooms-in-kudremukh-hills/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Google Maps Renames Gulf of Mexico in US View",
+        "url": "https://www.gktoday.in/google-maps-renames-gulf-of-mexico-in-us-view/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "NASA Launches Nancy Grace Roman Space Telescope",
+        "url": "https://www.gktoday.in/nasa-launches-nancy-grace-roman-space-telescope/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
@@ -2567,6 +2635,8 @@
     "https://www.gktoday.in/bharat-international-rice-conference-to-be-held-in-october/",
     "https://www.gktoday.in/bhogapuram-international-airport-inaugurated-in-andhra-pradesh/",
     "https://www.gktoday.in/bihar-banyan-tree-named-worlds-oldest-accurately-dated/",
+    "https://www.gktoday.in/bihar-plans-mahila-vishwavidyalaya-for-women/",
+    "https://www.gktoday.in/blue-violet-flower-blooms-in-kudremukh-hills/",
     "https://www.gktoday.in/brics-education-ministers-meeting-to-be-held-in-bhubaneswar/",
     "https://www.gktoday.in/brics-tourism-ministers-adopt-jaipur-declaration/",
     "https://www.gktoday.in/brookfield-launches-600-million-renewable-energy-platform-in-india/",
@@ -2590,6 +2660,7 @@
     "https://www.gktoday.in/china-launches-gravity-1-rocket-with-nine-satellites/",
     "https://www.gktoday.in/chinas-former-premier-zhu-rongji-dies-at-98/",
     "https://www.gktoday.in/chinas-long-march-7a-rocket-explodes-after-launch/",
+    "https://www.gktoday.in/clashes-erupt-in-spains-ceuta-after-migrant-influx/",
     "https://www.gktoday.in/crpf-raising-day-2026/",
     "https://www.gktoday.in/csir-celebrates-women-researchers-through-aspire-shakti-initiative/",
     "https://www.gktoday.in/cwg-2026-valluri-ajaya-babu-wins-silver-in-mens-79kg-weightlifting/",
@@ -2627,11 +2698,13 @@
     "https://www.gktoday.in/global-biofuel-alliance-selects-15-researcher-fellows/",
     "https://www.gktoday.in/gmr-aero-technic-signs-honeywell-mro-licence-agreement/",
     "https://www.gktoday.in/godavari-flood-threat-intensifies-in-andhra-pradesh/",
+    "https://www.gktoday.in/google-maps-renames-gulf-of-mexico-in-us-view/",
     "https://www.gktoday.in/government-adds-navi-mumbai-airport-for-medicine-imports/",
     "https://www.gktoday.in/government-amends-insurance-ombudsman-rules/",
     "https://www.gktoday.in/government-auctions-six-coal-blocks-in-15th-round/",
     "https://www.gktoday.in/government-bars-telecom-data-sharing-abroad/",
     "https://www.gktoday.in/government-issues-draft-cafe-iii-norms/",
+    "https://www.gktoday.in/government-notifies-semicon-2-0-scheme/",
     "https://www.gktoday.in/government-proposes-mdr-on-select-upi-payments/",
     "https://www.gktoday.in/government-proposes-three-year-puc-validity-for-bs-vi-vehicles/",
     "https://www.gktoday.in/government-removes-12-minute-ad-cap-for-tv-channels/",
@@ -2743,6 +2816,7 @@
     "https://www.gktoday.in/indian-statistical-institute-bill-introduced-in-lok-sabha/",
     "https://www.gktoday.in/indias-ariha-wins-historic-gold-at-aerobic-gymnastics-asian-championships/",
     "https://www.gktoday.in/indias-asiatic-lion-population-reaches-891/",
+    "https://www.gktoday.in/indias-coconut-exports-rise-62-in-fy26/",
     "https://www.gktoday.in/indias-energy-storage-requirement-may-reach-888-gwh-by-2035-36/",
     "https://www.gktoday.in/indias-first-indigenised-ak-203-sher-rifle-test-fired-in-amethi/",
     "https://www.gktoday.in/indias-first-night-safari-gets-supreme-court-nod/",
@@ -2767,6 +2841,7 @@
     "https://www.gktoday.in/karnataka-cabinet-clears-public-premises-use-bill/",
     "https://www.gktoday.in/karnataka-launches-tathyakosh-public-data-portal/",
     "https://www.gktoday.in/karnataka-plans-tumakuru-industrial-node-expansion/",
+    "https://www.gktoday.in/karnatakas-greater-bengaluru-governance-act-takes-effect/",
     "https://www.gktoday.in/karnatakas-semiconductor-park-to-become-operational-by-december-2026/",
     "https://www.gktoday.in/kerala-cabinet-clears-five-governance-reforms/",
     "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",
@@ -2816,6 +2891,7 @@
     "https://www.gktoday.in/msme-ministry-dpiit-sign-mou-for-gi-product-market-access/",
     "https://www.gktoday.in/nandan-nilekani-to-lead-exam-reforms-task-force/",
     "https://www.gktoday.in/nasa-invites-isro-for-moon-base-programme/",
+    "https://www.gktoday.in/nasa-launches-nancy-grace-roman-space-telescope/",
     "https://www.gktoday.in/nasa-praxis-mission-to-study-planetary-rings/",
     "https://www.gktoday.in/nasha-mukta-yuva-for-viksit-bharat-sankalp-abhiyaan-to-launch-on-2-august/",
     "https://www.gktoday.in/national-film-awards-2026-announced/",
@@ -2893,6 +2969,7 @@
     "https://www.gktoday.in/south-china-sea-arbitral-award-marks-10-years/",
     "https://www.gktoday.in/sowcar-janaki-dies-at-94-in-chennai/",
     "https://www.gktoday.in/sports-ministry-suspends-table-tennis-federation-of-india-recognition/",
+    "https://www.gktoday.in/sri-lanka-loses-womens-champions-trophy-hosting-rights/",
     "https://www.gktoday.in/srikakulam-to-get-airport-under-udan-scheme/",
     "https://www.gktoday.in/startup-museum-planned-in-bengaluru-with-grand-egyptian-museum-architects/",
     "https://www.gktoday.in/supreme-court-extends-10-km-mining-buffer-to-wetlands/",
@@ -2908,6 +2985,7 @@
     "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
     "https://www.gktoday.in/telangana-seeks-higher-tummidihatti-barrage/",
     "https://www.gktoday.in/third-national-space-day-celebrated/",
+    "https://www.gktoday.in/tim-cook-to-step-down-as-apple-ceo/",
     "https://www.gktoday.in/trai-revamps-mycall-app-for-call-quality-assessment/",
     "https://www.gktoday.in/tribunals-reforms-bill-passed-in-lok-sabha/",
     "https://www.gktoday.in/tripura-makes-vande-mataram-and-jana-gana-mana-mandatory/",
@@ -2933,6 +3011,7 @@
     "https://www.gktoday.in/vinspace-signs-spacex-launch-deal-for-2027/",
     "https://www.gktoday.in/vishwesh-negi-appointed-indias-next-ambassador-to-iran/",
     "https://www.gktoday.in/wearable-ammonia-gas-sensor-developed-by-indian-scientists/",
+    "https://www.gktoday.in/wendell-berry-dies-at-92/",
     "https://www.gktoday.in/west-bengal-hosts-first-kaushal-mahotsav-in-balurghat/",
     "https://www.gktoday.in/west-bengal-implements-pmcspy-for-tea-garden-workers/",
     "https://www.gktoday.in/what-are-ethanol-atms/",

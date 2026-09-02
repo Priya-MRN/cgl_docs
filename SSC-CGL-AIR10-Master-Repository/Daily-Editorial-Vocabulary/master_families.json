@@ -7178,7 +7178,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Unquestioning"
+      "Unquestioning",
+      "Unquestionably"
     ],
     "pos": "adjective",
     "meaning": "Believing without question",
@@ -8005,5 +8006,55 @@
     "meaning": "vanish",
     "easy": "dematerialize, vanish",
     "example": "Wasn’t the east-west divide supposed to be disappearing by now?"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Reconstruction"
+    ],
+    "pos": "noun",
+    "meaning": "thing that has been reconstructed or restored to an earlier state",
+    "easy": "",
+    "example": "Trump Is in Open Revolt Against the Constitution The mail-in voting fiasco is the latest proof that we have another reconstruction ahead of us."
+  },
+  {
+    "group": "⚡ Strong Feeling, Energy & Zeal",
+    "words": [
+      "Hydroelectric"
+    ],
+    "pos": "adjective",
+    "meaning": "That generates electricity by converting the energy of moving water, or of steam escaping under high pressure",
+    "easy": "",
+    "example": "In 2021, a similar deluge ripped through a series of mountain valleys in the Indian Himalayan state of Uttarakhand , severely damaging two hydroelectric power plants and taking about 200 lives."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Communications"
+    ],
+    "pos": "noun",
+    "meaning": "act or fact of communicating anything",
+    "easy": "",
+    "example": "The price of erbium, an element essential to communications infrastructure, has already jumped because of fears that export controls will soon be renewed."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Geophysical"
+    ],
+    "pos": "adjective",
+    "meaning": "Of or pertaining to geophysics",
+    "easy": "",
+    "example": "Bill McGuire is professor emeritus of geophysical and climate hazards at UCL."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Diligence"
+    ],
+    "pos": "noun",
+    "meaning": "Steady application",
+    "easy": "worksomeness",
+    "example": "​Due diligence: On surrogate advertising Curbs on surrogate advertising must avoid regulatory overreach"
   }
 ]
