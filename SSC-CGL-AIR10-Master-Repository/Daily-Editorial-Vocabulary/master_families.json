@@ -8056,5 +8056,45 @@
     "meaning": "Steady application",
     "easy": "worksomeness",
     "example": "​Due diligence: On surrogate advertising Curbs on surrogate advertising must avoid regulatory overreach"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Inadvertently"
+    ],
+    "pos": "adverb",
+    "meaning": "Unintentionally, because of an oversight",
+    "easy": "",
+    "example": "I inadvertently misled parliament over a British nuclear scandal."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Requirement"
+    ],
+    "pos": "noun",
+    "meaning": "necessity or prerequisite",
+    "easy": "condition, necessity, prerequisite",
+    "example": "But that second requirement was the one thing Starmer was really good at."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Arithmetic"
+    ],
+    "pos": "noun",
+    "meaning": "mathematics of numbers  under the operations of addition, subtraction, multiplication, and division",
+    "easy": "",
+    "example": "If the arithmetic falls in a certain way, a German far-right party could assume power for the first time since the Nazis."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Connection"
+    ],
+    "pos": "noun",
+    "meaning": "act of connecting",
+    "easy": "",
+    "example": "Yogi Adityanath, some Japanese students and a selfie stick: The making of a cross-cultural connection"
   }
 ]
