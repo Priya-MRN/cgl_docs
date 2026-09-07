@@ -6937,7 +6937,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Improvement"
+      "Improvement",
+      "Improvements"
     ],
     "pos": "noun",
     "meaning": "act of improving",
@@ -8096,5 +8097,25 @@
     "meaning": "act of connecting",
     "easy": "",
     "example": "Yogi Adityanath, some Japanese students and a selfie stick: The making of a cross-cultural connection"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Disruption"
+    ],
+    "pos": "noun",
+    "meaning": "interruption to the regular flow or sequence of something",
+    "easy": "",
+    "example": "UN warns of 'supersized' El Niño as countries prepare for impact The WMO has warned that the natural weather phenomenon could bring disruption to global economies."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Inability"
+    ],
+    "pos": "noun",
+    "meaning": "Lack of the ability to do something",
+    "easy": "unability",
+    "example": "While McKee is not thought to have been targeted in the way that Caruana Galizia was, the inability of police and prosecutors to secure convictions in either case points to wider problems."
   }
 ]
