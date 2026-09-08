@@ -13112,6 +13112,22 @@
       "easy": "unability",
       "example": "While McKee is not thought to have been targeted in the way that Caruana Galizia was, the inability of police and prosecutors to secure convictions in either case points to wider problems.",
       "added": "2026-09-04"
+    },
+    {
+      "word": "Unconditional",
+      "pos": "adjective",
+      "meaning": "Absolute",
+      "easy": "absolute, categorical",
+      "example": "The political cost of unconditional cash transfers Linking benefits to socially desirable outcomes produces broader developmental gains",
+      "added": "2026-09-07"
+    },
+    {
+      "word": "Engagement",
+      "pos": "noun",
+      "meaning": "appointment, especially to speak or perform",
+      "easy": "action, commitment",
+      "example": "Forging consensus: On India and the SCO meeting India must broaden engagement with regional multilateral groups",
+      "added": "2026-09-07"
     }
   ],
   "days": [
@@ -13171,6 +13187,7 @@
     "2026-08-28",
     "2026-09-01",
     "2026-09-03",
-    "2026-09-04"
+    "2026-09-04",
+    "2026-09-07"
   ]
 }

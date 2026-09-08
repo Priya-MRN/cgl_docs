@@ -8117,5 +8117,25 @@
     "meaning": "Lack of the ability to do something",
     "easy": "unability",
     "example": "While McKee is not thought to have been targeted in the way that Caruana Galizia was, the inability of police and prosecutors to secure convictions in either case points to wider problems."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Unconditional"
+    ],
+    "pos": "adjective",
+    "meaning": "Absolute",
+    "easy": "absolute, categorical",
+    "example": "The political cost of unconditional cash transfers Linking benefits to socially desirable outcomes produces broader developmental gains"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Engagement"
+    ],
+    "pos": "noun",
+    "meaning": "appointment, especially to speak or perform",
+    "easy": "action, commitment",
+    "example": "Forging consensus: On India and the SCO meeting India must broaden engagement with regional multilateral groups"
   }
 ]

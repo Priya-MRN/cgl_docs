@@ -535,12 +535,27 @@
         "bucket": "🌐 Summits, Meetings & International Relations",
         "scope": "India"
       }
+    ],
+    "2026-09-07": [
+      {
+        "title": "Google Launches India-First Agricultural AI Models",
+        "url": "https://www.gktoday.in/google-launches-india-first-agricultural-ai-models/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "Amit Shah launches Nasha Mukt Bharat 2029 roadmap",
+        "url": "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/11th-all-india-police-judo-cluster-championship-concludes/",
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
     "https://www.gktoday.in/26th-sco-summit-held-in-bishkek/",
+    "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
     "https://www.gktoday.in/andhra-pradesh-signs-lithium-and-gallium-exploration-pact/",
     "https://www.gktoday.in/army-chief-launches-indigenous-xtreme-weather-grade-diesel/",
@@ -560,6 +575,7 @@
     "https://www.gktoday.in/e-samudra-launched-for-maritime-governance-digitisation/",
     "https://www.gktoday.in/enkash-launches-indias-first-upi-enabled-meal-card/",
     "https://www.gktoday.in/esha-singh-wins-gold-in-25m-pistol/",
+    "https://www.gktoday.in/google-launches-india-first-agricultural-ai-models/",
     "https://www.gktoday.in/gujarat-launches-cyber-financial-fraud-e-zero-fir-system/",
     "https://www.gktoday.in/gujarat-launches-samras-vidyasetu-dropout-campaign/",
     "https://www.gktoday.in/hal-airport-operationalises-satellite-guided-helicopter-approach/",

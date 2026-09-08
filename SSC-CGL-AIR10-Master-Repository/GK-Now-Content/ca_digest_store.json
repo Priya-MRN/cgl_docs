@@ -2729,6 +2729,74 @@
         "bucket": "🗂️ Other Notable",
         "scope": "International"
       }
+    ],
+    "2026-09-07": [
+      {
+        "title": "India, China Hold First Corps Commander Meeting in Arunachal Pradesh",
+        "url": "https://www.gktoday.in/india-china-hold-first-corps-commander-meeting-in-arunachal-pradesh/",
+        "bucket": "🌐 Summits & Meetings",
+        "scope": "India"
+      },
+      {
+        "title": "Government sells 4,000 tonnes of onion buffer stock",
+        "url": "https://www.gktoday.in/government-sells-4000-tonnes-of-onion-buffer-stock/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Google Launches India-First Agricultural AI Models",
+        "url": "https://www.gktoday.in/google-launches-india-first-agricultural-ai-models/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "India"
+      },
+      {
+        "title": "Amit Shah launches Nasha Mukt Bharat 2029 roadmap",
+        "url": "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "India"
+      },
+      {
+        "title": "Important Volcanoes and Volcanic Islands of the World",
+        "url": "https://www.gktoday.in/important-volcanoes-and-volcanic-islands-of-the-world/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Anak Krakatau Eruption Disrupts Jakarta Flights",
+        "url": "https://www.gktoday.in/anak-krakatau-eruption-disrupts-jakarta-flights/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Major Peatlands of the World",
+        "url": "https://www.gktoday.in/major-peatlands-of-the-world/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "International Maritime Routes and Sea Lanes",
+        "url": "https://www.gktoday.in/international-maritime-routes-and-sea-lanes/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Indonesia’s Peat Fires Intensify Amid El Niño",
+        "url": "https://www.gktoday.in/indonesias-peat-fires-intensify-amid-el-nino/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Important Arctic Ports, Terminals and Tanker Systems",
+        "url": "https://www.gktoday.in/important-arctic-ports-terminals-and-tanker-systems/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Important Constitutional Systems of Japan",
+        "url": "https://www.gktoday.in/important-constitutional-systems-of-japan/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
@@ -2744,8 +2812,10 @@
     "https://www.gktoday.in/ai-holobox-of-atal-bihari-vajpayee/",
     "https://www.gktoday.in/all-india-water-secretaries-conference-held-in-new-delhi/",
     "https://www.gktoday.in/amish-shah-wins-arizona-democratic-congressional-primary/",
+    "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
     "https://www.gktoday.in/amul-bengal-dairy-to-host-worlds-largest-curd-plant/",
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
+    "https://www.gktoday.in/anak-krakatau-eruption-disrupts-jakarta-flights/",
     "https://www.gktoday.in/andhra-pradesh-notifies-common-zoning-regulations-2026/",
     "https://www.gktoday.in/andhra-pradesh-signs-lithium-and-gallium-exploration-pact/",
     "https://www.gktoday.in/annam-ai-smart-weather-stations-deployed-in-kerala/",
@@ -2837,6 +2907,7 @@
     "https://www.gktoday.in/gmr-aero-technic-signs-honeywell-mro-licence-agreement/",
     "https://www.gktoday.in/godavari-flood-threat-intensifies-in-andhra-pradesh/",
     "https://www.gktoday.in/gollala-gudi-temple-added-to-indias-national-monuments-list/",
+    "https://www.gktoday.in/google-launches-india-first-agricultural-ai-models/",
     "https://www.gktoday.in/google-maps-renames-gulf-of-mexico-in-us-view/",
     "https://www.gktoday.in/government-adds-navi-mumbai-airport-for-medicine-imports/",
     "https://www.gktoday.in/government-amends-insurance-ombudsman-rules/",
@@ -2847,6 +2918,7 @@
     "https://www.gktoday.in/government-proposes-mdr-on-select-upi-payments/",
     "https://www.gktoday.in/government-proposes-three-year-puc-validity-for-bs-vi-vehicles/",
     "https://www.gktoday.in/government-removes-12-minute-ad-cap-for-tv-channels/",
+    "https://www.gktoday.in/government-sells-4000-tonnes-of-onion-buffer-stock/",
     "https://www.gktoday.in/government-to-allow-trading-of-major-minerals-on-exchange/",
     "https://www.gktoday.in/government-waives-customs-duty-on-electronics-components/",
     "https://www.gktoday.in/grey-hornbill-returns-to-gujarats-gir-forests-after-six-decades/",
@@ -2877,9 +2949,11 @@
     "https://www.gktoday.in/iit-bombay-professor-karthikeyan-lanka-selected-for-nasi-young-scientist-award-2026/",
     "https://www.gktoday.in/iit-madras-c-dac-to-manage-national-bridge-health-monitoring-software/",
     "https://www.gktoday.in/iit-roorkee-advances-solid-state-battery-research/",
+    "https://www.gktoday.in/important-arctic-ports-terminals-and-tanker-systems/",
     "https://www.gktoday.in/important-biomass-utilisation-and-co-firing-initiatives-in-india/",
     "https://www.gktoday.in/important-concepts-in-mining-leases-and-captive-mines/",
     "https://www.gktoday.in/important-concepts-in-quantum-computing/",
+    "https://www.gktoday.in/important-constitutional-systems-of-japan/",
     "https://www.gktoday.in/important-coral-reefs-of-the-world/",
     "https://www.gktoday.in/important-dna-markers-used-in-species-identification/",
     "https://www.gktoday.in/important-environmental-technologies-in-industries/",
@@ -2902,6 +2976,7 @@
     "https://www.gktoday.in/important-space-agencies-of-the-world/",
     "https://www.gktoday.in/important-time-zones-and-global-relay-routes/",
     "https://www.gktoday.in/important-un-missions-in-africa/",
+    "https://www.gktoday.in/important-volcanoes-and-volcanic-islands-of-the-world/",
     "https://www.gktoday.in/index-of-services-production/",
     "https://www.gktoday.in/india-afghanistan-joint-working-group-reviews-bilateral-trade-and-economic-cooperation/",
     "https://www.gktoday.in/india-allows-anhydrous-ammonia-use-in-agriculture/",
@@ -2909,6 +2984,7 @@
     "https://www.gktoday.in/india-announces-seafarer-first-maritime-safety-plan/",
     "https://www.gktoday.in/india-australia-and-canada-launch-aciti-partnership/",
     "https://www.gktoday.in/india-bans-new-renewable-projects-near-borders/",
+    "https://www.gktoday.in/india-china-hold-first-corps-commander-meeting-in-arunachal-pradesh/",
     "https://www.gktoday.in/india-commissions-first-geothermal-wells-in-puga-valley-of-ladakh/",
     "https://www.gktoday.in/india-designates-23-jem-and-let-operatives-as-terrorists/",
     "https://www.gktoday.in/india-exports-bihar-makhana-to-canada/",
@@ -2967,9 +3043,11 @@
     "https://www.gktoday.in/indigenous-diving-support-vessel-nipun-delivered-to-indian-navy/",
     "https://www.gktoday.in/indigenous-surveillance-airships-to-strengthen-indias-border-monitoring/",
     "https://www.gktoday.in/indonesia-issues-tsunami-warning-after-flores-quake/",
+    "https://www.gktoday.in/indonesias-peat-fires-intensify-amid-el-nino/",
     "https://www.gktoday.in/indore-gets-indias-first-virtual-zoo/",
     "https://www.gktoday.in/ins-sudarshini-sails-from-boston-after-sail-250/",
     "https://www.gktoday.in/intermediary-liability-and-safe-harbour-in-india/",
+    "https://www.gktoday.in/international-maritime-routes-and-sea-lanes/",
     "https://www.gktoday.in/international-workshop-on-tiger-landscapes-inaugurated/",
     "https://www.gktoday.in/iran-criminalises-interviews-with-us-and-israeli-media/",
     "https://www.gktoday.in/iran-to-receive-chinese-shoulder-launched-missile-systems/",
@@ -3020,6 +3098,7 @@
     "https://www.gktoday.in/major-natural-gas-reserves-and-gas-fields-in-the-world/",
     "https://www.gktoday.in/major-oceanic-islands-and-archipelagos-in-the-pacific/",
     "https://www.gktoday.in/major-oil-and-gas-pipelines-in-india/",
+    "https://www.gktoday.in/major-peatlands-of-the-world/",
     "https://www.gktoday.in/major-provisions-of-indian-police-powers-and-arrest-rules/",
     "https://www.gktoday.in/major-space-recovery-and-booster-landing-technologies/",
     "https://www.gktoday.in/major-sports-injuries-and-rehabilitation-in-athletes/",

@@ -185,9 +185,19 @@
         "state": "Delhi",
         "action": false
       }
+    ],
+    "2026-09-07": [
+      {
+        "title": "Amit Shah launches Nasha Mukt Bharat 2029 roadmap",
+        "url": "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
+        "bucket": "💰 Schemes & Welfare Programmes",
+        "state": "Centre",
+        "action": false
+      }
     ]
   },
   "seen_urls": [
+    "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
     "https://www.gktoday.in/anti-paper-leak-bill-with-stricter-punishment-introduced-in-lok-sabha/",
     "https://www.gktoday.in/bill-on-vande-mataram-scheduled-for-lok-sabha/",
     "https://www.gktoday.in/centre-announces-50-quota-for-ex-agniveers-in-capfs/",
