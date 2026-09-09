@@ -549,12 +549,33 @@
         "bucket": "🔬 Inventions, Discoveries & Science",
         "scope": "India"
       }
+    ],
+    "2026-09-08": [
+      {
+        "title": "NITI Aayog Launches PACT for Zero-Emission Freight",
+        "url": "https://www.gktoday.in/niti-aayog-launches-pact-for-zero-emission-freight/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "India"
+      },
+      {
+        "title": "5th Swachh Vayu Sarvekshan Awards Conferred",
+        "url": "https://www.gktoday.in/5th-swachh-vayu-sarvekshan-awards-conferred/",
+        "bucket": "🏅 Awards & Honours",
+        "scope": "International"
+      },
+      {
+        "title": "Kashmir Hosts Inaugural International Film Festival",
+        "url": "https://www.gktoday.in/kashmir-hosts-inaugural-international-film-festival/",
+        "bucket": "📅 Important Days, Events & Celebrations",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/11th-all-india-police-judo-cluster-championship-concludes/",
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
     "https://www.gktoday.in/26th-sco-summit-held-in-bishkek/",
+    "https://www.gktoday.in/5th-swachh-vayu-sarvekshan-awards-conferred/",
     "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
     "https://www.gktoday.in/andhra-pradesh-signs-lithium-and-gallium-exploration-pact/",
@@ -601,6 +622,7 @@
     "https://www.gktoday.in/iran-to-receive-chinese-shoulder-launched-missile-systems/",
     "https://www.gktoday.in/karnataka-launches-tathyakosh-public-data-portal/",
     "https://www.gktoday.in/karnatakas-semiconductor-park-to-become-operational-by-december-2026/",
+    "https://www.gktoday.in/kashmir-hosts-inaugural-international-film-festival/",
     "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",
     "https://www.gktoday.in/lovepreet-singh-wins-silver-in-commonwealth-games-weightlifting/",
     "https://www.gktoday.in/lovlina-borgohain-assures-indias-first-cwg-2026-medal/",
@@ -613,6 +635,7 @@
     "https://www.gktoday.in/nasa-launches-nancy-grace-roman-space-telescope/",
     "https://www.gktoday.in/nasa-praxis-mission-to-study-planetary-rings/",
     "https://www.gktoday.in/nasha-mukta-yuva-for-viksit-bharat-sankalp-abhiyaan-to-launch-on-2-august/",
+    "https://www.gktoday.in/niti-aayog-launches-pact-for-zero-emission-freight/",
     "https://www.gktoday.in/nsa-ajit-doval-receives-lokmanya-tilak-national-award/",
     "https://www.gktoday.in/pakistans-first-lunar-rover-named-jinnah-1/",
     "https://www.gktoday.in/paras-defence-to-set-up-644-million-semiconductor-packaging-facility/",
