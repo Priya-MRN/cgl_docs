@@ -2797,6 +2797,62 @@
         "bucket": "🗂️ Other Notable",
         "scope": "International"
       }
+    ],
+    "2026-09-09": [
+      {
+        "title": "Australia Signs Five New Space Industry Partnerships",
+        "url": "https://www.gktoday.in/australia-signs-five-new-space-industry-partnerships/",
+        "bucket": "🤝 Agreements, MoUs & Recognitions",
+        "scope": "International"
+      },
+      {
+        "title": "India Joins Global 6G Network Initiative",
+        "url": "https://www.gktoday.in/india-joins-global-6g-network-initiative/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Macron Urges EU Ban on Social Media for Under-15s",
+        "url": "https://www.gktoday.in/macron-urges-eu-ban-on-social-media-for-under-15s/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "International"
+      },
+      {
+        "title": "Seoul Hosts 27th World Knowledge Forum",
+        "url": "https://www.gktoday.in/seoul-hosts-27th-world-knowledge-forum/",
+        "bucket": "🌐 Summits & Meetings",
+        "scope": "International"
+      },
+      {
+        "title": "India Hosts Expanded 11-Nation BRICS Summit",
+        "url": "https://www.gktoday.in/india-hosts-expanded-11-nation-brics-summit/",
+        "bucket": "🌐 Summits & Meetings",
+        "scope": "India"
+      },
+      {
+        "title": "72nd National Film Awards to Honour 92 Winners at Statue of Unity",
+        "url": "https://www.gktoday.in/72nd-national-film-awards-to-honour-92-winners-at-statue-of-unity/",
+        "bucket": "🏅 Awards & Honours",
+        "scope": "International"
+      },
+      {
+        "title": "Supreme Court Sets November 30 Deadline for Aravalli Panel",
+        "url": "https://www.gktoday.in/supreme-court-sets-november-30-deadline-for-aravalli-panel/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Athira Suresh Joins Indian Army as Lieutenant",
+        "url": "https://www.gktoday.in/athira-suresh-joins-indian-army-as-lieutenant/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      },
+      {
+        "title": "Astrogate Labs Develops India’s First Indigenous OISL Terminal",
+        "url": "https://www.gktoday.in/astrogate-labs-develops-indias-first-indigenous-oisl-terminal/",
+        "bucket": "🗂️ Other Notable",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
@@ -2804,6 +2860,7 @@
     "https://www.gktoday.in/16th-aero-india-to-be-held-in-bengaluru/",
     "https://www.gktoday.in/26th-sco-summit-held-in-bishkek/",
     "https://www.gktoday.in/31st-divya-kala-mela-inaugurated-in-kolkata/",
+    "https://www.gktoday.in/72nd-national-film-awards-to-honour-92-winners-at-statue-of-unity/",
     "https://www.gktoday.in/aaroh-report-on-scientific-mine-closure-released/",
     "https://www.gktoday.in/abelardo-de-la-espriella-sworn-in-as-colombia-president/",
     "https://www.gktoday.in/abhinandan-varthaman-joins-goa-based-airline-fly91-as-pilot/",
@@ -2831,8 +2888,11 @@
     "https://www.gktoday.in/assam-exports-first-purabi-ice-cream-consignment-to-bhutan/",
     "https://www.gktoday.in/astrazeneca-india-to-sets-up-genomic-solutions-centre-in-amaravati/",
     "https://www.gktoday.in/astrobase-unveils-indias-first-private-800-kn-rocket-engine/",
+    "https://www.gktoday.in/astrogate-labs-develops-indias-first-indigenous-oisl-terminal/",
     "https://www.gktoday.in/astronauts-install-ku-band-antenna-on-iss/",
+    "https://www.gktoday.in/athira-suresh-joins-indian-army-as-lieutenant/",
     "https://www.gktoday.in/australia-announces-dates-for-exercise-talisman-sabre-2027/",
+    "https://www.gktoday.in/australia-signs-five-new-space-industry-partnerships/",
     "https://www.gktoday.in/ballari-guntakal-rail-project-gets-cabinet-nod/",
     "https://www.gktoday.in/bar-council-of-india-issues-social-media-rules-for-advocates/",
     "https://www.gktoday.in/bashar-al-assad-sentenced-to-death-in-syria/",
@@ -2989,8 +3049,10 @@
     "https://www.gktoday.in/india-designates-23-jem-and-let-operatives-as-terrorists/",
     "https://www.gktoday.in/india-exports-bihar-makhana-to-canada/",
     "https://www.gktoday.in/india-hosts-8th-brics-youth-energy-summit/",
+    "https://www.gktoday.in/india-hosts-expanded-11-nation-brics-summit/",
     "https://www.gktoday.in/india-indonesia-sign-defence-and-strategic-agreements/",
     "https://www.gktoday.in/india-international-footwear-fair-2026-opens-in-new-delhi/",
+    "https://www.gktoday.in/india-joins-global-6g-network-initiative/",
     "https://www.gktoday.in/india-joins-un-global-dialogue-on-ai-governance/",
     "https://www.gktoday.in/india-kyrgyzstan-launch-manas-mahabharata-studies-centre/",
     "https://www.gktoday.in/india-launches-campus-biodiversity-register-initiative/",
@@ -3080,6 +3142,7 @@
     "https://www.gktoday.in/lok-sabha-passes-taxation-and-other-laws-amendment-bill2026/",
     "https://www.gktoday.in/lovepreet-singh-wins-silver-in-commonwealth-games-weightlifting/",
     "https://www.gktoday.in/lovlina-borgohain-assures-indias-first-cwg-2026-medal/",
+    "https://www.gktoday.in/macron-urges-eu-ban-on-social-media-for-under-15s/",
     "https://www.gktoday.in/made-in-bharat-chips-for-space-rockets-announced/",
     "https://www.gktoday.in/madhya-pradesh-missile-manufacturing-plant-launched-in-shivpuri/",
     "https://www.gktoday.in/madurai-marks-conservation-of-107-year-old-banyan-tree/",
@@ -3190,6 +3253,7 @@
     "https://www.gktoday.in/scientists-create-new-exotic-quantum-state/",
     "https://www.gktoday.in/scientists-validate-darwins-theory-in-saxifraga-candelabrum/",
     "https://www.gktoday.in/self-enumeration-begins-for-indias-16th-census-in-west-bengal/",
+    "https://www.gktoday.in/seoul-hosts-27th-world-knowledge-forum/",
     "https://www.gktoday.in/shakti-sharma-becomes-first-woman-non-medical-air-vice-marshal/",
     "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
     "https://www.gktoday.in/sheta2-therapy-for-hpv-related-cervical-disease/",
@@ -3202,6 +3266,7 @@
     "https://www.gktoday.in/startup-museum-planned-in-bengaluru-with-grand-egyptian-museum-architects/",
     "https://www.gktoday.in/supreme-court-extends-10-km-mining-buffer-to-wetlands/",
     "https://www.gktoday.in/supreme-court-reduces-judicial-service-practice-requirement/",
+    "https://www.gktoday.in/supreme-court-sets-november-30-deadline-for-aravalli-panel/",
     "https://www.gktoday.in/supreme-court-tightens-rules-on-digital-arrest-scams/",
     "https://www.gktoday.in/sustainable-mining-and-mine-closure-framework-in-india/",
     "https://www.gktoday.in/syed-akbaruddin-annie-george-mathew-join-rbi-board/",

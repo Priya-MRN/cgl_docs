@@ -569,6 +569,26 @@
         "bucket": "📅 Important Days, Events & Celebrations",
         "scope": "India"
       }
+    ],
+    "2026-09-09": [
+      {
+        "title": "Seoul Hosts 27th World Knowledge Forum",
+        "url": "https://www.gktoday.in/seoul-hosts-27th-world-knowledge-forum/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "International"
+      },
+      {
+        "title": "India Hosts Expanded 11-Nation BRICS Summit",
+        "url": "https://www.gktoday.in/india-hosts-expanded-11-nation-brics-summit/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "India"
+      },
+      {
+        "title": "72nd National Film Awards to Honour 92 Winners at Statue of Unity",
+        "url": "https://www.gktoday.in/72nd-national-film-awards-to-honour-92-winners-at-statue-of-unity/",
+        "bucket": "🏅 Awards & Honours",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
@@ -576,6 +596,7 @@
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
     "https://www.gktoday.in/26th-sco-summit-held-in-bishkek/",
     "https://www.gktoday.in/5th-swachh-vayu-sarvekshan-awards-conferred/",
+    "https://www.gktoday.in/72nd-national-film-awards-to-honour-92-winners-at-statue-of-unity/",
     "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
     "https://www.gktoday.in/andhra-pradesh-signs-lithium-and-gallium-exploration-pact/",
@@ -609,6 +630,7 @@
     "https://www.gktoday.in/important-concepts-in-quantum-computing/",
     "https://www.gktoday.in/india-afghanistan-joint-working-group-reviews-bilateral-trade-and-economic-cooperation/",
     "https://www.gktoday.in/india-hosts-8th-brics-youth-energy-summit/",
+    "https://www.gktoday.in/india-hosts-expanded-11-nation-brics-summit/",
     "https://www.gktoday.in/india-launches-campus-biodiversity-register-initiative/",
     "https://www.gktoday.in/india-launches-clouded-leopard-conservation-action-plan/",
     "https://www.gktoday.in/india-launches-fifth-diving-support-craft-dsc-a24/",
@@ -644,6 +666,7 @@
     "https://www.gktoday.in/sangeet-natak-akademi-award-conferred-on-shubhada-varadkar/",
     "https://www.gktoday.in/sarvam-ai-launches-epoch-builder-edition/",
     "https://www.gktoday.in/scientists-validate-darwins-theory-in-saxifraga-candelabrum/",
+    "https://www.gktoday.in/seoul-hosts-27th-world-knowledge-forum/",
     "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
     "https://www.gktoday.in/skyroot-signs-multi-launch-deal-after-vikram-1-success/",
     "https://www.gktoday.in/sports-ministry-suspends-table-tennis-federation-of-india-recognition/",

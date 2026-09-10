@@ -13128,6 +13128,14 @@
       "easy": "action, commitment",
       "example": "Forging consensus: On India and the SCO meeting India must broaden engagement with regional multilateral groups",
       "added": "2026-09-07"
+    },
+    {
+      "word": "Degradation",
+      "pos": "noun",
+      "meaning": "act of reducing in rank, character, or reputation, or of abasing",
+      "easy": "",
+      "example": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv President Zelensky describes the daytime drone attack in Ukraine's capital as a \"new page in Russian degradation\"",
+      "added": "2026-09-09"
     }
   ],
   "days": [
@@ -13189,6 +13197,7 @@
     "2026-09-03",
     "2026-09-04",
     "2026-09-07",
-    "2026-09-08"
+    "2026-09-08",
+    "2026-09-09"
   ]
 }
