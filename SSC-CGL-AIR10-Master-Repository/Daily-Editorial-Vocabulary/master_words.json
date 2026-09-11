@@ -13136,6 +13136,22 @@
       "easy": "",
       "example": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv President Zelensky describes the daytime drone attack in Ukraine's capital as a \"new page in Russian degradation\"",
       "added": "2026-09-09"
+    },
+    {
+      "word": "Manifestation",
+      "pos": "noun",
+      "meaning": "act or process of becoming manifest",
+      "easy": "",
+      "example": "The many ways to destroy a book If ideas are what makes us human, books, then, are a physical manifestation of those ideas, which we choose to preserve and pass on",
+      "added": "2026-09-10"
+    },
+    {
+      "word": "Alternatives",
+      "pos": "noun",
+      "meaning": "situation which allows a mutually exclusive choice between two or more possibilities",
+      "easy": "",
+      "example": "The economic system seemed obviously preferable to barbarous alternatives.",
+      "added": "2026-09-10"
     }
   ],
   "days": [
@@ -13198,6 +13214,7 @@
     "2026-09-04",
     "2026-09-07",
     "2026-09-08",
-    "2026-09-09"
+    "2026-09-09",
+    "2026-09-10"
   ]
 }

@@ -7541,7 +7541,8 @@
   {
     "group": "Other & Mixed",
     "words": [
-      "Professionalisation"
+      "Professionalisation",
+      "Manifestation"
     ],
     "pos": "noun",
     "meaning": "act or process of professionalizing, or becoming professional",
@@ -8147,5 +8148,15 @@
     "meaning": "act of reducing in rank, character, or reputation, or of abasing",
     "easy": "",
     "example": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv President Zelensky describes the daytime drone attack in Ukraine's capital as a \"new page in Russian degradation\""
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Alternatives"
+    ],
+    "pos": "noun",
+    "meaning": "situation which allows a mutually exclusive choice between two or more possibilities",
+    "easy": "",
+    "example": "The economic system seemed obviously preferable to barbarous alternatives."
   }
 ]
