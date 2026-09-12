@@ -13152,6 +13152,22 @@
       "easy": "",
       "example": "The economic system seemed obviously preferable to barbarous alternatives.",
       "added": "2026-09-10"
+    },
+    {
+      "word": "Narcissistic",
+      "pos": "noun",
+      "meaning": "narcissist",
+      "easy": "",
+      "example": "It’s My Party and I’ll Lie if I Want To The problem for Democrats is that Trump has frequently done things that sane, rational people think are narcissistic, irrational, malevolent and … it works.",
+      "added": "2026-09-11"
+    },
+    {
+      "word": "Completion",
+      "pos": "noun",
+      "meaning": "act or state of being or making something complete",
+      "easy": "completeness, doneness",
+      "example": "He will for ever be associated with the demand for emancipation from Brussels, but is rarely heard celebrating its completion.",
+      "added": "2026-09-11"
     }
   ],
   "days": [
@@ -13215,6 +13231,7 @@
     "2026-09-07",
     "2026-09-08",
     "2026-09-09",
-    "2026-09-10"
+    "2026-09-10",
+    "2026-09-11"
   ]
 }

@@ -8158,5 +8158,25 @@
     "meaning": "situation which allows a mutually exclusive choice between two or more possibilities",
     "easy": "",
     "example": "The economic system seemed obviously preferable to barbarous alternatives."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Narcissistic"
+    ],
+    "pos": "noun",
+    "meaning": "narcissist",
+    "easy": "",
+    "example": "It’s My Party and I’ll Lie if I Want To The problem for Democrats is that Trump has frequently done things that sane, rational people think are narcissistic, irrational, malevolent and … it works."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Completion"
+    ],
+    "pos": "noun",
+    "meaning": "act or state of being or making something complete",
+    "easy": "completeness, doneness",
+    "example": "He will for ever be associated with the demand for emancipation from Brussels, but is rarely heard celebrating its completion."
   }
 ]
