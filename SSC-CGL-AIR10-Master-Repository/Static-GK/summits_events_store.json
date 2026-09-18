@@ -663,20 +663,63 @@
         "bucket": "🔬 Inventions, Discoveries & Science",
         "scope": "International"
       }
+    ],
+    "2026-09-17": [
+      {
+        "title": "43rd Indian Coast Guard Commanders’ Conference Begins in New Delhi",
+        "url": "https://www.gktoday.in/43rd-indian-coast-guard-commanders-conference-begins-in-new-delhi/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "India"
+      },
+      {
+        "title": "Swachh Seva Aankalan Launched for Swachh Bharat Mission-Grameen",
+        "url": "https://www.gktoday.in/swachh-seva-aankalan-launched-for-swachh-bharat-mission-grameen/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "APEDA Signs MoU with Gulfood Organiser to Strengthen Global Food Trade",
+        "url": "https://www.gktoday.in/apeda-signs-mou-with-gulfood-organiser-to-strengthen-global-food-trade/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "International"
+      }
+    ],
+    "2026-09-18": [
+      {
+        "title": "Astronomers Discover Youngest Known Planet Elias 2-24 b",
+        "url": "https://www.gktoday.in/astronomers-discover-youngest-known-planet-elias-2-24-b/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "US Drone Firm Powerus Signs MoU with Pakistan Army",
+        "url": "https://www.gktoday.in/us-drone-firm-powerus-signs-mou-with-pakistan-army/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "International"
+      },
+      {
+        "title": "Scientists Identify Leopardus tilcayo in Bolivia",
+        "url": "https://www.gktoday.in/scientists-identify-leopardus-tilcayo-in-bolivia/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/11th-all-india-police-judo-cluster-championship-concludes/",
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
     "https://www.gktoday.in/26th-sco-summit-held-in-bishkek/",
+    "https://www.gktoday.in/43rd-indian-coast-guard-commanders-conference-begins-in-new-delhi/",
     "https://www.gktoday.in/5th-swachh-vayu-sarvekshan-awards-conferred/",
     "https://www.gktoday.in/72nd-national-film-awards-to-honour-92-winners-at-statue-of-unity/",
     "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
     "https://www.gktoday.in/andhra-pradesh-signs-lithium-and-gallium-exploration-pact/",
+    "https://www.gktoday.in/apeda-signs-mou-with-gulfood-organiser-to-strengthen-global-food-trade/",
     "https://www.gktoday.in/army-chief-launches-indigenous-xtreme-weather-grade-diesel/",
     "https://www.gktoday.in/ashish-yadav-wins-indias-second-world-u20-javelin-medal/",
     "https://www.gktoday.in/astrobase-unveils-indias-first-private-800-kn-rocket-engine/",
+    "https://www.gktoday.in/astronomers-discover-youngest-known-planet-elias-2-24-b/",
     "https://www.gktoday.in/bharat-international-rice-conference-to-be-held-in-october/",
     "https://www.gktoday.in/brics-education-ministers-meeting-to-be-held-in-bhubaneswar/",
     "https://www.gktoday.in/brics-member-countries-and-institutions/",
@@ -747,22 +790,10 @@
     "https://www.gktoday.in/russia-launches-ulyanovsk-project-885m-yasen-m-submarine/",
     "https://www.gktoday.in/sangeet-natak-akademi-award-conferred-on-shubhada-varadkar/",
     "https://www.gktoday.in/sarvam-ai-launches-epoch-builder-edition/",
+    "https://www.gktoday.in/scientists-identify-leopardus-tilcayo-in-bolivia/",
     "https://www.gktoday.in/scientists-validate-darwins-theory-in-saxifraga-candelabrum/",
     "https://www.gktoday.in/seoul-hosts-27th-world-knowledge-forum/",
     "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
     "https://www.gktoday.in/sheetal-devi-wins-gold-at-world-archery-para-series/",
     "https://www.gktoday.in/skyroot-signs-multi-launch-deal-after-vikram-1-success/",
-    "https://www.gktoday.in/sports-ministry-suspends-table-tennis-federation-of-india-recognition/",
-    "https://www.gktoday.in/sri-lanka-loses-womens-champions-trophy-hosting-rights/",
-    "https://www.gktoday.in/tamil-nadu-launches-vetri-vaanmagal-drone-training-scheme/",
-    "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
-    "https://www.gktoday.in/third-national-space-day-celebrated/",
-    "https://www.gktoday.in/uidai-launches-aadhaar-face-authentication-sdk/",
-    "https://www.gktoday.in/unesco-adds-mount-olympus-d-day-beaches-to-world-heritage-list/",
-    "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
-    "https://www.gktoday.in/uttarakhand-launches-service-sankalp-campaign/",
-    "https://www.gktoday.in/vikram-1-launches-indias-first-private-orbital-rocket/",
-    "https://www.gktoday.in/vinspace-signs-spacex-launch-deal-for-2027/",
-    "https://www.gktoday.in/world-listening-day/"
-  ]
-}
+    "https://www.gktoday.in/sports-ministry-suspends-table-tennis-
