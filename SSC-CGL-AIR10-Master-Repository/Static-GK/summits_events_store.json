@@ -703,6 +703,46 @@
         "bucket": "🔬 Inventions, Discoveries & Science",
         "scope": "International"
       }
+    ],
+    "2026-09-19": [
+      {
+        "title": "Tamil Nadu to Launch One-Gram Gold Ring Scheme",
+        "url": "https://www.gktoday.in/tamil-nadu-to-launch-one-gram-gold-ring-scheme/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      },
+      {
+        "title": "Scientists Discover DARE Cells That Survive Apoptosis",
+        "url": "https://www.gktoday.in/scientists-discover-dare-cells-that-survive-apoptosis/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      }
+    ],
+    "2026-09-21": [
+      {
+        "title": "Padma Shri awardee cardiologist G. Vijayaraghavan dies",
+        "url": "https://www.gktoday.in/padma-shri-awardee-cardiologist-g-vijayaraghavan-dies/",
+        "bucket": "🏅 Awards & Honours",
+        "scope": "International"
+      },
+      {
+        "title": "SpaceX Expands NASA Crew Mission Deal to $5.92 Billion",
+        "url": "https://www.gktoday.in/spacex-expands-nasa-crew-mission-deal-to-5-92-billion/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "AIFF Launches Inaugural U15 Women’s Youth League",
+        "url": "https://www.gktoday.in/aiff-launches-inaugural-u15-womens-youth-league/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "Anthropic, Accenture Announce $2 Billion AI Model Evaluation Plan",
+        "url": "https://www.gktoday.in/anthropic-accenture-announce-2-billion-ai-model-evaluation-plan/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
@@ -712,9 +752,11 @@
     "https://www.gktoday.in/43rd-indian-coast-guard-commanders-conference-begins-in-new-delhi/",
     "https://www.gktoday.in/5th-swachh-vayu-sarvekshan-awards-conferred/",
     "https://www.gktoday.in/72nd-national-film-awards-to-honour-92-winners-at-statue-of-unity/",
+    "https://www.gktoday.in/aiff-launches-inaugural-u15-womens-youth-league/",
     "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
     "https://www.gktoday.in/anahat-singh-wins-world-junior-squash-title/",
     "https://www.gktoday.in/andhra-pradesh-signs-lithium-and-gallium-exploration-pact/",
+    "https://www.gktoday.in/anthropic-accenture-announce-2-billion-ai-model-evaluation-plan/",
     "https://www.gktoday.in/apeda-signs-mou-with-gulfood-organiser-to-strengthen-global-food-trade/",
     "https://www.gktoday.in/army-chief-launches-indigenous-xtreme-weather-grade-diesel/",
     "https://www.gktoday.in/ashish-yadav-wins-indias-second-world-u20-javelin-medal/",
@@ -782,6 +824,7 @@
     "https://www.gktoday.in/nasha-mukta-yuva-for-viksit-bharat-sankalp-abhiyaan-to-launch-on-2-august/",
     "https://www.gktoday.in/niti-aayog-launches-pact-for-zero-emission-freight/",
     "https://www.gktoday.in/nsa-ajit-doval-receives-lokmanya-tilak-national-award/",
+    "https://www.gktoday.in/padma-shri-awardee-cardiologist-g-vijayaraghavan-dies/",
     "https://www.gktoday.in/pakistans-first-lunar-rover-named-jinnah-1/",
     "https://www.gktoday.in/paras-defence-to-set-up-644-million-semiconductor-packaging-facility/",
     "https://www.gktoday.in/phonepe-launches-visa-tokenisation-and-tap-to-pay/",
@@ -790,16 +833,19 @@
     "https://www.gktoday.in/russia-launches-ulyanovsk-project-885m-yasen-m-submarine/",
     "https://www.gktoday.in/sangeet-natak-akademi-award-conferred-on-shubhada-varadkar/",
     "https://www.gktoday.in/sarvam-ai-launches-epoch-builder-edition/",
+    "https://www.gktoday.in/scientists-discover-dare-cells-that-survive-apoptosis/",
     "https://www.gktoday.in/scientists-identify-leopardus-tilcayo-in-bolivia/",
     "https://www.gktoday.in/scientists-validate-darwins-theory-in-saxifraga-candelabrum/",
     "https://www.gktoday.in/seoul-hosts-27th-world-knowledge-forum/",
     "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
     "https://www.gktoday.in/sheetal-devi-wins-gold-at-world-archery-para-series/",
     "https://www.gktoday.in/skyroot-signs-multi-launch-deal-after-vikram-1-success/",
+    "https://www.gktoday.in/spacex-expands-nasa-crew-mission-deal-to-5-92-billion/",
     "https://www.gktoday.in/sports-ministry-suspends-table-tennis-federation-of-india-recognition/",
     "https://www.gktoday.in/sri-lanka-loses-womens-champions-trophy-hosting-rights/",
     "https://www.gktoday.in/swachh-seva-aankalan-launched-for-swachh-bharat-mission-grameen/",
     "https://www.gktoday.in/tamil-nadu-launches-vetri-vaanmagal-drone-training-scheme/",
+    "https://www.gktoday.in/tamil-nadu-to-launch-one-gram-gold-ring-scheme/",
     "https://www.gktoday.in/telangana-cm-to-launch-distribution-of-1-05-cr-new-pds-ration-cards-on-aug-15/",
     "https://www.gktoday.in/third-national-space-day-celebrated/",
     "https://www.gktoday.in/uidai-launches-aadhaar-face-authentication-sdk/",
