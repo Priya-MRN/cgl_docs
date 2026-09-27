@@ -815,6 +815,26 @@
         "bucket": "🏆 Sports",
         "scope": "India"
       }
+    ],
+    "2026-09-26": [
+      {
+        "title": "Festival-Linked Public Welfare Schemes in India",
+        "url": "https://www.gktoday.in/festival-linked-public-welfare-schemes-in-india/",
+        "bucket": "📅 Important Days, Events & Celebrations",
+        "scope": "India"
+      },
+      {
+        "title": "India Wins Silver in Asian Games 50m Rifle Team Event",
+        "url": "https://www.gktoday.in/india-wins-silver-in-asian-games-50m-rifle-team-event/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      },
+      {
+        "title": "Indian Railways to Launch Bhuj-Barauni Amrit Bharat Express",
+        "url": "https://www.gktoday.in/indian-railways-to-launch-bhuj-barauni-amrit-bharat-express/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
@@ -850,6 +870,7 @@
     "https://www.gktoday.in/e-samudra-launched-for-maritime-governance-digitisation/",
     "https://www.gktoday.in/enkash-launches-indias-first-upi-enabled-meal-card/",
     "https://www.gktoday.in/esha-singh-wins-gold-in-25m-pistol/",
+    "https://www.gktoday.in/festival-linked-public-welfare-schemes-in-india/",
     "https://www.gktoday.in/google-launches-india-first-agricultural-ai-models/",
     "https://www.gktoday.in/government-launches-dilrmp-3-0-guidelines/",
     "https://www.gktoday.in/gujarat-launches-cyber-financial-fraud-e-zero-fir-system/",
@@ -874,10 +895,12 @@
     "https://www.gktoday.in/india-launches-fifth-diving-support-craft-dsc-a24/",
     "https://www.gktoday.in/india-launches-sovereign-backed-maritime-liability-insurance/",
     "https://www.gktoday.in/india-sweep-commonwealth-table-tennis-team-titles/",
+    "https://www.gktoday.in/india-wins-silver-in-asian-games-50m-rifle-team-event/",
     "https://www.gktoday.in/indiaai-and-ayush-ministry-sign-ai-integration-mou/",
     "https://www.gktoday.in/indian-mens-and-womens-skeet-teams-win-asian-games-bronze/",
     "https://www.gktoday.in/indian-origin-bodhana-sivanandan-shreyas-royal-make-british-chess-history/",
     "https://www.gktoday.in/indian-physicist-deepak-dhar-wins-2026-dirac-medal/",
+    "https://www.gktoday.in/indian-railways-to-launch-bhuj-barauni-amrit-bharat-express/",
     "https://www.gktoday.in/indian-scientists-develop-low-cost-zinc-air-battery-technology/",
     "https://www.gktoday.in/indias-ariha-wins-historic-gold-at-aerobic-gymnastics-asian-championships/",
     "https://www.gktoday.in/indias-first-blue-bond-set-for-launch/",
