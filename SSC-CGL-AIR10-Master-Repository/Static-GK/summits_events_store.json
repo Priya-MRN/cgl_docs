@@ -895,6 +895,32 @@
         "bucket": "🔬 Inventions, Discoveries & Science",
         "scope": "International"
       }
+    ],
+    "2026-10-01": [
+      {
+        "title": "Second Edition of Naval Commanders’ Conference 2026 Begins in New Delhi",
+        "url": "https://www.gktoday.in/second-edition-of-naval-commanders-conference-2026-begins-in-new-delhi/",
+        "bucket": "🌐 Summits, Meetings & International Relations",
+        "scope": "India"
+      },
+      {
+        "title": "India Wins First Athletics Gold at 2026 Asian Games",
+        "url": "https://www.gktoday.in/india-wins-first-athletics-gold-at-2026-asian-games/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      },
+      {
+        "title": "Chikitha Taniparthi, Sahil Jadhav Win Compound Mixed Team Gold",
+        "url": "https://www.gktoday.in/chikitha-taniparthi-sahil-jadhav-win-compound-mixed-team-gold/",
+        "bucket": "🏆 Sports",
+        "scope": "International"
+      },
+      {
+        "title": "India Women’s Compound Archery Team Wins Asian Games Gold",
+        "url": "https://www.gktoday.in/india-womens-compound-archery-team-wins-asian-games-gold/",
+        "bucket": "🏆 Sports",
+        "scope": "India"
+      }
     ]
   },
   "seen_urls": [
@@ -923,6 +949,7 @@
     "https://www.gktoday.in/cabinet-approves-rs-36441-crore-sports-push-under-khelo-india/",
     "https://www.gktoday.in/cci-hosts-brics-competition-authorities-meeting/",
     "https://www.gktoday.in/centre-launches-kanda-express-for-onion-transport/",
+    "https://www.gktoday.in/chikitha-taniparthi-sahil-jadhav-win-compound-mixed-team-gold/",
     "https://www.gktoday.in/china-launches-gravity-1-rocket-with-nine-satellites/",
     "https://www.gktoday.in/chinas-long-march-7a-rocket-explodes-after-launch/",
     "https://www.gktoday.in/crpf-raising-day-2026/",
@@ -958,7 +985,9 @@
     "https://www.gktoday.in/india-launches-fifth-diving-support-craft-dsc-a24/",
     "https://www.gktoday.in/india-launches-sovereign-backed-maritime-liability-insurance/",
     "https://www.gktoday.in/india-sweep-commonwealth-table-tennis-team-titles/",
+    "https://www.gktoday.in/india-wins-first-athletics-gold-at-2026-asian-games/",
     "https://www.gktoday.in/india-wins-silver-in-asian-games-50m-rifle-team-event/",
+    "https://www.gktoday.in/india-womens-compound-archery-team-wins-asian-games-gold/",
     "https://www.gktoday.in/india-womens-kabaddi-team-wins-asian-games-gold/",
     "https://www.gktoday.in/indiaai-and-ayush-ministry-sign-ai-integration-mou/",
     "https://www.gktoday.in/indian-mens-and-womens-skeet-teams-win-asian-games-bronze/",
@@ -1007,6 +1036,7 @@
     "https://www.gktoday.in/scientists-identify-leopardus-tilcayo-in-bolivia/",
     "https://www.gktoday.in/scientists-map-gene-activity-in-prefrontal-cortex/",
     "https://www.gktoday.in/scientists-validate-darwins-theory-in-saxifraga-candelabrum/",
+    "https://www.gktoday.in/second-edition-of-naval-commanders-conference-2026-begins-in-new-delhi/",
     "https://www.gktoday.in/seoul-hosts-27th-world-knowledge-forum/",
     "https://www.gktoday.in/sharmila-dhankar-wins-cwg-2026-shot-put-gold/",
     "https://www.gktoday.in/sheetal-devi-wins-gold-at-world-archery-para-series/",
@@ -1026,4 +1056,10 @@
     "https://www.gktoday.in/unesco-adds-mount-olympus-d-day-beaches-to-world-heritage-list/",
     "https://www.gktoday.in/us-and-china-launch-ai-incident-communication-channel/",
     "https://www.gktoday.in/us-drone-firm-powerus-signs-mou-with-pakistan-army/",
-    
+    "https://www.gktoday.in/uttar-pradesh-launches-kaushal-setu-and-kaushal-sarathi-portals/",
+    "https://www.gktoday.in/uttarakhand-launches-service-sankalp-campaign/",
+    "https://www.gktoday.in/vikram-1-launches-indias-first-private-orbital-rocket/",
+    "https://www.gktoday.in/vinspace-signs-spacex-launch-deal-for-2027/",
+    "https://www.gktoday.in/world-listening-day/"
+  ]
+}
