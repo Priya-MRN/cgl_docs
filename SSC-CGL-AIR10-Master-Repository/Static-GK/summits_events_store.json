@@ -921,10 +921,33 @@
         "bucket": "🏆 Sports",
         "scope": "India"
       }
+    ],
+    "2026-10-02": [
+      {
+        "title": "12th International Coffee Day Celebrated",
+        "url": "https://www.gktoday.in/12th-international-coffee-day-celebrated/",
+        "bucket": "📅 Important Days, Events & Celebrations",
+        "scope": "International"
+      }
+    ],
+    "2026-10-06": [
+      {
+        "title": "Major Applications of AI and Semiconductor Chips",
+        "url": "https://www.gktoday.in/major-applications-of-ai-and-semiconductor-chips/",
+        "bucket": "🔬 Inventions, Discoveries & Science",
+        "scope": "International"
+      },
+      {
+        "title": "Nobel Prize in Medicine 2026 Awarded for Optogenetics",
+        "url": "https://www.gktoday.in/nobel-prize-in-medicine-2026-awarded-for-optogenetics/",
+        "bucket": "🏅 Awards & Honours",
+        "scope": "International"
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/11th-all-india-police-judo-cluster-championship-concludes/",
+    "https://www.gktoday.in/12th-international-coffee-day-celebrated/",
     "https://www.gktoday.in/135th-indianoil-durand-cup-trophy-tour-reaches-guwahati/",
     "https://www.gktoday.in/26th-sco-summit-held-in-bishkek/",
     "https://www.gktoday.in/43rd-indian-coast-guard-commanders-conference-begins-in-new-delhi/",
@@ -1006,6 +1029,7 @@
     "https://www.gktoday.in/kerala-launches-digital-square-education-initiative/",
     "https://www.gktoday.in/lovepreet-singh-wins-silver-in-commonwealth-games-weightlifting/",
     "https://www.gktoday.in/lovlina-borgohain-assures-indias-first-cwg-2026-medal/",
+    "https://www.gktoday.in/major-applications-of-ai-and-semiconductor-chips/",
     "https://www.gktoday.in/major-chess-terms-and-competition-formats/",
     "https://www.gktoday.in/mark-wood-announces-retirement-from-international-cricket/",
     "https://www.gktoday.in/microsatellites-and-small-satellite-technologies/",
@@ -1019,6 +1043,7 @@
     "https://www.gktoday.in/nasa-praxis-mission-to-study-planetary-rings/",
     "https://www.gktoday.in/nasha-mukta-yuva-for-viksit-bharat-sankalp-abhiyaan-to-launch-on-2-august/",
     "https://www.gktoday.in/niti-aayog-launches-pact-for-zero-emission-freight/",
+    "https://www.gktoday.in/nobel-prize-in-medicine-2026-awarded-for-optogenetics/",
     "https://www.gktoday.in/nsa-ajit-doval-receives-lokmanya-tilak-national-award/",
     "https://www.gktoday.in/olympic-and-asian-games-combat-sports-key-rules-and-formats/",
     "https://www.gktoday.in/padma-shri-awardee-cardiologist-g-vijayaraghavan-dies/",
