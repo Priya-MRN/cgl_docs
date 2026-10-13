@@ -239,10 +239,20 @@
         "state": "Centre",
         "action": false
       }
+    ],
+    "2026-10-12": [
+      {
+        "title": "Andhra Pradesh Launches Adavi Thalli Baata 2.0 Road Project",
+        "url": "https://www.gktoday.in/andhra-pradesh-launches-adavi-thalli-baata-2-0-road-project/",
+        "bucket": "💰 Schemes & Welfare Programmes",
+        "state": "Andhra Pradesh",
+        "action": false
+      }
     ]
   },
   "seen_urls": [
     "https://www.gktoday.in/amit-shah-launches-nasha-mukt-bharat-2029-roadmap/",
+    "https://www.gktoday.in/andhra-pradesh-launches-adavi-thalli-baata-2-0-road-project/",
     "https://www.gktoday.in/anti-paper-leak-bill-with-stricter-punishment-introduced-in-lok-sabha/",
     "https://www.gktoday.in/bill-on-vande-mataram-scheduled-for-lok-sabha/",
     "https://www.gktoday.in/centre-announces-50-quota-for-ex-agniveers-in-capfs/",
