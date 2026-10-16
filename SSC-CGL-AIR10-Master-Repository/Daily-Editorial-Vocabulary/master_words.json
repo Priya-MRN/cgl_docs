@@ -13168,6 +13168,14 @@
       "easy": "completeness, doneness",
       "example": "He will for ever be associated with the demand for emancipation from Brussels, but is rarely heard celebrating its completion.",
       "added": "2026-09-11"
+    },
+    {
+      "word": "Distinction",
+      "pos": "noun",
+      "meaning": "That which distinguishes",
+      "easy": "",
+      "example": "One might have hoped that Watson, who once took on the Murdoch empire , would have recognised the distinction.",
+      "added": "2026-10-15"
     }
   ],
   "days": [
@@ -13246,6 +13254,7 @@
     "2026-09-30",
     "2026-10-01",
     "2026-10-02",
-    "2026-10-08"
+    "2026-10-08",
+    "2026-10-15"
   ]
 }
