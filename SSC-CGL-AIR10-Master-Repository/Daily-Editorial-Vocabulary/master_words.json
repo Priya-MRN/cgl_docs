@@ -13176,6 +13176,14 @@
       "easy": "",
       "example": "One might have hoped that Watson, who once took on the Murdoch empire , would have recognised the distinction.",
       "added": "2026-10-15"
+    },
+    {
+      "word": "Accelerating",
+      "pos": "verb",
+      "meaning": "cause to move faster",
+      "easy": "hasten, quicken, speed up",
+      "example": "The accelerating proliferation of advanced nuclear weapons is bringing ‘end times’ closer by the day Humankind has fearfully and sometimes joyfully anticipated the end of the world ever since it began.",
+      "added": "2026-10-16"
     }
   ],
   "days": [
@@ -13255,6 +13263,7 @@
     "2026-10-01",
     "2026-10-02",
     "2026-10-08",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-16"
   ]
 }
