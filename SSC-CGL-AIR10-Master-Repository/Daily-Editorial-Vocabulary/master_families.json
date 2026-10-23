@@ -8198,5 +8198,45 @@
     "meaning": "cause to move faster",
     "easy": "hasten, quicken, speed up",
     "example": "The accelerating proliferation of advanced nuclear weapons is bringing ‘end times’ closer by the day Humankind has fearfully and sometimes joyfully anticipated the end of the world ever since it began."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Confrontation"
+    ],
+    "pos": "noun",
+    "meaning": "act of confronting or challenging another, especially face to face",
+    "easy": "",
+    "example": "Street confrontation is a more standard feature of the political repertoire in France than in most settled democracies, but the destruction was disturbing by any measure."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Biodiversity"
+    ],
+    "pos": "noun",
+    "meaning": "diversity  of plant and animal life within a region",
+    "easy": "",
+    "example": "There is so much going on that is hopeful: biodiversity tracking, river protection, rewilding."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Characteristics"
+    ],
+    "pos": "noun",
+    "meaning": "distinguishing feature of a person or thing",
+    "easy": "attribute, hallmark, idiosyncrasy",
+    "example": "Labour has since escaped, with Andy Burnham giving social democracy with Mancunian characteristics a half-hearted go."
+  },
+  {
+    "group": "🌟 Quality, Character & Behaviour",
+    "words": [
+      "Religiosity"
+    ],
+    "pos": "noun",
+    "meaning": "quality of being religious or pious, especially when zealous",
+    "easy": "devoutness, piety, religiousness",
+    "example": "Beyond religiosity: on the Kolkata pandal tragedy Better crowd regulation could have prevented the Kolkata pandal tragedy"
   }
 ]
