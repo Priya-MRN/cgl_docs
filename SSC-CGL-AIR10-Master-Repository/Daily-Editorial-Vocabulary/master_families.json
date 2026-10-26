@@ -5271,11 +5271,12 @@
     "words": [
       "Moderation",
       "Abnormalities",
-      "Rationality"
+      "Rationality",
+      "Competence"
     ],
     "pos": "noun",
     "meaning": "state or quality of being moderate",
-    "easy": "aberrant, deviant, outlier, rationalness",
+    "easy": "aberrant, ability, aptitude, competency, deviant, outlier, rationalness",
     "example": "Need for moderation in public speech Tamil Nadu’s political arena has become a theatre of vitriolic discourse"
   },
   {
@@ -8238,5 +8239,35 @@
     "meaning": "quality of being religious or pious, especially when zealous",
     "easy": "devoutness, piety, religiousness",
     "example": "Beyond religiosity: on the Kolkata pandal tragedy Better crowd regulation could have prevented the Kolkata pandal tragedy"
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Congresswoman"
+    ],
+    "pos": "noun",
+    "meaning": "female member of congress",
+    "easy": "",
+    "example": "Ilhan Omar says 'bizarre' pre-dawn raid on her home is forcing her to move out The congresswoman said federal agents seized over a dozen items, including cell phones and notebooks, as part of a federal investigation."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Consumption"
+    ],
+    "pos": "noun",
+    "meaning": "act of eating, drinking or using",
+    "easy": "",
+    "example": "If the disastrous consequences of a significant overshoot are to be mitigated, it argued, governments must start delivering the short-term actions to meet long-term targets on reducing fossil fuel consumption."
+  },
+  {
+    "group": "Other & Mixed",
+    "words": [
+      "Correction"
+    ],
+    "pos": "noun",
+    "meaning": "act of correcting",
+    "easy": "",
+    "example": "ECI’s course correction is welcome, need for accountability remains"
   }
 ]

@@ -13216,6 +13216,38 @@
       "easy": "devoutness, piety, religiousness",
       "example": "Beyond religiosity: on the Kolkata pandal tragedy Better crowd regulation could have prevented the Kolkata pandal tragedy",
       "added": "2026-10-22"
+    },
+    {
+      "word": "Competence",
+      "pos": "noun",
+      "meaning": "quality or state of being competent, i",
+      "easy": "ability, aptitude, competency",
+      "example": "A former three-star admiral fired by Pete Hegseth is making his competence a campaign issue.",
+      "added": "2026-10-23"
+    },
+    {
+      "word": "Congresswoman",
+      "pos": "noun",
+      "meaning": "female member of congress",
+      "easy": "",
+      "example": "Ilhan Omar says 'bizarre' pre-dawn raid on her home is forcing her to move out The congresswoman said federal agents seized over a dozen items, including cell phones and notebooks, as part of a federal investigation.",
+      "added": "2026-10-23"
+    },
+    {
+      "word": "Consumption",
+      "pos": "noun",
+      "meaning": "act of eating, drinking or using",
+      "easy": "",
+      "example": "If the disastrous consequences of a significant overshoot are to be mitigated, it argued, governments must start delivering the short-term actions to meet long-term targets on reducing fossil fuel consumption.",
+      "added": "2026-10-23"
+    },
+    {
+      "word": "Correction",
+      "pos": "noun",
+      "meaning": "act of correcting",
+      "easy": "",
+      "example": "ECI’s course correction is welcome, need for accountability remains",
+      "added": "2026-10-23"
     }
   ],
   "days": [
@@ -13297,6 +13329,7 @@
     "2026-10-08",
     "2026-10-15",
     "2026-10-16",
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-23"
   ]
 }
